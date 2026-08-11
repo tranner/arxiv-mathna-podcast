@@ -1,19 +1,9 @@
 name: Daily arXiv podcast episode
 
-# --- IMPORTANT: script-generation auth is not wired up for CI yet -----------
-# script.py's default backend (SCRIPT_BACKEND=cli) shells out to `claude -p`
-# using an interactive Claude Code login session, which does not exist on a
-# GitHub Actions runner. This workflow is fully built out end-to-end (fetch,
-# Piper setup+caching, synth, publish, commit, Pages), but the script step
-# will fail until one of these is done:
-#   (a) implement arxiv_podcast/script.py::_call_model_api() to call the
-#       Anthropic SDK, add an ANTHROPIC_API_KEY repository secret, and set
-#       SCRIPT_BACKEND=api below, or
-#   (b) export Claude Code CLI credentials as a secret and adapt
-#       _call_model_cli() to use them non-interactively.
-# See the plan / README for context - this was intentionally deferred until
-# the manual test episodes (produced locally via `claude -p`) looked good.
-# ------------------------------------------------------------------------------
+# Script generation uses the Anthropic API (not `claude -p`, which needs an
+# interactive login this runner doesn't have) - requires an ANTHROPIC_API_KEY
+# repository secret. Settings -> Secrets and variables -> Actions -> New
+# repository secret. See README "Automating the daily run".
 
 on:
   schedule:
@@ -26,8 +16,8 @@ permissions:
 
 env:
   SITE_BASE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
-  # SCRIPT_BACKEND: api
-  # ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+  SCRIPT_BACKEND: api
+  ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
 jobs:
   build-episode:

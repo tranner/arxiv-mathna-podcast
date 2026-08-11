@@ -9,6 +9,7 @@ dependencies = [
     "feedgen>=1.0",
     "pydub>=0.25",
     "requests>=2.31",
+    "anthropic>=0.40",
 ]
 
 [tool.uv]

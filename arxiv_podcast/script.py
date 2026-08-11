@@ -1,16 +1,22 @@
 """Generate the two-host podcast dialogue script from selected papers.
 
-Model access is isolated behind `call_model()` / `_call_model_cli()` /
+Model access is isolated behind `_call_model()` / `_call_model_cli()` /
 `_call_model_api()` so the rest of this module (prompt construction, JSON
-parsing/validation) doesn't care how the text was produced. Today only the
-"cli" backend (Claude Code, using the operator's logged-in subscription) is
-implemented; "api" is a placeholder for when this runs unattended in CI.
+parsing/validation) doesn't care how the text was produced or how retries
+continue a conversation. Two backends:
+- "cli" (default): Claude Code (`claude -p`), using the operator's logged-in
+  subscription. Only works interactively logged-in, e.g. local/manual runs.
+- "api": the Anthropic SDK with ANTHROPIC_API_KEY. Used for unattended CI
+  automation (see .github/workflows/daily.yml).
 """
 
 import json
 import logging
+import os
 import re
 import subprocess
+
+import anthropic
 
 from arxiv_podcast import config
 from arxiv_podcast.models import DialogueLine, Paper
@@ -79,12 +85,67 @@ def _call_model_cli(prompt: str, resume_session: "str | None" = None) -> tuple[s
     return result_text, session_id
 
 
-def _call_model_api(prompt: str) -> str:
-    raise NotImplementedError(
-        "SCRIPT_BACKEND='api' is not wired up yet. This is the deferred CI "
-        "automation path (see plan) - it should call the Anthropic SDK with "
-        "ANTHROPIC_API_KEY and config.ANTHROPIC_MODEL. For now, use "
-        "SCRIPT_BACKEND='cli' on a machine logged into Claude Code."
+def _call_model_api(
+    prompt: str, history: "list[dict] | None" = None
+) -> tuple[str, list[dict]]:
+    """Call the Anthropic API directly. `history` is the prior message list
+    to continue from (for retries) - mirrors the CLI backend's session
+    resume, just as an explicit message list instead of a session ID.
+    Returns (result_text, updated_message_history)."""
+    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    if not api_key:
+        raise ScriptGenerationError(
+            "SCRIPT_BACKEND='api' requires the ANTHROPIC_API_KEY environment "
+            "variable (a repository secret in CI)."
+        )
+
+    client = anthropic.Anthropic(api_key=api_key)
+    messages = list(history) if history else []
+    messages.append({"role": "user", "content": prompt})
+
+    # Headroom over TARGET_WORD_COUNT for JSON structure overhead and the
+    # occasional expanded-retry response, which runs longer than the original.
+    max_tokens = max(4000, int(config.TARGET_WORD_COUNT * 3))
+
+    log.info(
+        "Invoking Anthropic API (%s, %s)",
+        config.ANTHROPIC_MODEL,
+        "resume" if history else "new conversation",
+    )
+    try:
+        response = client.messages.create(
+            model=config.ANTHROPIC_MODEL,
+            max_tokens=max_tokens,
+            messages=messages,
+        )
+    except anthropic.APIError as e:
+        raise ScriptGenerationError(f"Anthropic API call failed: {e}") from e
+
+    if response.stop_reason == "max_tokens":
+        log.warning(
+            "Response hit max_tokens (%d) and may be truncated - consider "
+            "raising TARGET_WORD_COUNT's headroom if this recurs.",
+            max_tokens,
+        )
+
+    result_text = "".join(block.text for block in response.content if block.type == "text")
+    if not result_text:
+        raise ScriptGenerationError(f"Anthropic API returned an empty response: {response}")
+
+    messages.append({"role": "assistant", "content": result_text})
+    return result_text, messages
+
+
+def _call_model(prompt: str, state: object = None) -> tuple[str, object]:
+    """Dispatch to the configured backend. `state` is an opaque continuation
+    token from a previous call (session_id string for "cli", message history
+    list for "api"), or None to start a fresh conversation."""
+    if config.SCRIPT_BACKEND == "cli":
+        return _call_model_cli(prompt, resume_session=state)
+    elif config.SCRIPT_BACKEND == "api":
+        return _call_model_api(prompt, history=state)
+    raise ScriptGenerationError(
+        f"Unsupported SCRIPT_BACKEND={config.SCRIPT_BACKEND!r} - expected 'cli' or 'api'."
     )
 
 
@@ -239,23 +300,17 @@ MIN_WORD_COUNT_FRACTION = 0.75
 def generate_dialogue(
     deep_dive: list[Paper], roundup: list[Paper], date: str, max_attempts: int = 4
 ) -> list[DialogueLine]:
-    if config.SCRIPT_BACKEND != "cli":
-        raise ScriptGenerationError(
-            f"Unsupported SCRIPT_BACKEND={config.SCRIPT_BACKEND!r}. Only 'cli' is "
-            "implemented today; 'api' is a deferred TODO for CI automation."
-        )
-
     prompt = build_prompt(deep_dive, roundup, date)
-    session_id = None
+    state = None  # session_id (cli) or message history (api); None = fresh conversation
     last_error: "Exception | str | None" = None
     last_error_prompt = ""
     min_words = int(config.TARGET_WORD_COUNT * MIN_WORD_COUNT_FRACTION)
 
     for attempt in range(1, max_attempts + 1):
         if attempt == 1:
-            raw_text, session_id = _call_model_cli(prompt)
+            raw_text, state = _call_model(prompt)
         else:
-            raw_text, session_id = _call_model_cli(last_error_prompt, resume_session=session_id)
+            raw_text, state = _call_model(last_error_prompt, state=state)
 
         try:
             lines = parse_dialogue(raw_text)

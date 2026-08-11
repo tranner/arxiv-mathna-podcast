@@ -188,26 +188,47 @@ redoing, or you're setting up your own fork):
 
 ## Automating the daily run
 
-`.github/workflows/daily.yml` runs the pipeline on a cron (~07:00 UTC daily)
-and publishes the result to the `pages` branch the same way the manual
-steps above do - it pushes using GitHub Actions' own built-in token, not
-your personal credentials, so nothing extra needs setting up for that part.
+`.github/workflows/daily.yml` runs the whole pipeline on a cron (~07:00 UTC
+daily) and publishes the result to the `pages` branch the same way the
+manual steps above do - pushing with GitHub Actions' own built-in token, not
+your personal credentials.
 
-**The script-writing step still needs a decision before it'll work
-unattended**, though: `claude -p` requires an interactive login, which a
-GitHub Actions runner doesn't have. Once you've reviewed a few manual
-episodes and are happy with them, pick one:
+Script generation in CI uses the **Anthropic API** rather than `claude -p`
+(which needs an interactive login a runner doesn't have) -
+`script.py::_call_model_api()` calls the Anthropic SDK with
+`config.ANTHROPIC_MODEL` (`claude-haiku-4-5` by default, ~$0.02/episode,
+~$7/year). One-time setup:
 
-- **Anthropic API key (recommended)** - implement
-  `arxiv_podcast/script.py::_call_model_api()` to call the Anthropic SDK
-  (`claude-haiku-4-5` is plenty for this and costs about $0.02/episode,
-  ~$7/year), add an `ANTHROPIC_API_KEY` repository secret, and set
-  `SCRIPT_BACKEND=api` (uncomment the relevant lines in `daily.yml`).
-- **Exported CLI credentials** - export Claude Code's auth as a CI secret and
-  adapt `_call_model_cli()` to use it non-interactively.
+1. Create an API key at [console.anthropic.com](https://console.anthropic.com/).
+2. Repo **Settings → Secrets and variables → Actions → New repository
+   secret** → name it `ANTHROPIC_API_KEY`.
 
-Everything else in the workflow (fetch, Piper setup + caching, synth,
-publish to `pages`) is already wired up and doesn't need changes.
+That's it - `daily.yml` already has `SCRIPT_BACKEND=api` and reads the secret.
+
+### Making sure it actually runs
+
+- **Test it for real before trusting the schedule.** Actions tab → this
+  workflow → *Run workflow* (that's what `workflow_dispatch` in the trigger
+  is for). This catches anything environment-specific a local run wouldn't
+  - Actions runners hitting arXiv/Piper's release servers, the secret being
+  set correctly, etc.
+- **Scheduled runs are best-effort, not exact.** GitHub can delay the
+  `schedule` trigger under load, especially right at the top of the hour -
+  don't be surprised by a 07:xx run landing at 07:20 sometimes.
+- **GitHub auto-disables scheduled workflows after 60 days of repository
+  inactivity** (public repos). A successfully-running daily workflow pushes
+  to `pages` every day, which should count as activity and keep this from
+  ever triggering - but if the workflow starts silently failing (e.g. an
+  expired/revoked API key) there's no successful push, so a prolonged outage
+  could compound into the schedule getting disabled on top of not working.
+  If episodes stop appearing, check the **Actions** tab first - a disabled
+  schedule shows a banner there with a one-click re-enable.
+- **Failure notifications aren't on by default.** If you want an email when
+  a scheduled run fails, enable it yourself:
+  [github.com/settings/notifications](https://github.com/settings/notifications) →
+  Actions → "Send notifications for failed workflows only" (or similar,
+  under your notification preferences) - otherwise a silent failure is only
+  visible if you check the Actions tab yourself.
 
 ## Configuration
 
