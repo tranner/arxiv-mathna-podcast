@@ -70,11 +70,25 @@ FEED_PATH = DOCS_DIR / "podcast.xml"
 SITE_BASE_URL = os.environ.get("SITE_BASE_URL", "https://example.github.io/arxiv-podcast")
 
 PODCAST_TITLE = os.environ.get("PODCAST_TITLE", "arXiv Numerical Analysis Daily")
+# Includes a non-affiliation disclaimer and arXiv's suggested acknowledgment
+# line, per arXiv's API Terms of Use (https://info.arxiv.org/help/api/tou.html)
+# - which prohibits implying arXiv's endorsement/backing of a project built
+# on their API - plus voice attribution for HOST_A_VOICE/HOST_B_VOICE's
+# source datasets (required for the Jenny/Dioco voice; see README "Licensing
+# & attribution"). If you change the default host voices, update this text
+# to match - it isn't generated automatically from the voice names.
 PODCAST_DESCRIPTION = os.environ.get(
     "PODCAST_DESCRIPTION",
-    "A daily AI-generated podcast digesting the newest papers from the arXiv "
-    "math.NA (Numerical Analysis) listing - a deep dive on a few randomly "
-    "chosen papers plus a rapid roundup of everything else that was posted.",
+    "A daily podcast where two AI hosts talk through the newest papers "
+    "posted to the arXiv math.NA (Numerical Analysis) listing - a deep dive "
+    "on a few randomly chosen papers, plus a rapid-fire rundown of "
+    "everything else posted that day. Every script and voice is "
+    "AI-generated: text by Claude, voices by Piper text-to-speech (Jenny, "
+    "from the Jenny/Dioco dataset, and Cori, trained on public-domain "
+    "LibriVox.org recordings). This is an independent project, not "
+    "affiliated with, sponsored by, or endorsed by arXiv or Cornell "
+    "University. Thank you to arXiv for use of its open access "
+    "interoperability.",
 )
 PODCAST_AUTHOR = os.environ.get("PODCAST_AUTHOR", "arxiv-podcast")
 PODCAST_EMAIL = os.environ.get("PODCAST_EMAIL", "")

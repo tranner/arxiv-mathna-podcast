@@ -1,31 +1,49 @@
-# arxiv-podcast
+# arXiv Numerical Analysis Daily
 
-Automatically generates a daily podcast from the arXiv `math.NA` (Numerical
-Analysis) listing: two AI hosts do a deep dive on 1-3 randomly chosen papers,
-then rapid-fire through the rest of the day's listing (title, authors, and a
-one-line gloss of the abstract for each). Runs manually today; designed to
-run on a daily GitHub Actions cron and publish to Spotify via a self-hosted
-RSS feed.
+A daily podcast that keeps you up to date with new numerical analysis
+research - written and voiced entirely by AI. Two hosts pick a couple of
+papers posted that day to arXiv's `math.NA` listing and really dig into
+them: what problem they're solving, how, and why it matters. Then they
+run through everything else that was posted, so you don't miss a paper -
+title, authors, and a quick sense of what it's about.
 
-## How it works
+No humans pick the topics, write the script, or record the audio. It all
+happens automatically, once a day.
+
+> **This is an independent hobby project.** It isn't affiliated with,
+> sponsored by, or endorsed by arXiv or Cornell University - it's just
+> built on top of arXiv's public API. See [Licensing &
+> attribution](#licensing--attribution) below for the details, and for
+> credit to the voice datasets that make the episodes sound the way they do.
+
+## Where to listen
+
+Not published yet - this project is still being tested. Once it's live,
+episodes will be available over RSS (and anywhere that supports podcast
+RSS feeds, including Spotify). If you're setting up your own copy, see
+"Publishing" below.
+
+## How an episode gets made
 
 ```
 fetch → select → script → synth → publish
 ```
 
-1. **fetch** - pulls the last ~36h of `math.NA` papers from the arXiv API.
-2. **select** - randomly picks 1-3 papers for the deep dive; the rest become
-   the roundup.
-3. **script** - writes a two-host dialogue script covering them, using the
-   **Claude Code CLI** (`claude -p`) and your existing Claude subscription.
-4. **synth** - voices each line with **Piper** (local, offline, free TTS),
-   alternating two distinct voices per host, and stitches it into one mp3.
-5. **publish** - writes the mp3 + show notes into `docs/episodes/`, and
-   regenerates `docs/podcast.xml` (the podcast RSS feed) and `docs/index.html`.
+1. **fetch** - checks arXiv for what's new in `math.NA` over the last day
+   or so.
+2. **select** - randomly picks one to three papers for the deep dive; the
+   rest go in the roundup.
+3. **script** - writes a natural back-and-forth conversation about them,
+   using Claude.
+4. **synth** - turns that script into audio, giving each host a distinct
+   AI voice (via Piper text-to-speech).
+5. **publish** - packages the finished episode with its show notes and
+   updates the podcast feed.
 
-`docs/` is a GitHub Pages site. Point Spotify for Podcasters at the RSS feed
-URL once, and it auto-ingests every new episode from then on - **there is no
-per-episode Spotify upload step**.
+---
+
+Everything below this point is for people who want to run, customize, or
+self-host this pipeline.
 
 ## One-time setup
 
@@ -63,8 +81,8 @@ brew install ffmpeg
 bash scripts/setup_piper.sh
 ```
 
-Downloads the Piper binary and the two voice models (`en_US-hfc_female-medium`
-and `en_US-ryan-high` by default) into `./piper/` (gitignored - re-run this
+Downloads the Piper binary and the two voice models (`en_GB-jenny_dioco-medium`
+and `en_GB-cori-high` by default) into `./piper/` (gitignored - re-run this
 any time the directory is missing, e.g. after a fresh clone). Works on
 Linux (x86_64/arm64) and macOS (Intel/Apple Silicon).
 
@@ -155,6 +173,56 @@ publish, git commit) is already wired up and doesn't need changes.
 Every setting lives in `arxiv_podcast/config.py` and can be overridden via
 environment variable (see `.env.example` for the full list) - e.g. category,
 target episode length, host names/voices, feed metadata, episode retention.
+
+## Licensing & attribution
+
+**arXiv content.** We only ever fetch metadata (title, authors, abstract) via
+arXiv's public API and link back to the paper's `arxiv.org/abs/...` page -
+never the PDF or full text. arXiv's [API Terms of
+Use](https://info.arxiv.org/help/api/tou.html) explicitly place that
+metadata under CC0 (public domain), so there's no copyright constraint
+there. Two things the ToU *does* require, both already handled:
+
+- **Rate limiting** - max 1 request/3s, single connection. `fetch.py` makes
+  exactly one request per run, well within that.
+- **No implied endorsement** - the ToU prohibits "brand[ing] your project
+  with arXiv's names... in a manner that implies arXiv's endorsement." Since
+  the podcast is literally titled *"arXiv Numerical Analysis Daily,"* the
+  feed description (`PODCAST_DESCRIPTION` in `config.py`) carries an explicit
+  disclaimer - *"This is an independent project, not affiliated with,
+  sponsored by, or endorsed by arXiv or Cornell University"* - plus arXiv's
+  suggested courtesy line, *"Thank you to arXiv for use of its open access
+  interoperability."* This shows up in the RSS feed and on the podcast site
+  automatically; no per-episode action needed. If you rename or re-word
+  things, keep some form of that disclaimer.
+
+**Individual papers.** Authors set their own license per paper (arXiv's
+default non-exclusive license, or CC BY/BY-SA/BY-NC-SA/CC0, etc.) - but since
+we only discuss/summarize the publicly-posted abstract for commentary, not
+reproduce the paper itself, this isn't a live concern regardless of the
+per-paper license.
+
+**Piper voices.** Piper itself is MIT-licensed. The two default voice
+models have different underlying sources, and both are credited by name in
+`PODCAST_DESCRIPTION` (so listeners see it too, not just this README):
+
+- `en_GB-cori-high` ("Cori") - trained on LibriVox.org recordings, **public
+  domain**. No constraint.
+- `en_GB-jenny_dioco-medium` ("Jenny") - trained on the [Jenny (Dioco)
+  dataset](https://github.com/dioco-group/jenny-tts-dataset). Commercial use
+  is explicitly permitted, but the license requires attribution *in the
+  project* (not per-episode, though welcome there too): the voice must be
+  referred to as **"Jenny"**, or where practical, **"Jenny (Dioco)."** If you
+  swap in a different voice via `HOST_A_VOICE`/`HOST_B_VOICE`, check that
+  voice's own `MODEL_CARD` on
+  [huggingface.co/rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)
+  for its source dataset and license, and update `PODCAST_DESCRIPTION` to
+  match - it's a static string, not generated from the voice names.
+
+**AI-generated content.** The scripts and audio are generated by an LLM
+(Claude) and a TTS model (Piper), and `PODCAST_DESCRIPTION` says so plainly.
+Worth keeping as podcast platforms increasingly expect AI-generated shows to
+disclose it.
 
 ## Repo layout
 
