@@ -18,10 +18,11 @@ happens automatically, once a day.
 
 ## Where to listen
 
-Not published yet - this project is still being tested. Once it's live,
-episodes will be available over RSS (and anywhere that supports podcast
-RSS feeds, including Spotify). If you're setting up your own copy, see
-"Publishing" below.
+**[Listen on Spotify](https://open.spotify.com/show/0345rjHw2wCOY6o5ILJCaC)** -
+currently in beta (see the disclaimer at the top). Also available over RSS
+at `https://tranner.github.io/arxiv-mathna-podcast/podcast.xml`, and
+anywhere else that supports podcast RSS feeds. If you're setting up your
+own copy, see "Publishing" below.
 
 ## How an episode gets made
 
@@ -160,45 +161,30 @@ podcast RSS/Spotify, so it's a title tag plus a note in the description
 you're happy calling it stable - podcast apps key subscriptions off the feed
 URL, not the title, so renaming later is safe.
 
-### Beta launch checklist
+### Status: live
 
-Already done, sitting in this repo ready to go:
-- [x] `SITE_BASE_URL`, `PODCAST_AUTHOR`, `PODCAST_EMAIL` set to real values
-      (not placeholders) in `config.py`.
-- [x] `assets/cover.jpg` - a placeholder cover (1400×1400, RGB JPEG - meets
-      Apple/Spotify's minimum requirements). `publish.py` copies it into
-      `docs/` on every run automatically. Swap the file for real artwork
-      whenever you want; nothing else needs to change.
-- [x] Feed validated locally - title, description (with beta note + the
-      arXiv/voice attribution from "Licensing & attribution" below), author,
-      `itunes:owner` email, and cover image all confirmed present and
-      correct in a real generated `docs/podcast.xml`.
+✅ Published - **[on Spotify](https://open.spotify.com/show/0345rjHw2wCOY6o5ILJCaC)**
+and via RSS at `https://tranner.github.io/arxiv-mathna-podcast/podcast.xml`.
+New episodes published to the `pages` branch are picked up by Spotify
+automatically - no manual step per episode.
 
-Left for you (all need your own GitHub/Spotify accounts - not something I
-can do from here):
-1. Push this repo to GitHub (`main` only - there's nothing on `pages` yet):
-   ```bash
-   git push origin main
-   ```
+How it got there (kept here as reference - e.g. if Pages settings ever need
+redoing, or you're setting up your own fork):
+1. `git push origin main`.
 2. Build and publish an episode:
    ```bash
    bash scripts/fetch_pages_branch.sh
    uv run python -m arxiv_podcast.main
    bash scripts/publish_pages_branch.sh --push
    ```
-   `--push` force-pushes `pages` to `origin` (that's expected - see above;
-   it's a squashed history by design, not a mistake).
-3. Repo **Settings → Pages**: set source to the **`pages` branch, `/ (root)`
-   folder** - not `main`. Pages will then serve `docs/podcast.xml`'s content
-   at `https://tranner.github.io/arxiv-mathna-podcast/podcast.xml`.
-4. Open that URL yourself and check it actually loads (GitHub Pages can take
-   a minute or two after the first push) before submitting anywhere.
-5. Go to **[Spotify for Podcasters](https://podcasters.spotify.com/)** →
-   *Add your podcast* → *I have a podcast already, I just need to add it here*
-   → paste that RSS URL. Spotify emails a verification code to
-   `T.Ranner@leeds.ac.uk` (from `PODCAST_EMAIL`/`itunes:owner`) - once
-   confirmed, it **automatically pulls in every new episode** whenever the
-   feed updates. No further manual step per episode.
+   `--push` force-pushes `pages` to `origin` (expected - see above; it's a
+   squashed history by design, not a mistake).
+3. Repo **Settings → Pages**: source set to the **`pages` branch, `/ (root)`
+   folder** - not `main`.
+4. **[Spotify for Podcasters](https://podcasters.spotify.com/)** → *Add your
+   podcast* → *I have a podcast already* → the RSS URL above. Spotify emailed
+   a verification code to `T.Ranner@leeds.ac.uk` (`PODCAST_EMAIL`/
+   `itunes:owner`) to confirm ownership.
 
 ## Automating the daily run
 
