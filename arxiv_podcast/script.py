@@ -144,12 +144,16 @@ STRUCTURE AND WORD BUDGET (these should sum to about {config.TARGET_WORD_COUNT})
    and say this is the {config.ARXIV_CATEGORY} daily digest.
 2. DEEP DIVE (~{deep_dive_words} words total, roughly {per_paper_deep_dive_words}
    words per paper): a substantial, back-and-forth conversation about EACH of
-   the following {len(deep_dive)} paper(s), one at a time. For each, cover:
-   the problem it addresses and why that problem matters, the core
-   idea/method, what's new or surprising about the result, and what it
-   enables going forward. Have the hosts riff off each other, ask each other
-   questions, disagree a little, and react - not just alternate monologues.
-   This is the heart of the episode - do not rush it.
+   the following {len(deep_dive)} paper(s), one at a time. When introducing
+   each paper, a host must naturally say its title and author(s) out loud
+   (first author plus "and colleagues" is fine for long author lists) before
+   getting into the discussion - listeners should always know exactly which
+   paper is being discussed, even if they're just listening and not looking
+   at show notes. Then cover: the problem it addresses and why that problem
+   matters, the core idea/method, what's new or surprising about the result,
+   and what it enables going forward. Have the hosts riff off each other, ask
+   each other questions, disagree a little, and react - not just alternate
+   monologues. This is the heart of the episode - do not rush it.
 
 {deep_blocks}
 
