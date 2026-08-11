@@ -13,8 +13,10 @@ piper/
 # macOS
 .DS_Store
 
-# Leftover synthesis temp files, if a run is interrupted
-docs/episodes/*.synth-tmp.mp3
+# Generated site (episodes, feed, index) - lives on the `pages` branch as a
+# squashed/orphan commit each publish, never on `main`. See
+# scripts/fetch_pages_branch.sh and scripts/publish_pages_branch.sh.
+docs/
 
 # Scratch space (e.g. voice comparison samples)
 _tmp/

@@ -123,6 +123,16 @@ uv run python -m arxiv_podcast.main --force
 uv run python -m arxiv_podcast.main --date 2026-01-15   # backfill a specific date
 ```
 
+`docs/` is a local build directory - it isn't tracked on `main` (see
+"Publishing" below for where it actually ends up). Before running the
+pipeline for real, pull in whatever's already published so today's episode
+joins the existing feed instead of starting a new one:
+
+```bash
+bash scripts/fetch_pages_branch.sh   # populates docs/ from the published site, if any
+uv run python -m arxiv_podcast.main
+```
+
 Each pipeline stage can also be run and inspected on its own for debugging:
 
 ```bash
@@ -135,10 +145,30 @@ uv run python -m arxiv_podcast.publish   # rebuild the feed/index from files alr
 
 ## Publishing: GitHub Pages + Spotify
 
-1. Push this repo to GitHub.
-2. Repo **Settings → Pages**: set source to the `main` branch, `/docs` folder.
-3. Run the pipeline (manually, or via the workflow below) and push - Pages
-   will serve `docs/podcast.xml` at `https://<user>.github.io/<repo>/podcast.xml`.
+Episodes live on a dedicated **`pages` branch**, kept deliberately separate
+from `main`: `main` is source code only and never contains a single mp3;
+`pages` holds the generated site (episodes, feed, show notes). On top of
+keeping `main` clean, `pages` itself is kept small too - every publish
+**replaces that branch's entire history with one fresh commit**
+(`scripts/publish_pages_branch.sh`), so its size tracks the current episode
+retention window (`EPISODE_RETENTION_DAYS`, 90 days by default) rather than
+every episode the podcast has ever put out.
+
+1. Push this repo to GitHub (`main` only - there's nothing on `pages` yet).
+2. Build and publish an episode:
+   ```bash
+   bash scripts/fetch_pages_branch.sh
+   uv run python -m arxiv_podcast.main
+   bash scripts/publish_pages_branch.sh --push
+   ```
+   `--push` force-pushes `pages` to `origin` (that's expected - see above;
+   it's a squashed history by design, not a mistake). Leave it off to just
+   update the local `pages` branch and look it over first
+   (`git log pages -1 --stat`), then push yourself whenever you're happy:
+   `git push --force origin pages`.
+3. Repo **Settings → Pages**: set source to the **`pages` branch, `/ (root)`
+   folder** - not `main`. Pages will then serve `docs/podcast.xml`'s content
+   at `https://<user>.github.io/<repo>/podcast.xml`.
 4. Go to **[Spotify for Podcasters](https://podcasters.spotify.com/)** →
    *Add your podcast* → *I have a podcast already, I just need to add it here*
    → paste that RSS URL. Spotify verifies ownership (usually by emailing a
@@ -152,9 +182,13 @@ needs it.
 ## Automating the daily run
 
 `.github/workflows/daily.yml` runs the pipeline on a cron (~07:00 UTC daily)
-and commits the result, but **the script-writing step needs a decision
-before it'll work unattended**: `claude -p` requires an interactive login,
-which a GitHub Actions runner doesn't have. Once you've reviewed a few manual
+and publishes the result to the `pages` branch the same way the manual
+steps above do - it pushes using GitHub Actions' own built-in token, not
+your personal credentials, so nothing extra needs setting up for that part.
+
+**The script-writing step still needs a decision before it'll work
+unattended**, though: `claude -p` requires an interactive login, which a
+GitHub Actions runner doesn't have. Once you've reviewed a few manual
 episodes and are happy with them, pick one:
 
 - **Anthropic API key (recommended)** - implement
@@ -166,7 +200,7 @@ episodes and are happy with them, pick one:
   adapt `_call_model_cli()` to use it non-interactively.
 
 Everything else in the workflow (fetch, Piper setup + caching, synth,
-publish, git commit) is already wired up and doesn't need changes.
+publish to `pages`) is already wired up and doesn't need changes.
 
 ## Configuration
 
@@ -228,9 +262,13 @@ disclose it.
 
 ```
 arxiv_podcast/    the pipeline (fetch, select, script, synth, publish, main)
-scripts/          scripts/setup_piper.sh
-docs/             GitHub Pages root: episodes/, podcast.xml, index.html
+scripts/          setup_piper.sh, fetch_pages_branch.sh, publish_pages_branch.sh
+docs/             local build dir - GitHub Pages root once published, but
+                  gitignored on `main` (see "Publishing: GitHub Pages + Spotify")
 pyproject.toml    dependencies (managed with uv)
 uv.lock           pinned dependency versions - commit this, don't edit by hand
 .github/workflows/daily.yml   the cron automation
 ```
+
+Two branches, two purposes: `main` is source code, `pages` is the published
+site (squashed history each publish - see "Publishing" above).

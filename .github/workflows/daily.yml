@@ -52,27 +52,26 @@ jobs:
         uses: actions/cache@v4
         with:
           path: piper
-          key: piper-${{ runner.os }}-${{ runner.arch }}-hfc_female-medium-ryan-high
+          key: piper-${{ runner.os }}-${{ runner.arch }}-jenny_dioco-cori
 
       - name: Set up Piper TTS
         run: bash scripts/setup_piper.sh
 
+      - name: Fetch existing pages branch content
+        run: bash scripts/fetch_pages_branch.sh
+
       - name: Generate today's episode
         run: uv run python -m arxiv_podcast.main
 
-      - name: Commit and push generated episode
+      - name: Publish to pages branch (squashed history)
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/
-          if git diff --cached --quiet; then
-            echo "No changes to commit (episode already existed or run was a no-op)."
-          else
-            git commit -m "Add episode for $(date -u +%Y-%m-%d)"
-            git push
-          fi
+          bash scripts/publish_pages_branch.sh --push
 
   # GitHub Pages should be configured once, in repo Settings -> Pages, to
-  # serve from the `main` branch `/docs` folder. Once that's set, pushing to
-  # docs/ (above) is all that's needed for Pages to pick up new episodes -
-  # no separate deploy step required.
+  # serve from the `pages` branch, `/ (root)` folder - NOT `main`. `main`
+  # never contains docs/ (see .gitignore); every run replaces the `pages`
+  # branch's entire history with one fresh commit (scripts/publish_pages_
+  # branch.sh), so its repo size tracks the current episode retention
+  # window (EPISODE_RETENTION_DAYS), not the full history of the podcast.
