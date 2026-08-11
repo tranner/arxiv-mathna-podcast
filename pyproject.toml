@@ -1,0 +1,17 @@
+[project]
+name = "arxiv-podcast"
+version = "0.1.0"
+description = "Daily AI-generated podcast digest of the arXiv math.NA listing"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "feedparser>=6.0",
+    "feedgen>=1.0",
+    "pydub>=0.25",
+    "requests>=2.31",
+]
+
+[tool.uv]
+# arxiv_podcast is run in place via `python -m`, not installed as a library -
+# no build backend needed, so don't try to build/install it as a package.
+package = false

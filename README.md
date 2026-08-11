@@ -31,11 +31,22 @@ per-episode Spotify upload step**.
 
 ### 1. Install dependencies
 
+This project uses [`uv`](https://docs.astral.sh/uv/) for Python dependency
+management (no manual venv/pip steps). Install `uv` if you don't have it:
+
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
+
+Then, from the repo root:
+
+```bash
+uv sync
+```
+
+This creates `.venv` and installs everything pinned in `uv.lock` -
+reproducible, no `pip install` needed. Run any command in that environment
+with `uv run ...` (see below) - no need to `source .venv/bin/activate`.
 
 Install `ffmpeg` (used by `pydub` to build the mp3):
 
@@ -82,7 +93,7 @@ host names/voices, target episode length, etc.)
 ## Running it manually
 
 ```bash
-python -m arxiv_podcast.main
+uv run python -m arxiv_podcast.main
 ```
 
 Produces `docs/episodes/<today>.mp3` + `docs/episodes/<today>.json` (show
@@ -90,18 +101,18 @@ notes sidecar) and rebuilds `docs/podcast.xml` + `docs/index.html`. Re-running
 the same day is a no-op unless you pass `--force`:
 
 ```bash
-python -m arxiv_podcast.main --force
-python -m arxiv_podcast.main --date 2026-01-15   # backfill a specific date
+uv run python -m arxiv_podcast.main --force
+uv run python -m arxiv_podcast.main --date 2026-01-15   # backfill a specific date
 ```
 
 Each pipeline stage can also be run and inspected on its own for debugging:
 
 ```bash
-python -m arxiv_podcast.fetch     # just print today's fetched papers
-python -m arxiv_podcast.select    # fetch + show the deep-dive/roundup split
-python -m arxiv_podcast.script    # fetch + select + print the dialogue script
-python -m arxiv_podcast.synth --smoke   # audio pipeline only, no LLM call (fast)
-python -m arxiv_podcast.publish   # rebuild the feed/index from files already on disk
+uv run python -m arxiv_podcast.fetch     # just print today's fetched papers
+uv run python -m arxiv_podcast.select    # fetch + show the deep-dive/roundup split
+uv run python -m arxiv_podcast.script    # fetch + select + print the dialogue script
+uv run python -m arxiv_podcast.synth --smoke   # audio pipeline only, no LLM call (fast)
+uv run python -m arxiv_podcast.publish   # rebuild the feed/index from files already on disk
 ```
 
 ## Publishing: GitHub Pages + Spotify
@@ -151,5 +162,7 @@ target episode length, host names/voices, feed metadata, episode retention.
 arxiv_podcast/    the pipeline (fetch, select, script, synth, publish, main)
 scripts/          scripts/setup_piper.sh
 docs/             GitHub Pages root: episodes/, podcast.xml, index.html
+pyproject.toml    dependencies (managed with uv)
+uv.lock           pinned dependency versions - commit this, don't edit by hand
 .github/workflows/daily.yml   the cron automation
 ```
