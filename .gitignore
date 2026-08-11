@@ -15,3 +15,6 @@ piper/
 
 # Leftover synthesis temp files, if a run is interrupted
 docs/episodes/*.synth-tmp.mp3
+
+# Scratch space (e.g. voice comparison samples)
+_tmp/

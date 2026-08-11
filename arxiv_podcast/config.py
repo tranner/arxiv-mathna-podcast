@@ -52,8 +52,8 @@ PIPER_VOICES_DIR = Path(os.environ.get("PIPER_VOICES_DIR", str(PIPER_DIR / "voic
 
 # Piper voice model names (without file extension); setup_piper.sh downloads
 # the matching .onnx + .onnx.json pair for each into PIPER_VOICES_DIR.
-HOST_A_VOICE = os.environ.get("HOST_A_VOICE", "en_US-hfc_female-medium")
-HOST_B_VOICE = os.environ.get("HOST_B_VOICE", "en_US-ryan-high")
+HOST_A_VOICE = os.environ.get("HOST_A_VOICE", "en_GB-jenny_dioco-medium")
+HOST_B_VOICE = os.environ.get("HOST_B_VOICE", "en_GB-cori-high")
 
 # Silence inserted between speaker turns, in milliseconds.
 TURN_GAP_MS = int(os.environ.get("TURN_GAP_MS", "350"))

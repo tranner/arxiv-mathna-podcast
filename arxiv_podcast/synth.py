@@ -1,6 +1,7 @@
 """Turn a dialogue script into a single mp3 using Piper TTS."""
 
 import logging
+import re
 import subprocess
 import tempfile
 from pathlib import Path
@@ -16,6 +17,22 @@ SPEAKER_VOICES = {
     "HOST_A": config.HOST_A_VOICE,
     "HOST_B": config.HOST_B_VOICE,
 }
+
+# Words/abbreviations that Piper's phonemizer (espeak-ng) mispronounces because
+# they aren't real dictionary words - it sounds them out letter-by-letter
+# instead of using the intended pronunciation. Applied only to the text sent
+# to the TTS engine; the original spelling is preserved everywhere else
+# (logs, show notes, the RSS feed). \b requires a word boundary so this only
+# matches the whole word, not a substring of something else.
+PRONUNCIATION_FIXES: list[tuple[re.Pattern, str]] = [
+    (re.compile(r"\barxiv\b", re.IGNORECASE), "archive"),
+]
+
+
+def _apply_pronunciation_fixes(text: str) -> str:
+    for pattern, replacement in PRONUNCIATION_FIXES:
+        text = pattern.sub(replacement, text)
+    return text
 
 
 class SynthesisError(RuntimeError):
@@ -51,7 +68,8 @@ def synthesize_line(text: str, voice_name: str, out_wav: Path) -> None:
         "--output_file",
         str(out_wav),
     ]
-    proc = subprocess.run(cmd, input=text, capture_output=True, text=True, timeout=60)
+    speech_text = _apply_pronunciation_fixes(text)
+    proc = subprocess.run(cmd, input=speech_text, capture_output=True, text=True, timeout=60)
     if proc.returncode != 0 or not out_wav.exists():
         raise SynthesisError(
             f"Piper failed synthesizing line (voice={voice_name}): {proc.stderr.strip()[:1000]}"
