@@ -171,6 +171,12 @@ def build_index_html() -> Path:
             f'<a href="episodes/{mp3_name}">{meta["title"]}</a> '
             f'({_format_duration(meta.get("duration_seconds"))})</li>'
         )
+    cover_img = (
+        '<img src="cover.jpg" alt="cover art" style="width:100%;max-width:280px;'
+        'border-radius:8px;display:block;margin:0 auto 1.5rem;">'
+        if (config.DOCS_DIR / "cover.jpg").exists()
+        else ""
+    )
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -179,6 +185,7 @@ def build_index_html() -> Path:
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body style="font-family: sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem;">
+{cover_img}
 <h1>{config.PODCAST_TITLE}</h1>
 <p>{config.PODCAST_DESCRIPTION}</p>
 <p>Subscribe: <a href="podcast.xml">RSS feed</a></p>
@@ -194,10 +201,24 @@ def build_index_html() -> Path:
     return index_path
 
 
+def copy_static_assets() -> None:
+    """Copy static assets (cover.jpg, ...) from assets/ (tracked on main)
+    into docs/ (rebuilt from the `pages` branch each run - see
+    config.ASSETS_DIR). No-op if assets/ doesn't exist or is empty."""
+    if not config.ASSETS_DIR.is_dir():
+        return
+    config.DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    for src in config.ASSETS_DIR.iterdir():
+        if src.is_file():
+            shutil.copy2(src, config.DOCS_DIR / src.name)
+            log.info("Copied static asset %s -> docs/%s", src.name, src.name)
+
+
 def publish_episode(episode: Episode, source_mp3: Path) -> Path:
     """Full publish step: place files, prune old episodes, rebuild feed + index."""
     write_episode_files(episode, source_mp3)
     prune_old_episodes()
+    copy_static_assets()
     build_feed()
     build_index_html()
     return _episode_mp3_path(episode.date)
@@ -205,6 +226,7 @@ def publish_episode(episode: Episode, source_mp3: Path) -> Path:
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    copy_static_assets()
     build_feed()
     build_index_html()
     print(f"Feed: {config.FEED_PATH}")

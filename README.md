@@ -147,14 +147,39 @@ uv run python -m arxiv_podcast.publish   # rebuild the feed/index from files alr
 
 Episodes live on a dedicated **`pages` branch**, kept deliberately separate
 from `main`: `main` is source code only and never contains a single mp3;
-`pages` holds the generated site (episodes, feed, show notes). On top of
-keeping `main` clean, `pages` itself is kept small too - every publish
-**replaces that branch's entire history with one fresh commit**
+`pages` holds the generated site (episodes, feed, show notes, cover art).
+On top of keeping `main` clean, `pages` itself is kept small too - every
+publish **replaces that branch's entire history with one fresh commit**
 (`scripts/publish_pages_branch.sh`), so its size tracks the current episode
 retention window (`EPISODE_RETENTION_DAYS`, 90 days by default) rather than
 every episode the podcast has ever put out.
 
-1. Push this repo to GitHub (`main` only - there's nothing on `pages` yet).
+The show launches labeled **(Beta)** - there's no dedicated beta field in
+podcast RSS/Spotify, so it's a title tag plus a note in the description
+(`PODCAST_TITLE` / `PODCAST_DESCRIPTION` in `config.py`). Drop both once
+you're happy calling it stable - podcast apps key subscriptions off the feed
+URL, not the title, so renaming later is safe.
+
+### Beta launch checklist
+
+Already done, sitting in this repo ready to go:
+- [x] `SITE_BASE_URL`, `PODCAST_AUTHOR`, `PODCAST_EMAIL` set to real values
+      (not placeholders) in `config.py`.
+- [x] `assets/cover.jpg` - a placeholder cover (1400×1400, RGB JPEG - meets
+      Apple/Spotify's minimum requirements). `publish.py` copies it into
+      `docs/` on every run automatically. Swap the file for real artwork
+      whenever you want; nothing else needs to change.
+- [x] Feed validated locally - title, description (with beta note + the
+      arXiv/voice attribution from "Licensing & attribution" below), author,
+      `itunes:owner` email, and cover image all confirmed present and
+      correct in a real generated `docs/podcast.xml`.
+
+Left for you (all need your own GitHub/Spotify accounts - not something I
+can do from here):
+1. Push this repo to GitHub (`main` only - there's nothing on `pages` yet):
+   ```bash
+   git push origin main
+   ```
 2. Build and publish an episode:
    ```bash
    bash scripts/fetch_pages_branch.sh
@@ -162,22 +187,18 @@ every episode the podcast has ever put out.
    bash scripts/publish_pages_branch.sh --push
    ```
    `--push` force-pushes `pages` to `origin` (that's expected - see above;
-   it's a squashed history by design, not a mistake). Leave it off to just
-   update the local `pages` branch and look it over first
-   (`git log pages -1 --stat`), then push yourself whenever you're happy:
-   `git push --force origin pages`.
+   it's a squashed history by design, not a mistake).
 3. Repo **Settings → Pages**: set source to the **`pages` branch, `/ (root)`
    folder** - not `main`. Pages will then serve `docs/podcast.xml`'s content
-   at `https://<user>.github.io/<repo>/podcast.xml`.
-4. Go to **[Spotify for Podcasters](https://podcasters.spotify.com/)** →
+   at `https://tranner.github.io/arxiv-mathna-podcast/podcast.xml`.
+4. Open that URL yourself and check it actually loads (GitHub Pages can take
+   a minute or two after the first push) before submitting anywhere.
+5. Go to **[Spotify for Podcasters](https://podcasters.spotify.com/)** →
    *Add your podcast* → *I have a podcast already, I just need to add it here*
-   → paste that RSS URL. Spotify verifies ownership (usually by emailing a
-   code to the address in `PODCAST_EMAIL` / the feed's `itunes:owner`) and
-   from then on **automatically pulls in every new episode** whenever the
+   → paste that RSS URL. Spotify emails a verification code to
+   `T.Ranner@leeds.ac.uk` (from `PODCAST_EMAIL`/`itunes:owner`) - once
+   confirmed, it **automatically pulls in every new episode** whenever the
    feed updates. No further manual step per episode.
-
-Set `PODCAST_EMAIL` before submitting - Spotify's ownership verification
-needs it.
 
 ## Automating the daily run
 
@@ -263,6 +284,7 @@ disclose it.
 ```
 arxiv_podcast/    the pipeline (fetch, select, script, synth, publish, main)
 scripts/          setup_piper.sh, fetch_pages_branch.sh, publish_pages_branch.sh
+assets/           static files copied into docs/ on every publish (cover.jpg)
 docs/             local build dir - GitHub Pages root once published, but
                   gitignored on `main` (see "Publishing: GitHub Pages + Spotify")
 pyproject.toml    dependencies (managed with uv)

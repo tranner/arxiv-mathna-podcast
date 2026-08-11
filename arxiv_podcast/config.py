@@ -64,12 +64,25 @@ DOCS_DIR = REPO_ROOT / "docs"
 EPISODES_DIR = DOCS_DIR / "episodes"
 FEED_PATH = DOCS_DIR / "podcast.xml"
 
+# Static assets (currently just cover.jpg) that get copied into docs/ on
+# every publish. Tracked on `main` (unlike docs/ itself) since docs/ is
+# rebuilt from the `pages` branch each run - this is the actual source of
+# truth for the cover image, recoverable even if the pages branch is ever
+# lost or corrupted.
+ASSETS_DIR = REPO_ROOT / "assets"
+
 # Base URL the published files are served from (GitHub Pages). Must be set
 # correctly before publishing for real - the RSS <enclosure> URLs are built
 # from this. Format: https://<user>.github.io/<repo>
-SITE_BASE_URL = os.environ.get("SITE_BASE_URL", "https://example.github.io/arxiv-podcast")
+SITE_BASE_URL = os.environ.get("SITE_BASE_URL", "https://tranner.github.io/arxiv-mathna-podcast")
 
-PODCAST_TITLE = os.environ.get("PODCAST_TITLE", "arXiv Numerical Analysis Daily")
+# "(Beta)" in the title + a beta note in the description is the standard way
+# indie podcasts signal early-stage status - there's no dedicated beta field
+# in podcast RSS/Spotify. Drop "(Beta)" from the title once you're ready to
+# call it stable; remove the beta sentence from the description at the same
+# time. Renaming the title later is fine - podcast apps key subscriptions off
+# the feed URL, not the title.
+PODCAST_TITLE = os.environ.get("PODCAST_TITLE", "arXiv Numerical Analysis Daily (Beta)")
 # Includes a non-affiliation disclaimer and arXiv's suggested acknowledgment
 # line, per arXiv's API Terms of Use (https://info.arxiv.org/help/api/tou.html)
 # - which prohibits implying arXiv's endorsement/backing of a project built
@@ -85,13 +98,18 @@ PODCAST_DESCRIPTION = os.environ.get(
     "everything else posted that day. Every script and voice is "
     "AI-generated: text by Claude, voices by Piper text-to-speech (Jenny, "
     "from the Jenny/Dioco dataset, and Cori, trained on public-domain "
-    "LibriVox.org recordings). This is an independent project, not "
+    "LibriVox.org recordings). "
+    "This show is in beta while the format, voices, and episode length get "
+    "dialed in - expect some rough edges and the occasional gap in the "
+    "schedule. "
+    "This is an independent project, not "
     "affiliated with, sponsored by, or endorsed by arXiv or Cornell "
     "University. Thank you to arXiv for use of its open access "
     "interoperability.",
 )
-PODCAST_AUTHOR = os.environ.get("PODCAST_AUTHOR", "arxiv-podcast")
-PODCAST_EMAIL = os.environ.get("PODCAST_EMAIL", "")
+PODCAST_AUTHOR = os.environ.get("PODCAST_AUTHOR", "Tom Ranner")
+# Spotify emails a verification code here during RSS submission.
+PODCAST_EMAIL = os.environ.get("PODCAST_EMAIL", "T.Ranner@leeds.ac.uk")
 PODCAST_LANGUAGE = os.environ.get("PODCAST_LANGUAGE", "en-us")
 PODCAST_IMAGE_URL = os.environ.get("PODCAST_IMAGE_URL", f"{SITE_BASE_URL}/cover.jpg")
 
