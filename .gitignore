@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Piper binary + voice models (240MB+; re-downloaded by scripts/setup_piper.sh,
+# cached in CI via actions/cache)
+piper/
+
+# Local env overrides
+.env
+
+# macOS
+.DS_Store
+
+# Leftover synthesis temp files, if a run is interrupted
+docs/episodes/*.synth-tmp.mp3

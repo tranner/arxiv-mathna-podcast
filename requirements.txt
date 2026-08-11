@@ -1,0 +1,4 @@
+feedparser>=6.0
+feedgen>=1.0
+pydub>=0.25
+requests>=2.31
