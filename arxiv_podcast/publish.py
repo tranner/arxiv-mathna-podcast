@@ -119,6 +119,20 @@ def _show_notes(meta: dict) -> str:
     return "\n".join(lines)
 
 
+def most_recent_episode_arxiv_ids() -> set[str]:
+    """arxiv_ids covered by the most recently published episode, if any.
+
+    Lets the pipeline detect a stale arXiv feed build (e.g. a weekend/holiday
+    run seeing the same cached batch as the last publish) before generating
+    a duplicate episode.
+    """
+    episodes = _load_all_episode_meta()
+    if not episodes:
+        return set()
+    latest = episodes[0]
+    return {p["arxiv_id"] for p in latest["deep_dive"] + latest["roundup"]}
+
+
 def build_feed() -> Path:
     """Regenerate docs/podcast.xml from every episode currently on disk."""
     episodes = _load_all_episode_meta()

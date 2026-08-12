@@ -7,8 +7,12 @@ name: Daily arXiv podcast episode
 
 on:
   schedule:
-    # ~07:00 UTC daily, after arXiv's overnight announcement batch lands.
-    - cron: "0 7 * * *"
+    # ~07:00 UTC, Mon-Fri, after arXiv's overnight announcement batch lands.
+    # arXiv doesn't announce on weekends (its RSS feed just keeps serving
+    # Friday's cached batch) - main.py also guards against generating a
+    # duplicate episode from a stale feed, but there's no reason to run at
+    # all on a day arXiv never publishes anything new.
+    - cron: "0 7 * * 1-5"
   workflow_dispatch: {}
 
 permissions:

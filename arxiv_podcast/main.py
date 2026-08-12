@@ -39,6 +39,16 @@ def run(target_date: str, force: bool = False) -> int:
         log.error("No papers fetched - aborting.")
         return 1
 
+    covered = publish.most_recent_episode_arxiv_ids()
+    if covered and all(p.arxiv_id in covered for p in papers):
+        log.info(
+            "All %d fetched papers were already covered by the most recent "
+            "episode - arXiv's feed hasn't rebuilt since then (e.g. a "
+            "weekend/holiday run). Skipping.",
+            len(papers),
+        )
+        return 0
+
     log.info("[2/5] Selecting deep-dive vs. roundup papers...")
     deep_dive, roundup = select_papers(papers)
 
