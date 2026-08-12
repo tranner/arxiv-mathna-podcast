@@ -1,10 +1,10 @@
-"""Fetch recent papers from the arXiv API for a given category."""
+"""Fetch today's papers from arXiv's daily category RSS feed."""
 
 import logging
 import re
 import time
 from calendar import timegm
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timezone
 
 import feedparser
 import requests
@@ -15,6 +15,16 @@ from arxiv_podcast.models import Paper
 log = logging.getLogger(__name__)
 
 _WS_RE = re.compile(r"\s+")
+
+# The feed's <description> is prefixed with boilerplate like
+# "arXiv:2608.10217v1 Announce Type: new\nAbstract: " ahead of the actual
+# abstract text.
+_ABSTRACT_PREFIX_RE = re.compile(r"^arXiv:\S+\s+Announce Type:\s*\S+\s*\n*Abstract:\s*", re.S)
+
+# "new" and "cross" are papers newly appearing in this category today;
+# "replace"/"replace-cross" are revisions of papers an earlier episode
+# would already have covered.
+_INCLUDED_ANNOUNCE_TYPES = {"new", "cross"}
 
 # Status codes worth retrying: 429 (rate limited) and 5xx (transient server-
 # side trouble). Other 4xx codes mean our request is wrong and won't succeed
@@ -28,21 +38,14 @@ def _clean(text: str) -> str:
 
 def _get_with_retries(
     url: str,
-    params: dict,
     headers: dict,
     max_retries: int,
     backoff_seconds: float,
 ) -> requests.Response:
-    """GET with exponential backoff on rate limiting / transient errors.
-
-    arXiv's export API throttles by source network rather than strictly by
-    caller, so a 429 here can be caused by unrelated traffic sharing our
-    egress IP (e.g. GitHub Actions' runner pool) - retrying after a pause
-    is usually enough to get through.
-    """
+    """GET with exponential backoff on rate limiting / transient errors."""
     for attempt in range(max_retries + 1):
         try:
-            resp = requests.get(url, params=params, headers=headers, timeout=30)
+            resp = requests.get(url, headers=headers, timeout=30)
         except requests.exceptions.RequestException as exc:
             if attempt == max_retries:
                 raise
@@ -69,82 +72,52 @@ def _get_with_retries(
 
 
 def _entry_to_paper(entry) -> Paper:
-    authors = [_clean(a.get("name", "")) for a in getattr(entry, "authors", [])]
+    authors = [_clean(a) for a in entry.get("author", "").split(",")]
     authors = [a for a in authors if a]
-    arxiv_id = entry.id.rsplit("/", 1)[-1]
+    # guid looks like "oai:arXiv.org:2608.10217v1".
+    arxiv_id = entry.id.rsplit(":", 1)[-1]
+    abstract = _ABSTRACT_PREFIX_RE.sub("", entry.summary, count=1)
+    published_dt = datetime.fromtimestamp(timegm(entry.published_parsed), tz=timezone.utc)
     return Paper(
         arxiv_id=arxiv_id,
         title=_clean(entry.title),
         authors=authors,
-        abstract=_clean(entry.summary),
+        abstract=_clean(abstract),
         link=entry.link,
-        published=entry.published,
+        published=published_dt.strftime("%Y-%m-%dT%H:%M:%SZ"),
     )
 
 
 def fetch_recent_papers(
     category: str = config.ARXIV_CATEGORY,
     max_results: int = config.ARXIV_MAX_RESULTS,
-    lookback_hours: int = config.ARXIV_LOOKBACK_HOURS,
 ) -> list[Paper]:
-    """Fetch recent papers in `category`, newest first.
+    """Fetch today's newly-announced papers in `category`, feed order.
 
-    Returns only papers published within `lookback_hours`. If that window is
-    empty (e.g. a weekend with no new arXiv announcements), falls back to the
-    most recent `max_results` papers regardless of age, so the pipeline always
-    has something to talk about.
+    The feed already covers exactly one announcement batch (skipping
+    weekends), so there's no date-window filtering to do - only trimming to
+    `max_results` on an unusually large day.
     """
-    params = {
-        "search_query": f"cat:{category}",
-        "sortBy": "submittedDate",
-        "sortOrder": "descending",
-        "max_results": max_results,
-    }
+    url = config.ARXIV_RSS_URL_TEMPLATE.format(category=category)
     headers = {"User-Agent": config.ARXIV_USER_AGENT}
 
-    log.info("Querying arXiv API for cat:%s (max_results=%d)", category, max_results)
+    log.info("Fetching arXiv RSS feed for cat:%s", category)
     resp = _get_with_retries(
-        config.ARXIV_API_URL,
-        params,
-        headers,
-        config.ARXIV_MAX_RETRIES,
-        config.ARXIV_RETRY_BACKOFF_SECONDS,
+        url, headers, config.ARXIV_MAX_RETRIES, config.ARXIV_RETRY_BACKOFF_SECONDS
     )
-    # Be a polite API citizen - arXiv asks for no more than one request every
-    # few seconds; we only make one request per run so this is just a courtesy
-    # pause in case this function is ever called in a loop.
-    time.sleep(1)
 
     feed = feedparser.parse(resp.content)
     if feed.bozo:
         log.warning("feedparser reported a parse issue: %s", feed.bozo_exception)
 
-    all_papers = [_entry_to_paper(e) for e in feed.entries]
-    log.info("Fetched %d papers total from arXiv", len(all_papers))
+    papers = [
+        _entry_to_paper(entry)
+        for entry in feed.entries
+        if entry.get("arxiv_announce_type") in _INCLUDED_ANNOUNCE_TYPES
+    ]
+    log.info("Fetched %d new/cross papers from arXiv RSS (category=%s)", len(papers), category)
 
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=lookback_hours)
-    recent = []
-    for entry, paper in zip(feed.entries, all_papers):
-        published_struct = getattr(entry, "published_parsed", None)
-        if published_struct is None:
-            continue
-        published_dt = datetime.fromtimestamp(timegm(published_struct), tz=timezone.utc)
-        if published_dt >= cutoff:
-            recent.append(paper)
-
-    if recent:
-        log.info(
-            "%d papers published in the last %d hours", len(recent), lookback_hours
-        )
-        return recent
-
-    log.warning(
-        "No papers published in the last %d hours - falling back to the %d most "
-        "recent papers regardless of age",
-        lookback_hours,
-        max_results,
-    )
-    return all_papers
+    return papers[:max_results]
 
 
 if __name__ == "__main__":

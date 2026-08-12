@@ -238,15 +238,13 @@ target episode length, host names/voices, feed metadata, episode retention.
 
 ## Licensing & attribution
 
-**arXiv content.** We only ever fetch metadata (title, authors, abstract) via
-arXiv's public API and link back to the paper's `arxiv.org/abs/...` page -
-never the PDF or full text. arXiv's [API Terms of
-Use](https://info.arxiv.org/help/api/tou.html) explicitly place that
-metadata under CC0 (public domain), so there's no copyright constraint
-there. Two things the ToU *does* require, both already handled:
+**arXiv content.** We only ever fetch metadata (title, authors, abstract) -
+via arXiv's daily category RSS feed (`rss.arxiv.org`), one request per run -
+and link back to the paper's `arxiv.org/abs/...` page, never the PDF or full
+text. arXiv's [API Terms of Use](https://info.arxiv.org/help/api/tou.html)
+place that metadata under CC0 (public domain), so there's no copyright
+constraint there. One thing the ToU *does* require, already handled:
 
-- **Rate limiting** - max 1 request/3s, single connection. `fetch.py` makes
-  exactly one request per run, well within that.
 - **No implied endorsement** - the ToU prohibits "brand[ing] your project
   with arXiv's names... in a manner that implies arXiv's endorsement." Since
   the podcast is literally titled *"arXiv Numerical Analysis Daily,"* the

@@ -10,20 +10,26 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # --- arXiv source -----------------------------------------------------------
+# rss.arxiv.org's per-category feed, not export.arxiv.org/api/query: it's
+# arXiv's daily announcement feed (purpose-built for "what's new in this
+# category today"), served from separate, CDN-cached infrastructure, and
+# already scoped to the latest batch - no query params, pagination, or
+# date-window filtering needed on our end.
 ARXIV_CATEGORY = os.environ.get("ARXIV_CATEGORY", "math.NA")
-ARXIV_API_URL = "http://export.arxiv.org/api/query"
+ARXIV_RSS_URL_TEMPLATE = os.environ.get(
+    "ARXIV_RSS_URL_TEMPLATE", "https://rss.arxiv.org/rss/{category}"
+)
+# Upper bound on how many papers one episode draws from, in case a single
+# day's announcement batch is unusually large.
 ARXIV_MAX_RESULTS = int(os.environ.get("ARXIV_MAX_RESULTS", "60"))
-# How far back to look for "new today" papers, in hours. arXiv's daily
-# announcement cadence means a 24-36h window reliably catches the latest batch.
-ARXIV_LOOKBACK_HOURS = int(os.environ.get("ARXIV_LOOKBACK_HOURS", "36"))
 ARXIV_USER_AGENT = os.environ.get(
     "ARXIV_USER_AGENT",
     "arxiv-podcast/0.1 (personal project; generates a daily podcast digest)",
 )
-# arXiv's export API throttles by source network, not just by caller - shared
-# egress IPs (GitHub Actions' runner pool, university NATs, etc.) can trip a
-# 429 that has nothing to do with our own request rate. Retry with backoff
-# rather than failing the whole run over a transient throttle.
+# Per arXiv's own API mailing list (2026), a 429 here reflects arXiv's overall
+# server capacity/load, not per-caller throttling - there's no way to avoid
+# it by changing our request pattern, only to wait it out. Retry with backoff
+# rather than failing the whole run over a transient spike.
 ARXIV_MAX_RETRIES = int(os.environ.get("ARXIV_MAX_RETRIES", "5"))
 ARXIV_RETRY_BACKOFF_SECONDS = float(os.environ.get("ARXIV_RETRY_BACKOFF_SECONDS", "5"))
 
