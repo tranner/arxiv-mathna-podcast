@@ -20,6 +20,12 @@ ARXIV_USER_AGENT = os.environ.get(
     "ARXIV_USER_AGENT",
     "arxiv-podcast/0.1 (personal project; generates a daily podcast digest)",
 )
+# arXiv's export API throttles by source network, not just by caller - shared
+# egress IPs (GitHub Actions' runner pool, university NATs, etc.) can trip a
+# 429 that has nothing to do with our own request rate. Retry with backoff
+# rather than failing the whole run over a transient throttle.
+ARXIV_MAX_RETRIES = int(os.environ.get("ARXIV_MAX_RETRIES", "5"))
+ARXIV_RETRY_BACKOFF_SECONDS = float(os.environ.get("ARXIV_RETRY_BACKOFF_SECONDS", "5"))
 
 # --- Episode selection --------------------------------------------------------
 DEEP_DIVE_MIN = int(os.environ.get("DEEP_DIVE_MIN", "1"))

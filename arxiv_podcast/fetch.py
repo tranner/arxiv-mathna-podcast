@@ -16,9 +16,56 @@ log = logging.getLogger(__name__)
 
 _WS_RE = re.compile(r"\s+")
 
+# Status codes worth retrying: 429 (rate limited) and 5xx (transient server-
+# side trouble). Other 4xx codes mean our request is wrong and won't succeed
+# on retry.
+_RETRYABLE_STATUS_CODES = {429, 500, 502, 503, 504}
+
 
 def _clean(text: str) -> str:
     return _WS_RE.sub(" ", text or "").strip()
+
+
+def _get_with_retries(
+    url: str,
+    params: dict,
+    headers: dict,
+    max_retries: int,
+    backoff_seconds: float,
+) -> requests.Response:
+    """GET with exponential backoff on rate limiting / transient errors.
+
+    arXiv's export API throttles by source network rather than strictly by
+    caller, so a 429 here can be caused by unrelated traffic sharing our
+    egress IP (e.g. GitHub Actions' runner pool) - retrying after a pause
+    is usually enough to get through.
+    """
+    for attempt in range(max_retries + 1):
+        try:
+            resp = requests.get(url, params=params, headers=headers, timeout=30)
+        except requests.exceptions.RequestException as exc:
+            if attempt == max_retries:
+                raise
+            log.warning(
+                "arXiv request failed (%s), retry %d/%d", exc, attempt + 1, max_retries
+            )
+        else:
+            if resp.status_code not in _RETRYABLE_STATUS_CODES:
+                resp.raise_for_status()
+                return resp
+            if attempt == max_retries:
+                resp.raise_for_status()
+            log.warning(
+                "arXiv returned %d, retry %d/%d",
+                resp.status_code,
+                attempt + 1,
+                max_retries,
+            )
+
+        delay = backoff_seconds * (2**attempt)
+        time.sleep(delay)
+
+    raise AssertionError("unreachable")  # loop always returns or raises
 
 
 def _entry_to_paper(entry) -> Paper:
@@ -56,8 +103,13 @@ def fetch_recent_papers(
     headers = {"User-Agent": config.ARXIV_USER_AGENT}
 
     log.info("Querying arXiv API for cat:%s (max_results=%d)", category, max_results)
-    resp = requests.get(config.ARXIV_API_URL, params=params, headers=headers, timeout=30)
-    resp.raise_for_status()
+    resp = _get_with_retries(
+        config.ARXIV_API_URL,
+        params,
+        headers,
+        config.ARXIV_MAX_RETRIES,
+        config.ARXIV_RETRY_BACKOFF_SECONDS,
+    )
     # Be a polite API citizen - arXiv asks for no more than one request every
     # few seconds; we only make one request per run so this is just a courtesy
     # pause in case this function is ever called in a loop.
