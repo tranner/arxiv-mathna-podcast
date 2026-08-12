@@ -8,8 +8,9 @@ PIPER_DIR="$REPO_ROOT/piper"
 VOICES_DIR="$PIPER_DIR/voices"
 PIPER_VERSION="2023.11.14-2"
 
-HOST_A_VOICE="${HOST_A_VOICE:-en_US-hfc_female-medium}"
-HOST_B_VOICE="${HOST_B_VOICE:-en_US-ryan-high}"
+# Defaults must match HOST_A_VOICE/HOST_B_VOICE in arxiv_podcast/config.py.
+HOST_A_VOICE="${HOST_A_VOICE:-en_GB-jenny_dioco-medium}"
+HOST_B_VOICE="${HOST_B_VOICE:-en_GB-cori-high}"
 
 mkdir -p "$PIPER_DIR" "$VOICES_DIR"
 
@@ -63,12 +64,13 @@ download_voice() {
     return
   fi
 
-  # Voice repo layout: en/en_US/<name>/<quality>/en_US-<name>-<quality>.onnx[.json]
-  # e.g. en_US-hfc_female-medium -> en/en_US/hfc_female/medium/...
-  local rest="${voice#en_US-}"          # hfc_female-medium
+  # Voice repo layout: en/<locale>/<name>/<quality>/<locale>-<name>-<quality>.onnx[.json]
+  # e.g. en_GB-jenny_dioco-medium -> en/en_GB/jenny_dioco/medium/...
+  local locale="${voice%%-*}"           # en_GB
+  local rest="${voice#"$locale"-}"      # jenny_dioco-medium
   local quality="${rest##*-}"           # medium
-  local name="${rest%-"$quality"}"      # hfc_female
-  local base_url="https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/${name}/${quality}/${voice}"
+  local name="${rest%-"$quality"}"      # jenny_dioco
+  local base_url="https://huggingface.co/rhasspy/piper-voices/resolve/main/en/${locale}/${name}/${quality}/${voice}"
 
   echo "Downloading voice '$voice' ..."
   curl -fsSL "${base_url}.onnx" -o "$model_path"
