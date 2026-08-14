@@ -9,7 +9,7 @@ VOICES_DIR="$PIPER_DIR/voices"
 PIPER_VERSION="2023.11.14-2"
 
 # Defaults must match HOST_A_VOICE/HOST_B_VOICE in arxiv_podcast/config.py.
-HOST_A_VOICE="${HOST_A_VOICE:-en_GB-jenny_dioco-medium}"
+HOST_A_VOICE="${HOST_A_VOICE:-en_GB-northern_english_male-medium}"
 HOST_B_VOICE="${HOST_B_VOICE:-en_GB-cori-high}"
 
 mkdir -p "$PIPER_DIR" "$VOICES_DIR"
@@ -65,11 +65,11 @@ download_voice() {
   fi
 
   # Voice repo layout: en/<locale>/<name>/<quality>/<locale>-<name>-<quality>.onnx[.json]
-  # e.g. en_GB-jenny_dioco-medium -> en/en_GB/jenny_dioco/medium/...
+  # e.g. en_GB-northern_english_male-medium -> en/en_GB/northern_english_male/medium/...
   local locale="${voice%%-*}"           # en_GB
-  local rest="${voice#"$locale"-}"      # jenny_dioco-medium
+  local rest="${voice#"$locale"-}"      # northern_english_male-medium
   local quality="${rest##*-}"           # medium
-  local name="${rest%-"$quality"}"      # jenny_dioco
+  local name="${rest%-"$quality"}"      # northern_english_male
   local base_url="https://huggingface.co/rhasspy/piper-voices/resolve/main/en/${locale}/${name}/${quality}/${voice}"
 
   echo "Downloading voice '$voice' ..."

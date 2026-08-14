@@ -46,7 +46,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: piper
-          key: piper-${{ runner.os }}-${{ runner.arch }}-jenny_dioco-cori
+          key: piper-${{ runner.os }}-${{ runner.arch }}-northern_english_male-cori
 
       - name: Set up Piper TTS
         run: bash scripts/setup_piper.sh

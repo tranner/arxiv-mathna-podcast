@@ -64,7 +64,7 @@ PIPER_VOICES_DIR = Path(os.environ.get("PIPER_VOICES_DIR", str(PIPER_DIR / "voic
 
 # Piper voice model names (without file extension); setup_piper.sh downloads
 # the matching .onnx + .onnx.json pair for each into PIPER_VOICES_DIR.
-HOST_A_VOICE = os.environ.get("HOST_A_VOICE", "en_GB-jenny_dioco-medium")
+HOST_A_VOICE = os.environ.get("HOST_A_VOICE", "en_GB-northern_english_male-medium")
 HOST_B_VOICE = os.environ.get("HOST_B_VOICE", "en_GB-cori-high")
 
 # Silence inserted between speaker turns, in milliseconds.
@@ -99,7 +99,7 @@ PODCAST_TITLE = os.environ.get("PODCAST_TITLE", "arXiv Numerical Analysis Daily 
 # line, per arXiv's API Terms of Use (https://info.arxiv.org/help/api/tou.html)
 # - which prohibits implying arXiv's endorsement/backing of a project built
 # on their API - plus voice attribution for HOST_A_VOICE/HOST_B_VOICE's
-# source datasets (required for the Jenny/Dioco voice; see README "Licensing
+# source datasets (required for the northern_english_male voice; see README "Licensing
 # & attribution"). If you change the default host voices, update this text
 # to match - it isn't generated automatically from the voice names.
 PODCAST_DESCRIPTION = os.environ.get(
@@ -108,9 +108,9 @@ PODCAST_DESCRIPTION = os.environ.get(
     "posted to the arXiv math.NA (Numerical Analysis) listing - a deep dive "
     "on a few randomly chosen papers, plus a rapid-fire rundown of "
     "everything else posted that day. Every script and voice is "
-    "AI-generated: text by Claude, voices by Piper text-to-speech (Jenny, "
-    "from the Jenny/Dioco dataset, and Cori, trained on public-domain "
-    "LibriVox.org recordings). "
+    "AI-generated: text by Claude, voices by Piper text-to-speech (a "
+    "Northern English male voice trained on the SLR83 dataset, and Cori, "
+    "trained on public-domain LibriVox.org recordings). "
     "This show is in beta while the format, voices, and episode length get "
     "dialed in - expect some rough edges and the occasional gap in the "
     "schedule. "

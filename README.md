@@ -82,7 +82,7 @@ brew install ffmpeg
 bash scripts/setup_piper.sh
 ```
 
-Downloads the Piper binary and the two voice models (`en_GB-jenny_dioco-medium`
+Downloads the Piper binary and the two voice models (`en_GB-northern_english_male-medium`
 and `en_GB-cori-high` by default) into `./piper/` (gitignored - re-run this
 any time the directory is missing, e.g. after a fresh clone). Works on
 Linux (x86_64/arm64) and macOS (Intel/Apple Silicon).
@@ -268,11 +268,13 @@ models have different underlying sources, and both are credited by name in
 
 - `en_GB-cori-high` ("Cori") - trained on LibriVox.org recordings, **public
   domain**. No constraint.
-- `en_GB-jenny_dioco-medium` ("Jenny") - trained on the [Jenny (Dioco)
-  dataset](https://github.com/dioco-group/jenny-tts-dataset). Commercial use
-  is explicitly permitted, but the license requires attribution *in the
-  project* (not per-episode, though welcome there too): the voice must be
-  referred to as **"Jenny"**, or where practical, **"Jenny (Dioco)."** If you
+- `en_GB-northern_english_male-medium` - trained on [SLR83, "Open-source
+  Multi-speaker Corpora of the English Accents in the British
+  Isles"](https://www.openslr.org/83/) (© Google, Inc.), **CC BY-SA 4.0**.
+  Commercial use is permitted, but the license requires attribution *in the
+  project* (not per-episode, though welcome there too) crediting the SLR83
+  dataset, and any redistribution of the voice model itself must be shared
+  under the same CC BY-SA 4.0 license. If you
   swap in a different voice via `HOST_A_VOICE`/`HOST_B_VOICE`, check that
   voice's own `MODEL_CARD` on
   [huggingface.co/rhasspy/piper-voices](https://huggingface.co/rhasspy/piper-voices)
