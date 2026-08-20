@@ -105,7 +105,9 @@ def _call_model_api(
 
     # Headroom over TARGET_WORD_COUNT for JSON structure overhead and the
     # occasional expanded-retry response, which runs longer than the original.
-    max_tokens = max(4000, int(config.TARGET_WORD_COUNT * 3))
+    # Capped at Haiku 4.5's 64K max output tokens (higher on other models, but
+    # this app defaults to Haiku).
+    max_tokens = min(64000, max(8000, int(config.TARGET_WORD_COUNT * 8)))
 
     log.info(
         "Invoking Anthropic API (%s, %s)",
