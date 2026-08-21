@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>arXiv Numerical Analysis Daily (Beta)</title>
+    <link>https://tranner.github.io/arxiv-mathna-podcast/podcast.xml</link>
+    <description>A daily podcast where two AI hosts talk through the newest papers posted to the arXiv math.NA (Numerical Analysis) listing - a deep dive on a few randomly chosen papers, plus a rapid-fire rundown of everything else posted that day. Every script and voice is AI-generated: text by Claude, voices by Piper text-to-speech (a Northern English male voice trained on the SLR83 dataset, and Cori, trained on public-domain LibriVox.org recordings). This show is in beta while the format, voices, and episode length get dialed in - expect some rough edges and the occasional gap in the schedule. This is an independent project, not affiliated with, sponsored by, or endorsed by arXiv or Cornell University. Thank you to arXiv for use of its open access interoperability.</description>
+    <atom:link href="https://tranner.github.io/arxiv-mathna-podcast/podcast.xml" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>arxiv_podcast</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Aug 2026 07:38:01 +0000</lastBuildDate>
+    <itunes:author>Tom Ranner</itunes:author>
+    <itunes:category text="Science"/>
+    <itunes:image href="https://tranner.github.io/arxiv-mathna-podcast/cover.jpg"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Tom Ranner</itunes:name>
+      <itunes:email>T.Ranner@leeds.ac.uk</itunes:email>
+    </itunes:owner>
+    <itunes:summary>A daily podcast where two AI hosts talk through the newest papers posted to the arXiv math.NA (Numerical Analysis) listing - a deep dive on a few randomly chosen papers, plus a rapid-fire rundown of everything else posted that day. Every script and voice is AI-generated: text by Claude, voices by Piper text-to-speech (a Northern English male voice trained on the SLR83 dataset, and Cori, trained on public-domain LibriVox.org recordings). This show is in beta while the format, voices, and episode length get dialed in - expect some rough edges and the occasional gap in the schedule. This is an independent project, not affiliated with, sponsored by, or endorsed by arXiv or Cornell University. Thank you to arXiv for use of its open access interoperability.</itunes:summary>
+    <item>
+      <title>arXiv Numerical Analysis Daily — 2026-08-11</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09615v1"&gt;A novel compact scheme for second-order fluxes applied to the Spectral Difference method&lt;/a&gt; — Guido Lodato, Niccolò Tonicello&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09838v1"&gt;Bijectivity analysis of rational T-spline surfaces via Bernstein representations&lt;/a&gt; — Jia-Xuan Li, Ying-Ying Yu, Ya-Shu Liu, Xin Li, Ye Ji, Chun-Gang Zhu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09827v1"&gt;Convergence of Galerkin approximations based on asymmetrically-weighted Hermite functions for the Vlasov-Poisson system&lt;/a&gt; — Ruiyang Dai&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09759v1"&gt;Information geometric regularization for computing sensitivities of flows with shocks&lt;/a&gt; — Florian Schäfer&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09756v1"&gt;Two-sided estimates of Lyapunov exponents for Milstein schemes of non-autonomous stochastic differential equations&lt;/a&gt; — Vu Thi Hue, Bao Quoc Tang, Do Duc Thuan&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09743v1"&gt;Theoretical Analysis of Thermodynamic Matrix Inversion: First-order Equivalence to Preconditioned Gradient Descent and Implications for Analog Computing&lt;/a&gt; — Gerhard Kirsten, Michael Selby, Janith Petangoda, Olle Halqvist Elias, James Meech, Phillip Stanley-Marbell&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09665v1"&gt;Carleman--Picard and time-dimensional reduction for inverse initial-data problems in nonlinear transport with memory&lt;/a&gt; — Navaraj Neupane, Loc H. Nguyen&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09623v1"&gt;Diffusion Maps Kernel Ridge Regression&lt;/a&gt; — John Harlim, Daning Huang, Jiwoo Song&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09603v1"&gt;A block preconditioner with two parameters for double saddle point systems in liquid crystal director modeling&lt;/a&gt; — Mehdi Makhdomi, Davod Khojasteh Salkuyeh, Morad Ahmadnasab&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09569v1"&gt;Linear Convergence of a Frank-Wolfe-type Method over the Spectrahedron without Strict Complementarity&lt;/a&gt; — Dan Garber&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09558v1"&gt;Training-Free Universal Approximation by Prompting Random Transformers&lt;/a&gt; — Alexander Hsu, Rongjie Lai&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09505v1"&gt;Conditional Uniqueness and Optimal Energy-Norm Convergence for the Dynamic Diffusion Finite Element Method&lt;/a&gt; — Isaac P. Santos&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09494v1"&gt;Walk-on-Spheres Monte Carlo and deep neural network approximations of elliptic PDEs with drift and killing&lt;/a&gt; — Konrad Kleinberg, Thomas Kruse&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-11.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-11.mp3" length="6501399" type="audio/mpeg"/>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:13:32</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09615v1"&gt;A novel compact scheme for second-order fluxes applied to the Spectral Difference method&lt;/a&gt; — Guido Lodato, Niccolò Tonicello&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09838v1"&gt;Bijectivity analysis of rational T-spline surfaces via Bernstein representations&lt;/a&gt; — Jia-Xuan Li, Ying-Ying Yu, Ya-Shu Liu, Xin Li, Ye Ji, Chun-Gang Zhu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09827v1"&gt;Convergence of Galerkin approximations based on asymmetrically-weighted Hermite functions for the Vlasov-Poisson system&lt;/a&gt; — Ruiyang Dai&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09759v1"&gt;Information geometric regularization for computing sensitivities of flows with shocks&lt;/a&gt; — Florian Schäfer&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09756v1"&gt;Two-sided estimates of Lyapunov exponents for Milstein schemes of non-autonomous stochastic differential equations&lt;/a&gt; — Vu Thi Hue, Bao Quoc Tang, Do Duc Thuan&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09743v1"&gt;Theoretical Analysis of Thermodynamic Matrix Inversion: First-order Equivalence to Preconditioned Gradient Descent and Implications for Analog Computing&lt;/a&gt; — Gerhard Kirsten, Michael Selby, Janith Petangoda, Olle Halqvist Elias, James Meech, Phillip Stanley-Marbell&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09665v1"&gt;Carleman--Picard and time-dimensional reduction for inverse initial-data problems in nonlinear transport with memory&lt;/a&gt; — Navaraj Neupane, Loc H. Nguyen&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09623v1"&gt;Diffusion Maps Kernel Ridge Regression&lt;/a&gt; — John Harlim, Daning Huang, Jiwoo Song&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09603v1"&gt;A block preconditioner with two parameters for double saddle point systems in liquid crystal director modeling&lt;/a&gt; — Mehdi Makhdomi, Davod Khojasteh Salkuyeh, Morad Ahmadnasab&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09569v1"&gt;Linear Convergence of a Frank-Wolfe-type Method over the Spectrahedron without Strict Complementarity&lt;/a&gt; — Dan Garber&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09558v1"&gt;Training-Free Universal Approximation by Prompting Random Transformers&lt;/a&gt; — Alexander Hsu, Rongjie Lai&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09505v1"&gt;Conditional Uniqueness and Optimal Energy-Norm Convergence for the Dynamic Diffusion Finite Element Method&lt;/a&gt; — Isaac P. Santos&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.09494v1"&gt;Walk-on-Spheres Monte Carlo and deep neural network approximations of elliptic PDEs with drift and killing&lt;/a&gt; — Konrad Kleinberg, Thomas Kruse&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-12</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10487"&gt;High-order Energy-stable and Charge-conservative Lagrangian FEM for 3D Incompressible Inductionless MHD equations with Variable Density&lt;/a&gt; — Lingxiao Li, Bijie Song, Haiyan Su, Jie Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10607"&gt;A numerical approach for solving the time-Fractional Mobile-Immobile Transport Equation&lt;/a&gt; — Sandip Maji&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10217"&gt;A Volumetrically Stabilized Mixed Formulation of the Finite Element Immersed Boundary Method for Fluid Structure Interaction with Fully Incompressible Hyperelastic Solids&lt;/a&gt; — Abhishek Mishra, Paul T. Bauman&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10342"&gt;Shape optimisation of nonlinear Naghdi shells on discrete geometries&lt;/a&gt; — Ado Farsi, Alberto Paganini&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10389"&gt;Efficient Weak-Entropy PINN for Solving Hyperbolic Conservation Laws&lt;/a&gt; — Qi Gao, Kuang Huang, Xuan Di&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10390"&gt;A fifth-order divergence-free finite difference Hermite WENO scheme for ideal magnetohydrodynamics&lt;/a&gt; — Peiwen Chen, Shi Jin, Jianxian Qiu, Zhuang Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10507"&gt;A Quadratic $C^0$ Interior Penalty Method for the von K\'{a}rm\'{a}n Obstacle Problem&lt;/a&gt; — Sharat Gaddam&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10569"&gt;An efficient and robust fifth-order HWENO scheme with gradient reconstruction for compressible Navier--Stokes equations&lt;/a&gt; — Zijun Guo, Chuan Fan, Zhuang Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10713"&gt;Uniform discrete Poincar\'e inequalities for Hybrid High-Order differential forms on polyhedral meshes&lt;/a&gt; — Silvano Pitassi&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10757"&gt;Successive Schur-Riesz Analysis for Approximation&lt;/a&gt; — Matthew Francis Dixon&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10799"&gt;A High-Order Galerkin Scheme for the Decoupled Potential Integral Equations&lt;/a&gt; — David Scott Winterrose&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10830"&gt;Locking analysis and high-order locking-free finite element method for three-dimensional electroporoelasticity equations&lt;/a&gt; — Xuan Liu, Yongkui Zou, Yanzhao Cao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10855"&gt;Adaptive Time-Stepping Euler--Maruyama Scheme for SDEs with Non-Globally Lipschitz Coefficients: Uniform Convergence, Stability and Ergodicity&lt;/a&gt; — Xueqi Wen, Shan Huang, Xiaoyue Li&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11055"&gt;Diffusion Quasi-Monte Carlo&lt;/a&gt; — Jianlong Chen, Yifeng Yu&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-12.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-12.mp3" length="6997725" type="audio/mpeg"/>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:14:34</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10487"&gt;High-order Energy-stable and Charge-conservative Lagrangian FEM for 3D Incompressible Inductionless MHD equations with Variable Density&lt;/a&gt; — Lingxiao Li, Bijie Song, Haiyan Su, Jie Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10607"&gt;A numerical approach for solving the time-Fractional Mobile-Immobile Transport Equation&lt;/a&gt; — Sandip Maji&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10217"&gt;A Volumetrically Stabilized Mixed Formulation of the Finite Element Immersed Boundary Method for Fluid Structure Interaction with Fully Incompressible Hyperelastic Solids&lt;/a&gt; — Abhishek Mishra, Paul T. Bauman&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10342"&gt;Shape optimisation of nonlinear Naghdi shells on discrete geometries&lt;/a&gt; — Ado Farsi, Alberto Paganini&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10389"&gt;Efficient Weak-Entropy PINN for Solving Hyperbolic Conservation Laws&lt;/a&gt; — Qi Gao, Kuang Huang, Xuan Di&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10390"&gt;A fifth-order divergence-free finite difference Hermite WENO scheme for ideal magnetohydrodynamics&lt;/a&gt; — Peiwen Chen, Shi Jin, Jianxian Qiu, Zhuang Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10507"&gt;A Quadratic $C^0$ Interior Penalty Method for the von K\'{a}rm\'{a}n Obstacle Problem&lt;/a&gt; — Sharat Gaddam&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10569"&gt;An efficient and robust fifth-order HWENO scheme with gradient reconstruction for compressible Navier--Stokes equations&lt;/a&gt; — Zijun Guo, Chuan Fan, Zhuang Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10713"&gt;Uniform discrete Poincar\'e inequalities for Hybrid High-Order differential forms on polyhedral meshes&lt;/a&gt; — Silvano Pitassi&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10757"&gt;Successive Schur-Riesz Analysis for Approximation&lt;/a&gt; — Matthew Francis Dixon&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10799"&gt;A High-Order Galerkin Scheme for the Decoupled Potential Integral Equations&lt;/a&gt; — David Scott Winterrose&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10830"&gt;Locking analysis and high-order locking-free finite element method for three-dimensional electroporoelasticity equations&lt;/a&gt; — Xuan Liu, Yongkui Zou, Yanzhao Cao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.10855"&gt;Adaptive Time-Stepping Euler--Maruyama Scheme for SDEs with Non-Globally Lipschitz Coefficients: Uniform Convergence, Stability and Ergodicity&lt;/a&gt; — Xueqi Wen, Shan Huang, Xiaoyue Li&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11055"&gt;Diffusion Quasi-Monte Carlo&lt;/a&gt; — Jianlong Chen, Yifeng Yu&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-13</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11892"&gt;Fast eight-order Pade schemes based on Chebyshev polynomials for direct Zakharov-Shabat problem&lt;/a&gt; — Sergey Medvedev, Igor Chekhovskoy, Irina Vaseva, Mikhail Fedoruk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11270"&gt;Heavy Ball GMRESR method for Nonsymmetric Linear Systems&lt;/a&gt; — Mei Yang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11353"&gt;Exact characterisation of maximum-angle conditions for spherical finite element meshes&lt;/a&gt; — Hiroki Ishizaka&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11462"&gt;Linear-cost Polyharmonic Spline Interpolation of Arbitrary Degree&lt;/a&gt; — Christopher J. Geoga, Michael O'Neil&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11486"&gt;Stability of Finite-Batch Particle Mean-Field Variational Inference Beyond Strong Convexity&lt;/a&gt; — Vinh Nguyen, Truong Vu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11520"&gt;Contour Hankel dynamics and indicator fields for the Riemann $\Xi$-function&lt;/a&gt; — Zhiliang Deng, Xiaomei Yang, Huazhong L\"u&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11559"&gt;An Interface Green's Function Framework for Complete Discrete $W^{1,\infty}$ Analysis of Discontinuous Galerkin Methods&lt;/a&gt; — Haitao Leng, Weifeng Qiu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11764"&gt;Variational Enrichment of Adaptive Finite Element Spaces Beyond Polynomials&lt;/a&gt; — Matthew Francis Dixon&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11915"&gt;Positive quadrature and mobile sampling of multivariate trigonometric polynomials&lt;/a&gt; — Stefan Kunis&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11936"&gt;A Positivity-Preserving Expectation Scheme for Hamilton--Jacobi--Bellman Equations with Oblique Robin Boundary Conditions&lt;/a&gt; — Haoran Xu, Xingye Yue&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12058"&gt;Numerical methods for the simulation of quantum walks and quantum annealing&lt;/a&gt; — Asa Hopkins, Viv Kendon&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12153"&gt;Halving the size of skew-symmetric eigenvalue problems via the polar decomposition&lt;/a&gt; — Daniel Kressner, Simon Mataigne&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11518"&gt;New Orthogonal Multiwavelet Filters Derived by Matrix Spectral Factorization&lt;/a&gt; — Vasil Kolev, Todor Cooklev, Fritz Keinert&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11848"&gt;A uniform elliptic reduction, an order-matching criterion, and precision benchmarks for the strong-coupling Birman-Schwinger analysis of the lattice three-boson trimer&lt;/a&gt; — Mikhail Dolgopolov&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12044"&gt;Model-Consistent Structured-Hankel Matrix Completion for 3D Sparse Multi-frequency Electromagnetic Source Reconstruction&lt;/a&gt; — Shujaat Khan, Abdul Wahab&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-13.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-13.mp3" length="7425924" type="audio/mpeg"/>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:15:28</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11892"&gt;Fast eight-order Pade schemes based on Chebyshev polynomials for direct Zakharov-Shabat problem&lt;/a&gt; — Sergey Medvedev, Igor Chekhovskoy, Irina Vaseva, Mikhail Fedoruk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11270"&gt;Heavy Ball GMRESR method for Nonsymmetric Linear Systems&lt;/a&gt; — Mei Yang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11353"&gt;Exact characterisation of maximum-angle conditions for spherical finite element meshes&lt;/a&gt; — Hiroki Ishizaka&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11462"&gt;Linear-cost Polyharmonic Spline Interpolation of Arbitrary Degree&lt;/a&gt; — Christopher J. Geoga, Michael O'Neil&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11486"&gt;Stability of Finite-Batch Particle Mean-Field Variational Inference Beyond Strong Convexity&lt;/a&gt; — Vinh Nguyen, Truong Vu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11520"&gt;Contour Hankel dynamics and indicator fields for the Riemann $\Xi$-function&lt;/a&gt; — Zhiliang Deng, Xiaomei Yang, Huazhong L\"u&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11559"&gt;An Interface Green's Function Framework for Complete Discrete $W^{1,\infty}$ Analysis of Discontinuous Galerkin Methods&lt;/a&gt; — Haitao Leng, Weifeng Qiu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11764"&gt;Variational Enrichment of Adaptive Finite Element Spaces Beyond Polynomials&lt;/a&gt; — Matthew Francis Dixon&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11915"&gt;Positive quadrature and mobile sampling of multivariate trigonometric polynomials&lt;/a&gt; — Stefan Kunis&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11936"&gt;A Positivity-Preserving Expectation Scheme for Hamilton--Jacobi--Bellman Equations with Oblique Robin Boundary Conditions&lt;/a&gt; — Haoran Xu, Xingye Yue&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12058"&gt;Numerical methods for the simulation of quantum walks and quantum annealing&lt;/a&gt; — Asa Hopkins, Viv Kendon&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12153"&gt;Halving the size of skew-symmetric eigenvalue problems via the polar decomposition&lt;/a&gt; — Daniel Kressner, Simon Mataigne&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11518"&gt;New Orthogonal Multiwavelet Filters Derived by Matrix Spectral Factorization&lt;/a&gt; — Vasil Kolev, Todor Cooklev, Fritz Keinert&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.11848"&gt;A uniform elliptic reduction, an order-matching criterion, and precision benchmarks for the strong-coupling Birman-Schwinger analysis of the lattice three-boson trimer&lt;/a&gt; — Mikhail Dolgopolov&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12044"&gt;Model-Consistent Structured-Hankel Matrix Completion for 3D Sparse Multi-frequency Electromagnetic Source Reconstruction&lt;/a&gt; — Shujaat Khan, Abdul Wahab&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-14</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12886"&gt;A robust and optimal method for a sixth-order elliptic singular perturbation problem&lt;/a&gt; — Mingqing Chen, Jianguo Huang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12690"&gt;Algebraic constructions of point sequences with quasi-uniform two-dimensional projections&lt;/a&gt; — Takashi Goda&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12479"&gt;Identifying changing partial differential equations using Sampled Local WeakIdent&lt;/a&gt; — Wenbo Hao, Mengyi Tang, Sung Ha Kang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12823"&gt;BTF-PINN: Enforcing Dirichlet Boundary Conditions Without Boundary Training&lt;/a&gt; — Wenyu Dong, Shuo Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12833"&gt;Finite element approximation of the linearized Cahn-Hilliard-Cook equation&lt;/a&gt; — Ali Mesforush, Stig Larsson&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12893"&gt;A Counterexample to Robust Second-Order Convergence of the Strang Projector-Splitting Integrator&lt;/a&gt; — Shiheng Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13132"&gt;Analysis of Error Propagation in Autoencoder-Based Reduced-Order Neural Ordinary Differential Equations&lt;/a&gt; — Jingyi Zhang, Gwanghyun Jo&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13187"&gt;Performance Evaluation of an Adaptive Quadrature and a Double Exponential Formula Using Arbitrary-Precision Floating-Point Arithmetic&lt;/a&gt; — Tomonori Kouya&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13407"&gt;Stochastic resistive Hall--MHD with current fluctuations: martingale weak solutions via a convergent structure-preserving finite element method&lt;/a&gt; — Agus L. Soenjaya&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12937"&gt;Transparent Boundary Conditions for the Heat Equation on Metric Graphs&lt;/a&gt; — Jasur Matrasulov, Jambul Yusupov, Matthias Ehrhardt&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13121"&gt;Adaptive Schauder Stochastic Mirror Descent in Banach Spaces&lt;/a&gt; — Jinhui Bai, Shuai Lu, Lei Shi&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-14.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-14.mp3" length="6272148" type="audio/mpeg"/>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:13:03</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12886"&gt;A robust and optimal method for a sixth-order elliptic singular perturbation problem&lt;/a&gt; — Mingqing Chen, Jianguo Huang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12690"&gt;Algebraic constructions of point sequences with quasi-uniform two-dimensional projections&lt;/a&gt; — Takashi Goda&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12479"&gt;Identifying changing partial differential equations using Sampled Local WeakIdent&lt;/a&gt; — Wenbo Hao, Mengyi Tang, Sung Ha Kang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12823"&gt;BTF-PINN: Enforcing Dirichlet Boundary Conditions Without Boundary Training&lt;/a&gt; — Wenyu Dong, Shuo Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12833"&gt;Finite element approximation of the linearized Cahn-Hilliard-Cook equation&lt;/a&gt; — Ali Mesforush, Stig Larsson&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12893"&gt;A Counterexample to Robust Second-Order Convergence of the Strang Projector-Splitting Integrator&lt;/a&gt; — Shiheng Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13132"&gt;Analysis of Error Propagation in Autoencoder-Based Reduced-Order Neural Ordinary Differential Equations&lt;/a&gt; — Jingyi Zhang, Gwanghyun Jo&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13187"&gt;Performance Evaluation of an Adaptive Quadrature and a Double Exponential Formula Using Arbitrary-Precision Floating-Point Arithmetic&lt;/a&gt; — Tomonori Kouya&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13407"&gt;Stochastic resistive Hall--MHD with current fluctuations: martingale weak solutions via a convergent structure-preserving finite element method&lt;/a&gt; — Agus L. Soenjaya&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.12937"&gt;Transparent Boundary Conditions for the Heat Equation on Metric Graphs&lt;/a&gt; — Jasur Matrasulov, Jambul Yusupov, Matthias Ehrhardt&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13121"&gt;Adaptive Schauder Stochastic Mirror Descent in Banach Spaces&lt;/a&gt; — Jinhui Bai, Shuai Lu, Lei Shi&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-17</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13839"&gt;Vanishing Clutter: Fast and Accurate Shape Imaging via Active Cloaking&lt;/a&gt; — Haoqiang Xiao, Guang-Hui Zheng&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13636"&gt;A new approach to the reaction-diffusion systems modelling&lt;/a&gt; — Maxim Nazarov&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13701"&gt;An adaptive superconvergent mixed finite element method for exactly symmetric linear elasticity based on local residual minimization&lt;/a&gt; — Ernesto C\'aceres, Patrick Vega&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13714"&gt;Approximating matrix functions by block Krylov methods with randomized vectors&lt;/a&gt; — Josh Kane, Lucas Onisk, Lothar Reichel, Giuseppe Rodriguez&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13829"&gt;An Efficient Solver for Finite Element-based Constrained Transport in 3D Magnetohydrodynamics Applied to Magnetic Confinement Fusion&lt;/a&gt; — Golo A. Wimmer, Konstantin Lipnikov, Ben S. Southworth, Xian-Zhu Tang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13875"&gt;PDE Realization and Structure-Aware Solvers for a Compact Two-Stage Fourth-Order IMEX Method&lt;/a&gt; — Zhixin Huo&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13968"&gt;Nonparametric Schr\"odinger Bridge Time Series Generator: Algorithm, Convergence Analysis and Applications&lt;/a&gt; — Daili Sheng, Minghui Song, Hui Sun&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14006"&gt;An $h$-adaptive Tetrahedral Spectral Element Method with Applications to Kohn-Sham Density Functional Theory&lt;/a&gt; — Zeyu Wang, Hongfei Zhan, Guanghui Hu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14087"&gt;Unconditionally stable and energy conserving discretization of the dynamic von K\'arm\'an equations&lt;/a&gt; — Carsten Carstensen, Neela Nataraj, Ricardo Ruiz-Baier, Aamir Yousuf&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14123"&gt;Adaptive multigrid for high-order discontinuous Galerkin methods based on the full approximation scheme&lt;/a&gt; — J\"org Stiller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14162"&gt;TOGEARI: Interaction-Space Preconditioning for Condensed Finite-Element Systems with IPC Contact&lt;/a&gt; — Yanlin Liu (The University of Melbourne), Chao Huang (Shanghai Jiao Tong University), Kaixiang Yao (Southern University of Science, Technology), Yao Shen (Shanghai Jiao Tong University)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14300"&gt;Analysis of a Conforming Finite Element Method for Second-Harmonic Generation Scattering&lt;/a&gt; — Ansh Desai, Peter Monk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14310"&gt;Coupling-Aware Vanka Smoothing for Multigrid Preconditioning of the Implicit Immersed Boundary Equations&lt;/a&gt; — Cole Gruninger, Boyce E. Griffith&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-17.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-17.mp3" length="8973000" type="audio/mpeg"/>
+      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:18:41</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13839"&gt;Vanishing Clutter: Fast and Accurate Shape Imaging via Active Cloaking&lt;/a&gt; — Haoqiang Xiao, Guang-Hui Zheng&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13636"&gt;A new approach to the reaction-diffusion systems modelling&lt;/a&gt; — Maxim Nazarov&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13701"&gt;An adaptive superconvergent mixed finite element method for exactly symmetric linear elasticity based on local residual minimization&lt;/a&gt; — Ernesto C\'aceres, Patrick Vega&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13714"&gt;Approximating matrix functions by block Krylov methods with randomized vectors&lt;/a&gt; — Josh Kane, Lucas Onisk, Lothar Reichel, Giuseppe Rodriguez&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13829"&gt;An Efficient Solver for Finite Element-based Constrained Transport in 3D Magnetohydrodynamics Applied to Magnetic Confinement Fusion&lt;/a&gt; — Golo A. Wimmer, Konstantin Lipnikov, Ben S. Southworth, Xian-Zhu Tang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13875"&gt;PDE Realization and Structure-Aware Solvers for a Compact Two-Stage Fourth-Order IMEX Method&lt;/a&gt; — Zhixin Huo&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.13968"&gt;Nonparametric Schr\"odinger Bridge Time Series Generator: Algorithm, Convergence Analysis and Applications&lt;/a&gt; — Daili Sheng, Minghui Song, Hui Sun&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14006"&gt;An $h$-adaptive Tetrahedral Spectral Element Method with Applications to Kohn-Sham Density Functional Theory&lt;/a&gt; — Zeyu Wang, Hongfei Zhan, Guanghui Hu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14087"&gt;Unconditionally stable and energy conserving discretization of the dynamic von K\'arm\'an equations&lt;/a&gt; — Carsten Carstensen, Neela Nataraj, Ricardo Ruiz-Baier, Aamir Yousuf&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14123"&gt;Adaptive multigrid for high-order discontinuous Galerkin methods based on the full approximation scheme&lt;/a&gt; — J\"org Stiller&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14162"&gt;TOGEARI: Interaction-Space Preconditioning for Condensed Finite-Element Systems with IPC Contact&lt;/a&gt; — Yanlin Liu (The University of Melbourne), Chao Huang (Shanghai Jiao Tong University), Kaixiang Yao (Southern University of Science, Technology), Yao Shen (Shanghai Jiao Tong University)&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14300"&gt;Analysis of a Conforming Finite Element Method for Second-Harmonic Generation Scattering&lt;/a&gt; — Ansh Desai, Peter Monk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14310"&gt;Coupling-Aware Vanka Smoothing for Multigrid Preconditioning of the Implicit Immersed Boundary Equations&lt;/a&gt; — Cole Gruninger, Boyce E. Griffith&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-18</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15894"&gt;Adaptive Sampling Trust Region Optimization for Derivative-free Stochastic Functions and Deterministic Equality Constraints&lt;/a&gt; — Nicole Felice, Sara Shashaani, Lindon Roberts&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15827"&gt;Resource Analysis for Quantum Simulation of Spatially Varying Transport-Reaction Equations&lt;/a&gt; — Benjamin Jasperson, Krishna Garikipati, Siddhartha Srivastava&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.16294"&gt;Hierarchical sparse-grid particle-in-cell method with locally adaptive mesh refinement&lt;/a&gt; — F. Deluzet, C. Guillet, J. Narski, P. Pace&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14809"&gt;Mixture of experts surrogate model for the homogenization of open-porous materials&lt;/a&gt; — Axel Klawonn, Martin Lanser, Lucas Mager, Ameya Rege, Janine Weber-Hamacher&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14840"&gt;Regularity-informed data assimilation: A hierarchical Bayesian approach to ensemble Kalman filtering for hyperbolic conservation laws&lt;/a&gt; — Jan Glaubitz, Daniel Sharp, Mathieu le Provost, Youssef M. Marzouk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14914"&gt;Random blob methods for diffusion&lt;/a&gt; — Katy Craig, Claire Murphy&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15183"&gt;Analysis of Block Jacobi/Gauss-Seidel and additive/multiplicative Schwarz preconditioning through the theory of GLT sequences, with applications to domain decomposition discretizations&lt;/a&gt; — Carlo Garoni, Abdessadek Rifqui, Stefano Serra-Capizzano&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15202"&gt;A $p$-step generalization of the Q-order of convergence&lt;/a&gt; — Gabriel Jarry-Bolduc&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15292"&gt;Space-Time Galerkin Boundary Element Method for the Wave Equation&lt;/a&gt; — Johannes Tausch&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15345"&gt;Efficient Computation of Arbitrary-Order Directional Derivatives in Multiple Directions via Generalized Dual Numbers&lt;/a&gt; — F. Pe\~nu\~nuri, K. B. Cant\'un-Avila, O. Carvente, R. Pe\'on-Escalante&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15563"&gt;Scaled boundary cubature scheme in higher dimensions: integration over polytopes and curved regions&lt;/a&gt; — Eric B. Chin, N. Sukumar&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15625"&gt;Uniform-in-time strong convergence rates of fully discrete approximations for stochastic Cahn--Hilliard equations with multiplicative noise&lt;/a&gt; — Jiaqin He, Nan Deng, Shuhan Zhang, Wanrong Cao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15684"&gt;A Homological Decomposition for the Dimension and Dimensional Stability of Polynomial Spline Spaces over T-Meshes&lt;/a&gt; — Bingru Huang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15716"&gt;Maximal entropy dissipation numerical scheme for conservation law systems&lt;/a&gt; — Marko Nedeljkov&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15826"&gt;Robust Block Preconditioning for 3D nonlinear steady-state radiation transport equations&lt;/a&gt; — Yunpan Ma, Lingxiao Li, Changhui Yao&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-18.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-18.mp3" length="8162159" type="audio/mpeg"/>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:17:00</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15894"&gt;Adaptive Sampling Trust Region Optimization for Derivative-free Stochastic Functions and Deterministic Equality Constraints&lt;/a&gt; — Nicole Felice, Sara Shashaani, Lindon Roberts&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15827"&gt;Resource Analysis for Quantum Simulation of Spatially Varying Transport-Reaction Equations&lt;/a&gt; — Benjamin Jasperson, Krishna Garikipati, Siddhartha Srivastava&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.16294"&gt;Hierarchical sparse-grid particle-in-cell method with locally adaptive mesh refinement&lt;/a&gt; — F. Deluzet, C. Guillet, J. Narski, P. Pace&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14809"&gt;Mixture of experts surrogate model for the homogenization of open-porous materials&lt;/a&gt; — Axel Klawonn, Martin Lanser, Lucas Mager, Ameya Rege, Janine Weber-Hamacher&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14840"&gt;Regularity-informed data assimilation: A hierarchical Bayesian approach to ensemble Kalman filtering for hyperbolic conservation laws&lt;/a&gt; — Jan Glaubitz, Daniel Sharp, Mathieu le Provost, Youssef M. Marzouk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.14914"&gt;Random blob methods for diffusion&lt;/a&gt; — Katy Craig, Claire Murphy&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15183"&gt;Analysis of Block Jacobi/Gauss-Seidel and additive/multiplicative Schwarz preconditioning through the theory of GLT sequences, with applications to domain decomposition discretizations&lt;/a&gt; — Carlo Garoni, Abdessadek Rifqui, Stefano Serra-Capizzano&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15202"&gt;A $p$-step generalization of the Q-order of convergence&lt;/a&gt; — Gabriel Jarry-Bolduc&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15292"&gt;Space-Time Galerkin Boundary Element Method for the Wave Equation&lt;/a&gt; — Johannes Tausch&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15345"&gt;Efficient Computation of Arbitrary-Order Directional Derivatives in Multiple Directions via Generalized Dual Numbers&lt;/a&gt; — F. Pe\~nu\~nuri, K. B. Cant\'un-Avila, O. Carvente, R. Pe\'on-Escalante&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15563"&gt;Scaled boundary cubature scheme in higher dimensions: integration over polytopes and curved regions&lt;/a&gt; — Eric B. Chin, N. Sukumar&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15625"&gt;Uniform-in-time strong convergence rates of fully discrete approximations for stochastic Cahn--Hilliard equations with multiplicative noise&lt;/a&gt; — Jiaqin He, Nan Deng, Shuhan Zhang, Wanrong Cao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15684"&gt;A Homological Decomposition for the Dimension and Dimensional Stability of Polynomial Spline Spaces over T-Meshes&lt;/a&gt; — Bingru Huang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15716"&gt;Maximal entropy dissipation numerical scheme for conservation law systems&lt;/a&gt; — Marko Nedeljkov&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.15826"&gt;Robust Block Preconditioning for 3D nonlinear steady-state radiation transport equations&lt;/a&gt; — Yunpan Ma, Lingxiao Li, Changhui Yao&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-19</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17198"&gt;A Projected Semiexplicit Integrator for Dissipative Systems with Configuration-Dependent Kinetic Energy: Contact-Herglotz Formulation and Benchmarks&lt;/a&gt; — Lorena Loera-Galeana, Santiago Mej\'ia, Espartaco Alvarado, H\'ector Medel-Cobaxin&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.16967"&gt;Meshfree Snow Modelling using a Modified Cam-Clay Approach&lt;/a&gt; — Erik Schlesinger, Chaitanya Sanghavi, J\"org Kuhnert, Carsten Schilde, Pratik Suchde&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17024"&gt;Recovery of Integer Signals from Limited DFT Samples: Lattice Methods and Stability Analysis&lt;/a&gt; — Howard Levinson, Isaac Viviano&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17035"&gt;Improved Arrow-Hurwicz method for Stationary Inductionless Magnetohydrodynamics System&lt;/a&gt; — Duygu Uludag, Fatma G. Eroglu, Aziz Takhirov, Songul Kaya&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17123"&gt;Wavelet-based multilevel framework for $\ell_1$-regularized image deblurring&lt;/a&gt; — Danyh Tolah, Malena I. Espa\~nol, Misha E. Kilmer&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17157"&gt;Robust Projector-Splitting Runge-Kutta Integrators of Orders Two and Three&lt;/a&gt; — Shiheng Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17441"&gt;Improved Convergence of Multilevel Moving Least-Squares Approximation&lt;/a&gt; — Robert Durst, Holger Wendland&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17533"&gt;Regularization of Statistical Inverse Problems on Non-Reflexive Banach Spaces&lt;/a&gt; — Darrel K Joseph, M P Rajan&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17537"&gt;Energy dissipation and stability of a finite-volume scheme for two-phase flow models with dynamic capillary pressure&lt;/a&gt; — Ansgar J\"ungel, Josipa-Pina Mili\v{s}i\'c, Sara Xhahysa&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17575"&gt;Mixed Finite Element Methods for a Dirac Source: Divergence-Form Splitting and L^p Error Analysis&lt;/a&gt; — Yueyao Wu, Shun Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17615"&gt;Fast high-order solvers for the Lippmann--Schwinger equation in piecewise-smooth heterogeneous media&lt;/a&gt; — Thomas G. Anderson, Juan Burbano-Gallegos, Luiz M. Faria, Carlos P\'erez-Arancibia&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17621"&gt;Joint Near-Field Holotomography Reconstruction with a Phase-Guided Bregman TV Regularization&lt;/a&gt; — Jin Liu, Johannes Hagemann, Martin Burger&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17664"&gt;On Robust Alpha-Damping Viscous Scheme&lt;/a&gt; — Hiroaki Nishikawa&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17845"&gt;Duality-Based $\textit{A Posteriori}$ Error Identities for Subgradient Flows Based on the Br\'ezis-Ekeland-Nayroles Principle&lt;/a&gt; — Harbir Antil, Alex Kaltenbach, Keegan L. A. Kirk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17860"&gt;Efficient computation of eddy-currents for nonlinear magnetic field problems&lt;/a&gt; — Herbert Egger, Nepomuk Krenn, Andreas Schafelner&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-19.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-19.mp3" length="7835524" type="audio/mpeg"/>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:16:19</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17198"&gt;A Projected Semiexplicit Integrator for Dissipative Systems with Configuration-Dependent Kinetic Energy: Contact-Herglotz Formulation and Benchmarks&lt;/a&gt; — Lorena Loera-Galeana, Santiago Mej\'ia, Espartaco Alvarado, H\'ector Medel-Cobaxin&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.16967"&gt;Meshfree Snow Modelling using a Modified Cam-Clay Approach&lt;/a&gt; — Erik Schlesinger, Chaitanya Sanghavi, J\"org Kuhnert, Carsten Schilde, Pratik Suchde&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17024"&gt;Recovery of Integer Signals from Limited DFT Samples: Lattice Methods and Stability Analysis&lt;/a&gt; — Howard Levinson, Isaac Viviano&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17035"&gt;Improved Arrow-Hurwicz method for Stationary Inductionless Magnetohydrodynamics System&lt;/a&gt; — Duygu Uludag, Fatma G. Eroglu, Aziz Takhirov, Songul Kaya&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17123"&gt;Wavelet-based multilevel framework for $\ell_1$-regularized image deblurring&lt;/a&gt; — Danyh Tolah, Malena I. Espa\~nol, Misha E. Kilmer&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17157"&gt;Robust Projector-Splitting Runge-Kutta Integrators of Orders Two and Three&lt;/a&gt; — Shiheng Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17441"&gt;Improved Convergence of Multilevel Moving Least-Squares Approximation&lt;/a&gt; — Robert Durst, Holger Wendland&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17533"&gt;Regularization of Statistical Inverse Problems on Non-Reflexive Banach Spaces&lt;/a&gt; — Darrel K Joseph, M P Rajan&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17537"&gt;Energy dissipation and stability of a finite-volume scheme for two-phase flow models with dynamic capillary pressure&lt;/a&gt; — Ansgar J\"ungel, Josipa-Pina Mili\v{s}i\'c, Sara Xhahysa&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17575"&gt;Mixed Finite Element Methods for a Dirac Source: Divergence-Form Splitting and L^p Error Analysis&lt;/a&gt; — Yueyao Wu, Shun Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17615"&gt;Fast high-order solvers for the Lippmann--Schwinger equation in piecewise-smooth heterogeneous media&lt;/a&gt; — Thomas G. Anderson, Juan Burbano-Gallegos, Luiz M. Faria, Carlos P\'erez-Arancibia&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17621"&gt;Joint Near-Field Holotomography Reconstruction with a Phase-Guided Bregman TV Regularization&lt;/a&gt; — Jin Liu, Johannes Hagemann, Martin Burger&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17664"&gt;On Robust Alpha-Damping Viscous Scheme&lt;/a&gt; — Hiroaki Nishikawa&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17845"&gt;Duality-Based $\textit{A Posteriori}$ Error Identities for Subgradient Flows Based on the Br\'ezis-Ekeland-Nayroles Principle&lt;/a&gt; — Harbir Antil, Alex Kaltenbach, Keegan L. A. Kirk&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.17860"&gt;Efficient computation of eddy-currents for nonlinear magnetic field problems&lt;/a&gt; — Herbert Egger, Nepomuk Krenn, Andreas Schafelner&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-20</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18549"&gt;Symmetry of Solutions and Domain-Reduction Finite Element Method for Second-Order Linear Elliptic Dirichlet Boundary Value Problems on Bounded Domains&lt;/a&gt; — Xianlong Pan, Wei Jiang&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18262"&gt;Inverse Born series based neural operators&lt;/a&gt; — John C Schotland, Aseel Titi, Jenn-Nan Wang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18365"&gt;Posterior Convergence without Force Convergence: Resolution-Stable Sampling for Rough Bayesian Inverse Problems&lt;/a&gt; — Zhiliang Deng, Xiaomei Yang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18377"&gt;Fully discrete parameter-robust error analysis of a grad-div stabilized Crank-Nicolson artificial compressibility method for the Navier-Stokes equations&lt;/a&gt; — Feiyu Chen, Lili Ju, Rihui Lan, Shusen Xie&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18380"&gt;Direction-Adaptive Plane-Wave Discontinuous Galerkin Methods for the Helmholtz Equation&lt;/a&gt; — Shelvean Kapita&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18487"&gt;An Efficient Second-Order-in-Time Penalty-Projection Ensemble Eddy Viscosity Method for Parameterized Navier-Stokes Flows&lt;/a&gt; — Md Mahmudul Islam, Muhammad Mohebujjaman, Jahrul Alam&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18520"&gt;Sharp Sobolev Approximation on General Domains by Linearized Shallow Networks with Analytic Activations&lt;/a&gt; — Jia Li, Tong Mao, Jinchao Xu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18766"&gt;A shifted energy barrier approach for phase-field modeling of tensile-dominated brittle fracture&lt;/a&gt; — Yaode Yina, Luigi Greco, Hongjun Yua, Simone Morganti&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18809"&gt;Some uniform error analysis for gKdV equations in dispersionless limit regime before dispersive shock&lt;/a&gt; — Bing Li, Tingfeng Wang, Xiaofei Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19157"&gt;An Exact-Moment Local Legendre Frame Method with Block Convolution for Caputo Fractional Differentiation&lt;/a&gt; — Zhenyu Zhao, Benxue Gong, Tinggang Zhao, Xianzheng Jia&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19189"&gt;Entry growth in Gaussian elimination&lt;/a&gt; — Rikhav Shah, John Urschel&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19193"&gt;A Localized Fourier Extension Method for Piecewise-Smooth Inverse Source Reconstruction&lt;/a&gt; — Zhihong Dou, Zhenyu Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18429"&gt;Multi-Objective Optimization Under Uncertainty of Part Quality in Fused Filament Fabrication&lt;/a&gt; — Berkcan Kapusuzoglu, Paromita Nath, Matthew Sato, Sankaran Mahadevan, Paul Witherell&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-20.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-20.mp3" length="9313010" type="audio/mpeg"/>
+      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:19:24</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18549"&gt;Symmetry of Solutions and Domain-Reduction Finite Element Method for Second-Order Linear Elliptic Dirichlet Boundary Value Problems on Bounded Domains&lt;/a&gt; — Xianlong Pan, Wei Jiang&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18262"&gt;Inverse Born series based neural operators&lt;/a&gt; — John C Schotland, Aseel Titi, Jenn-Nan Wang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18365"&gt;Posterior Convergence without Force Convergence: Resolution-Stable Sampling for Rough Bayesian Inverse Problems&lt;/a&gt; — Zhiliang Deng, Xiaomei Yang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18377"&gt;Fully discrete parameter-robust error analysis of a grad-div stabilized Crank-Nicolson artificial compressibility method for the Navier-Stokes equations&lt;/a&gt; — Feiyu Chen, Lili Ju, Rihui Lan, Shusen Xie&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18380"&gt;Direction-Adaptive Plane-Wave Discontinuous Galerkin Methods for the Helmholtz Equation&lt;/a&gt; — Shelvean Kapita&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18487"&gt;An Efficient Second-Order-in-Time Penalty-Projection Ensemble Eddy Viscosity Method for Parameterized Navier-Stokes Flows&lt;/a&gt; — Md Mahmudul Islam, Muhammad Mohebujjaman, Jahrul Alam&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18520"&gt;Sharp Sobolev Approximation on General Domains by Linearized Shallow Networks with Analytic Activations&lt;/a&gt; — Jia Li, Tong Mao, Jinchao Xu&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18766"&gt;A shifted energy barrier approach for phase-field modeling of tensile-dominated brittle fracture&lt;/a&gt; — Yaode Yina, Luigi Greco, Hongjun Yua, Simone Morganti&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18809"&gt;Some uniform error analysis for gKdV equations in dispersionless limit regime before dispersive shock&lt;/a&gt; — Bing Li, Tingfeng Wang, Xiaofei Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19157"&gt;An Exact-Moment Local Legendre Frame Method with Block Convolution for Caputo Fractional Differentiation&lt;/a&gt; — Zhenyu Zhao, Benxue Gong, Tinggang Zhao, Xianzheng Jia&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19189"&gt;Entry growth in Gaussian elimination&lt;/a&gt; — Rikhav Shah, John Urschel&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19193"&gt;A Localized Fourier Extension Method for Piecewise-Smooth Inverse Source Reconstruction&lt;/a&gt; — Zhihong Dou, Zhenyu Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.18429"&gt;Multi-Objective Optimization Under Uncertainty of Part Quality in Fused Filament Fabrication&lt;/a&gt; — Berkcan Kapusuzoglu, Paromita Nath, Matthew Sato, Sankaran Mahadevan, Paul Witherell&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+    <item>
+      <title>arXiv Numerical Analysis Daily (Beta) — 2026-08-21</title>
+      <description>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19840"&gt;Applying the Spectral Method for Modeling Linear Filters: Bessel, Papoulis, and Legendre Filters&lt;/a&gt; — Konstantin A. Rybakov&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19250"&gt;A fully discrete LBRFD-IPDG method for linear fourth-order parabolic equations&lt;/a&gt; — Hongying Huang, Hong Zhang, Yanming Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19368"&gt;A High-Order Rank-Adaptive Implicit Algorithm for Solving High Dimensional Diffusion Equations using the Hierarchical Tucker Decomposition&lt;/a&gt; — Paolo Bosques-Paulet&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19384"&gt;A high-order, meshless, Lagrangian--Eulerian RBF-FD method for advection--diffusion--reaction on moving manifolds&lt;/a&gt; — Matthew Lowery, Grady B. Wright, Varun Shankar&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19426"&gt;Implicit-adjoint finite-volume topology optimization of two-dimensional conjugate heat transfer&lt;/a&gt; — Sam Yang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19513"&gt;The Normal Procrustes Problem: A Riemannian Optimization Approach&lt;/a&gt; — Kyle Bierly&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19603"&gt;An adaptive and conservative low-rank IMEX solver for the hybrid ion Vlasov-Fokker-Planck and fluid electron system&lt;/a&gt; — Joseph Nakao, Dylan T. Jacobs, William Taitano&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19615"&gt;Evo-GTransNet for Parabolic PDEs: A Fixed-Feature Galerkin Method of Lines with Quadrature-Mass Orthonormalization&lt;/a&gt; — Lili Ju, Jin Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19688"&gt;Learning Deterministic and Stochastic Forced Hamiltonian Systems&lt;/a&gt; — Benedikt Brantner, Tomasz Tyranowski&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19702"&gt;Exact hierarchical algorithms for accelerating particle--mesh coupling in sparse-grid particle-in-cell methods&lt;/a&gt; — Cl\'ement Guillet&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19797"&gt;Optimal Sobolev Approximation by Deterministic and Random Shallow Sigmoidal Networks&lt;/a&gt; — Zhaohui Fu, Yangshuai Wang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19839"&gt;Sharp Dimension Bounds for Spline Spaces over T-meshes with Highest Order of Smoothness&lt;/a&gt; — Bingru Huang, Falai Chen&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.20034"&gt;A Comprehensive p-VEM Framework for Advanced Variable Stiffness Plates with Arbitrary Shapes&lt;/a&gt; — Paola Pia Foligno, Daniele Boffi, Fabio Credali, Riccardo Vescovini&lt;/li&gt;
+&lt;/ul&gt;</description>
+      <guid isPermaLink="true">https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-21.mp3</guid>
+      <enclosure url="https://tranner.github.io/arxiv-mathna-podcast/episodes/2026-08-21.mp3" length="5873206" type="audio/mpeg"/>
+      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+      <itunes:duration>00:12:14</itunes:duration>
+      <itunes:summary>&lt;p&gt;&lt;strong&gt;Deep dive:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19840"&gt;Applying the Spectral Method for Modeling Linear Filters: Bessel, Papoulis, and Legendre Filters&lt;/a&gt; — Konstantin A. Rybakov&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Also covered today:&lt;/strong&gt;&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19250"&gt;A fully discrete LBRFD-IPDG method for linear fourth-order parabolic equations&lt;/a&gt; — Hongying Huang, Hong Zhang, Yanming Zhang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19368"&gt;A High-Order Rank-Adaptive Implicit Algorithm for Solving High Dimensional Diffusion Equations using the Hierarchical Tucker Decomposition&lt;/a&gt; — Paolo Bosques-Paulet&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19384"&gt;A high-order, meshless, Lagrangian--Eulerian RBF-FD method for advection--diffusion--reaction on moving manifolds&lt;/a&gt; — Matthew Lowery, Grady B. Wright, Varun Shankar&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19426"&gt;Implicit-adjoint finite-volume topology optimization of two-dimensional conjugate heat transfer&lt;/a&gt; — Sam Yang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19513"&gt;The Normal Procrustes Problem: A Riemannian Optimization Approach&lt;/a&gt; — Kyle Bierly&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19603"&gt;An adaptive and conservative low-rank IMEX solver for the hybrid ion Vlasov-Fokker-Planck and fluid electron system&lt;/a&gt; — Joseph Nakao, Dylan T. Jacobs, William Taitano&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19615"&gt;Evo-GTransNet for Parabolic PDEs: A Fixed-Feature Galerkin Method of Lines with Quadrature-Mass Orthonormalization&lt;/a&gt; — Lili Ju, Jin Zhao&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19688"&gt;Learning Deterministic and Stochastic Forced Hamiltonian Systems&lt;/a&gt; — Benedikt Brantner, Tomasz Tyranowski&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19702"&gt;Exact hierarchical algorithms for accelerating particle--mesh coupling in sparse-grid particle-in-cell methods&lt;/a&gt; — Cl\'ement Guillet&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19797"&gt;Optimal Sobolev Approximation by Deterministic and Random Shallow Sigmoidal Networks&lt;/a&gt; — Zhaohui Fu, Yangshuai Wang&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.19839"&gt;Sharp Dimension Bounds for Spline Spaces over T-meshes with Highest Order of Smoothness&lt;/a&gt; — Bingru Huang, Falai Chen&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://arxiv.org/abs/2608.20034"&gt;A Comprehensive p-VEM Framework for Advanced Variable Stiffness Plates with Arbitrary Shapes&lt;/a&gt; — Paola Pia Foligno, Daniele Boffi, Fabio Credali, Riccardo Vescovini&lt;/li&gt;
+&lt;/ul&gt;</itunes:summary>
+    </item>
+  </channel>
+</rss>
