@@ -183,8 +183,10 @@ redoing, or you're setting up your own fork):
    folder** - not `main`.
 4. **[Spotify for Podcasters](https://podcasters.spotify.com/)** → *Add your
    podcast* → *I have a podcast already* → the RSS URL above. Spotify emailed
-   a verification code to `T.Ranner@leeds.ac.uk` (`PODCAST_EMAIL`/
-   `itunes:owner`) to confirm ownership.
+   a verification code to `T.Ranner@leeds.ac.uk` (`PODCAST_EMAIL`, paired with
+   `PODCAST_OWNER_NAME` in the feed's `itunes:owner` tag - backend-only
+   metadata, not shown to listeners) to confirm ownership. The public byline
+   listeners see is the separate `PODCAST_AUTHOR` (`itunes:author`).
 
 ## Automating the daily run
 

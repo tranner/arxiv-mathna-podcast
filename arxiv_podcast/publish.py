@@ -151,7 +151,7 @@ def build_feed() -> Path:
     fg.podcast.itunes_explicit("no")
     fg.podcast.itunes_image(config.PODCAST_IMAGE_URL)
     if config.PODCAST_EMAIL:
-        fg.podcast.itunes_owner(name=config.PODCAST_AUTHOR, email=config.PODCAST_EMAIL)
+        fg.podcast.itunes_owner(name=config.PODCAST_OWNER_NAME, email=config.PODCAST_EMAIL)
 
     for meta in episodes:
         mp3_path: Path = meta["_mp3_path"]

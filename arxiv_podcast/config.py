@@ -119,7 +119,13 @@ PODCAST_DESCRIPTION = os.environ.get(
     "University. Thank you to arXiv for use of its open access "
     "interoperability.",
 )
-PODCAST_AUTHOR = os.environ.get("PODCAST_AUTHOR", "Tom Ranner")
+# Public byline shown by podcast apps (itunes:author) - deliberately not a
+# personal name. Kept separate from PODCAST_OWNER_NAME below, which is
+# backend-only metadata tied to platform verification.
+PODCAST_AUTHOR = os.environ.get("PODCAST_AUTHOR", "Stable Numerics")
+# itunes:owner name - not displayed to listeners by podcast apps, just used
+# alongside PODCAST_EMAIL for platform account verification (e.g. Spotify).
+PODCAST_OWNER_NAME = os.environ.get("PODCAST_OWNER_NAME", "Tom Ranner")
 # Spotify emails a verification code here during RSS submission.
 PODCAST_EMAIL = os.environ.get("PODCAST_EMAIL", "T.Ranner@leeds.ac.uk")
 PODCAST_LANGUAGE = os.environ.get("PODCAST_LANGUAGE", "en-us")
