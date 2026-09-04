@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-01",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-01",
+  "duration_seconds": 764.507,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.29799v1",
+      "title": "Optimal error estimates of sequential finite element method for nonlinear thermo-poroelasticity problems",
+      "authors": [
+        "Fang Wang",
+        "Fan Chen",
+        "Changqing Lv",
+        "Chenguang Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2608.29799"
+    },
+    {
+      "arxiv_id": "2608.29082v1",
+      "title": "A Learnable Multigrid Framework via Graph Convolutions",
+      "authors": [
+        "Xiuping Wang",
+        "Li Luo"
+      ],
+      "link": "https://arxiv.org/abs/2608.29082"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.28634v1",
+      "title": "Convergence and acceleration of a nonlinear fixed-point iteration for computing the Fitness Centrality of general graphs",
+      "authors": [
+        "Nikita Deniskin",
+        "Michele Benzi"
+      ],
+      "link": "https://arxiv.org/abs/2608.28634"
+    },
+    {
+      "arxiv_id": "2608.28683v1",
+      "title": "A Framework Integrating the Dynamic Stiffness Matrix with Physics-Informed Neural Networks for Solving Eigenvalue Problems and Analysing Dynamic Response",
+      "authors": [
+        "Yi An",
+        "Zhijiang Chen",
+        "Zhiqiang Feng",
+        "Qian Cheng",
+        "Jack C. P. Cheng",
+        "Haijiang Li",
+        "Dalei Wang"
+      ],
+      "link": "https://arxiv.org/abs/2608.28683"
+    },
+    {
+      "arxiv_id": "2608.28727v1",
+      "title": "Overcoming the spatial order barrier for nonlinear SPDEs with additive space-time white noise",
+      "authors": [
+        "Lukas Anzeletti",
+        "M\\'at\\'e Gerencs\\'er",
+        "Helena Kremp"
+      ],
+      "link": "https://arxiv.org/abs/2608.28727"
+    },
+    {
+      "arxiv_id": "2608.28799v1",
+      "title": "Separable Nonnegative Matrix Factorization Using Powered Ratio-of-Norms Regularization",
+      "authors": [
+        "Matthew McCarver",
+        "Jing Qin"
+      ],
+      "link": "https://arxiv.org/abs/2608.28799"
+    },
+    {
+      "arxiv_id": "2608.28876v1",
+      "title": "High-Order-Accurate Continuity Enforcing Nystr\\\"om Discretization of 3D Maxwell Combined Field Integral Equations",
+      "authors": [
+        "Bernd Hofmann",
+        "Reza Molavi",
+        "Constantine Sideris"
+      ],
+      "link": "https://arxiv.org/abs/2608.28876"
+    },
+    {
+      "arxiv_id": "2608.28883v1",
+      "title": "A General Superconvergence Result for Cubature on Triangulated Polygonal Domains",
+      "authors": [
+        "Jonah A. Reeger"
+      ],
+      "link": "https://arxiv.org/abs/2608.28883"
+    },
+    {
+      "arxiv_id": "2608.28941v1",
+      "title": "A GPU-Accelerated Blocked Adaptive Randomized Range Finder Based on an Implicit Householder QR Decomposition",
+      "authors": [
+        "Carolin Penke",
+        "Andreas Herten"
+      ],
+      "link": "https://arxiv.org/abs/2608.28941"
+    },
+    {
+      "arxiv_id": "2608.28952v1",
+      "title": "Minimizing the Arithmetic and Communication Complexity of Jacobi's Method for Eigenvalues and Singular Values: Part Two -- Parallel Algorithms",
+      "authors": [
+        "James Demmel",
+        "Hengrui Luo",
+        "Ryan Schneider",
+        "Yifu Wang"
+      ],
+      "link": "https://arxiv.org/abs/2608.28952"
+    },
+    {
+      "arxiv_id": "2608.29009v1",
+      "title": "A Sharp Unitarily Invariant Norm Bound for the Off-Diagonal Block Perturbation of a Hermitian Matrix",
+      "authors": [
+        "Lei-Hong Zhang",
+        "Ren-Cang Li"
+      ],
+      "link": "https://arxiv.org/abs/2608.29009"
+    },
+    {
+      "arxiv_id": "2608.29014v1",
+      "title": "Gappy probabilistic manifold decomposition for nonlinear field reconstruction",
+      "authors": [
+        "Qihan Feng",
+        "Jiaming Guo",
+        "Jiarun Meng",
+        "Dunhui Xiao"
+      ],
+      "link": "https://arxiv.org/abs/2608.29014"
+    },
+    {
+      "arxiv_id": "2608.29105v1",
+      "title": "Convergence analysis of Parametric Probabilistic Manifold Decomposition",
+      "authors": [
+        "Jiaming Guo",
+        "Dunhui Xiao"
+      ],
+      "link": "https://arxiv.org/abs/2608.29105"
+    },
+    {
+      "arxiv_id": "2608.29131v1",
+      "title": "D-RADI: A Low-rank ADI Algorithm for Solving Large-scale Discrete-time Algebraic Riccati Equations",
+      "authors": [
+        "Umair Zulfiqar"
+      ],
+      "link": "https://arxiv.org/abs/2608.29131"
+    }
+  ]
+}

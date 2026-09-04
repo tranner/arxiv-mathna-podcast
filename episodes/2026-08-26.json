@@ -1,0 +1,160 @@
+{
+  "date": "2026-08-26",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-26",
+  "duration_seconds": 834.537,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.23919v1",
+      "title": "New Efficient Implicit-Explicit Deferred Correction methods",
+      "authors": [
+        "Lorenzo Micalizzi",
+        "Davide Torlo"
+      ],
+      "link": "https://arxiv.org/abs/2608.23919"
+    },
+    {
+      "arxiv_id": "2608.24313v1",
+      "title": "A High-Accuracy Numerical Homogenization Framework for Quasiperiodic Hamilton--Jacobi Equations",
+      "authors": [
+        "Kai Jiang",
+        "Meng Li",
+        "Juan Zhang",
+        "Lei Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.24313"
+    },
+    {
+      "arxiv_id": "2608.24197v1",
+      "title": "Stability, Convergence, and Error Analysis of Finite Element Methods for 3D Magnetohydrodynamics with $p$-Laplacian Viscosity",
+      "authors": [
+        "Kim Ngan Le",
+        "Akash Ashirbad Panda",
+        "Evana Islam Sarkar"
+      ],
+      "link": "https://arxiv.org/abs/2608.24197"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.23595v1",
+      "title": "Tensor-Train Methods for 3D Linear Elasticity: Block and Global Operator Representations with Solver Performance Analysis",
+      "authors": [
+        "Quoc Thai Tran",
+        "Duc P. Truong",
+        "William Dai",
+        "Kim {\\O}. Rasmussen"
+      ],
+      "link": "https://arxiv.org/abs/2608.23595"
+    },
+    {
+      "arxiv_id": "2608.23603v1",
+      "title": "Algorithmic Cost in \"Exact Real Computation\"",
+      "authors": [
+        "Jihoon Hyun",
+        "Holger Thies",
+        "Martin Ziegler"
+      ],
+      "link": "https://arxiv.org/abs/2608.23603"
+    },
+    {
+      "arxiv_id": "2608.23718v1",
+      "title": "The least squares RBF-PU method for linear elasticity in the diaphragm geometry",
+      "authors": [
+        "Andreas Michael",
+        "Elisabeth Larsson",
+        "Pierre-Fr\\'ed\\'eric Villard",
+        "Davoud Mirzaei"
+      ],
+      "link": "https://arxiv.org/abs/2608.23718"
+    },
+    {
+      "arxiv_id": "2608.23786v1",
+      "title": "Computing statistical Euler limits of the Navier--Stokes equations in three dimensions",
+      "authors": [
+        "Johannes L. Grafen",
+        "Tobias Rohner",
+        "Stephan Simonis"
+      ],
+      "link": "https://arxiv.org/abs/2608.23786"
+    },
+    {
+      "arxiv_id": "2608.23822v1",
+      "title": "The PWDG-UWVF Equivalence Revisited",
+      "authors": [
+        "Shelvean Kapita"
+      ],
+      "link": "https://arxiv.org/abs/2608.23822"
+    },
+    {
+      "arxiv_id": "2608.23829v1",
+      "title": "A Vector-Valued Co-Chain/Chain Complex Associated to the Elasticity Complex",
+      "authors": [
+        "Jennifer Amador Pe\\~na",
+        "Sara de \\'Angel",
+        "Fernanda Porras"
+      ],
+      "link": "https://arxiv.org/abs/2608.23829"
+    },
+    {
+      "arxiv_id": "2608.23980v1",
+      "title": "Structure-preserving generalized transferable neural networks for the Cahn-Hilliard equation",
+      "authors": [
+        "Cao-Kha Doan",
+        "Thi-Thao-Phuong Hoang",
+        "Lili Ju",
+        "Shuting Wang"
+      ],
+      "link": "https://arxiv.org/abs/2608.23980"
+    },
+    {
+      "arxiv_id": "2608.24055v1",
+      "title": "Quadrilateral and Hexahedral Immersed Finite Element Methods for Elliptic Interface Problems",
+      "authors": [
+        "Fangfang Qin",
+        "Haifeng Ji"
+      ],
+      "link": "https://arxiv.org/abs/2608.24055"
+    },
+    {
+      "arxiv_id": "2608.24090v1",
+      "title": "Derivative-Free Recovery of a Nonlinearity in a Free-Boundary DCIS Model",
+      "authors": [
+        "De-Han Chen",
+        "Hongyu Liu",
+        "Keji Liu"
+      ],
+      "link": "https://arxiv.org/abs/2608.24090"
+    },
+    {
+      "arxiv_id": "2608.24120v1",
+      "title": "Strang's Conjecture: Positive Result on Strong Collapsible Complexes and a Code to Check the Conjecture",
+      "authors": [
+        "Aranzazu Romero",
+        "Renaldi-Bradley Bodombo"
+      ],
+      "link": "https://arxiv.org/abs/2608.24120"
+    },
+    {
+      "arxiv_id": "2608.24151v1",
+      "title": "Condition numbers of block Toeplitz matrices and stability of space-time IgA approximations for the wave and Schr\\\"odinger equations",
+      "authors": [
+        "Manuel Bogoya",
+        "Albrecht B\\\"ottcher",
+        "Matteo Ferrari",
+        "Sergei M Grudsky",
+        "Stefano Serra-Capizzano"
+      ],
+      "link": "https://arxiv.org/abs/2608.24151"
+    },
+    {
+      "arxiv_id": "2608.24203v1",
+      "title": "Eigenvalue bounds for preconditioned symmetric multiple saddle-point matrices with block-triangular preconditioners",
+      "authors": [
+        "Luca Bergamaschi",
+        "Michele Bergamaschi",
+        "John W. Pearson"
+      ],
+      "link": "https://arxiv.org/abs/2608.24203"
+    }
+  ]
+}
