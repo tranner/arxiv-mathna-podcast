@@ -1,0 +1,155 @@
+{
+  "date": "2026-08-18",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-18",
+  "duration_seconds": 1020.183,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.15894v1",
+      "title": "Adaptive Sampling Trust Region Optimization for Derivative-free Stochastic Functions and Deterministic Equality Constraints",
+      "authors": [
+        "Nicole Felice",
+        "Sara Shashaani",
+        "Lindon Roberts"
+      ],
+      "link": "https://arxiv.org/abs/2608.15894"
+    },
+    {
+      "arxiv_id": "2608.15827v1",
+      "title": "Resource Analysis for Quantum Simulation of Spatially Varying Transport-Reaction Equations",
+      "authors": [
+        "Benjamin Jasperson",
+        "Krishna Garikipati",
+        "Siddhartha Srivastava"
+      ],
+      "link": "https://arxiv.org/abs/2608.15827"
+    },
+    {
+      "arxiv_id": "2608.16294v1",
+      "title": "Hierarchical sparse-grid particle-in-cell method with locally adaptive mesh refinement",
+      "authors": [
+        "F. Deluzet",
+        "C. Guillet",
+        "J. Narski",
+        "P. Pace"
+      ],
+      "link": "https://arxiv.org/abs/2608.16294"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.14809v1",
+      "title": "Mixture of experts surrogate model for the homogenization of open-porous materials",
+      "authors": [
+        "Axel Klawonn",
+        "Martin Lanser",
+        "Lucas Mager",
+        "Ameya Rege",
+        "Janine Weber-Hamacher"
+      ],
+      "link": "https://arxiv.org/abs/2608.14809"
+    },
+    {
+      "arxiv_id": "2608.14840v1",
+      "title": "Regularity-informed data assimilation: A hierarchical Bayesian approach to ensemble Kalman filtering for hyperbolic conservation laws",
+      "authors": [
+        "Jan Glaubitz",
+        "Daniel Sharp",
+        "Mathieu le Provost",
+        "Youssef M. Marzouk"
+      ],
+      "link": "https://arxiv.org/abs/2608.14840"
+    },
+    {
+      "arxiv_id": "2608.14914v1",
+      "title": "Random blob methods for diffusion",
+      "authors": [
+        "Katy Craig",
+        "Claire Murphy"
+      ],
+      "link": "https://arxiv.org/abs/2608.14914"
+    },
+    {
+      "arxiv_id": "2608.15183v1",
+      "title": "Analysis of Block Jacobi/Gauss-Seidel and additive/multiplicative Schwarz preconditioning through the theory of GLT sequences, with applications to domain decomposition discretizations",
+      "authors": [
+        "Carlo Garoni",
+        "Abdessadek Rifqui",
+        "Stefano Serra-Capizzano"
+      ],
+      "link": "https://arxiv.org/abs/2608.15183"
+    },
+    {
+      "arxiv_id": "2608.15202v1",
+      "title": "A $p$-step generalization of the Q-order of convergence",
+      "authors": [
+        "Gabriel Jarry-Bolduc"
+      ],
+      "link": "https://arxiv.org/abs/2608.15202"
+    },
+    {
+      "arxiv_id": "2608.15292v1",
+      "title": "Space-Time Galerkin Boundary Element Method for the Wave Equation",
+      "authors": [
+        "Johannes Tausch"
+      ],
+      "link": "https://arxiv.org/abs/2608.15292"
+    },
+    {
+      "arxiv_id": "2608.15345v1",
+      "title": "Efficient Computation of Arbitrary-Order Directional Derivatives in Multiple Directions via Generalized Dual Numbers",
+      "authors": [
+        "F. Pe\\~nu\\~nuri",
+        "K. B. Cant\\'un-Avila",
+        "O. Carvente",
+        "R. Pe\\'on-Escalante"
+      ],
+      "link": "https://arxiv.org/abs/2608.15345"
+    },
+    {
+      "arxiv_id": "2608.15563v1",
+      "title": "Scaled boundary cubature scheme in higher dimensions: integration over polytopes and curved regions",
+      "authors": [
+        "Eric B. Chin",
+        "N. Sukumar"
+      ],
+      "link": "https://arxiv.org/abs/2608.15563"
+    },
+    {
+      "arxiv_id": "2608.15625v1",
+      "title": "Uniform-in-time strong convergence rates of fully discrete approximations for stochastic Cahn--Hilliard equations with multiplicative noise",
+      "authors": [
+        "Jiaqin He",
+        "Nan Deng",
+        "Shuhan Zhang",
+        "Wanrong Cao"
+      ],
+      "link": "https://arxiv.org/abs/2608.15625"
+    },
+    {
+      "arxiv_id": "2608.15684v1",
+      "title": "A Homological Decomposition for the Dimension and Dimensional Stability of Polynomial Spline Spaces over T-Meshes",
+      "authors": [
+        "Bingru Huang"
+      ],
+      "link": "https://arxiv.org/abs/2608.15684"
+    },
+    {
+      "arxiv_id": "2608.15716v1",
+      "title": "Maximal entropy dissipation numerical scheme for conservation law systems",
+      "authors": [
+        "Marko Nedeljkov"
+      ],
+      "link": "https://arxiv.org/abs/2608.15716"
+    },
+    {
+      "arxiv_id": "2608.15826v1",
+      "title": "Robust Block Preconditioning for 3D nonlinear steady-state radiation transport equations",
+      "authors": [
+        "Yunpan Ma",
+        "Lingxiao Li",
+        "Changhui Yao"
+      ],
+      "link": "https://arxiv.org/abs/2608.15826"
+    }
+  ]
+}

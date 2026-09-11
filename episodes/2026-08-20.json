@@ -1,0 +1,138 @@
+{
+  "date": "2026-08-20",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-20",
+  "duration_seconds": 1164.029,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.18549v1",
+      "title": "Symmetry of Solutions and Domain-Reduction Finite Element Method for Second-Order Linear Elliptic Dirichlet Boundary Value Problems on Bounded Domains",
+      "authors": [
+        "Xianlong Pan",
+        "Wei Jiang"
+      ],
+      "link": "https://arxiv.org/abs/2608.18549"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.18262v1",
+      "title": "Inverse Born series based neural operators",
+      "authors": [
+        "John C Schotland",
+        "Aseel Titi",
+        "Jenn-Nan Wang"
+      ],
+      "link": "https://arxiv.org/abs/2608.18262"
+    },
+    {
+      "arxiv_id": "2608.18365v1",
+      "title": "Posterior Convergence without Force Convergence: Resolution-Stable Sampling for Rough Bayesian Inverse Problems",
+      "authors": [
+        "Zhiliang Deng",
+        "Xiaomei Yang"
+      ],
+      "link": "https://arxiv.org/abs/2608.18365"
+    },
+    {
+      "arxiv_id": "2608.18377v1",
+      "title": "Fully discrete parameter-robust error analysis of a grad-div stabilized Crank-Nicolson artificial compressibility method for the Navier-Stokes equations",
+      "authors": [
+        "Feiyu Chen",
+        "Lili Ju",
+        "Rihui Lan",
+        "Shusen Xie"
+      ],
+      "link": "https://arxiv.org/abs/2608.18377"
+    },
+    {
+      "arxiv_id": "2608.18380v1",
+      "title": "Direction-Adaptive Plane-Wave Discontinuous Galerkin Methods for the Helmholtz Equation",
+      "authors": [
+        "Shelvean Kapita"
+      ],
+      "link": "https://arxiv.org/abs/2608.18380"
+    },
+    {
+      "arxiv_id": "2608.18487v1",
+      "title": "An Efficient Second-Order-in-Time Penalty-Projection Ensemble Eddy Viscosity Method for Parameterized Navier-Stokes Flows",
+      "authors": [
+        "Md Mahmudul Islam",
+        "Muhammad Mohebujjaman",
+        "Jahrul Alam"
+      ],
+      "link": "https://arxiv.org/abs/2608.18487"
+    },
+    {
+      "arxiv_id": "2608.18520v1",
+      "title": "Sharp Sobolev Approximation on General Domains by Linearized Shallow Networks with Analytic Activations",
+      "authors": [
+        "Jia Li",
+        "Tong Mao",
+        "Jinchao Xu"
+      ],
+      "link": "https://arxiv.org/abs/2608.18520"
+    },
+    {
+      "arxiv_id": "2608.18766v1",
+      "title": "A shifted energy barrier approach for phase-field modeling of tensile-dominated brittle fracture",
+      "authors": [
+        "Yaode Yina",
+        "Luigi Greco",
+        "Hongjun Yua",
+        "Simone Morganti"
+      ],
+      "link": "https://arxiv.org/abs/2608.18766"
+    },
+    {
+      "arxiv_id": "2608.18809v1",
+      "title": "Some uniform error analysis for gKdV equations in dispersionless limit regime before dispersive shock",
+      "authors": [
+        "Bing Li",
+        "Tingfeng Wang",
+        "Xiaofei Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2608.18809"
+    },
+    {
+      "arxiv_id": "2608.19157v1",
+      "title": "An Exact-Moment Local Legendre Frame Method with Block Convolution for Caputo Fractional Differentiation",
+      "authors": [
+        "Zhenyu Zhao",
+        "Benxue Gong",
+        "Tinggang Zhao",
+        "Xianzheng Jia"
+      ],
+      "link": "https://arxiv.org/abs/2608.19157"
+    },
+    {
+      "arxiv_id": "2608.19189v1",
+      "title": "Entry growth in Gaussian elimination",
+      "authors": [
+        "Rikhav Shah",
+        "John Urschel"
+      ],
+      "link": "https://arxiv.org/abs/2608.19189"
+    },
+    {
+      "arxiv_id": "2608.19193v1",
+      "title": "A Localized Fourier Extension Method for Piecewise-Smooth Inverse Source Reconstruction",
+      "authors": [
+        "Zhihong Dou",
+        "Zhenyu Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2608.19193"
+    },
+    {
+      "arxiv_id": "2608.18429v1",
+      "title": "Multi-Objective Optimization Under Uncertainty of Part Quality in Fused Filament Fabrication",
+      "authors": [
+        "Berkcan Kapusuzoglu",
+        "Paromita Nath",
+        "Matthew Sato",
+        "Sankaran Mahadevan",
+        "Paul Witherell"
+      ],
+      "link": "https://arxiv.org/abs/2608.18429"
+    }
+  ]
+}

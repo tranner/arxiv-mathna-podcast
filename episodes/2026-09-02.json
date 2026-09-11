@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-02",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-02",
+  "duration_seconds": 1069.129,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.00785v1",
+      "title": "Fast computation and convergence analysis of the infinite-product representation of the Schottky--Klein prime function",
+      "authors": [
+        "Shuntaro Yamamoto",
+        "Hiroyuki Miyoshi"
+      ],
+      "link": "https://arxiv.org/abs/2609.00785"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.00091v1",
+      "title": "A coercive space-time variational approach to fractional diffusion problems",
+      "authors": [
+        "Herbert Egger",
+        "Marvin Fritz",
+        "Barbara Wohlmuth"
+      ],
+      "link": "https://arxiv.org/abs/2609.00091"
+    },
+    {
+      "arxiv_id": "2609.00216v1",
+      "title": "Solving the Incompressible Navier-Stokes Equations on Oriented Curved Surfaces Discretized by Point Clouds",
+      "authors": [
+        "Alejandra Foggia",
+        "Ivo F. Sbalzarini"
+      ],
+      "link": "https://arxiv.org/abs/2609.00216"
+    },
+    {
+      "arxiv_id": "2609.00466v1",
+      "title": "Shape Holomorphy and Sparse Approximation of the Maxwell Electric Field Integral Operator",
+      "authors": [
+        "Paul Escapil-Inchausp\\'e",
+        "Carlos Jerez-Hanckes"
+      ],
+      "link": "https://arxiv.org/abs/2609.00466"
+    },
+    {
+      "arxiv_id": "2609.00553v1",
+      "title": "Spectral Bounds for Kernel Quadrature",
+      "authors": [
+        "A. Cloninger",
+        "Q. T. Le Gia",
+        "H. N. Mhaskar"
+      ],
+      "link": "https://arxiv.org/abs/2609.00553"
+    },
+    {
+      "arxiv_id": "2609.00895v1",
+      "title": "Asymptotic behavior of Eckhoff's method for convergence acceleration of Dirac eigenfunction expansions",
+      "authors": [
+        "R. H. Barkhudaryan",
+        "G. G. Gevorkyan",
+        "L. D. Poghosyan"
+      ],
+      "link": "https://arxiv.org/abs/2609.00895"
+    },
+    {
+      "arxiv_id": "2609.01009v1",
+      "title": "OptiXDE: A fast optical-inspired solver for differential equations",
+      "authors": [
+        "Yang Yang",
+        "Mingjiao Yan",
+        "Zongliang Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.01009"
+    },
+    {
+      "arxiv_id": "2609.01031v1",
+      "title": "Randomized inexact block triangular preconditioners for double saddle-point systems in PDE-constrained optimization",
+      "authors": [
+        "Siqi Liang",
+        "Na Huang"
+      ],
+      "link": "https://arxiv.org/abs/2609.01031"
+    },
+    {
+      "arxiv_id": "2609.01107v1",
+      "title": "Symmetry Inheritance and Symmetry-Reduced Finite Element Analysis for Second-Order Linear Elliptic Problems with Robin Boundary Conditions",
+      "authors": [
+        "Wei Jiang",
+        "Xianlong Pan"
+      ],
+      "link": "https://arxiv.org/abs/2609.01107"
+    },
+    {
+      "arxiv_id": "2609.01144v1",
+      "title": "On the Gram matrix of standard inner products of asymmetrically-weighted Hermite functions",
+      "authors": [
+        "Ruiyang Dai"
+      ],
+      "link": "https://arxiv.org/abs/2609.01144"
+    },
+    {
+      "arxiv_id": "2609.01218v1",
+      "title": "Projection-based low-rank assembly in IgA",
+      "authors": [
+        "Tom-Christian Riemer",
+        "Martin Stoll"
+      ],
+      "link": "https://arxiv.org/abs/2609.01218"
+    },
+    {
+      "arxiv_id": "2609.01288v1",
+      "title": "Accelerating the Improved Arrow--Hurwicz Iteration via the Anderson Algorithm for Steady-State Navier--Stokes Equations",
+      "authors": [
+        "Sinan Ergen",
+        "Mustafa A\\u{g}g\\\"ul",
+        "Mustafa T\\\"urky{\\i}lmazo\\u{g}lu"
+      ],
+      "link": "https://arxiv.org/abs/2609.01288"
+    },
+    {
+      "arxiv_id": "2609.01434v1",
+      "title": "Score-Based Generative Data Assimilation for Integrating Aggregated Surveillance Data into Agent-Based Models in Epidemic Tracking",
+      "authors": [
+        "Siming Liang",
+        "Jacob Hauck",
+        "Minglei Yang",
+        "Adam Spannaus",
+        "Heidi Hanson",
+        "Guannan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.01434"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "date": "2026-08-19",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-19",
+  "duration_seconds": 979.335,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.17198v1",
+      "title": "A Projected Semiexplicit Integrator for Dissipative Systems with Configuration-Dependent Kinetic Energy: Contact-Herglotz Formulation and Benchmarks",
+      "authors": [
+        "Lorena Loera-Galeana",
+        "Santiago Mej\\'ia",
+        "Espartaco Alvarado",
+        "H\\'ector Medel-Cobaxin"
+      ],
+      "link": "https://arxiv.org/abs/2608.17198"
+    },
+    {
+      "arxiv_id": "2608.16967v1",
+      "title": "Meshfree Snow Modelling using a Modified Cam-Clay Approach",
+      "authors": [
+        "Erik Schlesinger",
+        "Chaitanya Sanghavi",
+        "J\\\"org Kuhnert",
+        "Carsten Schilde",
+        "Pratik Suchde"
+      ],
+      "link": "https://arxiv.org/abs/2608.16967"
+    },
+    {
+      "arxiv_id": "2608.17024v1",
+      "title": "Recovery of Integer Signals from Limited DFT Samples: Lattice Methods and Stability Analysis",
+      "authors": [
+        "Howard Levinson",
+        "Isaac Viviano"
+      ],
+      "link": "https://arxiv.org/abs/2608.17024"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.17035v1",
+      "title": "Improved Arrow-Hurwicz method for Stationary Inductionless Magnetohydrodynamics System",
+      "authors": [
+        "Duygu Uludag",
+        "Fatma G. Eroglu",
+        "Aziz Takhirov",
+        "Songul Kaya"
+      ],
+      "link": "https://arxiv.org/abs/2608.17035"
+    },
+    {
+      "arxiv_id": "2608.17123v1",
+      "title": "Wavelet-based multilevel framework for $\\ell_1$-regularized image deblurring",
+      "authors": [
+        "Danyh Tolah",
+        "Malena I. Espa\\~nol",
+        "Misha E. Kilmer"
+      ],
+      "link": "https://arxiv.org/abs/2608.17123"
+    },
+    {
+      "arxiv_id": "2608.17157v1",
+      "title": "Robust Projector-Splitting Runge-Kutta Integrators of Orders Two and Three",
+      "authors": [
+        "Shiheng Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.17157"
+    },
+    {
+      "arxiv_id": "2608.17441v1",
+      "title": "Improved Convergence of Multilevel Moving Least-Squares Approximation",
+      "authors": [
+        "Robert Durst",
+        "Holger Wendland"
+      ],
+      "link": "https://arxiv.org/abs/2608.17441"
+    },
+    {
+      "arxiv_id": "2608.17533v1",
+      "title": "Regularization of Statistical Inverse Problems on Non-Reflexive Banach Spaces",
+      "authors": [
+        "Darrel K Joseph",
+        "M P Rajan"
+      ],
+      "link": "https://arxiv.org/abs/2608.17533"
+    },
+    {
+      "arxiv_id": "2608.17537v1",
+      "title": "Energy dissipation and stability of a finite-volume scheme for two-phase flow models with dynamic capillary pressure",
+      "authors": [
+        "Ansgar J\\\"ungel",
+        "Josipa-Pina Mili\\v{s}i\\'c",
+        "Sara Xhahysa"
+      ],
+      "link": "https://arxiv.org/abs/2608.17537"
+    },
+    {
+      "arxiv_id": "2608.17575v1",
+      "title": "Mixed Finite Element Methods for a Dirac Source: Divergence-Form Splitting and L^p Error Analysis",
+      "authors": [
+        "Yueyao Wu",
+        "Shun Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.17575"
+    },
+    {
+      "arxiv_id": "2608.17615v1",
+      "title": "Fast high-order solvers for the Lippmann--Schwinger equation in piecewise-smooth heterogeneous media",
+      "authors": [
+        "Thomas G. Anderson",
+        "Juan Burbano-Gallegos",
+        "Luiz M. Faria",
+        "Carlos P\\'erez-Arancibia"
+      ],
+      "link": "https://arxiv.org/abs/2608.17615"
+    },
+    {
+      "arxiv_id": "2608.17621v1",
+      "title": "Joint Near-Field Holotomography Reconstruction with a Phase-Guided Bregman TV Regularization",
+      "authors": [
+        "Jin Liu",
+        "Johannes Hagemann",
+        "Martin Burger"
+      ],
+      "link": "https://arxiv.org/abs/2608.17621"
+    },
+    {
+      "arxiv_id": "2608.17664v1",
+      "title": "On Robust Alpha-Damping Viscous Scheme",
+      "authors": [
+        "Hiroaki Nishikawa"
+      ],
+      "link": "https://arxiv.org/abs/2608.17664"
+    },
+    {
+      "arxiv_id": "2608.17845v1",
+      "title": "Duality-Based $\\textit{A Posteriori}$ Error Identities for Subgradient Flows Based on the Br\\'ezis-Ekeland-Nayroles Principle",
+      "authors": [
+        "Harbir Antil",
+        "Alex Kaltenbach",
+        "Keegan L. A. Kirk"
+      ],
+      "link": "https://arxiv.org/abs/2608.17845"
+    },
+    {
+      "arxiv_id": "2608.17860v1",
+      "title": "Efficient computation of eddy-currents for nonlinear magnetic field problems",
+      "authors": [
+        "Herbert Egger",
+        "Nepomuk Krenn",
+        "Andreas Schafelner"
+      ],
+      "link": "https://arxiv.org/abs/2608.17860"
+    }
+  ]
+}

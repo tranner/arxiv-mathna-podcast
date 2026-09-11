@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-10",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-10",
+  "duration_seconds": 670.941,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.09932v1",
+      "title": "Order Reduction of Exponential Runge--Kutta Methods: Fourth-Order Schemes for Non-Commuting Operators",
+      "authors": [
+        "Thi Tam Dang",
+        "Pablo Alexei Gazca-Orozco",
+        "Trung Hau Hoang"
+      ],
+      "link": "https://arxiv.org/abs/2609.09932"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.09484v1",
+      "title": "A Stress-Based Estimator for Pressure and Stress Recovery from Velocity Measurements",
+      "authors": [
+        "Nicol\\'as Barnafi",
+        "Benjam\\'in Cisternas",
+        "Ernesto Castillo",
+        "Felipe Galarce"
+      ],
+      "link": "https://arxiv.org/abs/2609.09484"
+    },
+    {
+      "arxiv_id": "2609.09506v1",
+      "title": "Constructive Tchakaloff results and well-conditioned quadrature through randomized least squares",
+      "authors": [
+        "Filip B\\v{e}l\\'{i}k",
+        "Akil Narayan",
+        "John Turnage"
+      ],
+      "link": "https://arxiv.org/abs/2609.09506"
+    },
+    {
+      "arxiv_id": "2609.09546v1",
+      "title": "A Convergent Reaction-Drift-Diffusion Master Equation with Interaction Potentials",
+      "authors": [
+        "Max Heldman",
+        "Samuel A. Isaacson"
+      ],
+      "link": "https://arxiv.org/abs/2609.09546"
+    },
+    {
+      "arxiv_id": "2609.09592v1",
+      "title": "An intrinsic finite element framework for scalar- and vector-valued partial differential equations on general manifolds",
+      "authors": [
+        "Tamara A. Tambyah",
+        "Alberto F. Mart\\'in",
+        "David Lee",
+        "Santiago Badia"
+      ],
+      "link": "https://arxiv.org/abs/2609.09592"
+    },
+    {
+      "arxiv_id": "2609.09792v1",
+      "title": "Uniform Chebyshev approximations of functions satisfying a variation-type condition: reconstruction of time-varying signals on graphs",
+      "authors": [
+        "Davide Bianchi",
+        "Sandra Saliani",
+        "Dimitrios Vavitsas"
+      ],
+      "link": "https://arxiv.org/abs/2609.09792"
+    },
+    {
+      "arxiv_id": "2609.09872v1",
+      "title": "Initialization-dependent BFGS trial rates for tilted absolute values",
+      "authors": [
+        "Qiuyu Chen"
+      ],
+      "link": "https://arxiv.org/abs/2609.09872"
+    },
+    {
+      "arxiv_id": "2609.09911v1",
+      "title": "The geometric convergence of a parallel domain decomposition method on manifolds",
+      "authors": [
+        "Lizhen Qin"
+      ],
+      "link": "https://arxiv.org/abs/2609.09911"
+    },
+    {
+      "arxiv_id": "2609.10000v1",
+      "title": "Convergence of a single-ensemble multilevel scheme for McKean-Vlasov SDEs",
+      "authors": [
+        "Arne Bouillon",
+        "Giovanni Samaey"
+      ],
+      "link": "https://arxiv.org/abs/2609.10000"
+    },
+    {
+      "arxiv_id": "2609.10080v1",
+      "title": "Stochastic Lanczos Quadrature for Computational Uncertainty in Linear Algebra",
+      "authors": [
+        "Hassan Fifen",
+        "Issa Karambal",
+        "Philipp Hennig"
+      ],
+      "link": "https://arxiv.org/abs/2609.10080"
+    },
+    {
+      "arxiv_id": "2609.10150v1",
+      "title": "Analytical properties of polygonal Stokes and BGG Hessian complexes with application to Kirchhoff--Love plates",
+      "authors": [
+        "Daniele A. Di Pietro",
+        "J\\'er\\^ome Droniou",
+        "Kaibo Hu",
+        "Arax Leroy"
+      ],
+      "link": "https://arxiv.org/abs/2609.10150"
+    },
+    {
+      "arxiv_id": "2609.10161v1",
+      "title": "Boundary-Level-Constrained Refinement for Suppressing Trimming-Induced High-Frequency Outliers in Explicit Isogeometric Analysis",
+      "authors": [
+        "Christoph Hollweck",
+        "Lukas Leidinger",
+        "Stefan Hartmann",
+        "Marcus Wagner",
+        "Roland W\\\"uchner"
+      ],
+      "link": "https://arxiv.org/abs/2609.10161"
+    },
+    {
+      "arxiv_id": "2609.10168v1",
+      "title": "A Thermodynamically Consistent Model for Multicomponent Vesicles",
+      "authors": [
+        "Wangbo Luo",
+        "Zhonghua Qiao",
+        "Yanxiang Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2609.10168"
+    }
+  ]
+}

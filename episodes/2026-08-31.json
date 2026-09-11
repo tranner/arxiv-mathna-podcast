@@ -1,0 +1,149 @@
+{
+  "date": "2026-08-31",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-31",
+  "duration_seconds": 1142.151,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.28515v1",
+      "title": "Conformal Uncertainty Quantification Guarantees for Neural Operators",
+      "authors": [
+        "Tom Stent",
+        "Nicolas Boull\\'e"
+      ],
+      "link": "https://arxiv.org/abs/2608.28515"
+    },
+    {
+      "arxiv_id": "2608.28022v1",
+      "title": "Transport-Matched Penalties for Diffusion Synthetic Acceleration of Polytopic Discontinuous Galerkin Discretisations",
+      "authors": [
+        "Ansar Calloo",
+        "Matthew Evans",
+        "Francois Madiot",
+        "Tristan Pryer"
+      ],
+      "link": "https://arxiv.org/abs/2608.28022"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.27647v1",
+      "title": "Numerical analysis of data assimilation for slightly compressible flow",
+      "authors": [
+        "Aytekin \\c{C}{\\i}b{\\i}k",
+        "Rui Fang"
+      ],
+      "link": "https://arxiv.org/abs/2608.27647"
+    },
+    {
+      "arxiv_id": "2608.27741v1",
+      "title": "The singular Zienkiewicz tetrahedron: Definition and Integration",
+      "authors": [
+        "Johannes Storn"
+      ],
+      "link": "https://arxiv.org/abs/2608.27741"
+    },
+    {
+      "arxiv_id": "2608.27749v1",
+      "title": "High-order robust basis-update & Galerkin integrators for dynamical low-rank approximation",
+      "authors": [
+        "Cory D. Hauck",
+        "Jonas Kusch",
+        "Steffen Schotth\\\"ofer"
+      ],
+      "link": "https://arxiv.org/abs/2608.27749"
+    },
+    {
+      "arxiv_id": "2608.27863v1",
+      "title": "A Massively Parallel Hybridizable Discontinuous Galerkin Solver for Direct Numerical Simulation of Compressible Flows on GPUs",
+      "authors": [
+        "Andrew Welter",
+        "Thea Collin",
+        "Ngoc Cuong Nguyen",
+        "Jaime Peraire"
+      ],
+      "link": "https://arxiv.org/abs/2608.27863"
+    },
+    {
+      "arxiv_id": "2608.27926v1",
+      "title": "Optimal error estimates for the half-way bounce-back lattice Boltzmann method for the Stokes equations",
+      "authors": [
+        "Kai Koike"
+      ],
+      "link": "https://arxiv.org/abs/2608.27926"
+    },
+    {
+      "arxiv_id": "2608.27958v1",
+      "title": "A Two-Level Preconditioner Based on Dominant Components for Time-Dependent Multiscale High-Contrast Problem",
+      "authors": [
+        "Yating Wang",
+        "Yibao Li",
+        "Wing Tat Leung"
+      ],
+      "link": "https://arxiv.org/abs/2608.27958"
+    },
+    {
+      "arxiv_id": "2608.27968v1",
+      "title": "Quantile Randomized Kaczmarz for Streaming Linear Systems with Massart Noise",
+      "authors": [
+        "Emeric Battaglia",
+        "Jian-Feng Cai",
+        "Junren Chen",
+        "Anna Ma",
+        "Deanna Needell",
+        "Tong Wu"
+      ],
+      "link": "https://arxiv.org/abs/2608.27968"
+    },
+    {
+      "arxiv_id": "2608.28073v1",
+      "title": "Conditioning and interpolation error bounds for second-order Stiefel retractions with closed-form inverses",
+      "authors": [
+        "Rasmus Jensen",
+        "Ralf Zimmermann"
+      ],
+      "link": "https://arxiv.org/abs/2608.28073"
+    },
+    {
+      "arxiv_id": "2608.28077v1",
+      "title": "A Local Discontinuous Galerkin method for the modified Camassa--Holm equation",
+      "authors": [
+        "Xiang-Ke Chang",
+        "Yong Liu",
+        "Qi Tao"
+      ],
+      "link": "https://arxiv.org/abs/2608.28077"
+    },
+    {
+      "arxiv_id": "2608.28103v1",
+      "title": "Inverse Source Problem for a Time-Fractional Diffusion-Wave Equation with a Singular Inverse-Square Potential",
+      "authors": [
+        "Zewen Wang",
+        "Bin Wu",
+        "Yikan Liu",
+        "Liangwei Jin",
+        "Shufang Qiu"
+      ],
+      "link": "https://arxiv.org/abs/2608.28103"
+    },
+    {
+      "arxiv_id": "2608.28135v1",
+      "title": "Stochastic trace estimation for positive trace-class operators",
+      "authors": [
+        "Zvonimir Bujanovi\\'c",
+        "Luka Grubi\\v{s}i\\'c",
+        "Daniel Kressner",
+        "Hrvoje Oli\\'c"
+      ],
+      "link": "https://arxiv.org/abs/2608.28135"
+    },
+    {
+      "arxiv_id": "2608.28545v1",
+      "title": "Closest Normal Matrix Found Again Using Riemannian Optimization",
+      "authors": [
+        "Vanni Noferini",
+        "Matvei Zhukov"
+      ],
+      "link": "https://arxiv.org/abs/2608.28545"
+    }
+  ]
+}
