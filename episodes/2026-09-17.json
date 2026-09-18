@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-17",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-17",
+  "duration_seconds": 706.239,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.19023v1",
+      "title": "Pointwise Monotonicity of the Allen--Cahn Flow and Dynamical Limitations of Energy-Stable Schemes",
+      "authors": [
+        "Pansheng Li",
+        "Dongling Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.19023"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.17750v1",
+      "title": "On the computational cost of Stochastic Gradient Langevin Dynamics",
+      "authors": [
+        "Mateusz B. Majka",
+        "Tigran Nagapetyan",
+        "{\\L}ukasz Szpruch",
+        "Yue Wu",
+        "Danqi Zhuang"
+      ],
+      "link": "https://arxiv.org/abs/2609.17750"
+    },
+    {
+      "arxiv_id": "2609.17768v1",
+      "title": "Spatio-temporal Latent Denoising Diffusion Probabilistic Models for Reduced-order Modeling of Parametrized Dynamical Systems",
+      "authors": [
+        "Michiel Nikken",
+        "Nicol\\`o Botteghi",
+        "Federico Califano",
+        "Silke Glas"
+      ],
+      "link": "https://arxiv.org/abs/2609.17768"
+    },
+    {
+      "arxiv_id": "2609.17849v1",
+      "title": "A variational mollification approach to circular deconvolution",
+      "authors": [
+        "Mirza Karamehmedovi\\'c",
+        "Pierre Mar\\'echal",
+        "Mykhailo Petrov"
+      ],
+      "link": "https://arxiv.org/abs/2609.17849"
+    },
+    {
+      "arxiv_id": "2609.17947v1",
+      "title": "A Geometric View of Adaptive Cross Approximation via Exterior Algebra",
+      "authors": [
+        "Trevor Loe",
+        "Longxiu Huang",
+        "Deanna Needell"
+      ],
+      "link": "https://arxiv.org/abs/2609.17947"
+    },
+    {
+      "arxiv_id": "2609.18177v1",
+      "title": "A Lattice Boltzmann Method with Adaptive Relaxation Parameter and Lax--Friedrichs-Type Equilibrium for Hyperbolic Systems",
+      "authors": [
+        "Yifan Zhang",
+        "Ping Lin",
+        "Jin Zhao",
+        "Weifeng Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2609.18177"
+    },
+    {
+      "arxiv_id": "2609.18235v1",
+      "title": "A Factorization Method for Support Recovery in Magnetic Induction Tomography",
+      "authors": [
+        "Junqing Chen",
+        "Chengzhe Jiang"
+      ],
+      "link": "https://arxiv.org/abs/2609.18235"
+    },
+    {
+      "arxiv_id": "2609.18308v1",
+      "title": "An efficient and rigorous criterion for the admissible time step of deforming grids in generalized Lagrangian and ALE methods",
+      "authors": [
+        "Yicun Zhen",
+        "Shouxian Zhu",
+        "Shipeng Mao"
+      ],
+      "link": "https://arxiv.org/abs/2609.18308"
+    },
+    {
+      "arxiv_id": "2609.18382v1",
+      "title": "A mass-conserving stress-yielding formulation for the Stokes equation with exact stress symmetry",
+      "authors": [
+        "Philip L. Lederer",
+        "Marialetizia Mosconi"
+      ],
+      "link": "https://arxiv.org/abs/2609.18382"
+    },
+    {
+      "arxiv_id": "2609.18403v1",
+      "title": "Constrained weak identification of Allen--Cahn free energies with surface-tension calibration",
+      "authors": [
+        "Soobeen Jung",
+        "Hyunju Kim"
+      ],
+      "link": "https://arxiv.org/abs/2609.18403"
+    },
+    {
+      "arxiv_id": "2609.18419v1",
+      "title": "HiLNO: A Hierarchical Latent Neural Operator with Multi-Scale Supervision for PDEs on General Geometries",
+      "authors": [
+        "Zhicheng Hu",
+        "Jiacheng Li",
+        "Min Yang"
+      ],
+      "link": "https://arxiv.org/abs/2609.18419"
+    },
+    {
+      "arxiv_id": "2609.18537v1",
+      "title": "A mixed finite element method for the Babu\\v{s}ka paradox using only discrete geometry",
+      "authors": [
+        "Pengjie Tian",
+        "Shuonan Wu",
+        "Hao Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2609.18537"
+    },
+    {
+      "arxiv_id": "2609.18541v1",
+      "title": "Numerical approximation for stochastic differential equations with state-dependent fast switching",
+      "authors": [
+        "Xiaobin Sun",
+        "Mingkun Ye",
+        "Zuozheng Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.18541"
+    }
+  ]
+}
