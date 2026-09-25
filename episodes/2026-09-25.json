@@ -1,0 +1,144 @@
+{
+  "date": "2026-09-25",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-25",
+  "duration_seconds": 694.905,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.29081v1",
+      "title": "A compact high-order and positivity-preserving active flux method for compressible Navier--Stokes equations on Cartesian meshes",
+      "authors": [
+        "Junming Duan",
+        "Wasilij Barsukow",
+        "Christian Klingenberg"
+      ],
+      "link": "https://arxiv.org/abs/2609.29081"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.28611v1",
+      "title": "Global Convergence of Third-Order Langevin Dynamics for Non-Convex Optimization via Simulated Annealing",
+      "authors": [
+        "Yingli Wang",
+        "Kelvin Shuangjian Zhang",
+        "Lingjiong Zhu"
+      ],
+      "link": "https://arxiv.org/abs/2609.28611"
+    },
+    {
+      "arxiv_id": "2609.28729v1",
+      "title": "Error analysis of penalized $H({\\rm div})$-conforming finite element methods for surface Stokes problems",
+      "authors": [
+        "Alan Demlow",
+        "Orsan Kilicer"
+      ],
+      "link": "https://arxiv.org/abs/2609.28729"
+    },
+    {
+      "arxiv_id": "2609.28800v1",
+      "title": "Two-Dimensional Shallow Water Linearized Moment Equations: Hyperbolicity and Well-Balanced Schemes",
+      "authors": [
+        "Shiping Zhou",
+        "Juntao Huang",
+        "Andrew Christlieb"
+      ],
+      "link": "https://arxiv.org/abs/2609.28800"
+    },
+    {
+      "arxiv_id": "2609.28950v1",
+      "title": "A nonmonotone globalization framework for Anderson acceleration for contractive and nonexpansive fixed point problems",
+      "authors": [
+        "Wei Bian",
+        "Zekai Li"
+      ],
+      "link": "https://arxiv.org/abs/2609.28950"
+    },
+    {
+      "arxiv_id": "2609.28954v1",
+      "title": "Convergence analysis of a numerical scheme for the Cahn-Hilliard-Navier-Stokes system with dynamical boundary condition and its application to moving contact line problem",
+      "authors": [
+        "Yunzhuo Guo",
+        "Cheng Wang",
+        "Xianmin Xu",
+        "Zhengru Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.28954"
+    },
+    {
+      "arxiv_id": "2609.28961v1",
+      "title": "A new second-order consistent splitting scheme for the Natural Convection equations",
+      "authors": [
+        "Zhiyong Si",
+        "Yimei Ma",
+        "Yunxia Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.28961"
+    },
+    {
+      "arxiv_id": "2609.28970v1",
+      "title": "Tessellated Isotropic Elastic Lattice Spring Model for Quasi-Brittle Fracture",
+      "authors": [
+        "D. M. LI",
+        "Meng-Cheng HE"
+      ],
+      "link": "https://arxiv.org/abs/2609.28970"
+    },
+    {
+      "arxiv_id": "2609.28971v1",
+      "title": "A diffusion-free multi-layer neural-network method for multidimensional nonlinear hyperbolic equations",
+      "authors": [
+        "Emmanuel Lorin",
+        "Arian Novruzi"
+      ],
+      "link": "https://arxiv.org/abs/2609.28971"
+    },
+    {
+      "arxiv_id": "2609.28995v1",
+      "title": "HDG methods in finite element exterior calculus",
+      "authors": [
+        "Calvin Reedy",
+        "Ari Stern",
+        "Yunhui Xue"
+      ],
+      "link": "https://arxiv.org/abs/2609.28995"
+    },
+    {
+      "arxiv_id": "2609.29153v1",
+      "title": "On degeneration of tetrahedra under longest-edge n-section refinement",
+      "authors": [
+        "Sergey Korotov"
+      ],
+      "link": "https://arxiv.org/abs/2609.29153"
+    },
+    {
+      "arxiv_id": "2609.29185v1",
+      "title": "$p$ and $rp$-Spectral Element Methods for Two-dimensional Elliptic Boundary Layer Problems",
+      "authors": [
+        "Sonia (Department of Mathematics",
+        "Jamia Millia Islamia",
+        "New Delhi",
+        "India)",
+        "Akhlaq Husain (Department of Mathematics",
+        "Jamia Millia Islamia",
+        "New Delhi",
+        "India)",
+        "Arshad Khan (Department of Mathematics",
+        "Jamia Millia Islamia",
+        "New Delhi",
+        "India)"
+      ],
+      "link": "https://arxiv.org/abs/2609.29185"
+    },
+    {
+      "arxiv_id": "2609.29357v1",
+      "title": "A Regularization Based Computational Method for Quantum Incommensurate Problems",
+      "authors": [
+        "Zhenan Ding",
+        "Yan Li",
+        "Aihui Zhou",
+        "Yuzhi Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2609.29357"
+    }
+  ]
+}

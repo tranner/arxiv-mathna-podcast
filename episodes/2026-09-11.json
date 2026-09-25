@@ -1,0 +1,145 @@
+{
+  "date": "2026-09-11",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-11",
+  "duration_seconds": 776.603,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.11363v1",
+      "title": "Scalable Approximate Selected Inversion Based on Single-Level Incomplete $LDL^T$ Factorization and Spectral Corrections for Large Sparse Systems",
+      "authors": [
+        "Tahamina Akter",
+        "Matthias Bollh\\\"ofer",
+        "Olaf Schenk"
+      ],
+      "link": "https://arxiv.org/abs/2609.11363"
+    },
+    {
+      "arxiv_id": "2609.10906v1",
+      "title": "Preserving Structure in Variational Data Assimilation of Hyperbolic Conservation Laws via Regularization",
+      "authors": [
+        "Yao Xiao",
+        "Anne Gelb"
+      ],
+      "link": "https://arxiv.org/abs/2609.10906"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.10639v1",
+      "title": "Vectorial lattice Boltzmann solver for compressible inviscid flows with generic equation of state",
+      "authors": [
+        "S. A. Hosseini",
+        "I. V. Karlin"
+      ],
+      "link": "https://arxiv.org/abs/2609.10639"
+    },
+    {
+      "arxiv_id": "2609.10849v1",
+      "title": "Structure-preserving operator splitting for 2.5D ideal MHD with an entropy-stable DGSEM and exactly divergence-free compatible finite elements",
+      "authors": [
+        "Siyuan Fan",
+        "Guosheng Fu"
+      ],
+      "link": "https://arxiv.org/abs/2609.10849"
+    },
+    {
+      "arxiv_id": "2609.10857v1",
+      "title": "Quadrature by Matched Asymptotic Expansion (QBMAX): Accelerating Evaluation of Layer Potentials with Boundary Layers",
+      "authors": [
+        "Chaoqi Lin",
+        "Xiaoyu Wei",
+        "Andreas Kl\\\"ockner"
+      ],
+      "link": "https://arxiv.org/abs/2609.10857"
+    },
+    {
+      "arxiv_id": "2609.10908v1",
+      "title": "A virtual element method for Kelvin--Voigt viscoelasticity",
+      "authors": [
+        "Utkarsh Rajput",
+        "Ankit Kumar",
+        "Andres E. Rubiano",
+        "Ricardo Ruiz-Baier",
+        "Sarvesh Kumar"
+      ],
+      "link": "https://arxiv.org/abs/2609.10908"
+    },
+    {
+      "arxiv_id": "2609.10919v1",
+      "title": "Stress-divergence, Laplacian, and rotational forms of the incompressible Navier--Stokes equations with variable viscosity",
+      "authors": [
+        "Benjamin Cisternas",
+        "Douglas R. Q. Pacheco",
+        "Felipe Galarce",
+        "Ernesto Castillo"
+      ],
+      "link": "https://arxiv.org/abs/2609.10919"
+    },
+    {
+      "arxiv_id": "2609.10949v1",
+      "title": "Full-window branch discovery and loss-selected EnKF continuation for data assimilation",
+      "authors": [
+        "Angxiu Ni"
+      ],
+      "link": "https://arxiv.org/abs/2609.10949"
+    },
+    {
+      "arxiv_id": "2609.10983v1",
+      "title": "A variational physics-informed graph neural network for heterogeneous solid mechanics",
+      "authors": [
+        "Aashay Rajan Yadav",
+        "Amiya Prakash Das",
+        "Ratna Kumar Annabattula"
+      ],
+      "link": "https://arxiv.org/abs/2609.10983"
+    },
+    {
+      "arxiv_id": "2609.11038v1",
+      "title": "A Second-Order Method for Locating Critical Points of Prescribed Index on Energy Landscapes",
+      "authors": [
+        "Qiang Du",
+        "Baoming Shi"
+      ],
+      "link": "https://arxiv.org/abs/2609.11038"
+    },
+    {
+      "arxiv_id": "2609.11050v1",
+      "title": "Computational Trade-Offs Between Newton and Picard Solvers for Mean Field Game PDE Systems",
+      "authors": [
+        "Mathieu Lauriere",
+        "Andrew Shi"
+      ],
+      "link": "https://arxiv.org/abs/2609.11050"
+    },
+    {
+      "arxiv_id": "2609.11064v1",
+      "title": "Polynomial preserving recoveries of edge element method on Cartesian grids for the time-harmonic Maxwell equations with large wave number",
+      "authors": [
+        "Shuaishuai Lu",
+        "Haijun Wu"
+      ],
+      "link": "https://arxiv.org/abs/2609.11064"
+    },
+    {
+      "arxiv_id": "2609.11069v1",
+      "title": "Adaptive Diagonally Implicit Runge-Kutta Methods Devoid of Order Reduction for Semilinear ODEs",
+      "authors": [
+        "Steven B. Roberts",
+        "Abhijit Biswas",
+        "David Shirokoff",
+        "Benjamin Seibold"
+      ],
+      "link": "https://arxiv.org/abs/2609.11069"
+    },
+    {
+      "arxiv_id": "2609.11097v1",
+      "title": "Additive reduced basis preconditioners for large-scale parametrized PDEs",
+      "authors": [
+        "Xinnan Fan",
+        "Qixiao Hu",
+        "Shiquan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.11097"
+    }
+  ]
+}

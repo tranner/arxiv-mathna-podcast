@@ -1,0 +1,134 @@
+{
+  "date": "2026-08-17",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-17",
+  "duration_seconds": 1121.522,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.13839v1",
+      "title": "Vanishing Clutter: Fast and Accurate Shape Imaging via Active Cloaking",
+      "authors": [
+        "Haoqiang Xiao",
+        "Guang-Hui Zheng"
+      ],
+      "link": "https://arxiv.org/abs/2608.13839"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.13636v1",
+      "title": "A new approach to the reaction-diffusion systems modelling",
+      "authors": [
+        "Maxim Nazarov"
+      ],
+      "link": "https://arxiv.org/abs/2608.13636"
+    },
+    {
+      "arxiv_id": "2608.13701v1",
+      "title": "An adaptive superconvergent mixed finite element method for exactly symmetric linear elasticity based on local residual minimization",
+      "authors": [
+        "Ernesto C\\'aceres",
+        "Patrick Vega"
+      ],
+      "link": "https://arxiv.org/abs/2608.13701"
+    },
+    {
+      "arxiv_id": "2608.13714v1",
+      "title": "Approximating matrix functions by block Krylov methods with randomized vectors",
+      "authors": [
+        "Josh Kane",
+        "Lucas Onisk",
+        "Lothar Reichel",
+        "Giuseppe Rodriguez"
+      ],
+      "link": "https://arxiv.org/abs/2608.13714"
+    },
+    {
+      "arxiv_id": "2608.13829v1",
+      "title": "An Efficient Solver for Finite Element-based Constrained Transport in 3D Magnetohydrodynamics Applied to Magnetic Confinement Fusion",
+      "authors": [
+        "Golo A. Wimmer",
+        "Konstantin Lipnikov",
+        "Ben S. Southworth",
+        "Xian-Zhu Tang"
+      ],
+      "link": "https://arxiv.org/abs/2608.13829"
+    },
+    {
+      "arxiv_id": "2608.13875v1",
+      "title": "PDE Realization and Structure-Aware Solvers for a Compact Two-Stage Fourth-Order IMEX Method",
+      "authors": [
+        "Zhixin Huo"
+      ],
+      "link": "https://arxiv.org/abs/2608.13875"
+    },
+    {
+      "arxiv_id": "2608.13968v1",
+      "title": "Nonparametric Schr\\\"odinger Bridge Time Series Generator: Algorithm, Convergence Analysis and Applications",
+      "authors": [
+        "Daili Sheng",
+        "Minghui Song",
+        "Hui Sun"
+      ],
+      "link": "https://arxiv.org/abs/2608.13968"
+    },
+    {
+      "arxiv_id": "2608.14006v1",
+      "title": "An $h$-adaptive Tetrahedral Spectral Element Method with Applications to Kohn-Sham Density Functional Theory",
+      "authors": [
+        "Zeyu Wang",
+        "Hongfei Zhan",
+        "Guanghui Hu"
+      ],
+      "link": "https://arxiv.org/abs/2608.14006"
+    },
+    {
+      "arxiv_id": "2608.14087v1",
+      "title": "Unconditionally stable and energy conserving discretization of the dynamic von K\\'arm\\'an equations",
+      "authors": [
+        "Carsten Carstensen",
+        "Neela Nataraj",
+        "Ricardo Ruiz-Baier",
+        "Aamir Yousuf"
+      ],
+      "link": "https://arxiv.org/abs/2608.14087"
+    },
+    {
+      "arxiv_id": "2608.14123v1",
+      "title": "Adaptive multigrid for high-order discontinuous Galerkin methods based on the full approximation scheme",
+      "authors": [
+        "J\\\"org Stiller"
+      ],
+      "link": "https://arxiv.org/abs/2608.14123"
+    },
+    {
+      "arxiv_id": "2608.14162v1",
+      "title": "TOGEARI: Interaction-Space Preconditioning for Condensed Finite-Element Systems with IPC Contact",
+      "authors": [
+        "Yanlin Liu (The University of Melbourne)",
+        "Chao Huang (Shanghai Jiao Tong University)",
+        "Kaixiang Yao (Southern University of Science",
+        "Technology)",
+        "Yao Shen (Shanghai Jiao Tong University)"
+      ],
+      "link": "https://arxiv.org/abs/2608.14162"
+    },
+    {
+      "arxiv_id": "2608.14300v1",
+      "title": "Analysis of a Conforming Finite Element Method for Second-Harmonic Generation Scattering",
+      "authors": [
+        "Ansh Desai",
+        "Peter Monk"
+      ],
+      "link": "https://arxiv.org/abs/2608.14300"
+    },
+    {
+      "arxiv_id": "2608.14310v1",
+      "title": "Coupling-Aware Vanka Smoothing for Multigrid Preconditioning of the Implicit Immersed Boundary Equations",
+      "authors": [
+        "Cole Gruninger",
+        "Boyce E. Griffith"
+      ],
+      "link": "https://arxiv.org/abs/2608.14310"
+    }
+  ]
+}

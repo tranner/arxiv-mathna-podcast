@@ -1,0 +1,152 @@
+{
+  "date": "2026-09-21",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-21",
+  "duration_seconds": 867.423,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.21871v1",
+      "title": "A filtered time stepping scheme for curve shortening flow for open and closed curves",
+      "authors": [
+        "Klaus Deckelnick",
+        "Robert N\\\"urnberg"
+      ],
+      "link": "https://arxiv.org/abs/2609.21871"
+    },
+    {
+      "arxiv_id": "2609.20378v1",
+      "title": "From raw Solvability Complexity Index proofs to Weihrauch degrees",
+      "authors": [
+        "Christopher Sorg"
+      ],
+      "link": "https://arxiv.org/abs/2609.20378"
+    },
+    {
+      "arxiv_id": "2609.21540v1",
+      "title": "Element-wise Convergence Behavior of Subspace Iteration",
+      "authors": [
+        "Mingyang Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2609.21540"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.20901v1",
+      "title": "Backward log orthogonal functions and their approximation theory",
+      "authors": [
+        "Mahmoud A. Zaky"
+      ],
+      "link": "https://arxiv.org/abs/2609.20901"
+    },
+    {
+      "arxiv_id": "2609.21028v1",
+      "title": "Uniform Chebyshev asymptotics for repeated-pole rational approximation of the exponential",
+      "authors": [
+        "Fei Xue",
+        "Tianqi Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.21028"
+    },
+    {
+      "arxiv_id": "2609.21175v1",
+      "title": "Energy stability and error estimates for a second-order structure-preserving exponential integrator method for smectic-A liquid crystals",
+      "authors": [
+        "Wenshuai Hu",
+        "Guanghua Ji",
+        "Xiao Li"
+      ],
+      "link": "https://arxiv.org/abs/2609.21175"
+    },
+    {
+      "arxiv_id": "2609.21282v1",
+      "title": "A Low-rank ADI Algorithm for the Numerical Solution of Large Discrete-time Non-symmetric Algebraic Riccati Equations",
+      "authors": [
+        "Umair Zulfiqar"
+      ],
+      "link": "https://arxiv.org/abs/2609.21282"
+    },
+    {
+      "arxiv_id": "2609.21295v1",
+      "title": "Kernel-free Boundary Integral Methods for Allen-Cahn and Cahn-Hilliard Equations on Irregular Domains",
+      "authors": [
+        "Xinru Liu",
+        "Pensong Yin",
+        "Wenjun Ying",
+        "Yulin Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.21295"
+    },
+    {
+      "arxiv_id": "2609.21328v1",
+      "title": "History-Compatible Energy-Stable Finite Element Schemes for Variable-Density Cahn--Hilliard--Navier--Stokes Flows on Evolving Meshes",
+      "authors": [
+        "Wenbin Wang",
+        "Yunqing Huang",
+        "Yin Yang",
+        "Huayi Wei"
+      ],
+      "link": "https://arxiv.org/abs/2609.21328"
+    },
+    {
+      "arxiv_id": "2609.21512v1",
+      "title": "FrFNO:Injecting the analytic Mittag-Leffler propagator into a resolution-robust neural operator for space-time fractional PDEs",
+      "authors": [
+        "Guofei Pang"
+      ],
+      "link": "https://arxiv.org/abs/2609.21512"
+    },
+    {
+      "arxiv_id": "2609.21524v1",
+      "title": "A Priori and A Posteriori Error Estimates for a Crank Nicolson Type Scheme of an Elliptic Problem with Dynamical Boundary Conditions",
+      "authors": [
+        "Rola Ali Ahmad",
+        "Toufic El Arwadi",
+        "Houssam Chrayteh",
+        "Jean-Marc Sac-\\'Ep\\'ee"
+      ],
+      "link": "https://arxiv.org/abs/2609.21524"
+    },
+    {
+      "arxiv_id": "2609.21715v1",
+      "title": "Integral chemical reaction neural networks",
+      "authors": [
+        "Abraham Reyes-Vel\\'azquez",
+        "Stefan G\\\"uttel"
+      ],
+      "link": "https://arxiv.org/abs/2609.21715"
+    },
+    {
+      "arxiv_id": "2609.21719v1",
+      "title": "Finite Volume Element Method on Curved-Edge Meshes",
+      "authors": [
+        "Xiaoxiao Chen",
+        "Zexi Hu",
+        "Zhiming Gao",
+        "Junliang Lv",
+        "Xiang Wang",
+        "Hongtao Yang"
+      ],
+      "link": "https://arxiv.org/abs/2609.21719"
+    },
+    {
+      "arxiv_id": "2609.21820v1",
+      "title": "A Second-Order Maximum-Bound-Preserving and Energy-Stable Exponential Time-Differencing Method for Allen--Cahn-Type Gradient Flows",
+      "authors": [
+        "Wenshuai Hu",
+        "Guanghua Ji",
+        "Xiao Li"
+      ],
+      "link": "https://arxiv.org/abs/2609.21820"
+    },
+    {
+      "arxiv_id": "2609.21862v1",
+      "title": "Isogeometric analysis for the Helmholtz transmission eigenvalue problem",
+      "authors": [
+        "Nizheng Liao",
+        "Guanghui Hu",
+        "Xucheng Meng"
+      ],
+      "link": "https://arxiv.org/abs/2609.21862"
+    }
+  ]
+}
