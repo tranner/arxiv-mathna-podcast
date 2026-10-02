@@ -1,0 +1,139 @@
+{
+  "date": "2026-09-30",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-30",
+  "duration_seconds": 776.883,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.36615v1",
+      "title": "CI-PINN: Causal Integral Physics-Informed Neural Network for Solving Evolution Equations",
+      "authors": [
+        "Xiaodong Feng",
+        "Ziyu Sun",
+        "Tao Tang",
+        "Xiaoliang Wan",
+        "Tao Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2609.36615"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.35844v1",
+      "title": "A Branch-Free General Renormalization Scheme for Pair Arithmetic and Its Performance Evaluation",
+      "authors": [
+        "Tomonori Kouya"
+      ],
+      "link": "https://arxiv.org/abs/2609.35844"
+    },
+    {
+      "arxiv_id": "2609.36053v1",
+      "title": "Slip Wall Boundary Conditions in Curved Domains for Finite Element ALE Hydrodynamics",
+      "authors": [
+        "Nabil Atallah",
+        "Kevin Sweet",
+        "Paul Moujaes",
+        "Jan Nikl",
+        "Ketan Mittal",
+        "Vladimir Z. Tomov"
+      ],
+      "link": "https://arxiv.org/abs/2609.36053"
+    },
+    {
+      "arxiv_id": "2609.36141v1",
+      "title": "A Tree-Based Localized Reduced Basis Method for Parametrized Parabolic PDEs",
+      "authors": [
+        "Mohamed Barakat",
+        "Diane Guignard"
+      ],
+      "link": "https://arxiv.org/abs/2609.36141"
+    },
+    {
+      "arxiv_id": "2609.36309v1",
+      "title": "Beyond the analytic solution manufacturing for anisotropic elliptic equations",
+      "authors": [
+        "Fabrice Deluzet",
+        "Valdimir Latocha",
+        "Fr\\'ed\\'eric Robert"
+      ],
+      "link": "https://arxiv.org/abs/2609.36309"
+    },
+    {
+      "arxiv_id": "2609.36383v1",
+      "title": "An Energy-Conserving Unstaggered Electromagnetic-Potential Particle-in-Cell Method, Part II: Fully Relativistic Formulation with an Adapted Higuera--Cary Pusher",
+      "authors": [
+        "Andrew Christlieb",
+        "Luis Chacon",
+        "Sining Gong"
+      ],
+      "link": "https://arxiv.org/abs/2609.36383"
+    },
+    {
+      "arxiv_id": "2609.36419v1",
+      "title": "A unified structure-preserving framework for geometric flows with coupled orientation and curvature dependence",
+      "authors": [
+        "Yulin Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.36419"
+    },
+    {
+      "arxiv_id": "2609.36506v1",
+      "title": "Compressed Sensing with Quantized Tensor Trains (QTTs)",
+      "authors": [
+        "Jingchun Shao"
+      ],
+      "link": "https://arxiv.org/abs/2609.36506"
+    },
+    {
+      "arxiv_id": "2609.36709v1",
+      "title": "Into the danger zone: stable extrapolation in high-dimensional function and operator learning",
+      "authors": [
+        "Ben Adcock",
+        "Simone Brugiapaglia",
+        "Xuemeng Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.36709"
+    },
+    {
+      "arxiv_id": "2609.36719v1",
+      "title": "Structure-preserving upwind Lagrange multiplier schemes for solid-state dewetting with a logarithmic Flory--Huggins potential",
+      "authors": [
+        "Qiong-Ao Huang",
+        "Ying-wei Wang",
+        "Cheng Yuan"
+      ],
+      "link": "https://arxiv.org/abs/2609.36719"
+    },
+    {
+      "arxiv_id": "2609.36793v1",
+      "title": "Hard-Trace First-Order Residual Learning for Coupled Stokes-Brinkman-Darcy Flow",
+      "authors": [
+        "Zefeng Liu",
+        "Hongxing Rui"
+      ],
+      "link": "https://arxiv.org/abs/2609.36793"
+    },
+    {
+      "arxiv_id": "2609.36840v1",
+      "title": "High Performance Computing of SDRE models with Discrete Kalman Filtering for Robust $H_{\\infty}$-Controls",
+      "authors": [
+        "Yunfeng Cai",
+        "Tiexiang Li",
+        "Wen-Wei Lin",
+        "Junxin Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.36840"
+    },
+    {
+      "arxiv_id": "2609.37068v1",
+      "title": "Numerical investigation of a homogenized model with effective interface conditions for Stokes flow through porous membranes",
+      "authors": [
+        "Jonas Knoch",
+        "Pietro Italiano",
+        "Markus Gahn",
+        "Carsten Gr\\\"aser",
+        "Maria Neuss-Radu"
+      ],
+      "link": "https://arxiv.org/abs/2609.37068"
+    }
+  ]
+}

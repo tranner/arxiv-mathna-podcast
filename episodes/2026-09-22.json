@@ -1,0 +1,148 @@
+{
+  "date": "2026-09-22",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-22",
+  "duration_seconds": 814.757,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.24751v1",
+      "title": "Constraints on admissible behavior of GMRES applied to tridiagonal Toeplitz systems",
+      "authors": [
+        "Fei Chen",
+        "Kirk M. Soodhalter"
+      ],
+      "link": "https://arxiv.org/abs/2609.24751"
+    },
+    {
+      "arxiv_id": "2609.23299v1",
+      "title": "Sparsely connected neural network representation of Lagrange finite element function",
+      "authors": [
+        "Jiaxiong Hao",
+        "Yunqing Huang",
+        "Nianyu Yi"
+      ],
+      "link": "https://arxiv.org/abs/2609.23299"
+    },
+    {
+      "arxiv_id": "2609.24021v1",
+      "title": "Cost-Accuracy Trade-offs: Neural Operator vs Classical Numerical Solver",
+      "authors": [
+        "Daniel Zhengyu Huang",
+        "Andrew M. Stuart"
+      ],
+      "link": "https://arxiv.org/abs/2609.24021"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.22349v1",
+      "title": "Domain-decomposed Evolutional Deep Neural Network with Random Features for Transient Pressure Diffusion with Discontinuous and High-Contrast Coefficients",
+      "authors": [
+        "Peiqi Li",
+        "Jie Chen",
+        "Hui Zhang",
+        "Simon Hands"
+      ],
+      "link": "https://arxiv.org/abs/2609.22349"
+    },
+    {
+      "arxiv_id": "2609.22355v1",
+      "title": "Bernstein Constraint Complexes for Multivariate Splines on Triangulated Surfaces",
+      "authors": [
+        "Shelvean Kapita"
+      ],
+      "link": "https://arxiv.org/abs/2609.22355"
+    },
+    {
+      "arxiv_id": "2609.22356v1",
+      "title": "Conformal Spherical Splines for the Laplace--Beltrami Operator on Genus-Zero Surfaces: Construction, Algorithm, and Experiments",
+      "authors": [
+        "Shelvean Kapita"
+      ],
+      "link": "https://arxiv.org/abs/2609.22356"
+    },
+    {
+      "arxiv_id": "2609.22460v1",
+      "title": "Update to: Spectral sets: Numerical range and beyond",
+      "authors": [
+        "Michel Crouzeix",
+        "Anne Greenbaum"
+      ],
+      "link": "https://arxiv.org/abs/2609.22460"
+    },
+    {
+      "arxiv_id": "2609.22689v1",
+      "title": "Efficient Rigorous Continuation via Chebyshev Series Expansion I",
+      "authors": [
+        "Maxime Breden",
+        "Olivier H\\'{e}not"
+      ],
+      "link": "https://arxiv.org/abs/2609.22689"
+    },
+    {
+      "arxiv_id": "2609.22864v1",
+      "title": "Asymptotic-Preserving Exponential Integrators applied to the Hyperbolic Korteweg-de Vries System",
+      "authors": [
+        "Abhijit Biswas",
+        "Sebastiano Boscarino",
+        "David I. Ketcheson",
+        "Giovanni Russo"
+      ],
+      "link": "https://arxiv.org/abs/2609.22864"
+    },
+    {
+      "arxiv_id": "2609.22955v1",
+      "title": "The Zipped Finite Element Method on polyhedral meshes",
+      "authors": [
+        "Stefano Berrone",
+        "Gioana Teora"
+      ],
+      "link": "https://arxiv.org/abs/2609.22955"
+    },
+    {
+      "arxiv_id": "2609.23001v1",
+      "title": "NeSTR: Neural S-Transform Reconstruction for Gaussian SPDEs",
+      "authors": [
+        "Nacira Agram",
+        "Fred Espen Benth",
+        "Jan Rems"
+      ],
+      "link": "https://arxiv.org/abs/2609.23001"
+    },
+    {
+      "arxiv_id": "2609.23045v1",
+      "title": "Asymptotic preservation of an exponential Euler method under Hamiltonian fast advection with multiple critical points",
+      "authors": [
+        "Jianbo Cui",
+        "Guozhen Li",
+        "Derui Sheng"
+      ],
+      "link": "https://arxiv.org/abs/2609.23045"
+    },
+    {
+      "arxiv_id": "2609.23054v1",
+      "title": "TASE-Stabilized Time-Evolving Natural Gradient Methods for Diffusion-Dominated PDEs",
+      "authors": [
+        "Zihao Shi",
+        "Dongling Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.23054"
+    },
+    {
+      "arxiv_id": "2609.23086v1",
+      "title": "A fast spectral particle method for the Landau equation",
+      "authors": [
+        "Giacomo Borghi",
+        "Lorenzo Pareschi"
+      ],
+      "link": "https://arxiv.org/abs/2609.23086"
+    },
+    {
+      "arxiv_id": "2609.23326v1",
+      "title": "Super-approximation and optimal $L^2$ convergence of the stabilized BGN method with piecewise linear parametric finite elements for curve-shortening flow",
+      "authors": [
+        "Genming Bai"
+      ],
+      "link": "https://arxiv.org/abs/2609.23326"
+    }
+  ]
+}
