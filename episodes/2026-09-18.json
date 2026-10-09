@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-18",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-18",
+  "duration_seconds": 742.368,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.19363v1",
+      "title": "Stiefel Attention: When the Geometry of Transformer Projection Matrices Dominates Optimizer Choice---and When It Does Not",
+      "authors": [
+        "Rub\\'en Dar\\'io Guerrero"
+      ],
+      "link": "https://arxiv.org/abs/2609.19363"
+    },
+    {
+      "arxiv_id": "2609.20770v1",
+      "title": "Sensitivity Calculus and its Numerical Implementation for Multi-D Hyperbolic Balance Laws",
+      "authors": [
+        "Olivia Dre{\\ss}en",
+        "Michael Herty",
+        "Adrian Kolb",
+        "Siegfried M\\\"uller"
+      ],
+      "link": "https://arxiv.org/abs/2609.20770"
+    },
+    {
+      "arxiv_id": "2609.20221v1",
+      "title": "Exact fast factorizations of the AR(1) Karhunen-Loeve transform",
+      "authors": [
+        "Yuriy A. Reznik"
+      ],
+      "link": "https://arxiv.org/abs/2609.20221"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.19335v1",
+      "title": "Deep Learning for Singular PDEs: A Weighted Neural Network Approach",
+      "authors": [
+        "Badr Oulgiht"
+      ],
+      "link": "https://arxiv.org/abs/2609.19335"
+    },
+    {
+      "arxiv_id": "2609.19431v1",
+      "title": "Wideband Directional $\\mathcal{H}^2$-Matrix Compression for the Electric Field Integral Equation with Geometry-Adaptive Cluster Trees",
+      "authors": [
+        "Joshua M. Tetzner",
+        "Simon B. Adrian"
+      ],
+      "link": "https://arxiv.org/abs/2609.19431"
+    },
+    {
+      "arxiv_id": "2609.19567v1",
+      "title": "An interior penalty nonconforming finite element method for strain gradient elasticity",
+      "authors": [
+        "Xuehai Huang",
+        "Zheqian Tang"
+      ],
+      "link": "https://arxiv.org/abs/2609.19567"
+    },
+    {
+      "arxiv_id": "2609.19836v1",
+      "title": "A Fictitious Domain Formulation with Bubble Enrichment",
+      "authors": [
+        "Stefano Berrone",
+        "Lorenzo Neva",
+        "Stefano Scial\\`o",
+        "Fabio Vicini"
+      ],
+      "link": "https://arxiv.org/abs/2609.19836"
+    },
+    {
+      "arxiv_id": "2609.19838v1",
+      "title": "Entropy-Based Local Characteristic Decomposition",
+      "authors": [
+        "Shaoshuai Chu",
+        "Michael Herty",
+        "Alexander Kurganov"
+      ],
+      "link": "https://arxiv.org/abs/2609.19838"
+    },
+    {
+      "arxiv_id": "2609.19926v1",
+      "title": "Validating Hexahedra through their Boundaries",
+      "authors": [
+        "Paul Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.19926"
+    },
+    {
+      "arxiv_id": "2609.20053v1",
+      "title": "Accelerating structural optimization via EIFEM: a ROM-based preconditioner",
+      "authors": [
+        "Raul Rubio",
+        "Alex Ferrer",
+        "Joaquin Alberto Hernandez",
+        "Pablo Antolin"
+      ],
+      "link": "https://arxiv.org/abs/2609.20053"
+    },
+    {
+      "arxiv_id": "2609.20292v1",
+      "title": "Further Approaches of Dynamical Low-Rank Approximation for SDEs",
+      "authors": [
+        "Yoshihito Kazashi",
+        "Fabio Nobile",
+        "Fabio Zoccolan"
+      ],
+      "link": "https://arxiv.org/abs/2609.20292"
+    },
+    {
+      "arxiv_id": "2609.20307v1",
+      "title": "Existence of Dynamical Low-Rank Approximation for SDEs with Locally Lipschitz Coefficients",
+      "authors": [
+        "Yoshihito Kazashi",
+        "Fabio Nobile",
+        "Fabio Zoccolan"
+      ],
+      "link": "https://arxiv.org/abs/2609.20307"
+    },
+    {
+      "arxiv_id": "2609.20317v1",
+      "title": "Numerical Methods for Dynamical Low-Rank Approximations of Stochastic Differential Equations -- Part II: Stochastic discretization",
+      "authors": [
+        "Yoshihito Kazashi",
+        "Fabio Nobile",
+        "Fabio Zoccolan"
+      ],
+      "link": "https://arxiv.org/abs/2609.20317"
+    },
+    {
+      "arxiv_id": "2609.20356v1",
+      "title": "An optimal order fractional backward collocation method for adjoint Volterra integro-differential equations",
+      "authors": [
+        "Mahmoud A. Zaky"
+      ],
+      "link": "https://arxiv.org/abs/2609.20356"
+    },
+    {
+      "arxiv_id": "2609.20395v1",
+      "title": "Adaptive Sparse-grid Discontinuous Galerkin Approximations the Bhatnagar--Gross--Krook Model",
+      "authors": [
+        "Stefan Schnake",
+        "Miroslav Stoyanov",
+        "Eirik Endeve",
+        "Cory Hauck"
+      ],
+      "link": "https://arxiv.org/abs/2609.20395"
+    }
+  ]
+}

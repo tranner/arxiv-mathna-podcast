@@ -1,0 +1,159 @@
+{
+  "date": "2026-09-24",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-24",
+  "duration_seconds": 798.315,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.27935v1",
+      "title": "Extending a new two-grid waveform relaxation on a spatial finite element discretization",
+      "authors": [
+        "A. Mesforush",
+        "N. Habibi"
+      ],
+      "link": "https://arxiv.org/abs/2609.27935"
+    },
+    {
+      "arxiv_id": "2609.27325v1",
+      "title": "A Hybrid Iterative Deep Ritz Method for Elliptic Interface Problems",
+      "authors": [
+        "Tianhao Hu",
+        "Bangti Jin",
+        "Fengru Wang",
+        "Yifeng Xu"
+      ],
+      "link": "https://arxiv.org/abs/2609.27325"
+    },
+    {
+      "arxiv_id": "2609.27290v1",
+      "title": "Sparse-Observation Atmospheric Thermal Forecasting with Physics-Informed Neural Networks for Climate-Aware Digital Twins",
+      "authors": [
+        "Tannaz Goodarzvand Chegini",
+        "Elyas Shivanian",
+        "Behzad Karimi",
+        "Faraz Dadgostari"
+      ],
+      "link": "https://arxiv.org/abs/2609.27290"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.26843v1",
+      "title": "Gaussian-process surrogate indicators for residual-based adaptive GMsFEM",
+      "authors": [
+        "Siqing Liu",
+        "Eric Chung",
+        "Yiran Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.26843"
+    },
+    {
+      "arxiv_id": "2609.26846v1",
+      "title": "Reconstruction and Range Characterization for a Directional Confocal Non-Line-of-Sight Imaging Model",
+      "authors": [
+        "Lingyun Qiu",
+        "Zuoqiang Shi",
+        "Jianyu Wang",
+        "Shiwei Wu"
+      ],
+      "link": "https://arxiv.org/abs/2609.26846"
+    },
+    {
+      "arxiv_id": "2609.27243v1",
+      "title": "From Variational Optimization to Flow-Based Transport: Posterior-Geometry Regularization for Ill-Conditioned Data Assimilation",
+      "authors": [
+        "Siming Liang",
+        "Feng Bao",
+        "Hristo G. Chipilski",
+        "Peter Jan van Leeuwen",
+        "Guannan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.27243"
+    },
+    {
+      "arxiv_id": "2609.27272v1",
+      "title": "Layer-wise discrete certificates in multicomponent reacting-flow discretizations",
+      "authors": [
+        "Jingchao Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.27272"
+    },
+    {
+      "arxiv_id": "2609.27419v1",
+      "title": "A Deformation Approach to Axially Symmetric Kernels on the Sphere: Harmonic Coupling and Regularity",
+      "authors": [
+        "Janin J\\\"ager",
+        "Fabian Stallbauer"
+      ],
+      "link": "https://arxiv.org/abs/2609.27419"
+    },
+    {
+      "arxiv_id": "2609.27520v1",
+      "title": "Component-wise accurate fixed point iterations for computing the square root of a singular M-matrix",
+      "authors": [
+        "Dario Andrea Bini",
+        "Bruno Iannazzo",
+        "Beatrice Meini",
+        "Jie Meng"
+      ],
+      "link": "https://arxiv.org/abs/2609.27520"
+    },
+    {
+      "arxiv_id": "2609.27548v1",
+      "title": "Stable time-stepping via residual minimization: finite-element and neural-network approximations for transient parabolic problems",
+      "authors": [
+        "Judit Mu\\~noz-Matute",
+        "Sergio Rojas"
+      ],
+      "link": "https://arxiv.org/abs/2609.27548"
+    },
+    {
+      "arxiv_id": "2609.27555v1",
+      "title": "Semi-discrete Active Flux method for two-dimensional hyperbolic systems with Coriolis source terms",
+      "authors": [
+        "Nikhil Manoj",
+        "Wasilij Barsukow",
+        "Christian Klingenberg"
+      ],
+      "link": "https://arxiv.org/abs/2609.27555"
+    },
+    {
+      "arxiv_id": "2609.27602v1",
+      "title": "Efficient Geometry Representation Strategies for the Shape Optimization of Profile Extrusion Dies",
+      "authors": [
+        "Jana Sasse",
+        "Maximilian Esser",
+        "Markus M\\\"ugge",
+        "Stefan Turek"
+      ],
+      "link": "https://arxiv.org/abs/2609.27602"
+    },
+    {
+      "arxiv_id": "2609.27652v1",
+      "title": "The Influence of the Cluster Point on Rounding Errors and Sensitivity in the Spectral Limited-Memory Preconditioner",
+      "authors": [
+        "Hisham Elzayyadi",
+        "Jemima M. Tabeart"
+      ],
+      "link": "https://arxiv.org/abs/2609.27652"
+    },
+    {
+      "arxiv_id": "2609.27707v1",
+      "title": "Conservative Three-Layer Schemes for Kirchhoff-Type Equations",
+      "authors": [
+        "Felix Krumbiegel",
+        "Jemal Rogava",
+        "Andreas Rupp",
+        "Zurab Vashakidze"
+      ],
+      "link": "https://arxiv.org/abs/2609.27707"
+    },
+    {
+      "arxiv_id": "2609.27761v1",
+      "title": "Slow--Fast Response Correction for a Compact Fourth-Order IMEX Two-Derivative Method",
+      "authors": [
+        "Zhixin Huo"
+      ],
+      "link": "https://arxiv.org/abs/2609.27761"
+    }
+  ]
+}

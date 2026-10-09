@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-05",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-05",
+  "duration_seconds": 1014.084,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.02672v1",
+      "title": "Inferring constitutive forces from noisy Allen-Cahn movies with moment equations",
+      "authors": [
+        "Soobeen Jung",
+        "Hyunju Kim"
+      ],
+      "link": "https://arxiv.org/abs/2610.02672"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.02316v1",
+      "title": "A Polynomial-Scaling PDE Solver with Entanglement-Basis Tensor Networks",
+      "authors": [
+        "Abhijatmedhi Chotrattanapituk",
+        "Michael J. Landry",
+        "Chu-Liang Fu",
+        "Mingda Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.02316"
+    },
+    {
+      "arxiv_id": "2610.02377v1",
+      "title": "Flow Matching for Fast Posterior Sampling in Bayesian Inverse Problems",
+      "authors": [
+        "Jan Blechschmidt",
+        "Oliver G. Ernst",
+        "Moritz Poguntke",
+        "Bj\\\"orn Sprungk"
+      ],
+      "link": "https://arxiv.org/abs/2610.02377"
+    },
+    {
+      "arxiv_id": "2610.02412v1",
+      "title": "Strong error analysis of a stochastic exponential integrator for SPDEs driven by fractional Brownian motion with H<1/2",
+      "authors": [
+        "Antoine Tambue",
+        "Aurelien Junior Noupelah",
+        "Louis Aime Fono"
+      ],
+      "link": "https://arxiv.org/abs/2610.02412"
+    },
+    {
+      "arxiv_id": "2610.02499v1",
+      "title": "Residual Minimisation for Transport-Based Optimal Control",
+      "authors": [
+        "Tristan Pryer",
+        "Nikolaos Rekatsinas"
+      ],
+      "link": "https://arxiv.org/abs/2610.02499"
+    },
+    {
+      "arxiv_id": "2610.02564v1",
+      "title": "Learning Closure of Dynamical Systems with Kernel Ridge Regression",
+      "authors": [
+        "Evan Habbershaw",
+        "John Harlim",
+        "Senwei Liang"
+      ],
+      "link": "https://arxiv.org/abs/2610.02564"
+    },
+    {
+      "arxiv_id": "2610.02776v1",
+      "title": "Property-Preserving Data Compression for Incompressible Flows",
+      "authors": [
+        "Andrey Pluzhnik",
+        "Ramansh Sharma",
+        "Martin Burtscher",
+        "Varun Shankar"
+      ],
+      "link": "https://arxiv.org/abs/2610.02776"
+    },
+    {
+      "arxiv_id": "2610.02891v1",
+      "title": "Efficient and Accurate Lift-and-Decoupling Generalized Transferable Neural Networks for Elliptic and Moving Interface Problems",
+      "authors": [
+        "Tao Cheng",
+        "Junqing Jia",
+        "Lili Ju",
+        "Xiaoping Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.02891"
+    },
+    {
+      "arxiv_id": "2610.02983v1",
+      "title": "From Continuous to Fully Discrete Carleman Estimates: A Transfer Principle for Parabolic Schemes",
+      "authors": [
+        "Qi L\\\"u",
+        "Yu Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.02983"
+    },
+    {
+      "arxiv_id": "2610.03144v1",
+      "title": "A Physics-Driven Multiscale Method for High-Frequency Helmholtz Equations",
+      "authors": [
+        "Huangxin Chen",
+        "Jianhui Chen",
+        "Shubin Fu",
+        "Zhiyu Tan"
+      ],
+      "link": "https://arxiv.org/abs/2610.03144"
+    },
+    {
+      "arxiv_id": "2610.03184v1",
+      "title": "Recursive Multilevel Decomposition of Pairwise Comparison Matrices: Algorithms and Inconsistency Diagnostics",
+      "authors": [
+        "Mert \\c{C}arbo\\u{g}a",
+        "Waldemar W. Koczkodaj",
+        "Yusuf Yayl{\\i}"
+      ],
+      "link": "https://arxiv.org/abs/2610.03184"
+    },
+    {
+      "arxiv_id": "2610.03191v1",
+      "title": "Reversible Stratonovich perturbations for accelerating convergence to equilibrium of Langevin dynamics",
+      "authors": [
+        "Guillaume Louis",
+        "Grigorios A. Pavliotis",
+        "Gilles Vilmart"
+      ],
+      "link": "https://arxiv.org/abs/2610.03191"
+    },
+    {
+      "arxiv_id": "2610.03246v1",
+      "title": "Simultaneous Global Convergence Failure of Newton's and Halley's Methods in Degree Four",
+      "authors": [
+        "Alessio Basti",
+        "Tommaso Cremaschi"
+      ],
+      "link": "https://arxiv.org/abs/2610.03246"
+    }
+  ]
+}

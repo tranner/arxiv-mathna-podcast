@@ -1,0 +1,152 @@
+{
+  "date": "2026-09-16",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-16",
+  "duration_seconds": 837.408,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.17048v1",
+      "title": "Near-Optimal Nonconvex Matrix Completion",
+      "authors": [
+        "Jian-Feng Cai",
+        "Xiliang Lu",
+        "Juntao You"
+      ],
+      "link": "https://arxiv.org/abs/2609.17048"
+    },
+    {
+      "arxiv_id": "2609.16449v1",
+      "title": "Beyond Phase Reduction: Amplitude Collapse in Optimal Control of Coupled Oscillators",
+      "authors": [
+        "Faranak Rajabi",
+        "Fr\\'ed\\'eric Gibou",
+        "Jeff Moehlis"
+      ],
+      "link": "https://arxiv.org/abs/2609.16449"
+    },
+    {
+      "arxiv_id": "2609.17323v1",
+      "title": "A derivative-free framework for capturing macroscopic behavior of incompressible turbulent flows",
+      "authors": [
+        "Jihun Han",
+        "Yoonsang Lee"
+      ],
+      "link": "https://arxiv.org/abs/2609.17323"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.16265v1",
+      "title": "Projection geometry and relaxed quasi-orthogonality for inf-sup stable Galerkin methods",
+      "authors": [
+        "Tsogtgerel Gantumur"
+      ],
+      "link": "https://arxiv.org/abs/2609.16265"
+    },
+    {
+      "arxiv_id": "2609.16406v1",
+      "title": "Physics Informed Random Feature Neural Networks for Solving PDEs",
+      "authors": [
+        "Chi-An Chen",
+        "Chunyang Liao",
+        "Ming Zhong"
+      ],
+      "link": "https://arxiv.org/abs/2609.16406"
+    },
+    {
+      "arxiv_id": "2609.16478v1",
+      "title": "A Matrix-free Augmented High Order Compact Solver for Variable-Coefficient Biharmonic Problems",
+      "authors": [
+        "Jin Li",
+        "Kejia Pan",
+        "Xu Qian",
+        "Li-Lian Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.16478"
+    },
+    {
+      "arxiv_id": "2609.16525v1",
+      "title": "Structure-Informed Data-Driven Reduced-Order Modeling of Scalar Hyperbolic Conservation Laws via Kinetic Defect Measure",
+      "authors": [
+        "Marissa Llamas",
+        "Jan Fuhg",
+        "Hannah Lu"
+      ],
+      "link": "https://arxiv.org/abs/2609.16525"
+    },
+    {
+      "arxiv_id": "2609.16536v1",
+      "title": "Structure-Driven Inversion: A New Paradigm for Solving Inverse Problems",
+      "authors": [
+        "Shengchang Chen"
+      ],
+      "link": "https://arxiv.org/abs/2609.16536"
+    },
+    {
+      "arxiv_id": "2609.16830v1",
+      "title": "Bilinearity Preserving Algebraic Flux Correction",
+      "authors": [
+        "Sarthak Sourav Dash",
+        "Abhinav Jha"
+      ],
+      "link": "https://arxiv.org/abs/2609.16830"
+    },
+    {
+      "arxiv_id": "2609.16863v1",
+      "title": "Mixed precision solvers for the all-at-once Runge--Kutta discretization of the heat equation",
+      "authors": [
+        "Santolo Leveque",
+        "Luca Bergamaschi",
+        "\\'{A}ngeles Mart\\'{i}nez",
+        "Erin Carson"
+      ],
+      "link": "https://arxiv.org/abs/2609.16863"
+    },
+    {
+      "arxiv_id": "2609.16979v1",
+      "title": "Well-posedness, Regularity, and Strong Approximations of Superlinear Stochastic Reaction-Diffusion Equation",
+      "authors": [
+        "Zhihui Liu"
+      ],
+      "link": "https://arxiv.org/abs/2609.16979"
+    },
+    {
+      "arxiv_id": "2609.16983v1",
+      "title": "Nonlinear filtering stabilizations for the quasi-geostrophic equations",
+      "authors": [
+        "Lander Besabe",
+        "Sachin Kumar",
+        "Annalisa Quaini"
+      ],
+      "link": "https://arxiv.org/abs/2609.16983"
+    },
+    {
+      "arxiv_id": "2609.17096v1",
+      "title": "A Reynolds-Semi-Robust, Globally Divergence-Free E-HDG/IMEX-SAV Method for Variational Initial-State Data Assimilation of the Navier-Stokes Equations",
+      "authors": [
+        "Ya Min",
+        "Xian Zhang",
+        "Xiaoping Xie"
+      ],
+      "link": "https://arxiv.org/abs/2609.17096"
+    },
+    {
+      "arxiv_id": "2609.17122v1",
+      "title": "An arbitrary-order BGG-based discrete scheme for the Reissner--Mindlin plate problem on polygonal meshes",
+      "authors": [
+        "Arax Leroy"
+      ],
+      "link": "https://arxiv.org/abs/2609.17122"
+    },
+    {
+      "arxiv_id": "2609.17137v1",
+      "title": "Latent Inversion of Material Coefficients from Boundary Data via Finite Tests and Neural Surrogates",
+      "authors": [
+        "Erik Burman",
+        "Mats G. Larson",
+        "Karl Larsson",
+        "Jonatan Vallin"
+      ],
+      "link": "https://arxiv.org/abs/2609.17137"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-08-13",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-13",
+  "duration_seconds": 928.144,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.11892v1",
+      "title": "Fast eight-order Pade schemes based on Chebyshev polynomials for direct Zakharov-Shabat problem",
+      "authors": [
+        "Sergey Medvedev",
+        "Igor Chekhovskoy",
+        "Irina Vaseva",
+        "Mikhail Fedoruk"
+      ],
+      "link": "https://arxiv.org/abs/2608.11892"
+    },
+    {
+      "arxiv_id": "2608.11270v1",
+      "title": "Heavy Ball GMRESR method for Nonsymmetric Linear Systems",
+      "authors": [
+        "Mei Yang"
+      ],
+      "link": "https://arxiv.org/abs/2608.11270"
+    },
+    {
+      "arxiv_id": "2608.11353v1",
+      "title": "Exact characterisation of maximum-angle conditions for spherical finite element meshes",
+      "authors": [
+        "Hiroki Ishizaka"
+      ],
+      "link": "https://arxiv.org/abs/2608.11353"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.11462v1",
+      "title": "Linear-cost Polyharmonic Spline Interpolation of Arbitrary Degree",
+      "authors": [
+        "Christopher J. Geoga",
+        "Michael O'Neil"
+      ],
+      "link": "https://arxiv.org/abs/2608.11462"
+    },
+    {
+      "arxiv_id": "2608.11486v1",
+      "title": "Stability of Finite-Batch Particle Mean-Field Variational Inference Beyond Strong Convexity",
+      "authors": [
+        "Vinh Nguyen",
+        "Truong Vu"
+      ],
+      "link": "https://arxiv.org/abs/2608.11486"
+    },
+    {
+      "arxiv_id": "2608.11520v1",
+      "title": "Contour Hankel dynamics and indicator fields for the Riemann $\\Xi$-function",
+      "authors": [
+        "Zhiliang Deng",
+        "Xiaomei Yang",
+        "Huazhong L\\\"u"
+      ],
+      "link": "https://arxiv.org/abs/2608.11520"
+    },
+    {
+      "arxiv_id": "2608.11559v1",
+      "title": "An Interface Green's Function Framework for Complete Discrete $W^{1,\\infty}$ Analysis of Discontinuous Galerkin Methods",
+      "authors": [
+        "Haitao Leng",
+        "Weifeng Qiu"
+      ],
+      "link": "https://arxiv.org/abs/2608.11559"
+    },
+    {
+      "arxiv_id": "2608.11764v1",
+      "title": "Variational Enrichment of Adaptive Finite Element Spaces Beyond Polynomials",
+      "authors": [
+        "Matthew Francis Dixon"
+      ],
+      "link": "https://arxiv.org/abs/2608.11764"
+    },
+    {
+      "arxiv_id": "2608.11915v1",
+      "title": "Positive quadrature and mobile sampling of multivariate trigonometric polynomials",
+      "authors": [
+        "Stefan Kunis"
+      ],
+      "link": "https://arxiv.org/abs/2608.11915"
+    },
+    {
+      "arxiv_id": "2608.11936v1",
+      "title": "A Positivity-Preserving Expectation Scheme for Hamilton--Jacobi--Bellman Equations with Oblique Robin Boundary Conditions",
+      "authors": [
+        "Haoran Xu",
+        "Xingye Yue"
+      ],
+      "link": "https://arxiv.org/abs/2608.11936"
+    },
+    {
+      "arxiv_id": "2608.12058v1",
+      "title": "Numerical methods for the simulation of quantum walks and quantum annealing",
+      "authors": [
+        "Asa Hopkins",
+        "Viv Kendon"
+      ],
+      "link": "https://arxiv.org/abs/2608.12058"
+    },
+    {
+      "arxiv_id": "2608.12153v1",
+      "title": "Halving the size of skew-symmetric eigenvalue problems via the polar decomposition",
+      "authors": [
+        "Daniel Kressner",
+        "Simon Mataigne"
+      ],
+      "link": "https://arxiv.org/abs/2608.12153"
+    },
+    {
+      "arxiv_id": "2608.11518v1",
+      "title": "New Orthogonal Multiwavelet Filters Derived by Matrix Spectral Factorization",
+      "authors": [
+        "Vasil Kolev",
+        "Todor Cooklev",
+        "Fritz Keinert"
+      ],
+      "link": "https://arxiv.org/abs/2608.11518"
+    },
+    {
+      "arxiv_id": "2608.11848v1",
+      "title": "A uniform elliptic reduction, an order-matching criterion, and precision benchmarks for the strong-coupling Birman-Schwinger analysis of the lattice three-boson trimer",
+      "authors": [
+        "Mikhail Dolgopolov"
+      ],
+      "link": "https://arxiv.org/abs/2608.11848"
+    },
+    {
+      "arxiv_id": "2608.12044v1",
+      "title": "Model-Consistent Structured-Hankel Matrix Completion for 3D Sparse Multi-frequency Electromagnetic Source Reconstruction",
+      "authors": [
+        "Shujaat Khan",
+        "Abdul Wahab"
+      ],
+      "link": "https://arxiv.org/abs/2608.12044"
+    }
+  ]
+}

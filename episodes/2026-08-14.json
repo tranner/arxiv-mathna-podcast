@@ -1,0 +1,107 @@
+{
+  "date": "2026-08-14",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-14",
+  "duration_seconds": 783.923,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.12886v1",
+      "title": "A robust and optimal method for a sixth-order elliptic singular perturbation problem",
+      "authors": [
+        "Mingqing Chen",
+        "Jianguo Huang"
+      ],
+      "link": "https://arxiv.org/abs/2608.12886"
+    },
+    {
+      "arxiv_id": "2608.12690v1",
+      "title": "Algebraic constructions of point sequences with quasi-uniform two-dimensional projections",
+      "authors": [
+        "Takashi Goda"
+      ],
+      "link": "https://arxiv.org/abs/2608.12690"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.12479v1",
+      "title": "Identifying changing partial differential equations using Sampled Local WeakIdent",
+      "authors": [
+        "Wenbo Hao",
+        "Mengyi Tang",
+        "Sung Ha Kang"
+      ],
+      "link": "https://arxiv.org/abs/2608.12479"
+    },
+    {
+      "arxiv_id": "2608.12823v1",
+      "title": "BTF-PINN: Enforcing Dirichlet Boundary Conditions Without Boundary Training",
+      "authors": [
+        "Wenyu Dong",
+        "Shuo Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.12823"
+    },
+    {
+      "arxiv_id": "2608.12833v1",
+      "title": "Finite element approximation of the linearized Cahn-Hilliard-Cook equation",
+      "authors": [
+        "Ali Mesforush",
+        "Stig Larsson"
+      ],
+      "link": "https://arxiv.org/abs/2608.12833"
+    },
+    {
+      "arxiv_id": "2608.12893v1",
+      "title": "A Counterexample to Robust Second-Order Convergence of the Strang Projector-Splitting Integrator",
+      "authors": [
+        "Shiheng Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.12893"
+    },
+    {
+      "arxiv_id": "2608.13132v1",
+      "title": "Analysis of Error Propagation in Autoencoder-Based Reduced-Order Neural Ordinary Differential Equations",
+      "authors": [
+        "Jingyi Zhang",
+        "Gwanghyun Jo"
+      ],
+      "link": "https://arxiv.org/abs/2608.13132"
+    },
+    {
+      "arxiv_id": "2608.13187v1",
+      "title": "Performance Evaluation of an Adaptive Quadrature and a Double Exponential Formula Using Arbitrary-Precision Floating-Point Arithmetic",
+      "authors": [
+        "Tomonori Kouya"
+      ],
+      "link": "https://arxiv.org/abs/2608.13187"
+    },
+    {
+      "arxiv_id": "2608.13407v1",
+      "title": "Stochastic resistive Hall--MHD with current fluctuations: martingale weak solutions via a convergent structure-preserving finite element method",
+      "authors": [
+        "Agus L. Soenjaya"
+      ],
+      "link": "https://arxiv.org/abs/2608.13407"
+    },
+    {
+      "arxiv_id": "2608.12937v1",
+      "title": "Transparent Boundary Conditions for the Heat Equation on Metric Graphs",
+      "authors": [
+        "Jasur Matrasulov",
+        "Jambul Yusupov",
+        "Matthias Ehrhardt"
+      ],
+      "link": "https://arxiv.org/abs/2608.12937"
+    },
+    {
+      "arxiv_id": "2608.13121v1",
+      "title": "Adaptive Schauder Stochastic Mirror Descent in Banach Spaces",
+      "authors": [
+        "Jinhui Bai",
+        "Shuai Lu",
+        "Lei Shi"
+      ],
+      "link": "https://arxiv.org/abs/2608.13121"
+    }
+  ]
+}

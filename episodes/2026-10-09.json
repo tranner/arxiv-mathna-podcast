@@ -1,0 +1,150 @@
+{
+  "date": "2026-10-09",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-09",
+  "duration_seconds": 702.328,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.12336v1",
+      "title": "asdex: Automatic Sparse Differentiation in JAX",
+      "authors": [
+        "Adrian Hill",
+        "Guillaume Dalle"
+      ],
+      "link": "https://arxiv.org/abs/2610.12336"
+    },
+    {
+      "arxiv_id": "2610.12017v1",
+      "title": "Model Order Reduction for Parametric Dissipative Quantum Systems",
+      "authors": [
+        "Bernard Haasdonk",
+        "Benjamin Stamm",
+        "Zhuoyao Zeng"
+      ],
+      "link": "https://arxiv.org/abs/2610.12017"
+    },
+    {
+      "arxiv_id": "2610.10819v1",
+      "title": "Analysis and Detection of Stagnation in Floating-Point Summation",
+      "authors": [
+        "Mantas Mikaitis",
+        "William Woolfenden"
+      ],
+      "link": "https://arxiv.org/abs/2610.10819"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.10863v1",
+      "title": "Multilevel Picard approximations for McKean-Vlasov stochastic differential equations with jumps",
+      "authors": [
+        "Ariel Neufeld",
+        "Tuan Anh Nguyen",
+        "Philipp Schmocker"
+      ],
+      "link": "https://arxiv.org/abs/2610.10863"
+    },
+    {
+      "arxiv_id": "2610.10943v1",
+      "title": "A Neural-Network Approach for the Stability of Loosely-Coupled FSI Simulations in Hemodynamics",
+      "authors": [
+        "Francesca Renzi",
+        "Stefano Pagani",
+        "Paola F. Antonietti",
+        "Christian Vergara"
+      ],
+      "link": "https://arxiv.org/abs/2610.10943"
+    },
+    {
+      "arxiv_id": "2610.11120v1",
+      "title": "Numerical Neural Operator: Connection Between Numerical Analysis and the Operator Learning and Building Discretized Neural Operators from Finite Element Methods",
+      "authors": [
+        "Zecheng Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.11120"
+    },
+    {
+      "arxiv_id": "2610.11532v1",
+      "title": "A unified framework for original energy dissipation of equilibrium-preserving exponential Runge--Kutta methods for $L^2$ gradient flows",
+      "authors": [
+        "Chaoyu Quan",
+        "Pinzhong Zheng",
+        "Zhi Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2610.11532"
+    },
+    {
+      "arxiv_id": "2610.11595v1",
+      "title": "Quantitative finite-time approximation of scattering fields for Alfv\\'en waves in ideal MHD",
+      "authors": [
+        "Junming Duan",
+        "Mengni Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.11595"
+    },
+    {
+      "arxiv_id": "2610.11636v1",
+      "title": "CutIGA with Least Squares Stabilized Nitsche Boundary Conditions: The Biharmonic Problem",
+      "authors": [
+        "Mats G. Larson",
+        "Karl Larsson"
+      ],
+      "link": "https://arxiv.org/abs/2610.11636"
+    },
+    {
+      "arxiv_id": "2610.11688v1",
+      "title": "A Localized Hybrid Finite Element--Random Feature Method for Elliptic Interface Problems on Unfitted Meshes",
+      "authors": [
+        "Siyuan Lang",
+        "Zhiyue Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.11688"
+    },
+    {
+      "arxiv_id": "2610.11747v1",
+      "title": "Robust second-order time integration of tree tensor networks",
+      "authors": [
+        "Jonas Kusch",
+        "Dominik Sulz"
+      ],
+      "link": "https://arxiv.org/abs/2610.11747"
+    },
+    {
+      "arxiv_id": "2610.11774v1",
+      "title": "Two-level hybrid Schwarz preconditioners with preasymptotic piecewise-polynomial coarse spaces for the high-frequency Helmholtz equation",
+      "authors": [
+        "Jeffrey Galkowski",
+        "Euan A. Spence",
+        "Pierre-Henri Tournier"
+      ],
+      "link": "https://arxiv.org/abs/2610.11774"
+    },
+    {
+      "arxiv_id": "2610.11795v1",
+      "title": "Almost $L^\\infty$-stability of the Ritz projection for the integral fractional Laplacian with $0<s\\leq \\tfrac12$",
+      "authors": [
+        "Jia Li",
+        "Shuonan Wu"
+      ],
+      "link": "https://arxiv.org/abs/2610.11795"
+    },
+    {
+      "arxiv_id": "2610.11814v1",
+      "title": "Gauss--Chebyshev Quadrature, $\\mathbb S^1$-Designs, and the Planar Minkowski Inverse Problem: A One-Dimensional Model for Design-Induced Convex Geometry",
+      "authors": [
+        "Congpei An"
+      ],
+      "link": "https://arxiv.org/abs/2610.11814"
+    },
+    {
+      "arxiv_id": "2610.11820v1",
+      "title": "Finite volume discretization and normalized gradient flow for computing minimizers of the rotating Gross-Pitaevskii energy",
+      "authors": [
+        "Quentin Chauleur (Paradyse)",
+        "Guillaume Dujardin (Paradyse)",
+        "Robin Roussel (LPP",
+        "Paradyse)"
+      ],
+      "link": "https://arxiv.org/abs/2610.11820"
+    }
+  ]
+}

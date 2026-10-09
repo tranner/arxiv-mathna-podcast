@@ -1,0 +1,126 @@
+{
+  "date": "2026-08-21",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-21",
+  "duration_seconds": 734.065,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.19840v1",
+      "title": "Applying the Spectral Method for Modeling Linear Filters: Bessel, Papoulis, and Legendre Filters",
+      "authors": [
+        "Konstantin A. Rybakov"
+      ],
+      "link": "https://arxiv.org/abs/2608.19840"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.19250v1",
+      "title": "A fully discrete LBRFD-IPDG method for linear fourth-order parabolic equations",
+      "authors": [
+        "Hongying Huang",
+        "Hong Zhang",
+        "Yanming Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.19250"
+    },
+    {
+      "arxiv_id": "2608.19368v1",
+      "title": "A High-Order Rank-Adaptive Implicit Algorithm for Solving High Dimensional Diffusion Equations using the Hierarchical Tucker Decomposition",
+      "authors": [
+        "Paolo Bosques-Paulet"
+      ],
+      "link": "https://arxiv.org/abs/2608.19368"
+    },
+    {
+      "arxiv_id": "2608.19384v1",
+      "title": "A high-order, meshless, Lagrangian--Eulerian RBF-FD method for advection--diffusion--reaction on moving manifolds",
+      "authors": [
+        "Matthew Lowery",
+        "Grady B. Wright",
+        "Varun Shankar"
+      ],
+      "link": "https://arxiv.org/abs/2608.19384"
+    },
+    {
+      "arxiv_id": "2608.19426v1",
+      "title": "Implicit-adjoint finite-volume topology optimization of two-dimensional conjugate heat transfer",
+      "authors": [
+        "Sam Yang"
+      ],
+      "link": "https://arxiv.org/abs/2608.19426"
+    },
+    {
+      "arxiv_id": "2608.19513v1",
+      "title": "The Normal Procrustes Problem: A Riemannian Optimization Approach",
+      "authors": [
+        "Kyle Bierly"
+      ],
+      "link": "https://arxiv.org/abs/2608.19513"
+    },
+    {
+      "arxiv_id": "2608.19603v1",
+      "title": "An adaptive and conservative low-rank IMEX solver for the hybrid ion Vlasov-Fokker-Planck and fluid electron system",
+      "authors": [
+        "Joseph Nakao",
+        "Dylan T. Jacobs",
+        "William Taitano"
+      ],
+      "link": "https://arxiv.org/abs/2608.19603"
+    },
+    {
+      "arxiv_id": "2608.19615v1",
+      "title": "Evo-GTransNet for Parabolic PDEs: A Fixed-Feature Galerkin Method of Lines with Quadrature-Mass Orthonormalization",
+      "authors": [
+        "Lili Ju",
+        "Jin Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2608.19615"
+    },
+    {
+      "arxiv_id": "2608.19688v1",
+      "title": "Learning Deterministic and Stochastic Forced Hamiltonian Systems",
+      "authors": [
+        "Benedikt Brantner",
+        "Tomasz Tyranowski"
+      ],
+      "link": "https://arxiv.org/abs/2608.19688"
+    },
+    {
+      "arxiv_id": "2608.19702v1",
+      "title": "Exact hierarchical algorithms for accelerating particle--mesh coupling in sparse-grid particle-in-cell methods",
+      "authors": [
+        "Cl\\'ement Guillet"
+      ],
+      "link": "https://arxiv.org/abs/2608.19702"
+    },
+    {
+      "arxiv_id": "2608.19797v1",
+      "title": "Optimal Sobolev Approximation by Deterministic and Random Shallow Sigmoidal Networks",
+      "authors": [
+        "Zhaohui Fu",
+        "Yangshuai Wang"
+      ],
+      "link": "https://arxiv.org/abs/2608.19797"
+    },
+    {
+      "arxiv_id": "2608.19839v1",
+      "title": "Sharp Dimension Bounds for Spline Spaces over T-meshes with Highest Order of Smoothness",
+      "authors": [
+        "Bingru Huang",
+        "Falai Chen"
+      ],
+      "link": "https://arxiv.org/abs/2608.19839"
+    },
+    {
+      "arxiv_id": "2608.20034v1",
+      "title": "A Comprehensive p-VEM Framework for Advanced Variable Stiffness Plates with Arbitrary Shapes",
+      "authors": [
+        "Paola Pia Foligno",
+        "Daniele Boffi",
+        "Fabio Credali",
+        "Riccardo Vescovini"
+      ],
+      "link": "https://arxiv.org/abs/2608.20034"
+    }
+  ]
+}

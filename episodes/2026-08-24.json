@@ -1,0 +1,129 @@
+{
+  "date": "2026-08-24",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-24",
+  "duration_seconds": 1006.409,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.21304v1",
+      "title": "Basin-Preserving Discretizations of Modern Hopfield Retrieval Dynamics: Energy Cells, Dissipation, and the Attention Limit",
+      "authors": [
+        "Francisco R. Villatoro"
+      ],
+      "link": "https://arxiv.org/abs/2608.21304"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.20493v1",
+      "title": "Regularized summation of Fourier-Laguerre series in the weighted sup-norm",
+      "authors": [
+        "S. G. Solodky",
+        "Y. A. Volynets"
+      ],
+      "link": "https://arxiv.org/abs/2608.20493"
+    },
+    {
+      "arxiv_id": "2608.20531v1",
+      "title": "Nystr\\\"om method for symmetric indefinite matrices",
+      "authors": [
+        "Yijia Chen",
+        "Yuji Nakatsukasa",
+        "Anjali Narendran",
+        "Taejun Park"
+      ],
+      "link": "https://arxiv.org/abs/2608.20531"
+    },
+    {
+      "arxiv_id": "2608.20633v1",
+      "title": "A new analysis of the randomly pivoted Cholesky algorithm",
+      "authors": [
+        "Ethan N. W. Epperly"
+      ],
+      "link": "https://arxiv.org/abs/2608.20633"
+    },
+    {
+      "arxiv_id": "2608.20872v1",
+      "title": "Point Cloud Quality for Meshfree Methods",
+      "authors": [
+        "Mohsen Abdolahzadeh",
+        "Oleg Davydov",
+        "Isabel Michel",
+        "Pratik Suchde"
+      ],
+      "link": "https://arxiv.org/abs/2608.20872"
+    },
+    {
+      "arxiv_id": "2608.20875v1",
+      "title": "A counterexample to the symmetric-maximizer conjecture for Lyapunov operators",
+      "authors": [
+        "Daniel Kressner",
+        "Bart Vandereycken"
+      ],
+      "link": "https://arxiv.org/abs/2608.20875"
+    },
+    {
+      "arxiv_id": "2608.21091v1",
+      "title": "A Hybridizable Discontinuous Galerkin Method for Wave Propagation in Elastic Beam Networks",
+      "authors": [
+        "Moritz Hauck (Karlsruhe Institute of Technology)",
+        "Joseph Holten (Karlsruhe Institute of Technology)",
+        "Axel M{\\aa}lqvist (Chalmers University of Technology and University of Gothenburg)",
+        "Andreas Rupp (Saarland University)",
+        "Lucia Swoboda (Chalmers University of Technology and University of Gothenburg)"
+      ],
+      "link": "https://arxiv.org/abs/2608.21091"
+    },
+    {
+      "arxiv_id": "2608.21234v1",
+      "title": "Advanced Linear Algebra with Applications - Part I (Numerical linear algebra for PDEs, machine learning, and data assimilation)",
+      "authors": [
+        "Victorita Dolean",
+        "Jemima Tabeart"
+      ],
+      "link": "https://arxiv.org/abs/2608.21234"
+    },
+    {
+      "arxiv_id": "2608.21235v1",
+      "title": "A Harmonic Framework for Vector Fields and Differential Operators on SO(3)",
+      "authors": [
+        "Ralf Hielscher",
+        "Erik W\\\"unsche"
+      ],
+      "link": "https://arxiv.org/abs/2608.21235"
+    },
+    {
+      "arxiv_id": "2608.21268v1",
+      "title": "A simple stability analysis of the Lanczos algorithm in finite precision arithmetic",
+      "authors": [
+        "Tyler Chen"
+      ],
+      "link": "https://arxiv.org/abs/2608.21268"
+    },
+    {
+      "arxiv_id": "2608.20441v1",
+      "title": "Shared Physics Responses Recover Hidden Rankings in Neural Operator Libraries",
+      "authors": [
+        "Hanbing Liang",
+        "Fujun Liu"
+      ],
+      "link": "https://arxiv.org/abs/2608.20441"
+    },
+    {
+      "arxiv_id": "2608.20466v1",
+      "title": "A sharp isoperimetric inequality for the Neumann--Poincar\\'e operator in every dimension",
+      "authors": [
+        "Matthew J. Colbrook",
+        "Siavash Sadeghi"
+      ],
+      "link": "https://arxiv.org/abs/2608.20466"
+    },
+    {
+      "arxiv_id": "2608.21187v1",
+      "title": "Anchored Regularized Direct Least Squares (ARDLS): Integrating Established Prioritization Operators for Priority Elicitation in the Analytic Hierarchy Process",
+      "authors": [
+        "Kevin Kam Fung Yuen"
+      ],
+      "link": "https://arxiv.org/abs/2608.21187"
+    }
+  ]
+}
