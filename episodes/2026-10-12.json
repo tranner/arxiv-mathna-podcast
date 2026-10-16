@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-12",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-12",
+  "duration_seconds": 1267.249,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.13629v1",
+      "title": "An inverse spectral problem for the wave equation with a varying Robin parameter at the boundary",
+      "authors": [
+        "Antti Hannukainen",
+        "Petr Kulikov",
+        "Matti Lassas",
+        "Lauri Oksanen"
+      ],
+      "link": "https://arxiv.org/abs/2610.13629"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.12608v1",
+      "title": "Fourier Transform-Based Computation of Two-Electron Four-Center Coulomb Repulsion Integrals",
+      "authors": [
+        "William Chen",
+        "Lior Silberman",
+        "Ury Segal",
+        "Chen Greif"
+      ],
+      "link": "https://arxiv.org/abs/2610.12608"
+    },
+    {
+      "arxiv_id": "2610.12643v1",
+      "title": "Median randomized quasi-Monte Carlo for nested integration",
+      "authors": [
+        "Arved Bartuska",
+        "Yang Liu",
+        "Ra\\'{u}l Tempone"
+      ],
+      "link": "https://arxiv.org/abs/2610.12643"
+    },
+    {
+      "arxiv_id": "2610.12745v1",
+      "title": "Variational neural transport for aggregation-diffusion equations",
+      "authors": [
+        "Qianyi Li",
+        "Hailiang Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.12745"
+    },
+    {
+      "arxiv_id": "2610.12821v1",
+      "title": "A kernel-independent precorrected-FFT method",
+      "authors": [
+        "Tristan Goodwill",
+        "Owen Melia"
+      ],
+      "link": "https://arxiv.org/abs/2610.12821"
+    },
+    {
+      "arxiv_id": "2610.12833v1",
+      "title": "Riemannian Hessian analysis of Sobolev gradient flows for the Gross--Pitaevskii ground state problem",
+      "authors": [
+        "Shixin Zheng",
+        "Xiangxiong Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.12833"
+    },
+    {
+      "arxiv_id": "2610.12888v1",
+      "title": "Numerical Smoothness and Error Analysis for Evolution Equations",
+      "authors": [
+        "Tong Sun"
+      ],
+      "link": "https://arxiv.org/abs/2610.12888"
+    },
+    {
+      "arxiv_id": "2610.13029v1",
+      "title": "Linear and entropy-stable scheme for the dynamic van der Waals model of non-isothermal liquid-vapor flows",
+      "authors": [
+        "Yunzhuo Guo",
+        "Zhonghua Qiao",
+        "Xianmin Xu"
+      ],
+      "link": "https://arxiv.org/abs/2610.13029"
+    },
+    {
+      "arxiv_id": "2610.13222v1",
+      "title": "Numerical Stability of Extended-Domain Spectral Collocation: Floating-Point Regularization and an Equilibrium Law for the Frame Constants",
+      "authors": [
+        "Po-Yi Wu"
+      ],
+      "link": "https://arxiv.org/abs/2610.13222"
+    },
+    {
+      "arxiv_id": "2610.13245v1",
+      "title": "ADER-ZIST - a mixed explicit ADER-DG and zonally implicit space-time DG approach for Cartesian cut cell meshes",
+      "authors": [
+        "Michael Dumbser",
+        "Christian Engwer",
+        "Sandra May",
+        "Peter Munch"
+      ],
+      "link": "https://arxiv.org/abs/2610.13245"
+    },
+    {
+      "arxiv_id": "2610.13355v1",
+      "title": "On the Convergence of the Mesh-Free Discretization of a Non-Linear Bond-Based Peridynamic Model with a Bond-Breakage Criterion",
+      "authors": [
+        "Lukas Pflug",
+        "Michael Stingl",
+        "Max Zetzmann"
+      ],
+      "link": "https://arxiv.org/abs/2610.13355"
+    },
+    {
+      "arxiv_id": "2610.13391v1",
+      "title": "Global Optimization of Beam Profiles for Suppressing the Bump-On-Tail Instability",
+      "authors": [
+        "Sandro Mignelli",
+        "Lukas Einkemmer"
+      ],
+      "link": "https://arxiv.org/abs/2610.13391"
+    },
+    {
+      "arxiv_id": "2610.13483v1",
+      "title": "Regularisation and Parameter Choice Rules for Composite Linear Inverse Problems",
+      "authors": [
+        "Christina Brandt",
+        "Patrick Horn"
+      ],
+      "link": "https://arxiv.org/abs/2610.13483"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-29",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-29",
+  "duration_seconds": 904.457,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.32508v1",
+      "title": "Deep learning methods for stochastic Galerkin approximations of random domain problems",
+      "authors": [
+        "Fabio Musco",
+        "Andrea Barth"
+      ],
+      "link": "https://arxiv.org/abs/2609.32508"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.31817v1",
+      "title": "Finite-Data Error Bounds for Approximating the Koopman Operator: Sampling Measures, Super-Polynomial Convergence and Regularization",
+      "authors": [
+        "Daniel Fassler",
+        "Rachel Morris",
+        "Jason Bramburger",
+        "Simone Brugiapaglia"
+      ],
+      "link": "https://arxiv.org/abs/2609.31817"
+    },
+    {
+      "arxiv_id": "2609.31909v1",
+      "title": "Mapped Multi-Patch Spectral Extreme Learning Machine for Partial Differential Equations",
+      "authors": [
+        "Yiran Wang",
+        "Suchuan Dong"
+      ],
+      "link": "https://arxiv.org/abs/2609.31909"
+    },
+    {
+      "arxiv_id": "2609.31953v1",
+      "title": "Accurate Density of States Estimation: A Comparative Study",
+      "authors": [
+        "Dong Min Roh",
+        "Chao Yang"
+      ],
+      "link": "https://arxiv.org/abs/2609.31953"
+    },
+    {
+      "arxiv_id": "2609.31987v1",
+      "title": "Finite element error estimates for a bilinear optimal control problem with pointwise tracking governed by a semilinear elliptic PDE",
+      "authors": [
+        "Enrique Otarola",
+        "Daniel Quero",
+        "Matias Sasso"
+      ],
+      "link": "https://arxiv.org/abs/2609.31987"
+    },
+    {
+      "arxiv_id": "2609.32043v1",
+      "title": "Distance-Residual Physics-Informed Neural Networks: A Deep Learning Framework for Differential and Partial Differential Inclusions",
+      "authors": [
+        "Maria Filipkovska",
+        "Juan Jos\\'e Mar\\'{\\i}n",
+        "Isil Oner",
+        "Francisco Periago",
+        "Krzysztof Rykaczewski"
+      ],
+      "link": "https://arxiv.org/abs/2609.32043"
+    },
+    {
+      "arxiv_id": "2609.32066v1",
+      "title": "Optimal convergence analysis of arbitrary Lagrangian-Eulerian finite element methods for two-phase Stokes flow problems with moving interface",
+      "authors": [
+        "Yi Liang",
+        "Cheng Wang",
+        "Pengtao Sun",
+        "Yan Chen",
+        "Jiarui Han"
+      ],
+      "link": "https://arxiv.org/abs/2609.32066"
+    },
+    {
+      "arxiv_id": "2609.32107v1",
+      "title": "A merged-cell discontinuous Galerkin method for scalar conservation laws on curved domains",
+      "authors": [
+        "Yong Liu"
+      ],
+      "link": "https://arxiv.org/abs/2609.32107"
+    },
+    {
+      "arxiv_id": "2609.32128v1",
+      "title": "Wave Breaking and Structure-Preserving Fully Discrete Method for Stochastic Camassa--Holm Equation with Additive Noise",
+      "authors": [
+        "Liying Sun",
+        "Zizhao Sun",
+        "Liying Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.32128"
+    },
+    {
+      "arxiv_id": "2609.32206v1",
+      "title": "Positivity-preserving semi-Lagrangian discontinuous Galerkin methods for multi-species Vlasov-Amp\\`ere models of plasma",
+      "authors": [
+        "Dauda Gambo",
+        "James A. Rossmanith"
+      ],
+      "link": "https://arxiv.org/abs/2609.32206"
+    },
+    {
+      "arxiv_id": "2609.32229v1",
+      "title": "Finite Expression Approximation of High-Dimensional PDEs Without the Curse of Dimensionality",
+      "authors": [
+        "Zhi Heng Liu",
+        "Haizhao Yang"
+      ],
+      "link": "https://arxiv.org/abs/2609.32229"
+    },
+    {
+      "arxiv_id": "2609.32249v1",
+      "title": "Isothermal walls in the compressible Navier-Stokes equations: affine entropy, ballistic energy, and entropy-stable discrete formulations",
+      "authors": [
+        "Matteo Parsani",
+        "Rasha AlJahdali",
+        "Lisandro Dalcin"
+      ],
+      "link": "https://arxiv.org/abs/2609.32249"
+    },
+    {
+      "arxiv_id": "2609.32358v1",
+      "title": "Application of Machine Learning to the Computation of Parameters in the SUPG Method for Unstructured and Anisotropic Meshes",
+      "authors": [
+        "Petr Knobloch",
+        "Manoj Prakash"
+      ],
+      "link": "https://arxiv.org/abs/2609.32358"
+    }
+  ]
+}

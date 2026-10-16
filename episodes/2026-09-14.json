@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-14",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-14",
+  "duration_seconds": 815.871,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.12161v1",
+      "title": "A Fully Discrete Local Discontinuous Galerkin Method for Quasilinear Stochastic Convection-Diffusion-Type Equations",
+      "authors": [
+        "Yiming Chen",
+        "Yunzhang Li",
+        "Yulong Xing"
+      ],
+      "link": "https://arxiv.org/abs/2609.12161"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.12178v1",
+      "title": "Global Sensitivity Analysis of Spatial Sets: Finite-Element-Based Estimation and the Role of Observation Windows",
+      "authors": [
+        "Farbod Chamanian",
+        "Chiara Piazzola",
+        "Elisabeth Ullmann"
+      ],
+      "link": "https://arxiv.org/abs/2609.12178"
+    },
+    {
+      "arxiv_id": "2609.12241v1",
+      "title": "Transform before linearizing: robust Newton methods for singular $p$-Laplace and $p$-Stokes equations",
+      "authors": [
+        "Gonzalo G. De Diego",
+        "Fortino Garcia",
+        "Georg Stadler",
+        "Kewei Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.12241"
+    },
+    {
+      "arxiv_id": "2609.12266v1",
+      "title": "Error bounds for the Sherman-Morrison formula and its modification with improved stability",
+      "authors": [
+        "Behnam Hashemi",
+        "Yuji Nakatsukasa"
+      ],
+      "link": "https://arxiv.org/abs/2609.12266"
+    },
+    {
+      "arxiv_id": "2609.12282v1",
+      "title": "Adaptive local representations for Helmholtz Trefftz discontinuous Galerkin methods",
+      "authors": [
+        "Shelvean Kapita"
+      ],
+      "link": "https://arxiv.org/abs/2609.12282"
+    },
+    {
+      "arxiv_id": "2609.12307v1",
+      "title": "How to grade the accuracy of the BLAS",
+      "authors": [
+        "James Demmel",
+        "Greg Henry",
+        "Igor Kozachenko",
+        "Julien Langou",
+        "Xiaoye Sherry Li",
+        "Jason Riedy",
+        "Jackson Vanover"
+      ],
+      "link": "https://arxiv.org/abs/2609.12307"
+    },
+    {
+      "arxiv_id": "2609.12369v1",
+      "title": "A spectral-element method for computing many eigenvalues and their asymptotics of the Schr\\\"odinger operator with Robin boundary condition",
+      "authors": [
+        "Weizhu Bao",
+        "Fukeng Huang"
+      ],
+      "link": "https://arxiv.org/abs/2609.12369"
+    },
+    {
+      "arxiv_id": "2609.12396v1",
+      "title": "Early stopping of stochastic variance reduced gradient for linear inverse problems by the discrepancy principle",
+      "authors": [
+        "Bangti Jin",
+        "Zehui Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2609.12396"
+    },
+    {
+      "arxiv_id": "2609.12407v1",
+      "title": "3D Computational Modeling of the Vascular Heat-Sink Effect in Microwave Ablation of Tumors Close to the Aorta",
+      "authors": [
+        "Youjin Kim",
+        "Kyungho Yoon",
+        "Minwoo Shin"
+      ],
+      "link": "https://arxiv.org/abs/2609.12407"
+    },
+    {
+      "arxiv_id": "2609.12462v1",
+      "title": "A Structural Relationship Between Crouzeix-Raviart Immersed Finite Elements for Elliptic and Stokes Interface Problems",
+      "authors": [
+        "Jiaying Ren",
+        "Guozhu Yu",
+        "Xu Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.12462"
+    },
+    {
+      "arxiv_id": "2609.12485v1",
+      "title": "Sharp Error Estimates for a Fully Discrete Finite Element Method for Semilinear SPDEs with Multiplicative Noise and Nonsmooth Initial Data",
+      "authors": [
+        "Jitendra Nath Naik",
+        "Lok Pati Tripathi"
+      ],
+      "link": "https://arxiv.org/abs/2609.12485"
+    },
+    {
+      "arxiv_id": "2609.12506v1",
+      "title": "Normal Equations and Discrete Energy Structures for High-Order Streamline Diffusion",
+      "authors": [
+        "Erik Burman",
+        "Peter Hansbo",
+        "Mats G. Larson"
+      ],
+      "link": "https://arxiv.org/abs/2609.12506"
+    },
+    {
+      "arxiv_id": "2609.12615v1",
+      "title": "A parameterized block LU preconditioning for double saddle point problems",
+      "authors": [
+        "Hamed Aslani",
+        "Mehdi Najafi Kalyani",
+        "Davod Khojasteh Salkuyeh"
+      ],
+      "link": "https://arxiv.org/abs/2609.12615"
+    }
+  ]
+}

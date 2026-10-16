@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-07",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-07",
+  "duration_seconds": 826.051,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.08016v1",
+      "title": "FOSLS-deRhaNN: native de Rham neural classes for H(div) and H(curl) with applications to first-order system least-squares neural network methods for partial differential equations",
+      "authors": [
+        "Shun Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.08016"
+    },
+    {
+      "arxiv_id": "2610.08676v1",
+      "title": "Effective computation of Moore-Penrose inverses over fields of rational functions by specializations",
+      "authors": [
+        "Juana Sendra"
+      ],
+      "link": "https://arxiv.org/abs/2610.08676"
+    },
+    {
+      "arxiv_id": "2610.07679v1",
+      "title": "Sampling discretization of the uniform norm for hyperbolic-cross trigonometric polynomials",
+      "authors": [
+        "Feng Dai",
+        "Andriy Prymak"
+      ],
+      "link": "https://arxiv.org/abs/2610.07679"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.06987v1",
+      "title": "A structure-aware construction of quantum BPX preconditioners for Q1 finite element discretizations of reaction-diffusion problems",
+      "authors": [
+        "Yin Yang",
+        "Yue Yu",
+        "Long Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.06987"
+    },
+    {
+      "arxiv_id": "2610.07064v1",
+      "title": "A higher order family of iterative methods for approximating inverse and generalized inverse matrices",
+      "authors": [
+        "Alicia Cordero",
+        "Bushra Rani",
+        "Juan R. Torregrosa"
+      ],
+      "link": "https://arxiv.org/abs/2610.07064"
+    },
+    {
+      "arxiv_id": "2610.07082v1",
+      "title": "A Column-Wise Reflection Method with Safeguarded Anderson Acceleration for the Continuous Sylvester Matrix Equation",
+      "authors": [
+        "Yinglian Jin",
+        "Hailong Zhu",
+        "Wenyue Feng"
+      ],
+      "link": "https://arxiv.org/abs/2610.07082"
+    },
+    {
+      "arxiv_id": "2610.07211v1",
+      "title": "An overview of machine learning-enhanced iterative methods for systems of linear and nonlinear equations",
+      "authors": [
+        "Yuhuang Meng",
+        "Jing Zhao",
+        "Alexander Heinlein"
+      ],
+      "link": "https://arxiv.org/abs/2610.07211"
+    },
+    {
+      "arxiv_id": "2610.07262v1",
+      "title": "Numerical Construction of Quasi-Periodic Solutions for Nonlinear PDEs: I. Bounded Perturbation",
+      "authors": [
+        "Mingwei Fu",
+        "Bin Shi"
+      ],
+      "link": "https://arxiv.org/abs/2610.07262"
+    },
+    {
+      "arxiv_id": "2610.07513v1",
+      "title": "Efficient Approximation of Structured Linear Operators using Randomized One-Sided Queries",
+      "authors": [
+        "Esther Gallmeier",
+        "Samuel E. Otto"
+      ],
+      "link": "https://arxiv.org/abs/2610.07513"
+    },
+    {
+      "arxiv_id": "2610.07554v1",
+      "title": "A B-Spline Galerkin Method for Option Pricing under the CGMY Tempered Stable Process",
+      "authors": [
+        "Davood Damircheli"
+      ],
+      "link": "https://arxiv.org/abs/2610.07554"
+    },
+    {
+      "arxiv_id": "2610.07602v1",
+      "title": "A Neural JKO Scheme for Hellinger-Kantorovich Gradient Flows via Monge-Growth Pairs",
+      "authors": [
+        "Geuntaek Seo",
+        "Cheolhyeong Kim",
+        "Hwijae Son",
+        "Hyung Ju Hwang"
+      ],
+      "link": "https://arxiv.org/abs/2610.07602"
+    },
+    {
+      "arxiv_id": "2610.07612v1",
+      "title": "Endpoint-Stable Interval Inverse Inequalities for Multiscale Kernels with Positive Exponential Spectra",
+      "authors": [
+        "Chengming Li",
+        "Qiming Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.07612"
+    },
+    {
+      "arxiv_id": "2610.07653v1",
+      "title": "Low-rank SI-DSA and GMRES-DSA for Radiative Transfer Equation with Adaptive Accuracy Control",
+      "authors": [
+        "Chenxi Han",
+        "Lukas Einkemmer",
+        "Wei Guo",
+        "Zhichao Peng"
+      ],
+      "link": "https://arxiv.org/abs/2610.07653"
+    },
+    {
+      "arxiv_id": "2610.07884v1",
+      "title": "Learned Adaptive Multiresolution Diffusion Imaging",
+      "authors": [
+        "Christian Tantardini",
+        "Stig Rune Jensen",
+        "Roberto Di Remigio Eik{\\aa}s",
+        "Joakim Henrik Beck"
+      ],
+      "link": "https://arxiv.org/abs/2610.07884"
+    },
+    {
+      "arxiv_id": "2610.07952v1",
+      "title": "Learning a generalized Navier-Stokes model beyond the continuum regime",
+      "authors": [
+        "Sihong Shao",
+        "Yanli Wang",
+        "Zhongwei Xu"
+      ],
+      "link": "https://arxiv.org/abs/2610.07952"
+    }
+  ]
+}
