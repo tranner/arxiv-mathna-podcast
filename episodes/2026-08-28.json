@@ -1,0 +1,174 @@
+{
+  "date": "2026-08-28",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-28",
+  "duration_seconds": 811.093,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.26687v1",
+      "title": "A linear mass-lumped finite element method for the Landau-Lifshitz-Gilbert equation: unconditional energy dissipation and length preservation",
+      "authors": [
+        "Qiumei Huang",
+        "Binghong Li",
+        "Xiaoli Li",
+        "Cheng Wang",
+        "Jiang Yang"
+      ],
+      "link": "https://arxiv.org/abs/2608.26687"
+    },
+    {
+      "arxiv_id": "2608.26906v1",
+      "title": "Waveguiding in systems of high contrast resonators: Theory and fast computations",
+      "authors": [
+        "Habib Ammari",
+        "Bowen Li",
+        "Borui Miao",
+        "Jiayu Qiu",
+        "Lara Vrabac"
+      ],
+      "link": "https://arxiv.org/abs/2608.26906"
+    },
+    {
+      "arxiv_id": "2608.27159v1",
+      "title": "A multi-class kinetic traffic flow model: discrete-velocity formulation and diffusively-corrected macroscopic limits",
+      "authors": [
+        "Carmen Mezquita-Nieto",
+        "Paola Goatin",
+        "Axel Klar"
+      ],
+      "link": "https://arxiv.org/abs/2608.27159"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.26287v1",
+      "title": "A simple algorithm for the summation of alternating series",
+      "authors": [
+        "Eleonora Denich",
+        "Paolo Novati",
+        "Alvise Sommariva"
+      ],
+      "link": "https://arxiv.org/abs/2608.26287"
+    },
+    {
+      "arxiv_id": "2608.26303v1",
+      "title": "Physics-Informed Neural Networks for Biot's Model via Fixed-Stress Splitting and Energy Natural Gradient Descent",
+      "authors": [
+        "Kexin Sun",
+        "Qiang Liu",
+        "Minfu Feng",
+        "Mingchao Cai"
+      ],
+      "link": "https://arxiv.org/abs/2608.26303"
+    },
+    {
+      "arxiv_id": "2608.26549v1",
+      "title": "Physics-Informed Stochastic Configuration Machine: A Backpropagation-Free Neural Network with Fast Training for Nonlinear Differential Equations",
+      "authors": [
+        "Yuehao Song (School of Automation",
+        "Central South University",
+        "Changsha",
+        "China)",
+        "Zhong Chen (School of Automation",
+        "Central South University",
+        "Changsha",
+        "China)",
+        "Lihui Cen (School of Automation",
+        "Central South University",
+        "Changsha",
+        "China)",
+        "Liang Wu (Johns Hopkins University",
+        "Baltimore",
+        "USA)",
+        "Kai Zhang (State Key Laboratory of Simulation and Regulation of Water Cycle in River Basin",
+        "China Institute of Water Resources and Hydropower Research",
+        "Beijing",
+        "China)"
+      ],
+      "link": "https://arxiv.org/abs/2608.26549"
+    },
+    {
+      "arxiv_id": "2608.26625v1",
+      "title": "A stable DG-POD reduced-order method for dynamic linear viscoelasticity",
+      "authors": [
+        "Byeong-Chun Shin",
+        "Yongseok Jang"
+      ],
+      "link": "https://arxiv.org/abs/2608.26625"
+    },
+    {
+      "arxiv_id": "2608.26810v1",
+      "title": "A Discontinuous Galerkin discretization for the sea ice dynamics",
+      "authors": [
+        "Emma Lagracie",
+        "Thomas Richter"
+      ],
+      "link": "https://arxiv.org/abs/2608.26810"
+    },
+    {
+      "arxiv_id": "2608.26875v1",
+      "title": "A fast solver for many-particle elastic scattering in layered media",
+      "authors": [
+        "Jinrui Zhang",
+        "Yixiao He",
+        "Jun lai"
+      ],
+      "link": "https://arxiv.org/abs/2608.26875"
+    },
+    {
+      "arxiv_id": "2608.26884v1",
+      "title": "Spectral Convergence of the Multipole Expansion Method for Acoustic Scattering in Three Dimensions",
+      "authors": [
+        "Jinrui Zhang",
+        "Jun Lai"
+      ],
+      "link": "https://arxiv.org/abs/2608.26884"
+    },
+    {
+      "arxiv_id": "2608.26913v1",
+      "title": "Stiff Norm Estimates for Variable-Stepsize Peer Two-Step Methods",
+      "authors": [
+        "Jens Lang",
+        "Bernhard A. Schmitt"
+      ],
+      "link": "https://arxiv.org/abs/2608.26913"
+    },
+    {
+      "arxiv_id": "2608.26945v1",
+      "title": "Scale-uniform inverse inequalities for scaled kernel spaces",
+      "authors": [
+        "Davoud Mirzaei"
+      ],
+      "link": "https://arxiv.org/abs/2608.26945"
+    },
+    {
+      "arxiv_id": "2608.27028v1",
+      "title": "A quantum-assisted framework for PDE-based Bayesian inverse problems",
+      "authors": [
+        "Dong An",
+        "Yinan Li",
+        "Pucheng Tang",
+        "Yunfeng Xiong"
+      ],
+      "link": "https://arxiv.org/abs/2608.27028"
+    },
+    {
+      "arxiv_id": "2608.27106v1",
+      "title": "Primal-dual methods and acceleration for Morozov and equality constrained regularization",
+      "authors": [
+        "Diana-Elena Mirciu",
+        "Martin Benning",
+        "Elena Resmerita"
+      ],
+      "link": "https://arxiv.org/abs/2608.27106"
+    },
+    {
+      "arxiv_id": "2608.27210v1",
+      "title": "Bochner Stability for B-stable DIRK Schemes",
+      "authors": [
+        "Anthony E. Ramirez",
+        "Abner J. Salgado"
+      ],
+      "link": "https://arxiv.org/abs/2608.27210"
+    }
+  ]
+}

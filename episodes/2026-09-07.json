@@ -1,0 +1,128 @@
+{
+  "date": "2026-09-07",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-07",
+  "duration_seconds": 1018.495,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.05235v1",
+      "title": "PRICE: A Systematic Study of LLM Adaptation Choices for Bitcoin Price Forecasting",
+      "authors": [
+        "Maryam Fakhari",
+        "Mehran Safayani"
+      ],
+      "link": "https://arxiv.org/abs/2609.05235"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.04433v1",
+      "title": "Improving the efficiency of a Hyperpower method for approximating inverse matrices",
+      "authors": [
+        "Alicia Cordero",
+        "Juan R. Torregrosa"
+      ],
+      "link": "https://arxiv.org/abs/2609.04433"
+    },
+    {
+      "arxiv_id": "2609.04534v1",
+      "title": "Adaptive Multilevel Discontinuous Galerkin Methods on GPUs",
+      "authors": [
+        "Micha{\\l} Wichrowski"
+      ],
+      "link": "https://arxiv.org/abs/2609.04534"
+    },
+    {
+      "arxiv_id": "2609.04659v1",
+      "title": "A Complete Resolution of Forsythe's Conjecture for Restarted Conjugate Gradients",
+      "authors": [
+        "Matthew J. Colbrook",
+        "George Stepaniants",
+        "Alex Townsend"
+      ],
+      "link": "https://arxiv.org/abs/2609.04659"
+    },
+    {
+      "arxiv_id": "2609.04687v1",
+      "title": "A class of high-order discontinuous-Galerkin methods satisfying infinitely many entropy conditions with provable error estimates and strong convergence for general nonlinear conservation laws",
+      "authors": [
+        "Yuanzhe Wei",
+        "Chi-Wang Shu"
+      ],
+      "link": "https://arxiv.org/abs/2609.04687"
+    },
+    {
+      "arxiv_id": "2609.04884v1",
+      "title": "Energy-Consistent Splitting and Decomposition Approaches for Coupled port-Hamiltonian ODEs",
+      "authors": [
+        "Marius M\\\"onch",
+        "Nicole Marheineke",
+        "Andreas Bartel",
+        "Kevin Sch\\\"afers",
+        "Michael G\\\"unther"
+      ],
+      "link": "https://arxiv.org/abs/2609.04884"
+    },
+    {
+      "arxiv_id": "2609.04926v1",
+      "title": "Construction of trace-preserving Fortin operators",
+      "authors": [
+        "Franziska Eickmann",
+        "Tabea Tscherpel"
+      ],
+      "link": "https://arxiv.org/abs/2609.04926"
+    },
+    {
+      "arxiv_id": "2609.04930v1",
+      "title": "Frequency-explicit convergence analysis of a multiscale finite element method for highly heterogeneous scattering problems",
+      "authors": [
+        "T. Chaumont-Frelet",
+        "Z. Kassali"
+      ],
+      "link": "https://arxiv.org/abs/2609.04930"
+    },
+    {
+      "arxiv_id": "2609.05180v1",
+      "title": "A simple shallow neural network for emulating the solution to singularly perturbed problems",
+      "authors": [
+        "Christos Xenophontos",
+        "Aayushman Raina"
+      ],
+      "link": "https://arxiv.org/abs/2609.05180"
+    },
+    {
+      "arxiv_id": "2609.05246v1",
+      "title": "A Generalized Scalar Auxiliary Variable Method for Structure-Preserving and Efficient Integration of Nonlinear port-Hamiltonian DAEs",
+      "authors": [
+        "Aashutosh Sharma",
+        "Andreas Bartel",
+        "Manuel Schaller"
+      ],
+      "link": "https://arxiv.org/abs/2609.05246"
+    },
+    {
+      "arxiv_id": "2609.05263v1",
+      "title": "Shallow neural network approximation in mixed Sobolev spaces",
+      "authors": [
+        "Yuwen Li",
+        "Guozhi Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.05263"
+    },
+    {
+      "arxiv_id": "2609.02978v1",
+      "title": "SparseStack Is an Optimal Oblivious Subspace Embedding",
+      "authors": [
+        "Diar Heidary"
+      ],
+      "link": "https://arxiv.org/abs/2609.02978"
+    },
+    {
+      "arxiv_id": "2609.04338v1",
+      "title": "Computing Lewis Weights to High Precision by Fixed-Point Iteration",
+      "authors": [
+        "Swati Padmanabhan"
+      ],
+      "link": "https://arxiv.org/abs/2609.04338"
+    }
+  ]
+}
