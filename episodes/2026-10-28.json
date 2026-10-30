@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-28",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-28",
+  "duration_seconds": 831.165,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.36349v1",
+      "title": "A Local Stabilized Isogeometric Formulation with Discontinuous Pressure for Mesh-Conforming and Immersed Analysis of Nearly Incompressible Elasticity",
+      "authors": [
+        "Ashkan Ali Madadi",
+        "Thomas J. R. Hughes"
+      ],
+      "link": "https://arxiv.org/abs/2610.36349"
+    },
+    {
+      "arxiv_id": "2610.36753v1",
+      "title": "A minimizing-movement framework for parametric finite element approximation of anisotropic curve shortening flows",
+      "authors": [
+        "Wei Jiang",
+        "Chunmei Su",
+        "Ganghui Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.36753"
+    },
+    {
+      "arxiv_id": "2610.36550v1",
+      "title": "A Fast Algorithm for Quaternion Tensor Singular Value Decomposition under the QT-Product with Applications to Color Video Processing",
+      "authors": [
+        "Daochang Zhang",
+        "Yue Zhao",
+        "Jingqian Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.36550"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.36257v1",
+      "title": "Dynamical Tensor Train Approximation for Wigner--Fokker--Planck Equation with Applications to Open Quantum Systems",
+      "authors": [
+        "Geshuo Wang",
+        "Jingwei Hu"
+      ],
+      "link": "https://arxiv.org/abs/2610.36257"
+    },
+    {
+      "arxiv_id": "2610.36266v1",
+      "title": "Monte Carlo Power Iteration Algorithms: Convergence, Analysis and Application to Reactor Criticality Calculations",
+      "authors": [
+        "Alexander M. G. Cox",
+        "Tom Davis",
+        "Julian Hofstadler",
+        "Andreas E. Kyprianou"
+      ],
+      "link": "https://arxiv.org/abs/2610.36266"
+    },
+    {
+      "arxiv_id": "2610.36746v1",
+      "title": "ODAT-SE: A modular and parallel framework for simulation-based inverse problems",
+      "authors": [
+        "Tatsumi Aoyama",
+        "Kazuyoshi Yoshimi",
+        "Yuichi Motoyama",
+        "Akito Nakano",
+        "Hengyu Li",
+        "Yusuke Konishi",
+        "Takeo Hoshi"
+      ],
+      "link": "https://arxiv.org/abs/2610.36746"
+    },
+    {
+      "arxiv_id": "2610.36924v1",
+      "title": "Dynamic Properties of Numerical Solution for Stochastic Epidemic Models with a Fully Implicit Form",
+      "authors": [
+        "Zeyao Jin",
+        "Zhiming Li",
+        "Shenglong Chen"
+      ],
+      "link": "https://arxiv.org/abs/2610.36924"
+    },
+    {
+      "arxiv_id": "2610.36938v1",
+      "title": "Acceleration of the Method of Alternating Projections on subspaces by GMRES",
+      "authors": [
+        "Luis Manuel Hern\\'andez-Ramos",
+        "Maryam Calles-Cabriles",
+        "Gorka Emaldi-Porco"
+      ],
+      "link": "https://arxiv.org/abs/2610.36938"
+    },
+    {
+      "arxiv_id": "2610.36955v1",
+      "title": "Multilevel Monte Carlo methods for random nonlinear eigenvalue problems",
+      "authors": [
+        "J\\\"urgen D\\\"olz",
+        "Jimena Lozano-Sim\\'on"
+      ],
+      "link": "https://arxiv.org/abs/2610.36955"
+    },
+    {
+      "arxiv_id": "2610.37101v1",
+      "title": "Operator Barron Regularity for Elliptic Equations and Application to Neural Operator Approximation",
+      "authors": [
+        "Shuhao Cao",
+        "Ruchi Guo",
+        "Daniel Zhengyu Huang",
+        "Na Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.37101"
+    },
+    {
+      "arxiv_id": "2610.37264v1",
+      "title": "A Posteriori Error Analysis of Finite Element Approximation to an Evolution Equation with a Positive-Type Memory Term",
+      "authors": [
+        "Sandhya Mel",
+        "Amiya Kumar Pani",
+        "Gujji Murali Mohan Reddy"
+      ],
+      "link": "https://arxiv.org/abs/2610.37264"
+    },
+    {
+      "arxiv_id": "2610.37359v1",
+      "title": "Multifidelity variational inference for derivative-free PDE-constrained inverse problems",
+      "authors": [
+        "Eric J. Parish"
+      ],
+      "link": "https://arxiv.org/abs/2610.37359"
+    },
+    {
+      "arxiv_id": "2610.37387v1",
+      "title": "Truncated $\\mathcal{H}_2$ Optimal Model Order Reduction for Bilinear Quadratic Output Systems",
+      "authors": [
+        "Heike Fa{\\ss}bender (Institute for Numerical Analysis",
+        "TU Braunschweig)",
+        "Serkan Gugercin (Department of Mathematics and Division of Computational Modeling and Data Analytics",
+        "Academy of Data Science",
+        "Virginia Tech)",
+        "Till Peters (Institute for Numerical Analysis",
+        "TU Braunschweig)"
+      ],
+      "link": "https://arxiv.org/abs/2610.37387"
+    },
+    {
+      "arxiv_id": "2610.37425v1",
+      "title": "Phase-type representations for Strong Stability Preserving Runge--Kutta methods",
+      "authors": [
+        "Haijun Yu",
+        "Quafan Zhu",
+        "Zhanyang Weng"
+      ],
+      "link": "https://arxiv.org/abs/2610.37425"
+    },
+    {
+      "arxiv_id": "2610.37485v1",
+      "title": "AMOR: Adaptive Modal Operator Refinement for Operator Learning on Arbitrary Meshes and Irregular 3D Geometries",
+      "authors": [
+        "David Voderholzer",
+        "Leonard Vetter",
+        "Thomas O'Leary-Roseberry"
+      ],
+      "link": "https://arxiv.org/abs/2610.37485"
+    }
+  ]
+}

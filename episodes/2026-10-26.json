@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-26",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-26",
+  "duration_seconds": 786.957,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.31822v1",
+      "title": "Finite element approximation on piecewise smooth domains",
+      "authors": [
+        "Daniele Boffi",
+        "Lucia Gastaldi"
+      ],
+      "link": "https://arxiv.org/abs/2610.31822"
+    },
+    {
+      "arxiv_id": "2610.32476v1",
+      "title": "A linear dual-field finite element method for incompressible MHD, part I: cross-helicity and Alfv\\'enic alignment in periodic domains",
+      "authors": [
+        "Shusheng Li",
+        "Siyuan Tong",
+        "Qilong Zhai",
+        "Qian Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.32476"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.31861v1",
+      "title": "Multilevel Monte Carlo for Polytopic DG Discretisations with Spatially Represented Random Coefficients",
+      "authors": [
+        "Veronika Chronholm",
+        "Matt Evans",
+        "Emmanuil H. Georgoulis",
+        "Tristan Pryer"
+      ],
+      "link": "https://arxiv.org/abs/2610.31861"
+    },
+    {
+      "arxiv_id": "2610.31907v1",
+      "title": "Polarized Ensemble Kalman Inversion: A Derivative-Free Method for Multimodal Inverse Problems with Non-asymptotic Analysis",
+      "authors": [
+        "Huchen Yang",
+        "Jin-Long Wu"
+      ],
+      "link": "https://arxiv.org/abs/2610.31907"
+    },
+    {
+      "arxiv_id": "2610.31982v1",
+      "title": "A Novel Matrix-Free Approximate Elemental Inverse for Efficient Preconditioning of Discontinuous Galerkin Spectral Elements",
+      "authors": [
+        "Boyang Xia",
+        "David Moxey"
+      ],
+      "link": "https://arxiv.org/abs/2610.31982"
+    },
+    {
+      "arxiv_id": "2610.32044v1",
+      "title": "Optimal Convergence of Quadratic Not-a-Knot Spline Interpolation on Arbitrary Partitions",
+      "authors": [
+        "Aussie Greene"
+      ],
+      "link": "https://arxiv.org/abs/2610.32044"
+    },
+    {
+      "arxiv_id": "2610.32048v1",
+      "title": "Piecewise $P_2$ finite element space on rectangular meshes in arbitrary dimensions for the biharmonic equation",
+      "authors": [
+        "Rui Ma",
+        "Yang Xing",
+        "Shuo Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.32048"
+    },
+    {
+      "arxiv_id": "2610.32148v1",
+      "title": "Covariance-Informed Ensemble Score Filtering: Embedding Localized Covariance Geometry into Score-Based Transport",
+      "authors": [
+        "Siming Liang",
+        "Peter Jan van Leeuwen",
+        "Hristo G. Chipilski",
+        "Zezhong Zhang",
+        "Feng Bao",
+        "Guannan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.32148"
+    },
+    {
+      "arxiv_id": "2610.32169v1",
+      "title": "Weak adversarial tensor neural network for high-dimensional Fokker-Planck equations",
+      "authors": [
+        "Sihong Shao",
+        "Zhongwei Xu"
+      ],
+      "link": "https://arxiv.org/abs/2610.32169"
+    },
+    {
+      "arxiv_id": "2610.32270v1",
+      "title": "An energy-stable parametric finite element framework for surface diffusion with moving contact lines on curved substrates",
+      "authors": [
+        "Harald Garcke",
+        "Robert N\\\"urnberg",
+        "Rong Tang"
+      ],
+      "link": "https://arxiv.org/abs/2610.32270"
+    },
+    {
+      "arxiv_id": "2610.32340v1",
+      "title": "A domain-decomposition reduced-order model for two-phase CO$_2$ sequestration with moving wells",
+      "authors": [
+        "Xin He",
+        "Xianda Shen",
+        "Lei Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.32340"
+    },
+    {
+      "arxiv_id": "2610.32364v1",
+      "title": "Long-time stability and convergence of a BDF3 method for a parabolic equation with fading memory",
+      "authors": [
+        "Wenlin Qiu"
+      ],
+      "link": "https://arxiv.org/abs/2610.32364"
+    },
+    {
+      "arxiv_id": "2610.32471v1",
+      "title": "An Arbitrary-Order Augmented Lagrangian Discrete De Rham Scheme for Contact Mechanics with Tresca Friction",
+      "authors": [
+        "J\\'er\\^ome Droniou",
+        "Raman Kumar",
+        "Roland Masson"
+      ],
+      "link": "https://arxiv.org/abs/2610.32471"
+    },
+    {
+      "arxiv_id": "2610.32588v1",
+      "title": "Numerical approximation of probabilistically strong solutions to the stochastic harmonic map heat flow",
+      "authors": [
+        "Robert Lasarzik",
+        "Stefan Metzger",
+        "Maximilian E. V. Reiter"
+      ],
+      "link": "https://arxiv.org/abs/2610.32588"
+    }
+  ]
+}

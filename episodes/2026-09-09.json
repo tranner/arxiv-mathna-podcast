@@ -1,0 +1,137 @@
+{
+  "date": "2026-09-09",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-09",
+  "duration_seconds": 753.415,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.08320v1",
+      "title": "Compact implicit high-resolution numerical scheme for multicomponent transport problems with Langmuir sorption",
+      "authors": [
+        "Dagmar Zakova",
+        "Peter Frolkovic"
+      ],
+      "link": "https://arxiv.org/abs/2609.08320"
+    },
+    {
+      "arxiv_id": "2609.06057v1",
+      "title": "Crouzeix--Raviart--Marini realisation of computable a priori $L^2$-error bounds on anisotropic meshes",
+      "authors": [
+        "Hiroki Ishizaka"
+      ],
+      "link": "https://arxiv.org/abs/2609.06057"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.05568v1",
+      "title": "Geometry Parameterisation via a Structural Modal Basis for Aerodynamic Shape Optimisation",
+      "authors": [
+        "Alwin Wang",
+        "Robert Carrese",
+        "Luca Brown",
+        "Joel Collins",
+        "Pier Marzocca"
+      ],
+      "link": "https://arxiv.org/abs/2609.05568"
+    },
+    {
+      "arxiv_id": "2609.05849v1",
+      "title": "Efficient $C^1$ Bernstein Quasi-Trefftz Discretization for Heterogeneous High-Frequency Helmholtz Problems",
+      "authors": [
+        "Shelvean Kapita"
+      ],
+      "link": "https://arxiv.org/abs/2609.05849"
+    },
+    {
+      "arxiv_id": "2609.05851v1",
+      "title": "High-order smoothness and high-order collocation approximation for Volterra integral equation with multiscale and nonlinear exponent kernel",
+      "authors": [
+        "Wenlin Qiu",
+        "Chuanwei Su",
+        "Xiangcheng Zheng"
+      ],
+      "link": "https://arxiv.org/abs/2609.05851"
+    },
+    {
+      "arxiv_id": "2609.05939v1",
+      "title": "A structure-preserving implicit-explicit method for a hyperbolic approximation of fourth-order PDEs",
+      "authors": [
+        "Rahul Barthwal",
+        "Rahuldev Ghorai"
+      ],
+      "link": "https://arxiv.org/abs/2609.05939"
+    },
+    {
+      "arxiv_id": "2609.05979v1",
+      "title": "Robust high-dimensional integration using medians of coarsely scrambled Sobol' sequences",
+      "authors": [
+        "Ziyang Ye",
+        "Chaokun Zhu",
+        "Zexin Pan"
+      ],
+      "link": "https://arxiv.org/abs/2609.05979"
+    },
+    {
+      "arxiv_id": "2609.05986v1",
+      "title": "Quasi-uniform designs from random candidates: optimal candidate complexity and farthest-point sampling",
+      "authors": [
+        "Takashi Goda",
+        "Hengjun Xu"
+      ],
+      "link": "https://arxiv.org/abs/2609.05986"
+    },
+    {
+      "arxiv_id": "2609.06082v1",
+      "title": "Polytopic symmetric interior-penalty approximation of elliptic SPDEs driven by spatial white noise",
+      "authors": [
+        "Tristan Pryer"
+      ],
+      "link": "https://arxiv.org/abs/2609.06082"
+    },
+    {
+      "arxiv_id": "2609.06092v1",
+      "title": "A Second Order Positivity-Preserving Scheme for the Nonlocal Cahn-Hilliard System with Variable Mobility and Logarithmic Flory-Huggins Potential",
+      "authors": [
+        "Yuanyi Sheng",
+        "Zhengru Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.06092"
+    },
+    {
+      "arxiv_id": "2609.06152v1",
+      "title": "The Levin Method for the Summation of One-dimensional and Multidimensional Infinite Series",
+      "authors": [
+        "David Levin"
+      ],
+      "link": "https://arxiv.org/abs/2609.06152"
+    },
+    {
+      "arxiv_id": "2609.06214v1",
+      "title": "Fourier-cosine Tensor Trains for Density Recovery and Expectation Calculation",
+      "authors": [
+        "Auke Schaap",
+        "Fang Fang"
+      ],
+      "link": "https://arxiv.org/abs/2609.06214"
+    },
+    {
+      "arxiv_id": "2609.06243v1",
+      "title": "Weighted Laplace Spaces for Spectral Measures and Rational Approximation",
+      "authors": [
+        "Stefan Jakobsson",
+        "Alice Kozakevicius",
+        "Stig Larsson"
+      ],
+      "link": "https://arxiv.org/abs/2609.06243"
+    },
+    {
+      "arxiv_id": "2609.06287v1",
+      "title": "Convergence rates of randomly pivoted methods for low-rank approximation",
+      "authors": [
+        "Ryan Divan",
+        "Marc Aur\\`ele Gilles"
+      ],
+      "link": "https://arxiv.org/abs/2609.06287"
+    }
+  ]
+}

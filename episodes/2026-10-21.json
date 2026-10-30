@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-21",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-21",
+  "duration_seconds": 733.383,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.27715v1",
+      "title": "Multi-time-stepping splitting scheme with mass lumping for the multiscale wave equation",
+      "authors": [
+        "Yating Wang",
+        "Wing Tat Leung",
+        "Zhengya Yang",
+        "Shufan Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.27715"
+    },
+    {
+      "arxiv_id": "2610.28553v1",
+      "title": "A Statistical Imaging Framework for Inverse Obstacle Scattering and Its Resolution Analysis",
+      "authors": [
+        "Jinrui Zhang",
+        "Hai Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.28553"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.26965v1",
+      "title": "Iterated Lavrentiev regularization under random noise: variational source conditions and rates in expectation",
+      "authors": [
+        "Ankit Singh",
+        "Hemant Sharma",
+        "Kiran Davuluri"
+      ],
+      "link": "https://arxiv.org/abs/2610.26965"
+    },
+    {
+      "arxiv_id": "2610.26966v1",
+      "title": "A noise-level-free parameter-choice rule for iterated Lavrentiev regularization of nonlinear potential monotone ill-posed problems",
+      "authors": [
+        "Ankit singh",
+        "Hemant Sharma"
+      ],
+      "link": "https://arxiv.org/abs/2610.26966"
+    },
+    {
+      "arxiv_id": "2610.27017v1",
+      "title": "Data-driven accelerated multigrid method for Riesz space fractional diffusion equations",
+      "authors": [
+        "Yang Hu",
+        "Juan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.27017"
+    },
+    {
+      "arxiv_id": "2610.27172v1",
+      "title": "Structure-Preserving Numerical Schemes for a Time-Fractional Porous Medium Equation with Nonlocal Pressure",
+      "authors": [
+        "{\\L}ukasz P{\\l}ociniczak",
+        "Hubert Woszczek"
+      ],
+      "link": "https://arxiv.org/abs/2610.27172"
+    },
+    {
+      "arxiv_id": "2610.27193v1",
+      "title": "Low Residuals, Wrong Value: Learning the Viscosity Solution of Hamilton-Jacobi-Isaacs Equations with PINNs",
+      "authors": [
+        "Raul Jimenez",
+        "Pablo Tejerina-P\\'erez",
+        "Leonid Sarieddine",
+        "Pedro Taranc\\'on-\\'Alvarez",
+        "Marisol Traforetti",
+        "Pau Sol\\'e-Vilar\\'o",
+        "Oleksii Ignatenko",
+        "Nazar Tkach",
+        "Pavlos Protopapas"
+      ],
+      "link": "https://arxiv.org/abs/2610.27193"
+    },
+    {
+      "arxiv_id": "2610.27262v1",
+      "title": "Convolution Quadrature with Adaptive History Compression for Variable-Order Fractional Reaction--Diffusion Equations",
+      "authors": [
+        "Pu Yuan",
+        "Paul Zegeling"
+      ],
+      "link": "https://arxiv.org/abs/2610.27262"
+    },
+    {
+      "arxiv_id": "2610.27500v1",
+      "title": "Soliton Profiles in 1D: Enhanced Neural-Network Solvers and Constrained Deep Ritz Methods",
+      "authors": [
+        "Chandler Haight",
+        "Alex D Rodriguez",
+        "Svetlana Roudenko"
+      ],
+      "link": "https://arxiv.org/abs/2610.27500"
+    },
+    {
+      "arxiv_id": "2610.27537v1",
+      "title": "Trace Inverse Estimates and Kernel-based Nitsche Galerkin Methods for Elliptic Interface Problems",
+      "authors": [
+        "Leevan Ling",
+        "Shu Ma",
+        "Weifeng Qiu",
+        "Yizhong Sun"
+      ],
+      "link": "https://arxiv.org/abs/2610.27537"
+    },
+    {
+      "arxiv_id": "2610.27814v1",
+      "title": "The Dimension Landscape of Bivariate $C^2$ Splines",
+      "authors": [
+        "Xinyu Wu",
+        "Jiansong Deng"
+      ],
+      "link": "https://arxiv.org/abs/2610.27814"
+    },
+    {
+      "arxiv_id": "2610.27837v1",
+      "title": "A Novel Two-Level Domain Decomposition Method with Physically Motivated Coarse Space for Surface Acoustic Wave Device Simulations",
+      "authors": [
+        "Likun Qiu",
+        "Jianguo Huang",
+        "Xuejun Xu"
+      ],
+      "link": "https://arxiv.org/abs/2610.27837"
+    },
+    {
+      "arxiv_id": "2610.27864v1",
+      "title": "Front-pinned spectral collocation for the flame problem and related ignition problems",
+      "authors": [
+        "Imre Boros"
+      ],
+      "link": "https://arxiv.org/abs/2610.27864"
+    },
+    {
+      "arxiv_id": "2610.27869v1",
+      "title": "Inverse domain uncertainty quantification in hemodynamics: sampling virtual patient cohorts under constraints",
+      "authors": [
+        "Francesco Romor",
+        "Jose Rodrigo Rojo-Garcia",
+        "Andr\\'e-Alexander Zepernick",
+        "Ana Djurdjevac",
+        "Alfonso Caiazzo"
+      ],
+      "link": "https://arxiv.org/abs/2610.27869"
+    }
+  ]
+}
