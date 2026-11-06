@@ -1,0 +1,145 @@
+{
+  "date": "2026-11-06",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-06",
+  "duration_seconds": 797.204,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.07981v1",
+      "title": "A stability order barrier and SSP bound for Runge--Kutta methods with non-negative coefficients: AI-assisted proofs",
+      "authors": [
+        "Sigal Gottlieb",
+        "Zachary Grant",
+        "Lior Horesh",
+        "Lajos L\\'oczi",
+        "Avraham Shinnar",
+        "Barry Trager"
+      ],
+      "link": "https://arxiv.org/abs/2611.07981"
+    },
+    {
+      "arxiv_id": "2611.06938v1",
+      "title": "Support in the domain of numerical algorithms in the education of future secondary school mathematics teachers",
+      "authors": [
+        "Josef Dan\\v{e}k"
+      ],
+      "link": "https://arxiv.org/abs/2611.06938"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.06951v1",
+      "title": "Boundary Projection Acceleration for 2D One-cell Inversions in the Scattering Limit",
+      "authors": [
+        "Joanna Piper Morgan",
+        "Todd S. Palmer",
+        "Ilham Variansyah",
+        "Kyle E. Niemeyer"
+      ],
+      "link": "https://arxiv.org/abs/2611.06951"
+    },
+    {
+      "arxiv_id": "2611.07107v1",
+      "title": "A physics-based adaptive low-rank method for 6D Vlasov simulations",
+      "authors": [
+        "Fabio Cassini",
+        "Lukas Einkemmer"
+      ],
+      "link": "https://arxiv.org/abs/2611.07107"
+    },
+    {
+      "arxiv_id": "2611.07360v1",
+      "title": "Energy-conserving scheme for a shallow-water model with capillary effects",
+      "authors": [
+        "Sudarshan Kumar K",
+        "Boniface Nkonga",
+        "Praveen Chandrashekar"
+      ],
+      "link": "https://arxiv.org/abs/2611.07360"
+    },
+    {
+      "arxiv_id": "2611.07364v1",
+      "title": "Asymptotic-Preserving Tensor Neural Networks for 3D High-Field Kinetic Equations with Applications to Uncertainty Quantification",
+      "authors": [
+        "Shi Jin",
+        "Tian-ai Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.07364"
+    },
+    {
+      "arxiv_id": "2611.07424v1",
+      "title": "Randomly shifted lattice rules for SDEs with constant diffusion: error bounds uniform in time discretization and dimension",
+      "authors": [
+        "Du Ouyang",
+        "Josef Dick",
+        "Ziyang Ye"
+      ],
+      "link": "https://arxiv.org/abs/2611.07424"
+    },
+    {
+      "arxiv_id": "2611.07692v1",
+      "title": "Hybrid Newton-BFGS high-index saddle dynamics for accelerating saddle-point searches",
+      "authors": [
+        "Jianyuan Yin",
+        "Lei Zhang",
+        "Shixue Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.07692"
+    },
+    {
+      "arxiv_id": "2611.07985v1",
+      "title": "Boundary-preserving randomized neural network methods for Poisson equations on general two- and three-dimensional domains",
+      "authors": [
+        "Huifang Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2611.07985"
+    },
+    {
+      "arxiv_id": "2611.08001v1",
+      "title": "LithoSAGE: Spatially Adaptive and Geometrically Equivariant Neural Operators for Computational Lithography",
+      "authors": [
+        "Ke Jin",
+        "Zhenli Xu",
+        "Zilin You"
+      ],
+      "link": "https://arxiv.org/abs/2611.08001"
+    },
+    {
+      "arxiv_id": "2611.08020v1",
+      "title": "Sigmoid Tensor Decomposition for Compact Representations of Binary Data",
+      "authors": [
+        "Irina Kopnina",
+        "Sergey Matveev",
+        "Ivan Oseledets"
+      ],
+      "link": "https://arxiv.org/abs/2611.08020"
+    },
+    {
+      "arxiv_id": "2611.08169v1",
+      "title": "A Second-Order Semi-Implicit Projection Time-Stepping Scheme for the Shallow-Water Equations on the Sphere Using Compatible Finite Elements",
+      "authors": [
+        "Karina Kowalczyk",
+        "Colin Cotter"
+      ],
+      "link": "https://arxiv.org/abs/2611.08169"
+    },
+    {
+      "arxiv_id": "2611.08178v1",
+      "title": "Universal Dimension Formula for Planar $C^r$ Splines at Degree $3r+1$",
+      "authors": [
+        "Xinyu Wu",
+        "Jiansong Deng"
+      ],
+      "link": "https://arxiv.org/abs/2611.08178"
+    },
+    {
+      "arxiv_id": "2611.08261v1",
+      "title": "A characteristic mapping method for dissipative evolution equations",
+      "authors": [
+        "William Holman-Bissegger",
+        "Seth Taylor",
+        "Jean-Christophe Nave"
+      ],
+      "link": "https://arxiv.org/abs/2611.08261"
+    }
+  ]
+}

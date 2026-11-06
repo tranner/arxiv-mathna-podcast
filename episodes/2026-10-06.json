@@ -1,0 +1,154 @@
+{
+  "date": "2026-10-06",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-06",
+  "duration_seconds": 831.355,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.06308v1",
+      "title": "Sharp dimensional analysis of midpoint methods for Langevin sampling",
+      "authors": [
+        "Fan Chen",
+        "Sinho Chewi",
+        "Jianfeng Lu",
+        "Matthew S. Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.06308"
+    },
+    {
+      "arxiv_id": "2610.03956v1",
+      "title": "Latent Score-Based Bayesian Cram\\'er-Rao Bound Estimation for High-Dimensional Imaging Systems",
+      "authors": [
+        "Evan Scope Crafts",
+        "Thomas Wynn",
+        "Seonyeong Park",
+        "Mark Anastasio",
+        "Umberto Villa"
+      ],
+      "link": "https://arxiv.org/abs/2610.03956"
+    },
+    {
+      "arxiv_id": "2610.04349v1",
+      "title": "On the involution preserving properties of semi-discrete Active Flux methods on simplex",
+      "authors": [
+        "Remi Abgrall",
+        "Yongle Liu",
+        "Mario Ricchiuto"
+      ],
+      "link": "https://arxiv.org/abs/2610.04349"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.03804v1",
+      "title": "A Two-level Filtered Subspace Iterative Method for Generalized Hermitian Interior Eigenvalue Problems",
+      "authors": [
+        "Qi Li",
+        "Shi Shu",
+        "Xiaofei Xu",
+        "Juan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.03804"
+    },
+    {
+      "arxiv_id": "2610.04350v1",
+      "title": "Inference of Hamiltonian and Lie-Poisson structures from vector field samples",
+      "authors": [
+        "Jason E. Frank",
+        "Georg A. Gottwald"
+      ],
+      "link": "https://arxiv.org/abs/2610.04350"
+    },
+    {
+      "arxiv_id": "2610.04355v1",
+      "title": "Operator splitting methods for non-autonomous evolution equations comprising three parts, with application to the Bloch-Torrey equation of MRI",
+      "authors": [
+        "Barbara Kaltenbacher",
+        "Pablo Mu\\~noz",
+        "Mechthild Thalhammer"
+      ],
+      "link": "https://arxiv.org/abs/2610.04355"
+    },
+    {
+      "arxiv_id": "2610.04383v1",
+      "title": "Conditioning and Singular Value Distribution of Jacobi Weighted Histopolation Matrices",
+      "authors": [
+        "Allal Guessab",
+        "Federico Nudo",
+        "Stefano Serra-Capizzano"
+      ],
+      "link": "https://arxiv.org/abs/2610.04383"
+    },
+    {
+      "arxiv_id": "2610.04389v1",
+      "title": "Arbitrarily High-Order Structure-Preserving Parametric Finite Element Methods for Geometric PDEs via Local Pullback Flow Maps",
+      "authors": [
+        "Weizhu Bao",
+        "Yifei Li",
+        "Dongmin Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.04389"
+    },
+    {
+      "arxiv_id": "2610.04524v1",
+      "title": "A Locally Conservative Enriched Linearized Neural Network Approximation to Elliptic PDEs",
+      "authors": [
+        "Seungil Kim",
+        "Gwanghyun Jo",
+        "Young Ju Lee"
+      ],
+      "link": "https://arxiv.org/abs/2610.04524"
+    },
+    {
+      "arxiv_id": "2610.04535v1",
+      "title": "Pressure Monotonicity for a Rotation-Based Biot Discretization with Circumcentric Mass Lumping",
+      "authors": [
+        "Huipeng Gu",
+        "Mingchao Cai",
+        "Jingzhi Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.04535"
+    },
+    {
+      "arxiv_id": "2610.04574v1",
+      "title": "Quasi-Optimal Randomized Recovery of $\\mathcal{H}^2$ Matrices",
+      "authors": [
+        "Anna Yesypenko"
+      ],
+      "link": "https://arxiv.org/abs/2610.04574"
+    },
+    {
+      "arxiv_id": "2610.04761v1",
+      "title": "Instability of Gaussian elimination is exponentially rare (proof of partial result)",
+      "authors": [
+        "Lloyd N. Trefethen"
+      ],
+      "link": "https://arxiv.org/abs/2610.04761"
+    },
+    {
+      "arxiv_id": "2610.04880v1",
+      "title": "A general synthetic iterative scheme with high-order spatial discretization for rarefied gas mixture flows",
+      "authors": [
+        "Jianan Zeng",
+        "Wei Su"
+      ],
+      "link": "https://arxiv.org/abs/2610.04880"
+    },
+    {
+      "arxiv_id": "2610.05045v1",
+      "title": "A second-order energy-stable low-regularity integrator for the Navier--Stokes equations",
+      "authors": [
+        "Shu Ma"
+      ],
+      "link": "https://arxiv.org/abs/2610.05045"
+    },
+    {
+      "arxiv_id": "2610.05064v1",
+      "title": "Oriented point-cloud varifolds for estimating the perimeter and computing its Wasserstein gradient flow",
+      "authors": [
+        "Tokuhiro Eto",
+        "Noboru Isobe"
+      ],
+      "link": "https://arxiv.org/abs/2610.05064"
+    }
+  ]
+}

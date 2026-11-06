@@ -1,0 +1,149 @@
+{
+  "date": "2026-09-03",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-03",
+  "duration_seconds": 897.97,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.02347v1",
+      "title": "A Stream-Function Formulation for the Surface Stokes-Helfrich Model - Surface Finite Element Discretization and Validation",
+      "authors": [
+        "Enno Igel",
+        "Maik Porrmann",
+        "Axel Voigt"
+      ],
+      "link": "https://arxiv.org/abs/2609.02347"
+    },
+    {
+      "arxiv_id": "2609.02721v1",
+      "title": "A stable rank-adaptive step-and-truncate finite volume method for Vlasov transport on domains with piecewise linear boundaries",
+      "authors": [
+        "Andr\\'e Uschmajew",
+        "Andreas Zeiser"
+      ],
+      "link": "https://arxiv.org/abs/2609.02721"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.01748v1",
+      "title": "A Double-Adaptivity Solver for Parabolic PDEs",
+      "authors": [
+        "Gregor Gantner",
+        "Robin Smeets",
+        "Rob Stevenson"
+      ],
+      "link": "https://arxiv.org/abs/2609.01748"
+    },
+    {
+      "arxiv_id": "2609.01915v1",
+      "title": "Bounds-Constrained Finite Element Approximation of Time-Dependent Partial Differential Equations",
+      "authors": [
+        "Robert C. Kirby",
+        "John D. Stephens"
+      ],
+      "link": "https://arxiv.org/abs/2609.01915"
+    },
+    {
+      "arxiv_id": "2609.02072v1",
+      "title": "Two Adjoint Perspectives on Fokker-Planck Optimization: A Microscopic-Macroscopic Correspondence",
+      "authors": [
+        "Kathrin Hellmuth",
+        "Qin Li",
+        "Yunan Yang"
+      ],
+      "link": "https://arxiv.org/abs/2609.02072"
+    },
+    {
+      "arxiv_id": "2609.02178v1",
+      "title": "Error estimate of the nonuniform BDF3-L2 method for subdiffusion equations via multiscale solution decomposition",
+      "authors": [
+        "Wenlin Qiu",
+        "Kexin Li",
+        "Yiqun Li",
+        "Hao Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.02178"
+    },
+    {
+      "arxiv_id": "2609.02259v1",
+      "title": "Scattered data interpolation on the torus by compactly supported multinode Shepard operators",
+      "authors": [
+        "F. Dell'Accio",
+        "F. Di Tommaso",
+        "R. Lammirato",
+        "F. Larosa"
+      ],
+      "link": "https://arxiv.org/abs/2609.02259"
+    },
+    {
+      "arxiv_id": "2609.02420v1",
+      "title": "A Multiscale Finite Element Method for reaction-diffusion eigenproblems arising from neutronics",
+      "authors": [
+        "Claude Le Bris",
+        "Alb\\'eric Lefort",
+        "Fr\\'ed\\'eric Legoll"
+      ],
+      "link": "https://arxiv.org/abs/2609.02420"
+    },
+    {
+      "arxiv_id": "2609.02424v1",
+      "title": "Geometry-dependent rank defect in $C^1$ cubic spline space",
+      "authors": [
+        "Xinyu Wu",
+        "Jiansong Deng"
+      ],
+      "link": "https://arxiv.org/abs/2609.02424"
+    },
+    {
+      "arxiv_id": "2609.02433v1",
+      "title": "Numerical Analysis of the Virtual Element Approximation for the Smagorinsky Turbulence Model",
+      "authors": [
+        "Karol L. Cascavita",
+        "Francesca Marcon",
+        "Maria Strazzullo"
+      ],
+      "link": "https://arxiv.org/abs/2609.02433"
+    },
+    {
+      "arxiv_id": "2609.02578v1",
+      "title": "Reduced order model for parametric Boltzmann equation and its application to inverse problems",
+      "authors": [
+        "Shanyin Tong",
+        "Jingwei Hu",
+        "Fengyan Li",
+        "Zhaiming Shen",
+        "Yunan Yang",
+        "Jiajia Yu"
+      ],
+      "link": "https://arxiv.org/abs/2609.02578"
+    },
+    {
+      "arxiv_id": "2609.02583v1",
+      "title": "Computational study of Proper Orthogonal Decomposition methods for parametric approximations",
+      "authors": [
+        "Bosco Garc\\'ia-Archilla",
+        "Alicia Garc\\'ia-Mascaraque",
+        "Julia Novo"
+      ],
+      "link": "https://arxiv.org/abs/2609.02583"
+    },
+    {
+      "arxiv_id": "2609.02695v1",
+      "title": "Positivity loss in bandlimited spectral reproduction on spheres",
+      "authors": [
+        "Hao-Ning Wu"
+      ],
+      "link": "https://arxiv.org/abs/2609.02695"
+    },
+    {
+      "arxiv_id": "2609.02727v1",
+      "title": "Neural operators approximate strongly continuous convex monotone semigroups",
+      "authors": [
+        "Jonas Blessing",
+        "Philipp Schmocker",
+        "Alessandro Sgarabottolo"
+      ],
+      "link": "https://arxiv.org/abs/2609.02727"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-30",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-30",
+  "duration_seconds": 677.927,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.38434v1",
+      "title": "Optimal approximation error approach in Bayesian inverse problems",
+      "authors": [
+        "Fabian Schneider",
+        "Tapio Helin"
+      ],
+      "link": "https://arxiv.org/abs/2610.38434"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.37670v1",
+      "title": "Residual-based Adaptive Refinement of hp-Variational PINNs for elliptic PDEs with geometric singularities and localized features",
+      "authors": [
+        "Somnath Giri",
+        "Muslim Malik",
+        "Rishikesh Yadav"
+      ],
+      "link": "https://arxiv.org/abs/2610.37670"
+    },
+    {
+      "arxiv_id": "2610.38032v1",
+      "title": "Convergence analysis of an augmented dual-mixed fnite element method with skew-symmetric Nitsche stabilization for the generalized Oseen equations with mixed boundary conditions",
+      "authors": [
+        "Cristian C\\'arcamo",
+        "Abner Haguit Poza",
+        "Ramiro James Rebolledo"
+      ],
+      "link": "https://arxiv.org/abs/2610.38032"
+    },
+    {
+      "arxiv_id": "2610.38058v1",
+      "title": "An Energy-based discontinuous Galerkin method for the Westervelt equation with absorbing boundary conditions",
+      "authors": [
+        "Yiwei Wang",
+        "Lu Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.38058"
+    },
+    {
+      "arxiv_id": "2610.38064v1",
+      "title": "Neural Stream Function Method for Electrical Impedance Tomography with Lipschitz Conductivities",
+      "authors": [
+        "Xiaosheng Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.38064"
+    },
+    {
+      "arxiv_id": "2610.38087v1",
+      "title": "TensorSpectra: Bridging the Spectral and Tensor Worlds for High-Dimensional PDEs",
+      "authors": [
+        "Bingcheng Hu",
+        "Tianchi Yu",
+        "Zhaoxiang Li",
+        "Ivan Oseledets"
+      ],
+      "link": "https://arxiv.org/abs/2610.38087"
+    },
+    {
+      "arxiv_id": "2610.38157v1",
+      "title": "Randomized algorithms in numerical linear algebra for scientific computing",
+      "authors": [
+        "Ethan N. W. Epperly",
+        "Daniel Kressner",
+        "Yuji Nakatsukasa"
+      ],
+      "link": "https://arxiv.org/abs/2610.38157"
+    },
+    {
+      "arxiv_id": "2610.38179v1",
+      "title": "In-Context Learning for Multi-Fidelity Multiscale Model Closure and Cross-Operator Out-Of-Distribution Generalization",
+      "authors": [
+        "Xinyuan Li",
+        "Matthew Zahr",
+        "Panos Stinis",
+        "Zecheng Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.38179"
+    },
+    {
+      "arxiv_id": "2610.38219v1",
+      "title": "Bound-preserving and mass-conserving projection BCFD methods for incompressible miscible displacement in porous media",
+      "authors": [
+        "Xiaoying Wang",
+        "Shusen Xie",
+        "Hongfei Fu"
+      ],
+      "link": "https://arxiv.org/abs/2610.38219"
+    },
+    {
+      "arxiv_id": "2610.38258v1",
+      "title": "Damped stochastic mirror descent for non-smooth ill-posed problems in Banach space",
+      "authors": [
+        "Harshit Bajpai",
+        "Gaurav Mittal",
+        "Ankik Kumar Giri"
+      ],
+      "link": "https://arxiv.org/abs/2610.38258"
+    },
+    {
+      "arxiv_id": "2610.38271v1",
+      "title": "Hybrid CutFEM-IFEM model for embedded and immersed interfaces with triply-cut cells for the 2D Poisson problem",
+      "authors": [
+        "Darsh Nathawani",
+        "Christopher Kees"
+      ],
+      "link": "https://arxiv.org/abs/2610.38271"
+    },
+    {
+      "arxiv_id": "2610.38279v1",
+      "title": "Data-driven stochastic asymptotic regularization for ill-posed inverse problems with a posteriori and heuristic stopping",
+      "authors": [
+        "Simran Soni",
+        "Harshit Bajpai",
+        "Ankik Kumar Giri"
+      ],
+      "link": "https://arxiv.org/abs/2610.38279"
+    },
+    {
+      "arxiv_id": "2610.38537v1",
+      "title": "Reduced and Mixed-Precision Block Householder QR Factorization",
+      "authors": [
+        "Peter Benner",
+        "Martin K\\\"ohler",
+        "Xiaobo Liu",
+        "Eda Oktay"
+      ],
+      "link": "https://arxiv.org/abs/2610.38537"
+    }
+  ]
+}

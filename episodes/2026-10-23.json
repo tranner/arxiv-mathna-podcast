@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-23",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-23",
+  "duration_seconds": 874.098,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.30389v1",
+      "title": "Robust topology optimization of isogeometric Kirchhoff--Love shells by the Speed Method",
+      "authors": [
+        "Philipp Eisenhardt",
+        "Fernando H\\\"ubner Scherer",
+        "Barbara Wohlmuth",
+        "Andrei Constantinescu"
+      ],
+      "link": "https://arxiv.org/abs/2610.30389"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.30204v1",
+      "title": "Triple Products of Correlated Multivariate Hermite Polynomials",
+      "authors": [
+        "Laura Lyman"
+      ],
+      "link": "https://arxiv.org/abs/2610.30204"
+    },
+    {
+      "arxiv_id": "2610.30214v1",
+      "title": "Relaxation and $\\Gamma$-Convergence of Stretch Energy on Surface Homeomorphisms",
+      "authors": [
+        "Shu-Yung Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.30214"
+    },
+    {
+      "arxiv_id": "2610.30227v1",
+      "title": "DBDSVDMR3: An MRRR-Based Bidiagonal SVD Solver Built from DSTEGR",
+      "authors": [
+        "James Demmel",
+        "Inderjit Dhillon",
+        "Sai Surya Duvvuri",
+        "Julien Langou",
+        "Osni Marques",
+        "Ryan Schneider"
+      ],
+      "link": "https://arxiv.org/abs/2610.30227"
+    },
+    {
+      "arxiv_id": "2610.30272v1",
+      "title": "Summation-by-parts operators for general function spaces: Flux differencing, entropy stability, and accuracy",
+      "authors": [
+        "Henry M. Haase",
+        "Andrew R. Winters",
+        "Jan Glaubitz"
+      ],
+      "link": "https://arxiv.org/abs/2610.30272"
+    },
+    {
+      "arxiv_id": "2610.30306v1",
+      "title": "Structure-Preserving Dimension Reduction and Surrogates for Partially Linear Bayesian Inverse Problems",
+      "authors": [
+        "Ziheng Zhang",
+        "Dingcheng Luo",
+        "Thomas O'Leary-Roseberry",
+        "Umberto Villa",
+        "Omar Ghattas"
+      ],
+      "link": "https://arxiv.org/abs/2610.30306"
+    },
+    {
+      "arxiv_id": "2610.30308v1",
+      "title": "Matrix-Free Local Multigrid for $C^1$ Hermite Discretizations on GPUs",
+      "authors": [
+        "Micha{\\l} Wichrowski"
+      ],
+      "link": "https://arxiv.org/abs/2610.30308"
+    },
+    {
+      "arxiv_id": "2610.30357v1",
+      "title": "A unified variational framework for augmented Lagrangian preconditioning of saddle point systems: applications to mixed-dimensional and fictitious domain methods",
+      "authors": [
+        "Michele Benzi",
+        "Marco Feder",
+        "Luca Heltai",
+        "Federica Mugnaioni"
+      ],
+      "link": "https://arxiv.org/abs/2610.30357"
+    },
+    {
+      "arxiv_id": "2610.30454v1",
+      "title": "Energy-rate equidistribution for adaptive SSAV--BDF2 integration of gradient flows",
+      "authors": [
+        "Suki Shergill",
+        "JF Williams"
+      ],
+      "link": "https://arxiv.org/abs/2610.30454"
+    },
+    {
+      "arxiv_id": "2610.30486v1",
+      "title": "Comb Tensor Network Finite-Difference Time-Domain Algorithms for 2D and 3D Electromagnetic Simulations",
+      "authors": [
+        "Jonathan Tabares",
+        "Erika Ye",
+        "Yang Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.30486"
+    },
+    {
+      "arxiv_id": "2610.30492v1",
+      "title": "Discovery of Singularities in Partial Differential Equations Using Adaptive Numerical Discretizations",
+      "authors": [
+        "Allen Yang",
+        "Lucas Amoudruz",
+        "Petros Koumoutsakos"
+      ],
+      "link": "https://arxiv.org/abs/2610.30492"
+    },
+    {
+      "arxiv_id": "2610.30496v1",
+      "title": "Entropy bounded compact stencil Runge-Kutta discontinuous Galerkin method for hyperbolic conservation laws",
+      "authors": [
+        "Deepak Kumar",
+        "Pratima Rai",
+        "Arvind Patel"
+      ],
+      "link": "https://arxiv.org/abs/2610.30496"
+    },
+    {
+      "arxiv_id": "2610.30530v1",
+      "title": "The reverse Ritz inclusion: computable bounds on the pseudospectra of an operator by those of a finite-rank compression",
+      "authors": [
+        "Isaia Nisoli"
+      ],
+      "link": "https://arxiv.org/abs/2610.30530"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-16",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-16",
+  "duration_seconds": 819.021,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.22063v1",
+      "title": "Finite Volume Convergence for a Heat Equation with a Measure-Valued Source",
+      "authors": [
+        "Matthias Gobbert",
+        "Martin Kru\\v{z}\\'{\\i}k",
+        "Andreas Meister",
+        "Michael Muscedere"
+      ],
+      "link": "https://arxiv.org/abs/2610.22063"
+    },
+    {
+      "arxiv_id": "2610.21056v1",
+      "title": "Galerkin finite element method for time fractional diffusion-wave equations with constant time delay",
+      "authors": [
+        "Xuan Li",
+        "Kaile Qiu",
+        "Chaobao Huang",
+        "Weiping Bu"
+      ],
+      "link": "https://arxiv.org/abs/2610.21056"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.20829v1",
+      "title": "A nonstandard fractional Jacobi pseudospectral method for weakly regular right-sided Caputo terminal problems",
+      "authors": [
+        "Ibrahem G. Ameen",
+        "Magda Hammad",
+        "Mohsen Razzaghi",
+        "Mahmoud A. Zaky"
+      ],
+      "link": "https://arxiv.org/abs/2610.20829"
+    },
+    {
+      "arxiv_id": "2610.20966v1",
+      "title": "A Coupled Fluid Naghdi Shell Windkessel Model for Pulmonary Artery Banding: Partitioned Numerical Scheme and Parameter Estimation",
+      "authors": [
+        "Yifan Wang",
+        "Josip Tambaca",
+        "Suncica Canic"
+      ],
+      "link": "https://arxiv.org/abs/2610.20966"
+    },
+    {
+      "arxiv_id": "2610.21077v1",
+      "title": "Adaptive Randomized Neural Networks for PDEs: Structure-Aware Feature Redistribution and Residual-Driven Block Enrichment",
+      "authors": [
+        "You Yang",
+        "Fei Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.21077"
+    },
+    {
+      "arxiv_id": "2610.21192v1",
+      "title": "A geometric criterion for the dimension of Morgan-Scott spline spaces $S_{2r}^r(\\Delta_{\\mathrm{MS}})$",
+      "authors": [
+        "Xinyu Wu",
+        "Yi Zheng",
+        "Jiansong Deng"
+      ],
+      "link": "https://arxiv.org/abs/2610.21192"
+    },
+    {
+      "arxiv_id": "2610.21598v1",
+      "title": "A Hybrid High-Order method for variable-exponent Leray-Lions problems with convergence under minimal regularity",
+      "authors": [
+        "Andr\\'e Harnist",
+        "Romain Mottier"
+      ],
+      "link": "https://arxiv.org/abs/2610.21598"
+    },
+    {
+      "arxiv_id": "2610.21603v1",
+      "title": "On the stability of basis construction in extended Krylov subspace methods",
+      "authors": [
+        "Kathryn Lund",
+        "Marcel Schweitzer"
+      ],
+      "link": "https://arxiv.org/abs/2610.21603"
+    },
+    {
+      "arxiv_id": "2610.21611v1",
+      "title": "A priori error estimates for a Hybrid High-Order method on variable-exponent Leray-Lions problems",
+      "authors": [
+        "Andr\\'e Harnist",
+        "Romain Mottier"
+      ],
+      "link": "https://arxiv.org/abs/2610.21611"
+    },
+    {
+      "arxiv_id": "2610.21615v1",
+      "title": "Greedy multiscale kernel algorithms",
+      "authors": [
+        "Sara Avesani",
+        "Armin Iske",
+        "Michael Multerer",
+        "Tizian Wenzel"
+      ],
+      "link": "https://arxiv.org/abs/2610.21615"
+    },
+    {
+      "arxiv_id": "2610.21680v1",
+      "title": "Projection-Based Parareal for Nonlinear Initial-Value Problems",
+      "authors": [
+        "Chenyi Tan",
+        "Yuncheng Xu",
+        "Yehao Zhang",
+        "Yangfeng Su"
+      ],
+      "link": "https://arxiv.org/abs/2610.21680"
+    },
+    {
+      "arxiv_id": "2610.21717v1",
+      "title": "The $L\\log L$-Luxemburg Discrepancy for Nonnegative Weights Suffers from the Curse of Dimensionality",
+      "authors": [
+        "Josef Dick",
+        "Friedrich Pillichshammer"
+      ],
+      "link": "https://arxiv.org/abs/2610.21717"
+    },
+    {
+      "arxiv_id": "2610.21721v1",
+      "title": "Stability analysis of the steady solution for incompressible lid-driven cavity flow",
+      "authors": [
+        "Dmitri Lomasov",
+        "Petr Vabishchevich"
+      ],
+      "link": "https://arxiv.org/abs/2610.21721"
+    },
+    {
+      "arxiv_id": "2610.21740v1",
+      "title": "An IMEX multi-level domain-decomposition method for the Boltzmann equation on unstructured meshes",
+      "authors": [
+        "Domenico Caparello",
+        "Lorenzo Pareschi",
+        "Thomas Rey"
+      ],
+      "link": "https://arxiv.org/abs/2610.21740"
+    }
+  ]
+}

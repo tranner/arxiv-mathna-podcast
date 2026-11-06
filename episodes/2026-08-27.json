@@ -1,0 +1,156 @@
+{
+  "date": "2026-08-27",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-27",
+  "duration_seconds": 758.946,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.25160v1",
+      "title": "ROMNet: a hybrid reduced order modeling and machine learning approach to waveform inversion",
+      "authors": [
+        "Liliana Borcea",
+        "Alexander Mamonov",
+        "Kui Ren",
+        "Haizhao Yang",
+        "Chugang Yi"
+      ],
+      "link": "https://arxiv.org/abs/2608.25160"
+    },
+    {
+      "arxiv_id": "2608.25300v1",
+      "title": "CARE-SAV: A Conditioning-Aware Random-Feature Framework for Energy-Stable Simulation of Gradient Flows",
+      "authors": [
+        "Bingcheng Hu",
+        "Zhaoxiang Li"
+      ],
+      "link": "https://arxiv.org/abs/2608.25300"
+    },
+    {
+      "arxiv_id": "2608.25822v1",
+      "title": "Fast-forwarding quantum algorithms for weakly nonlinear dissipative differential equations and beyond",
+      "authors": [
+        "Yixiang Li",
+        "Dong An"
+      ],
+      "link": "https://arxiv.org/abs/2608.25822"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.24985v1",
+      "title": "A Symmetry-Preserving Tensor $\\star_{\\mathbf{M}}$-SVD",
+      "authors": [
+        "Victor Arsenescu",
+        "Misha E. Kilmer"
+      ],
+      "link": "https://arxiv.org/abs/2608.24985"
+    },
+    {
+      "arxiv_id": "2608.25146v1",
+      "title": "Entropy-stable moving-wall boundary conditions for the ALE formulation of the compressible Navier-Stokes equations",
+      "authors": [
+        "Luca Galimberti",
+        "Roberto Nuca",
+        "Lisandro Dalcin",
+        "Alberto Guardone",
+        "Matteo Parsani"
+      ],
+      "link": "https://arxiv.org/abs/2608.25146"
+    },
+    {
+      "arxiv_id": "2608.25264v1",
+      "title": "\"Truncated Fourier Filtering\" method for fast and high-order evaluation of integrals and convolutions in general domains",
+      "authors": [
+        "Oscar P. Bruno",
+        "Ambuj Pandey",
+        "Krishna Y. Poojara"
+      ],
+      "link": "https://arxiv.org/abs/2608.25264"
+    },
+    {
+      "arxiv_id": "2608.25421v1",
+      "title": "Data-driven Effective Modeling of Stochastic Chemical Reaction Networks",
+      "authors": [
+        "Yuan Chen",
+        "Weize Mao",
+        "Dongbin Xiu"
+      ],
+      "link": "https://arxiv.org/abs/2608.25421"
+    },
+    {
+      "arxiv_id": "2608.25524v1",
+      "title": "Adaptive Hybrid Subspace Levenberg Marquardt Algorithm with Adequacy Monitor for Large Scale Least Squares Problems",
+      "authors": [
+        "M. Duc Hoang",
+        "Timothy J. Lewis"
+      ],
+      "link": "https://arxiv.org/abs/2608.25524"
+    },
+    {
+      "arxiv_id": "2608.25537v1",
+      "title": "Preconditioning for Diffuse Interface Tumor Growth Models",
+      "authors": [
+        "Jessica Bosch",
+        "Pel\\.{i}n \\c{C}\\.{i}lo\\u{g}lu",
+        "Chen Greif",
+        "Martin Stoll"
+      ],
+      "link": "https://arxiv.org/abs/2608.25537"
+    },
+    {
+      "arxiv_id": "2608.25567v1",
+      "title": "Combined High-Dimensional and Reduced-Order Modeling Based on an Iterative Domain Decomposition Method",
+      "authors": [
+        "Taiji Saito",
+        "Tomoshi Miyamura",
+        "Yasunori Yusa"
+      ],
+      "link": "https://arxiv.org/abs/2608.25567"
+    },
+    {
+      "arxiv_id": "2608.25679v1",
+      "title": "A Computational Model for Global Ocean Dynamics at all Scales",
+      "authors": [
+        "Peter Korn"
+      ],
+      "link": "https://arxiv.org/abs/2608.25679"
+    },
+    {
+      "arxiv_id": "2608.25685v1",
+      "title": "Explicit domain preserving numerical schemes for a class of stochastic differential equations",
+      "authors": [
+        "Charles-Edouard Br\\'ehier",
+        "David Cohen"
+      ],
+      "link": "https://arxiv.org/abs/2608.25685"
+    },
+    {
+      "arxiv_id": "2608.25689v1",
+      "title": "Analysis of a first-order explicit positivity preserving scheme for a class of scalar SDEs",
+      "authors": [
+        "Charles-Edouard Br\\'ehier",
+        "David Cohen"
+      ],
+      "link": "https://arxiv.org/abs/2608.25689"
+    },
+    {
+      "arxiv_id": "2608.25714v1",
+      "title": "Exactly Diagonal Gram Matrices in Jacobi Weighted Histopolation",
+      "authors": [
+        "Allal Guessab",
+        "Federico Nudo",
+        "Stefano Serra-Capizzano"
+      ],
+      "link": "https://arxiv.org/abs/2608.25714"
+    },
+    {
+      "arxiv_id": "2608.25749v1",
+      "title": "Error Analysis of the Inverse Conductivity Problem with Scattered Measurements",
+      "authors": [
+        "Bangti Jin",
+        "Qimeng Quan",
+        "Wenlong Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.25749"
+    }
+  ]
+}

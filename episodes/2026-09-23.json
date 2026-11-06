@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-23",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-23",
+  "duration_seconds": 1063.872,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.26435v1",
+      "title": "One-Step Generative Surrogate Models via Block-Triangular Joint Drifting",
+      "authors": [
+        "Nicholas Geissler",
+        "Shreya Jha",
+        "Ricardo Baptista",
+        "Benjamin Peherstorfer"
+      ],
+      "link": "https://arxiv.org/abs/2609.26435"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.25087v1",
+      "title": "MIISO: Modal Integrators for Isogeometric Stabilization of Outliers",
+      "authors": [
+        "Sreeram Shankar"
+      ],
+      "link": "https://arxiv.org/abs/2609.25087"
+    },
+    {
+      "arxiv_id": "2609.25350v1",
+      "title": "An unconditionally stable second-order Robin partitioned method for fluid-poroelastic structure interaction",
+      "authors": [
+        "Wenlong He",
+        "Thomas Wick",
+        "Xiaohe Yue",
+        "Jiwei Zhang",
+        "Haibiao Zheng"
+      ],
+      "link": "https://arxiv.org/abs/2609.25350"
+    },
+    {
+      "arxiv_id": "2609.25394v1",
+      "title": "Three-dimensional blind deconvolution by CP-parameterized kernels",
+      "authors": [
+        "Fatoumata Sanogo",
+        "Stefan Kindermann"
+      ],
+      "link": "https://arxiv.org/abs/2609.25394"
+    },
+    {
+      "arxiv_id": "2609.25402v1",
+      "title": "Convergence of the original BGN method for mean curvature flow",
+      "authors": [
+        "Yifei Li"
+      ],
+      "link": "https://arxiv.org/abs/2609.25402"
+    },
+    {
+      "arxiv_id": "2609.25489v1",
+      "title": "High-Order Variable-Scaled Energetic Variational Neural Networks for Phase-Field Gradient Flows",
+      "authors": [
+        "Xiaobo Jing",
+        "Leiyi Dong",
+        "Jia Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2609.25489"
+    },
+    {
+      "arxiv_id": "2609.25507v1",
+      "title": "AKAPINN: Adaptive Kolmogorov-Arnold Physics-Informed Neural Networks for approximating solutions to quasilinear partial differential equations",
+      "authors": [
+        "B. Veena S. N. Rao"
+      ],
+      "link": "https://arxiv.org/abs/2609.25507"
+    },
+    {
+      "arxiv_id": "2609.25552v1",
+      "title": "On a Conjecture Related to Eigenvalue Perturbations",
+      "authors": [
+        "Lei-Hong Zhang",
+        "Ren-Cang Li"
+      ],
+      "link": "https://arxiv.org/abs/2609.25552"
+    },
+    {
+      "arxiv_id": "2609.25690v1",
+      "title": "The Scott-Vogelius element is inf-sup stable on Freudenthal meshes for $k \\geq 4$",
+      "authors": [
+        "Siqi Ding",
+        "Pingbing Ming",
+        "Haijun Yu",
+        "Quanfan Zhu"
+      ],
+      "link": "https://arxiv.org/abs/2609.25690"
+    },
+    {
+      "arxiv_id": "2609.25796v1",
+      "title": "Uniform approximation of spectra of linear second order differential operators via discrete sine transform based discretisation",
+      "authors": [
+        "Oliver K\\v{r}enek",
+        "V\\'{\\i}t Pr\\r{u}\\v{s}a",
+        "Rebecca Tozzi",
+        "Martin Vejvoda"
+      ],
+      "link": "https://arxiv.org/abs/2609.25796"
+    },
+    {
+      "arxiv_id": "2609.25828v1",
+      "title": "Anisotropic Kernel-based Multilevel Interpolation of High-Dimensional Functions on Sparse Grids",
+      "authors": [
+        "R\\\"udiger Kempf"
+      ],
+      "link": "https://arxiv.org/abs/2609.25828"
+    },
+    {
+      "arxiv_id": "2609.25854v1",
+      "title": "A Multirate Transient Simulation Technique for Circuits described by Integro-Differential Equations",
+      "authors": [
+        "Hans Georg Brachtendorf",
+        "Kai Bittner"
+      ],
+      "link": "https://arxiv.org/abs/2609.25854"
+    },
+    {
+      "arxiv_id": "2609.25858v1",
+      "title": "The inverse elastic scattering problem in the cavity with impedance boundary",
+      "authors": [
+        "Shiyu Xu",
+        "Huiling Zheng",
+        "Fang Zeng"
+      ],
+      "link": "https://arxiv.org/abs/2609.25858"
+    }
+  ]
+}

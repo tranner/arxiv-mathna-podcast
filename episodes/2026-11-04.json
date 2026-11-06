@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-04",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-04",
+  "duration_seconds": 902.473,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.04799v1",
+      "title": "Generic factorizations and alternating direction method for fixed-rank approximation of matrix polynomials",
+      "authors": [
+        "Sweta Das",
+        "Andrii Dmytryshyn",
+        "Froil\\'an M. Dopico",
+        "M{\\aa}rten Gulliksson"
+      ],
+      "link": "https://arxiv.org/abs/2611.04799"
+    },
+    {
+      "arxiv_id": "2611.05226v1",
+      "title": "CQ-collocation BEMs for exterior wave propagation problems: the 3D Neumann case",
+      "authors": [
+        "Davide Collato",
+        "Silvia Falletta",
+        "Giovanni Monegato",
+        "Letizia Scuderi"
+      ],
+      "link": "https://arxiv.org/abs/2611.05226"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.03859v1",
+      "title": "Factorized approximate inverse preconditioners in the tensor train format",
+      "authors": [
+        "Pau Torrente Badia",
+        "Daniel P\\'erez Garc\\'ia",
+        "Artur Garcia-Saez",
+        "Stefano Carignano"
+      ],
+      "link": "https://arxiv.org/abs/2611.03859"
+    },
+    {
+      "arxiv_id": "2611.03889v1",
+      "title": "Weighted Randomized Kaczmarz for Sparsely Corrupted Linear Systems",
+      "authors": [
+        "Jessie Chen",
+        "Ziyu Cheng",
+        "Yunhui He",
+        "Alona Kryshchenko",
+        "Jocelyn T. Chi",
+        "Anna Ma",
+        "Jamie Haddock"
+      ],
+      "link": "https://arxiv.org/abs/2611.03889"
+    },
+    {
+      "arxiv_id": "2611.03915v1",
+      "title": "A probabilistic score estimation using the Bismut--Elworthy--Li formula",
+      "authors": [
+        "Jiatong Sun",
+        "Long Nguyen",
+        "Ning Jiang",
+        "Weiqi Chu",
+        "Yao Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.03915"
+    },
+    {
+      "arxiv_id": "2611.04001v1",
+      "title": "Initial-Trace Insufficiency and Entropy-Accounting Separation in Finite-Volume Coarse Graining",
+      "authors": [
+        "Antonis Polemitis (UNIC Evolve",
+        "University of Nicosia",
+        "Nicosia",
+        "Cyprus)",
+        "Nicholas Christakis (Institute for Advanced Modelling and Simulation",
+        "University of Nicosia",
+        "Nicosia",
+        "Cyprus)",
+        "Dimitris Drikakis (Institute for Advanced Modelling and Simulation",
+        "University of Nicosia",
+        "Nicosia",
+        "Cyprus)"
+      ],
+      "link": "https://arxiv.org/abs/2611.04001"
+    },
+    {
+      "arxiv_id": "2611.04026v1",
+      "title": "Fixed-grid schemes for fractional moving-boundary problems",
+      "authors": [
+        "Conrard Giresse Tetsassi Feugmo"
+      ],
+      "link": "https://arxiv.org/abs/2611.04026"
+    },
+    {
+      "arxiv_id": "2611.04065v1",
+      "title": "Adaptive data-driven reduced-order models for reciprocal MIMO port-Hamiltonian dynamical systems",
+      "authors": [
+        "Anarzhan Abilgazy",
+        "Mikhail Zaslavsky"
+      ],
+      "link": "https://arxiv.org/abs/2611.04065"
+    },
+    {
+      "arxiv_id": "2611.04189v1",
+      "title": "Convergence analysis of TriCG and TriMR for symmetric quasi-definite linear systems",
+      "authors": [
+        "Kui Du",
+        "Jia-Jun Fan"
+      ],
+      "link": "https://arxiv.org/abs/2611.04189"
+    },
+    {
+      "arxiv_id": "2611.04360v1",
+      "title": "A hybrid TT/QTT discontinuous Galerkin method with fixed-matrix upwinding for three-dimensional transient multigroup neutron transport",
+      "authors": [
+        "Dibyendu Adak",
+        "Radoslav Vuchkov",
+        "Oleg Korobkin",
+        "Ted Sariyski",
+        "Boian S. Alexandrov"
+      ],
+      "link": "https://arxiv.org/abs/2611.04360"
+    },
+    {
+      "arxiv_id": "2611.04601v1",
+      "title": "Discontinuous Galerkin Approximation to a Class of Strongly Damped Wave Equations with Uniform Exponential Decay",
+      "authors": [
+        "Debendra K. Swain",
+        "P. Danumjaya",
+        "Anil Kumar",
+        "Amiya K. Pani"
+      ],
+      "link": "https://arxiv.org/abs/2611.04601"
+    },
+    {
+      "arxiv_id": "2611.04718v1",
+      "title": "A Discontinuous Galerkin Framework for Efficient Simulation of Cyclic Voltammetry Models",
+      "authors": [
+        "Assionvi Hove Kouevi",
+        "Debora Campos de Faria",
+        "Can Evren Yarman",
+        "Gabriel J. Lord"
+      ],
+      "link": "https://arxiv.org/abs/2611.04718"
+    },
+    {
+      "arxiv_id": "2611.04832v1",
+      "title": "Asymptotic preserving IMEX Active Flux schemes for a hyperbolic approximation of the Korteweg-de Vries equation",
+      "authors": [
+        "Simon Krotsch",
+        "Wasilij Barsukow",
+        "Christian Klingenberg"
+      ],
+      "link": "https://arxiv.org/abs/2611.04832"
+    },
+    {
+      "arxiv_id": "2611.04846v1",
+      "title": "Marginalization-Based Regularization for Separable Nonlinear Least Squares Problems with Applications to Semi-Blind Deblurring",
+      "authors": [
+        "Jordan T. Dworaczyk",
+        "Malena I. Espa\\~nol"
+      ],
+      "link": "https://arxiv.org/abs/2611.04846"
+    }
+  ]
+}

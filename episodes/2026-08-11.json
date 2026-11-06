@@ -1,0 +1,133 @@
+{
+  "date": "2026-08-11",
+  "title": "arXiv Numerical Analysis Daily \u2014 2026-08-11",
+  "duration_seconds": 812.58,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.09615v1",
+      "title": "A novel compact scheme for second-order fluxes applied to the Spectral Difference method",
+      "authors": [
+        "Guido Lodato",
+        "Niccol\u00f2 Tonicello"
+      ],
+      "link": "https://arxiv.org/abs/2608.09615v1"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.09838v1",
+      "title": "Bijectivity analysis of rational T-spline surfaces via Bernstein representations",
+      "authors": [
+        "Jia-Xuan Li",
+        "Ying-Ying Yu",
+        "Ya-Shu Liu",
+        "Xin Li",
+        "Ye Ji",
+        "Chun-Gang Zhu"
+      ],
+      "link": "https://arxiv.org/abs/2608.09838v1"
+    },
+    {
+      "arxiv_id": "2608.09827v1",
+      "title": "Convergence of Galerkin approximations based on asymmetrically-weighted Hermite functions for the Vlasov-Poisson system",
+      "authors": [
+        "Ruiyang Dai"
+      ],
+      "link": "https://arxiv.org/abs/2608.09827v1"
+    },
+    {
+      "arxiv_id": "2608.09759v1",
+      "title": "Information geometric regularization for computing sensitivities of flows with shocks",
+      "authors": [
+        "Florian Sch\u00e4fer"
+      ],
+      "link": "https://arxiv.org/abs/2608.09759v1"
+    },
+    {
+      "arxiv_id": "2608.09756v1",
+      "title": "Two-sided estimates of Lyapunov exponents for Milstein schemes of non-autonomous stochastic differential equations",
+      "authors": [
+        "Vu Thi Hue",
+        "Bao Quoc Tang",
+        "Do Duc Thuan"
+      ],
+      "link": "https://arxiv.org/abs/2608.09756v1"
+    },
+    {
+      "arxiv_id": "2608.09743v1",
+      "title": "Theoretical Analysis of Thermodynamic Matrix Inversion: First-order Equivalence to Preconditioned Gradient Descent and Implications for Analog Computing",
+      "authors": [
+        "Gerhard Kirsten",
+        "Michael Selby",
+        "Janith Petangoda",
+        "Olle Halqvist Elias",
+        "James Meech",
+        "Phillip Stanley-Marbell"
+      ],
+      "link": "https://arxiv.org/abs/2608.09743v1"
+    },
+    {
+      "arxiv_id": "2608.09665v1",
+      "title": "Carleman--Picard and time-dimensional reduction for inverse initial-data problems in nonlinear transport with memory",
+      "authors": [
+        "Navaraj Neupane",
+        "Loc H. Nguyen"
+      ],
+      "link": "https://arxiv.org/abs/2608.09665v1"
+    },
+    {
+      "arxiv_id": "2608.09623v1",
+      "title": "Diffusion Maps Kernel Ridge Regression",
+      "authors": [
+        "John Harlim",
+        "Daning Huang",
+        "Jiwoo Song"
+      ],
+      "link": "https://arxiv.org/abs/2608.09623v1"
+    },
+    {
+      "arxiv_id": "2608.09603v1",
+      "title": "A block preconditioner with two parameters for double saddle point systems in liquid crystal director modeling",
+      "authors": [
+        "Mehdi Makhdomi",
+        "Davod Khojasteh Salkuyeh",
+        "Morad Ahmadnasab"
+      ],
+      "link": "https://arxiv.org/abs/2608.09603v1"
+    },
+    {
+      "arxiv_id": "2608.09569v1",
+      "title": "Linear Convergence of a Frank-Wolfe-type Method over the Spectrahedron without Strict Complementarity",
+      "authors": [
+        "Dan Garber"
+      ],
+      "link": "https://arxiv.org/abs/2608.09569v1"
+    },
+    {
+      "arxiv_id": "2608.09558v1",
+      "title": "Training-Free Universal Approximation by Prompting Random Transformers",
+      "authors": [
+        "Alexander Hsu",
+        "Rongjie Lai"
+      ],
+      "link": "https://arxiv.org/abs/2608.09558v1"
+    },
+    {
+      "arxiv_id": "2608.09505v1",
+      "title": "Conditional Uniqueness and Optimal Energy-Norm Convergence for the Dynamic Diffusion Finite Element Method",
+      "authors": [
+        "Isaac P. Santos"
+      ],
+      "link": "https://arxiv.org/abs/2608.09505v1"
+    },
+    {
+      "arxiv_id": "2608.09494v1",
+      "title": "Walk-on-Spheres Monte Carlo and deep neural network approximations of elliptic PDEs with drift and killing",
+      "authors": [
+        "Konrad Kleinberg",
+        "Thomas Kruse"
+      ],
+      "link": "https://arxiv.org/abs/2608.09494v1"
+    }
+  ]
+}

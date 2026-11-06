@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-27",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-27",
+  "duration_seconds": 772.242,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.35265v1",
+      "title": "Towards Exact Multidimensional Fluxes: A Structure-Preserving Data-Informed Framework for Riemann Solvers",
+      "authors": [
+        "Yucheng Zhang",
+        "Clint Dawson"
+      ],
+      "link": "https://arxiv.org/abs/2610.35265"
+    },
+    {
+      "arxiv_id": "2610.34761v1",
+      "title": "Active Flux and Polygons: why a stabilisation and how to implement boundary conditions",
+      "authors": [
+        "Remi Abgrall",
+        "Yongle Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.34761"
+    },
+    {
+      "arxiv_id": "2610.34139v1",
+      "title": "Convergence Analysis of Variable-Separation-Based Model Reduction for Linear Parametric Partial Differential Equations",
+      "authors": [
+        "Liang Chen",
+        "Qiuqi Li",
+        "Yusong Ye",
+        "Pingwen Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.34139"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.33210v1",
+      "title": "Derivative-Informed Dimension Reduction of Stochastic Differential Equations: A Path-Space Sensitivity Approach",
+      "authors": [
+        "Joanna Zou",
+        "Han Cheng Lie",
+        "Youssef Marzouk"
+      ],
+      "link": "https://arxiv.org/abs/2610.33210"
+    },
+    {
+      "arxiv_id": "2610.33260v1",
+      "title": "Hybridizable Discontinuous Galerkin methods for the Keller-Segel model",
+      "authors": [
+        "Silvia Bertoluzza",
+        "Gabriella Bretti",
+        "Micol Pennacchio",
+        "Christophe Prud'homme"
+      ],
+      "link": "https://arxiv.org/abs/2610.33260"
+    },
+    {
+      "arxiv_id": "2610.33385v1",
+      "title": "Robust augmented Block Preconditioning for two-phase Incompressible Inductionless MHD",
+      "authors": [
+        "Bijie Song",
+        "Lingxiao Li",
+        "Jie Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.33385"
+    },
+    {
+      "arxiv_id": "2610.33449v1",
+      "title": "Optimization-based Cell Average Limiters as Metric Projections: Constrained Evolution and Convergence Analysis for Convection-diffusion Equations",
+      "authors": [
+        "Seungmin Lee",
+        "Sanghyun Lee",
+        "Chen Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.33449"
+    },
+    {
+      "arxiv_id": "2610.33537v1",
+      "title": "An improved fast iterative moment method for the simulation of near-continuum gas flows with Shakhov model",
+      "authors": [
+        "Zhenning Cai",
+        "Zhicheng Hu",
+        "Guanghan Li",
+        "Chunwu Wang",
+        "Xiaowen Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.33537"
+    },
+    {
+      "arxiv_id": "2610.33763v1",
+      "title": "Inverse problems with fractional operators: an analytical study and its numerical linear algebra treatment via the GLT theory",
+      "authors": [
+        "Asim Ilyas"
+      ],
+      "link": "https://arxiv.org/abs/2610.33763"
+    },
+    {
+      "arxiv_id": "2610.33780v1",
+      "title": "On the stability of second-order methods for DDEs and PDDEs",
+      "authors": [
+        "Javier Rodr\\'iguez-Guti\\'errez",
+        "Jes\\'us Mart\\'in-Vaquero"
+      ],
+      "link": "https://arxiv.org/abs/2610.33780"
+    },
+    {
+      "arxiv_id": "2610.33783v1",
+      "title": "The Exact Dihedral Angle Sum Range for Circumcentral-Cevian Jaw Tetrahedra",
+      "authors": [
+        "Sergey Korotov"
+      ],
+      "link": "https://arxiv.org/abs/2610.33783"
+    },
+    {
+      "arxiv_id": "2610.33940v1",
+      "title": "An optimization-based property-preserving limiter for two-phase flow in porous media on non-matching meshes",
+      "authors": [
+        "Sanghyun Lee",
+        "Seungmin Lee",
+        "Chen Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.33940"
+    },
+    {
+      "arxiv_id": "2610.34077v1",
+      "title": "The Calder\\'on problem for the multi-fractional Laplacian Schr\\\"{o}dinger equation with drift terms",
+      "authors": [
+        "Jin Wen",
+        "Yun-Long Liu",
+        "Jun-Liang Fu"
+      ],
+      "link": "https://arxiv.org/abs/2610.34077"
+    },
+    {
+      "arxiv_id": "2610.34175v1",
+      "title": "An efficient method for reconstructing the potential in the fractional Calder\\'on problem with a single measurement",
+      "authors": [
+        "Yun-Long Liu",
+        "Jin Wen",
+        "Jun-Liang Fu"
+      ],
+      "link": "https://arxiv.org/abs/2610.34175"
+    },
+    {
+      "arxiv_id": "2610.34194v1",
+      "title": "Numerical Construction of Quasi-Periodic Solutions for Nonlinear PDEs: II. Unbounded Perturbation",
+      "authors": [
+        "Mingwei Fu",
+        "Bin Shi"
+      ],
+      "link": "https://arxiv.org/abs/2610.34194"
+    }
+  ]
+}

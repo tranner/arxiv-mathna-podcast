@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-08",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-08",
+  "duration_seconds": 805.987,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.09299v1",
+      "title": "Convergence of kernel and neural-network methods for Hamilton--Jacobi--Bellman equations on unbounded domains",
+      "authors": [
+        "Yumiharu Nakano"
+      ],
+      "link": "https://arxiv.org/abs/2610.09299"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.08956v1",
+      "title": "Numerical Bogoliubov approximation of bosonic many-body quantum dynamics",
+      "authors": [
+        "Yoann Le H\\'enaff",
+        "Christian Lubich",
+        "Peter Pickl"
+      ],
+      "link": "https://arxiv.org/abs/2610.08956"
+    },
+    {
+      "arxiv_id": "2610.08972v1",
+      "title": "Convergence of isoparametric BGN methods for mean curvature flow of closed surfaces with high-order finite elements",
+      "authors": [
+        "Yifei Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.08972"
+    },
+    {
+      "arxiv_id": "2610.08979v1",
+      "title": "Polynomial Difference Schemes with Energy and Momentum Multipliers on Orthogonal Uniform Meshes: Stencil Restrictions and Monge--Amp\\`ere-Type Examples",
+      "authors": [
+        "E. I. Kaptsov"
+      ],
+      "link": "https://arxiv.org/abs/2610.08979"
+    },
+    {
+      "arxiv_id": "2610.08980v1",
+      "title": "Sum of Squares and Non Sum of Squares Regimes for the Toeplitz Bottcher Wenzel Form",
+      "authors": [
+        "Wenqi Zhu",
+        "Ping Nie"
+      ],
+      "link": "https://arxiv.org/abs/2610.08980"
+    },
+    {
+      "arxiv_id": "2610.09083v1",
+      "title": "JAXIGA - A software framework for GPU-enabled and differentiable isogeometric analysis",
+      "authors": [
+        "Cosmin Anitescu",
+        "Yongjie Jessica Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.09083"
+    },
+    {
+      "arxiv_id": "2610.09101v1",
+      "title": "Improving Learning of Green's Functions Through Kernel Decomposition",
+      "authors": [
+        "Beiji Chen",
+        "Qiang Du",
+        "Kui Ren",
+        "Tian-Yi Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2610.09101"
+    },
+    {
+      "arxiv_id": "2610.09249v1",
+      "title": "High-order entropy stable isothermal wall boundary condition for the compressible Navier--Stokes equations",
+      "authors": [
+        "Mohammed Sayyari",
+        "Nail K. Yamaleev"
+      ],
+      "link": "https://arxiv.org/abs/2610.09249"
+    },
+    {
+      "arxiv_id": "2610.09251v1",
+      "title": "Convergence of repeated-pole rational approximation of the exponential on infinite sectors",
+      "authors": [
+        "Fei Xue",
+        "Tianqi Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.09251"
+    },
+    {
+      "arxiv_id": "2610.09256v1",
+      "title": "Shifted tapered-pole approximation on finite sectors: an exact asymptotic and dimension control",
+      "authors": [
+        "Fei Xue",
+        "Tianqi Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.09256"
+    },
+    {
+      "arxiv_id": "2610.09301v1",
+      "title": "An energy--stable ALE--FEM with compensated tangential velocity for Navier--Stokes free--boundary flows",
+      "authors": [
+        "Nuo Lei",
+        "Weiying Zheng",
+        "Na Zhu"
+      ],
+      "link": "https://arxiv.org/abs/2610.09301"
+    },
+    {
+      "arxiv_id": "2610.09338v1",
+      "title": "Fully Deterministic Shallow Neural Networks with Localized Activations. Part I: Construction and Optimal Sobolev Approximation",
+      "authors": [
+        "Ran Bi",
+        "Weibing Deng"
+      ],
+      "link": "https://arxiv.org/abs/2610.09338"
+    },
+    {
+      "arxiv_id": "2610.09357v1",
+      "title": "Fully Deterministic Shallow Neural Networks with Localized Activations. Part II: Condition Number Estimates",
+      "authors": [
+        "Ran Bi",
+        "Weibing Deng"
+      ],
+      "link": "https://arxiv.org/abs/2610.09357"
+    }
+  ]
+}

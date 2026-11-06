@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-20",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-20",
+  "duration_seconds": 788.371,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.25556v1",
+      "title": "Self-Supervised In-Context Operator Learning for Optimal Mixing in Incompressible Flows",
+      "authors": [
+        "Weiwei Hu",
+        "Rongjie Lai",
+        "Ziqian Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.25556"
+    },
+    {
+      "arxiv_id": "2610.25275v1",
+      "title": "Maximal $L^p$-$L^q$ regularity of finite element methods for stochastic parabolic equations in polygonal domains",
+      "authors": [
+        "Genming Bai",
+        "Jianbo Cui",
+        "Buyang Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.25275"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.24158v1",
+      "title": "Reusable QUBO-Derived Block-Schur Inverse Factors for Fixed-Operator Finite-Difference PDE Solvers",
+      "authors": [
+        "Arash Fath Lipaei",
+        "\\\"Ozg\\\"ur E. M\\\"ustecapl{\\i}o\\u{g}lu",
+        "\\\"Ozlem Salehi",
+        "Selin Aslan"
+      ],
+      "link": "https://arxiv.org/abs/2610.24158"
+    },
+    {
+      "arxiv_id": "2610.24202v1",
+      "title": "Certified neural approximations for parabolic obstacle problems",
+      "authors": [
+        "Davood Damircheli"
+      ],
+      "link": "https://arxiv.org/abs/2610.24202"
+    },
+    {
+      "arxiv_id": "2610.24425v1",
+      "title": "A note on the rectangular Schoenberg-Whitney theorem for clamped B-splines",
+      "authors": [
+        "Shutao Tang",
+        "Zixuan Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2610.24425"
+    },
+    {
+      "arxiv_id": "2610.24470v1",
+      "title": "A Gauge-Invariant Finite Element Method for the Time-Dependent Ginzburg--Landau Equations",
+      "authors": [
+        "Huadong Gao",
+        "Yuhui Huang",
+        "Wen Xie"
+      ],
+      "link": "https://arxiv.org/abs/2610.24470"
+    },
+    {
+      "arxiv_id": "2610.24497v1",
+      "title": "The Segal-Bargmann Transform in Neural Partial Differential Equations",
+      "authors": [
+        "Jie Xu",
+        "Julio Castrill\\'on-Cand\\'as",
+        "Mark Kon",
+        "Qinxun Bai"
+      ],
+      "link": "https://arxiv.org/abs/2610.24497"
+    },
+    {
+      "arxiv_id": "2610.24524v1",
+      "title": "Skew-Symmetric Formulations and Energy-Stable Schemes for Compressible Reactive Flow Equations",
+      "authors": [
+        "Junbo Gong",
+        "Weifeng Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2610.24524"
+    },
+    {
+      "arxiv_id": "2610.24531v1",
+      "title": "Analysis and approximation for inverse potential problem of space-dependent variable-exponent sub-diffusion in heterogeneous medium",
+      "authors": [
+        "Zhiyuan Li",
+        "Chunlong Sun",
+        "Xiangcheng Zheng"
+      ],
+      "link": "https://arxiv.org/abs/2610.24531"
+    },
+    {
+      "arxiv_id": "2610.24704v1",
+      "title": "Numerical Analysis for a Nonlinear Coupled Thermoelastic System with Acoustic Boundary Conditions",
+      "authors": [
+        "Adriano A. Alc\\^antara",
+        "Bruno A. Carmo",
+        "Juan B. L\\'imaco",
+        "Carlos M. Guzm\\'an"
+      ],
+      "link": "https://arxiv.org/abs/2610.24704"
+    },
+    {
+      "arxiv_id": "2610.24781v1",
+      "title": "Stochastic Gradient Leimkuhler-Matthews Integrator with Second Order Discretization Error",
+      "authors": [
+        "Xuda Ye",
+        "Yuliang Wang",
+        "Guang Lin",
+        "Cindy Xiangrui Kong"
+      ],
+      "link": "https://arxiv.org/abs/2610.24781"
+    },
+    {
+      "arxiv_id": "2610.25023v1",
+      "title": "Integrable building blocks for symplectic neural networks: learned-type layers, fiber-preserving layers, and what a single layer can do",
+      "authors": [
+        "Andrew Qing He"
+      ],
+      "link": "https://arxiv.org/abs/2610.25023"
+    },
+    {
+      "arxiv_id": "2610.25115v1",
+      "title": "Sharp Pointwise Error Estimates of Finite Element Methods for the Biharmonic Equation",
+      "authors": [
+        "Buyang Li",
+        "Zhenglei Li",
+        "Qigang Liang",
+        "Xuejun Xu"
+      ],
+      "link": "https://arxiv.org/abs/2610.25115"
+    },
+    {
+      "arxiv_id": "2610.25230v1",
+      "title": "Local Approximation of $A$-Harmonic Functions and the Super-Localization Conjecture",
+      "authors": [
+        "Moritz Hauck",
+        "Chupeng Ma",
+        "Daniel Peterseim"
+      ],
+      "link": "https://arxiv.org/abs/2610.25230"
+    }
+  ]
+}

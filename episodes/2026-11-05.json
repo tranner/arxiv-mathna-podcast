@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-05",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-05",
+  "duration_seconds": 814.305,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.05698v1",
+      "title": "Discrete Poincar\\'e and Bogovskii operators for higher order finite element de Rham complexes",
+      "authors": [
+        "Johnny Guzm\\'an",
+        "Pratyush Potu",
+        "K. Olav Tyssvang"
+      ],
+      "link": "https://arxiv.org/abs/2611.05698"
+    },
+    {
+      "arxiv_id": "2611.06552v1",
+      "title": "A Tensor-Network Chebyshev--Galerkin Method for Boundary-Value Problems in Computational Mechanics",
+      "authors": [
+        "Juan Jos\\'e Rodr\\'iguez-Aldavero",
+        "\\'Angel de la Rosa Velasco",
+        "Juan Jos\\'e Garc\\'ia-Ripoll"
+      ],
+      "link": "https://arxiv.org/abs/2611.06552"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.05576v1",
+      "title": "A First Closed-Form Robin Parameter for Optimized Schwarz Waveform Relaxation as a Function of Iteration Count, Overlap, and Time Window Length",
+      "authors": [
+        "Alejandro Alfonso Rodriguez",
+        "Martin J. Gander",
+        "Felix Kwok"
+      ],
+      "link": "https://arxiv.org/abs/2611.05576"
+    },
+    {
+      "arxiv_id": "2611.05645v1",
+      "title": "Comparative analysis of numerical methods for X-ray 3D reconstruction from sparse views",
+      "authors": [
+        "Melitine N. Bardi",
+        "Konstantinos K. Delibasis"
+      ],
+      "link": "https://arxiv.org/abs/2611.05645"
+    },
+    {
+      "arxiv_id": "2611.05837v1",
+      "title": "Learning Coarse Spaces for Two-Grid Methods from Smoothed Errors with Applications to High-Contrast Porous Media Flow",
+      "authors": [
+        "Chenglong Bao",
+        "Chen Cui",
+        "Ruohua Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.05837"
+    },
+    {
+      "arxiv_id": "2611.05923v1",
+      "title": "Dimensionally absolutely stable but non-diagonalizable $T$-meshes",
+      "authors": [
+        "Mao Shi"
+      ],
+      "link": "https://arxiv.org/abs/2611.05923"
+    },
+    {
+      "arxiv_id": "2611.05950v1",
+      "title": "Magnetic Bloch eigenvalue problems in nonuniform periodic magnetic fields: a Fourier-finite difference approach",
+      "authors": [
+        "Xueyang Li",
+        "Yuanwei Lai"
+      ],
+      "link": "https://arxiv.org/abs/2611.05950"
+    },
+    {
+      "arxiv_id": "2611.05977v1",
+      "title": "Linear adaptive variable time step schemes for the anisotropic phase field dendritic crystal growth model",
+      "authors": [
+        "Yayu Guo",
+        "Ziqi Ma"
+      ],
+      "link": "https://arxiv.org/abs/2611.05977"
+    },
+    {
+      "arxiv_id": "2611.06012v1",
+      "title": "Geometric Multigrid Preconditioners for conforming Finite Element Methods on Arbitrarily Agglomerated Meshes",
+      "authors": [
+        "Santiago Badia",
+        "Jordi Manyer"
+      ],
+      "link": "https://arxiv.org/abs/2611.06012"
+    },
+    {
+      "arxiv_id": "2611.06112v1",
+      "title": "Reconstruction and well-posedness of an inverse coefficient problem for a diffusion equation",
+      "authors": [
+        "Siyu Cen",
+        "Bangti Jin",
+        "Yavar Kian",
+        "Zhi Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2611.06112"
+    },
+    {
+      "arxiv_id": "2611.06153v1",
+      "title": "Flux-Matched Poisson Iteration for Generated Jacobian Equations: Local Convergence and Spectral Galerkin Approximation",
+      "authors": [
+        "Haoxiang Zhang",
+        "Yixuan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.06153"
+    },
+    {
+      "arxiv_id": "2611.06174v1",
+      "title": "Optimal Error Estimates With Polynomial Dependence on $\\epsilon^{-1}$ for Mixed Finite Element Methods of the Cahn-Hilliard-Navier-Stokes System",
+      "authors": [
+        "Haijun Gao",
+        "Xi Li",
+        "Xiaoli Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.06174"
+    },
+    {
+      "arxiv_id": "2611.06288v1",
+      "title": "Optimal stability estimates and preasymptotic error analysis of the CIP-FEM for the Helmholtz equation with uniaxial perfectly matched layers",
+      "authors": [
+        "Silin Wen",
+        "Yu Du"
+      ],
+      "link": "https://arxiv.org/abs/2611.06288"
+    },
+    {
+      "arxiv_id": "2611.06335v1",
+      "title": "A weak Galerkin finite element method for the coupled Stokess-Biot problem",
+      "authors": [
+        "Rui Li",
+        "Hui Peng",
+        "Xiuli Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.06335"
+    }
+  ]
+}

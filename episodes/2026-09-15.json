@@ -1,0 +1,151 @@
+{
+  "date": "2026-09-15",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-15",
+  "duration_seconds": 729.516,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.14949v1",
+      "title": "Boundary transmission and excursion geometry in the Lorentz mirror model: a numerical study",
+      "authors": [
+        "Jian Gu",
+        "Qin Hao"
+      ],
+      "link": "https://arxiv.org/abs/2609.14949"
+    },
+    {
+      "arxiv_id": "2609.15767v1",
+      "title": "Nested QMC designs on spheres",
+      "authors": [
+        "Hao-Ning Wu",
+        "Xiaosheng Zhuang"
+      ],
+      "link": "https://arxiv.org/abs/2609.15767"
+    },
+    {
+      "arxiv_id": "2609.15556v1",
+      "title": "A sharp bound for sampling widths in the uniform norm: kernel $D$-optimal designs and oversampling",
+      "authors": [
+        "Sebastian Neumayer",
+        "Tino Ullrich"
+      ],
+      "link": "https://arxiv.org/abs/2609.15556"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.13446v1",
+      "title": "RUPA: Nonlinear volume consistency, constraint geometry and singular penalty limits in finite elements",
+      "authors": [
+        "Yanlin Liu (The University of Melbourne)",
+        "Chao Huang (Shanghai Jiao Tong University)",
+        "Kaixiang Yao (Southern University of Science",
+        "Technology)",
+        "Yao Shen (Shanghai Jiao Tong University)"
+      ],
+      "link": "https://arxiv.org/abs/2609.13446"
+    },
+    {
+      "arxiv_id": "2609.13449v1",
+      "title": "MORTIS: Quadrature-compatible cofactor gauges and optimal material margins in finite elasticity",
+      "authors": [
+        "Yanlin Liu (The University of Melbourne)",
+        "Kaixiang Yao (Southern University of Science",
+        "Technology)",
+        "Chao Huang (Shanghai Jiao Tong University)",
+        "Yao Shen (Shanghai Jiao Tong University)"
+      ],
+      "link": "https://arxiv.org/abs/2609.13449"
+    },
+    {
+      "arxiv_id": "2609.13509v1",
+      "title": "Global convergence of an efficient splitting method for the defocusing Gross--Pitaevskii ground state problem",
+      "authors": [
+        "Jiaxing Li",
+        "Shixin Zheng",
+        "Xiangxiong Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.13509"
+    },
+    {
+      "arxiv_id": "2609.13822v1",
+      "title": "Domain splitting with localized implicit prediction for wave equations",
+      "authors": [
+        "Tim Buchholz",
+        "Roland Maier"
+      ],
+      "link": "https://arxiv.org/abs/2609.13822"
+    },
+    {
+      "arxiv_id": "2609.13883v1",
+      "title": "Adaptive moving mesh methods for isotropic/anisotropic mean curvature flow with axisymmetric geometry",
+      "authors": [
+        "Yiming Wang",
+        "Meng Li"
+      ],
+      "link": "https://arxiv.org/abs/2609.13883"
+    },
+    {
+      "arxiv_id": "2609.13946v1",
+      "title": "Subspace embeddings with the rerandomized SRHT",
+      "authors": [
+        "Yuning Yang"
+      ],
+      "link": "https://arxiv.org/abs/2609.13946"
+    },
+    {
+      "arxiv_id": "2609.13981v1",
+      "title": "Chronological stability for nonstationary matrix refinement",
+      "authors": [
+        "Yuwen Li",
+        "Yupeng Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.13981"
+    },
+    {
+      "arxiv_id": "2609.14077v1",
+      "title": "IQFEM: A quantum finite element method for heterogeneous problems with immersed boundaries",
+      "authors": [
+        "Shehara Perera",
+        "Yiren Wang",
+        "Fehmi Cirak"
+      ],
+      "link": "https://arxiv.org/abs/2609.14077"
+    },
+    {
+      "arxiv_id": "2609.14196v1",
+      "title": "Controlled B-series, controlled Runge-Kutta methods and controlled rough differential equations",
+      "authors": [
+        "Xinyuan An",
+        "Xingya Fan",
+        "Xing Gao"
+      ],
+      "link": "https://arxiv.org/abs/2609.14196"
+    },
+    {
+      "arxiv_id": "2609.14303v1",
+      "title": "Regional Stability and New Eigenvalue Perturbation Bounds",
+      "authors": [
+        "Phuc Tran",
+        "Van Vu"
+      ],
+      "link": "https://arxiv.org/abs/2609.14303"
+    },
+    {
+      "arxiv_id": "2609.14496v1",
+      "title": "Batched Wavefront Sweeps for Linear Transport Uncertainty Quantification",
+      "authors": [
+        "Tristan Pryer"
+      ],
+      "link": "https://arxiv.org/abs/2609.14496"
+    },
+    {
+      "arxiv_id": "2609.14501v1",
+      "title": "Hankel-Koopman Finite-Horizon Energy Decomposition of Coupled Experimental Data: A Three-Phase Data-Driven Twin Forecasting Framework",
+      "authors": [
+        "Diana A. Bistrian",
+        "Marcel Topor"
+      ],
+      "link": "https://arxiv.org/abs/2609.14501"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-15",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-15",
+  "duration_seconds": 876.498,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.19435v1",
+      "title": "A pure source transfer domain decomposition method for Helmholtz equations in 3D unbounded domain",
+      "authors": [
+        "Xinran Bai",
+        "Yu Du",
+        "Haijun Wu"
+      ],
+      "link": "https://arxiv.org/abs/2610.19435"
+    },
+    {
+      "arxiv_id": "2610.19884v1",
+      "title": "Second-Order Flows for Approaching Stationary Points via the SAV-E Approach",
+      "authors": [
+        "Haifan Chen",
+        "Wei Liu",
+        "Ziqing Xie",
+        "Yifang Yuan"
+      ],
+      "link": "https://arxiv.org/abs/2610.19884"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.19008v1",
+      "title": "Exponential Stability of Slow--Fast Stochastic Systems with a Small Delay",
+      "authors": [
+        "Yudong Wang",
+        "Kele Sun",
+        "Shijie Zhou",
+        "Xuerong Mao"
+      ],
+      "link": "https://arxiv.org/abs/2610.19008"
+    },
+    {
+      "arxiv_id": "2610.19092v1",
+      "title": "Neural Spline Flow Diffeomorphisms for Pullback Finite Element Methods on Complex Domains",
+      "authors": [
+        "Ioannis Kalogeris",
+        "Anaksagoras Spitas",
+        "Konstantinos Atzarakis",
+        "George Stavroulakis",
+        "Vissarion Papadopoulos"
+      ],
+      "link": "https://arxiv.org/abs/2610.19092"
+    },
+    {
+      "arxiv_id": "2610.19296v1",
+      "title": "Variationally correct loss functions for nonlinear parametric problems and their neural approximations",
+      "authors": [
+        "Pablo Cort\\'es Castillo",
+        "Wolfgang Dahmen",
+        "Jay Gopalakrishnan"
+      ],
+      "link": "https://arxiv.org/abs/2610.19296"
+    },
+    {
+      "arxiv_id": "2610.19326v1",
+      "title": "Solving a sequence of eigenvalue problems using snapshot and row subsampling",
+      "authors": [
+        "Francesco Hrobat",
+        "Yuji Nakatsukasa"
+      ],
+      "link": "https://arxiv.org/abs/2610.19326"
+    },
+    {
+      "arxiv_id": "2610.19354v1",
+      "title": "Discrete Edge Multiscale Space based Hybrid Schwarz Preconditioner for High-Frequency Helmholtz Problems",
+      "authors": [
+        "Shubin Fu",
+        "Shihua Gong",
+        "Guanglian Li",
+        "Yueqi Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.19354"
+    },
+    {
+      "arxiv_id": "2610.19409v1",
+      "title": "Weight-adapted ANOVA kernels for high-dimensional periodic approximation",
+      "authors": [
+        "Zhengjie Sun"
+      ],
+      "link": "https://arxiv.org/abs/2610.19409"
+    },
+    {
+      "arxiv_id": "2610.19430v1",
+      "title": "A potential projection method for the nonlinear Schr\\\"{o}dinger equation with low regularity potential",
+      "authors": [
+        "Weizhu Bao",
+        "Qingyuan Sun",
+        "Chushan Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.19430"
+    },
+    {
+      "arxiv_id": "2610.19514v1",
+      "title": "A Stabilized CR-CR Method for Fourth-Order Elliptic Problems",
+      "authors": [
+        "Yule Sun",
+        "Shudan Tian",
+        "Qian Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.19514"
+    },
+    {
+      "arxiv_id": "2610.19531v1",
+      "title": "Nearly sharp $W^{1,\\infty}$ stability of polynomial spectral Ritz projections",
+      "authors": [
+        "Yongxing Guo",
+        "Yuwen Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.19531"
+    },
+    {
+      "arxiv_id": "2610.19637v1",
+      "title": "What Inverse Problems Can Be Solved Using Neural Networks?",
+      "authors": [
+        "A. S. Leonov",
+        "D. V. Lukyanenko"
+      ],
+      "link": "https://arxiv.org/abs/2610.19637"
+    },
+    {
+      "arxiv_id": "2610.19662v1",
+      "title": "C1 Virtual Element Methods for the Optimal Control of Oseen Equations with Stream-Function Formulation",
+      "authors": [
+        "Arbaz Khan",
+        "David Mora",
+        "Alberth Silgado",
+        "Harpal Singh"
+      ],
+      "link": "https://arxiv.org/abs/2610.19662"
+    },
+    {
+      "arxiv_id": "2610.19748v1",
+      "title": "Finite Volume Methods",
+      "authors": [
+        "Robert Eymard (LAMA)",
+        "Thierry Gallou{\\\"e}t (LATP",
+        "I2M)",
+        "Rapha{\\`e}le Herbin (I2M)"
+      ],
+      "link": "https://arxiv.org/abs/2610.19748"
+    }
+  ]
+}

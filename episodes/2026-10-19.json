@@ -1,0 +1,158 @@
+{
+  "date": "2026-10-19",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-19",
+  "duration_seconds": 743.412,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.23341v1",
+      "title": "Quasi-Monte Carlo based meshfree methods for parabolic equations on parameterized Riemannian manifolds",
+      "authors": [
+        "Zhijian He",
+        "Zhiyuan Hui",
+        "Changtao Sheng",
+        "Bihao Su",
+        "Tao Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2610.23341"
+    },
+    {
+      "arxiv_id": "2610.23202v1",
+      "title": "Multilevel Gaussian Processes with Applications to Inverse Problems",
+      "authors": [
+        "Stjepan Salatovic",
+        "Aretha L. Teckentrup",
+        "Sebastian Krumscheid"
+      ],
+      "link": "https://arxiv.org/abs/2610.23202"
+    },
+    {
+      "arxiv_id": "2610.22658v1",
+      "title": "Singular vectors of sparse random rectangular matrices: Transition between delocalized and semilocalized phases",
+      "authors": [
+        "Ioana Dumitriu",
+        "Hai-Xiao Wang"
+      ],
+      "link": "https://arxiv.org/abs/2610.22658"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.22685v1",
+      "title": "Optimized linear multistep methods for stiff problems",
+      "authors": [
+        "Tyler Jensen",
+        "David I Ketcheson",
+        "Lajos L\\'oczi"
+      ],
+      "link": "https://arxiv.org/abs/2610.22685"
+    },
+    {
+      "arxiv_id": "2610.22865v1",
+      "title": "Geometric multigrid preconditioners for unfitted discretisations of the de Rham complex",
+      "authors": [
+        "Santiago Badia",
+        "Jordi Manyer"
+      ],
+      "link": "https://arxiv.org/abs/2610.22865"
+    },
+    {
+      "arxiv_id": "2610.23087v1",
+      "title": "Geometry-Aware Latent Representation Learning for Drag Coefficient Prediction of Irregular Particles",
+      "authors": [
+        "Zihao Li",
+        "Shota Deguchi",
+        "Mitsuteru Asai",
+        "Shunhua Chen",
+        "Naoto Mitsume"
+      ],
+      "link": "https://arxiv.org/abs/2610.23087"
+    },
+    {
+      "arxiv_id": "2610.23163v1",
+      "title": "Stability and Error Estimates for Convolution Quadrature under Radial Symbol Bounds",
+      "authors": [
+        "Jingchuang Ren",
+        "Haibin Su"
+      ],
+      "link": "https://arxiv.org/abs/2610.23163"
+    },
+    {
+      "arxiv_id": "2610.23177v1",
+      "title": "Nondimensionalization, Variational Inequalities and Uncertainty Quantification in a Morphoelastic Model for Burn Injury Healing",
+      "authors": [
+        "Wilbert den Hertog",
+        "Fred Vermolen"
+      ],
+      "link": "https://arxiv.org/abs/2610.23177"
+    },
+    {
+      "arxiv_id": "2610.23247v1",
+      "title": "A configurational numerical viscosity for thermodynamically compatible finite volume schemes of compressible multiphase flows",
+      "authors": [
+        "Davide Ferrari",
+        "Ilya Peshkov",
+        "Michael Dumbser"
+      ],
+      "link": "https://arxiv.org/abs/2610.23247"
+    },
+    {
+      "arxiv_id": "2610.23363v1",
+      "title": "Explicit Oblique Inverses of the Approximate Discrete Radon Transform",
+      "authors": [
+        "Donsub Rim"
+      ],
+      "link": "https://arxiv.org/abs/2610.23363"
+    },
+    {
+      "arxiv_id": "2610.23428v1",
+      "title": "Accelerated Born series for high-frequency strong scattering by weakly non-radial media",
+      "authors": [
+        "Mirza Karamehmedovi\\'c",
+        "Faouzi Triki"
+      ],
+      "link": "https://arxiv.org/abs/2610.23428"
+    },
+    {
+      "arxiv_id": "2610.23451v1",
+      "title": "Fast matrix-vector products in tensor-train format via structured sketching",
+      "authors": [
+        "Alberto Bucci",
+        "Stefan G\\\"uttel",
+        "John W. Pearson"
+      ],
+      "link": "https://arxiv.org/abs/2610.23451"
+    },
+    {
+      "arxiv_id": "2610.23484v1",
+      "title": "A Structure-Preserving Semi-Lagrangian based bi-fidelity method for the Vlasov--Poisson system with uncertainties",
+      "authors": [
+        "Xiaofeng Cai",
+        "Jiaojiao Guo",
+        "Liu Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.23484"
+    },
+    {
+      "arxiv_id": "2610.23492v1",
+      "title": "A Finite Element Method for the Surface Biharmonic Problem without Stabilization or Piola Transforms",
+      "authors": [
+        "Jiachen Gu",
+        "Xia Ji",
+        "Shuo Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.23492"
+    },
+    {
+      "arxiv_id": "2610.23544v1",
+      "title": "A Mixed Elliptic--Hyperbolic Monge--Amp\\`ere Problem: Modeling and a Least-Squares Solver",
+      "authors": [
+        "G. V. Carvalho",
+        "M. J. H. Anthonissen",
+        "J. H. M. ten Thije Boonkkamp",
+        "L. Kusch",
+        "W. L. IJzerman"
+      ],
+      "link": "https://arxiv.org/abs/2610.23544"
+    }
+  ]
+}
