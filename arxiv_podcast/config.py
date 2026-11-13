@@ -36,8 +36,9 @@ ARXIV_RETRY_BACKOFF_SECONDS = float(os.environ.get("ARXIV_RETRY_BACKOFF_SECONDS"
 # --- Episode selection --------------------------------------------------------
 # Deep dives are the most interest-relevant papers plus one "wildcard": the
 # highest-quality paper outside those interests. A minimum of 2 guarantees at
-# least one on-interest deep dive alongside the wildcard.
-DEEP_DIVE_MIN = int(os.environ.get("DEEP_DIVE_MIN", "2"))
+# least one on-interest deep dive alongside the wildcard. Currently fixed at
+# 3 (min = max): two on-interest papers plus the wildcard.
+DEEP_DIVE_MIN = int(os.environ.get("DEEP_DIVE_MIN", "3"))
 DEEP_DIVE_MAX = int(os.environ.get("DEEP_DIVE_MAX", "3"))
 # Free-text description of the research interests that drive selection (see
 # score.py). If missing/blank, selection falls back to random.

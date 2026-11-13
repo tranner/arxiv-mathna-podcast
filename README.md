@@ -34,7 +34,7 @@ fetch → select → script → synth → publish
    or so.
 2. **select** - scores every paper (one Claude call) for relevance to the
    research interests in [`interests.md`](interests.md) and for standalone
-   quality. Two or three papers get a deep dive: the most relevant ones,
+   quality. Three papers get a deep dive: the two most relevant,
    plus one "wildcard" - the highest-quality paper *outside* those
    interests, which the hosts flag as such on air. The next most relevant
    papers go in the roundup. If `interests.md` is empty or scoring fails,
