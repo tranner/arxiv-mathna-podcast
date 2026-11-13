@@ -120,26 +120,39 @@ def synthesize_episode(lines: list[DialogueLine], out_mp3: Path) -> float:
 
 
 if __name__ == "__main__":
+    import json
     import sys
     from datetime import date as date_cls
-
-    from arxiv_podcast.fetch import fetch_recent_papers
-    from arxiv_podcast.script import generate_dialogue
-    from arxiv_podcast.select import select_papers
+    from pathlib import Path
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
 
+    out_path = config.EPISODES_DIR / "smoke_test.mp3"
     if len(sys.argv) > 1 and sys.argv[1] == "--smoke":
         # Quick check without calling the LLM: synthesize a two-line sample.
         lines = [
             DialogueLine("HOST_A", "Welcome to the numerical analysis daily digest."),
             DialogueLine("HOST_B", "Today we've got some great papers to talk about."),
         ]
+    elif len(sys.argv) > 2 and sys.argv[1] == "--script":
+        # Render a previously saved script ({"lines": [...]} JSON, the same
+        # shape the model returns) next to it as .mp3 - no LLM call.
+        script_path = Path(sys.argv[2])
+        data = json.loads(script_path.read_text(encoding="utf-8"))
+        lines = [DialogueLine(l["speaker"], l["text"]) for l in data["lines"]]
+        out_path = script_path.with_suffix(".mp3")
     else:
-        papers = fetch_recent_papers()
-        deep, roundup = select_papers(papers)
-        lines = generate_dialogue(deep, roundup, date_cls.today().isoformat())
+        from arxiv_podcast.fetch import fetch_recent_papers
+        from arxiv_podcast.score import load_interests, score_papers
+        from arxiv_podcast.script import generate_dialogue
+        from arxiv_podcast.select import select_papers
 
-    out_path = config.EPISODES_DIR / "smoke_test.mp3"
+        papers = fetch_recent_papers()
+        interests = load_interests()
+        scores = score_papers(papers, interests) if interests else None
+        deep, roundup, wildcard = select_papers(papers, scores)
+        lines = generate_dialogue(deep, roundup, date_cls.today().isoformat(), wildcard=wildcard)
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
     duration = synthesize_episode(lines, out_path)
     print(f"\nWrote {out_path} ({duration / 60:.1f} minutes)")
