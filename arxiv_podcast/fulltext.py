@@ -1,6 +1,6 @@
 """Fetch and extract the full text of a paper from its arXiv PDF.
 
-Used (optionally - config.DEEP_DIVE_FULL_TEXT) to give the script model the
+Used (when config.DEEP_DIVE_FULL_TEXT, the default) to give the script model the
 whole paper for the deep dives rather than just the abstract. Plain extracted
 text rather than a PDF document block: it works with both script backends
 (`claude -p` can't take one) and costs far fewer tokens, since PDF blocks

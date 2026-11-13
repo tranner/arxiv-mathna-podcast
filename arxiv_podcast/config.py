@@ -47,9 +47,10 @@ INTERESTS_PATH = Path(os.environ.get("INTERESTS_PATH", str(REPO_ROOT / "interest
 # wildcard is drawn from papers below it.
 RELEVANCE_THRESHOLD = int(os.environ.get("RELEVANCE_THRESHOLD", "6"))
 # Give the deep-dive papers' full text (extracted from the arXiv PDF) to the
-# script model, not just the abstract. Off by default - see
+# script model, not just the abstract (falls back to the abstract per paper
+# if the PDF can't be fetched/parsed). Set to 0 to turn off - see
 # scripts/estimate_cost.py for what it adds.
-DEEP_DIVE_FULL_TEXT = os.environ.get("DEEP_DIVE_FULL_TEXT", "0").lower() in ("1", "true", "yes")
+DEEP_DIVE_FULL_TEXT = os.environ.get("DEEP_DIVE_FULL_TEXT", "1").lower() in ("1", "true", "yes")
 # Per-paper cap on extracted full text (~4 chars/token -> ~20k tokens), so
 # three papers stay well inside the model's context window.
 FULL_TEXT_MAX_CHARS = int(os.environ.get("FULL_TEXT_MAX_CHARS", "80000"))

@@ -38,9 +38,9 @@ fetch → select → script → synth → publish
    plus one "wildcard" - the highest-quality paper *outside* those
    interests, which the hosts flag as such on air. The next most relevant
    papers go in the roundup. If `interests.md` is empty or scoring fails,
-   it falls back to a random pick. Optionally (`DEEP_DIVE_FULL_TEXT=1`),
-   the deep-dive papers' full text is pulled from their arXiv PDFs and
-   given to the script writer instead of just the abstract.
+   it falls back to a random pick. The deep-dive papers' full text is
+   pulled from their arXiv PDFs and given to the script writer alongside
+   the abstract (`DEEP_DIVE_FULL_TEXT=0` turns this off).
 3. **script** - writes a natural back-and-forth conversation about them,
    using Claude.
 4. **synth** - turns that script into audio, giving each host a distinct
