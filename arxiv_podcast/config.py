@@ -34,8 +34,24 @@ ARXIV_MAX_RETRIES = int(os.environ.get("ARXIV_MAX_RETRIES", "5"))
 ARXIV_RETRY_BACKOFF_SECONDS = float(os.environ.get("ARXIV_RETRY_BACKOFF_SECONDS", "5"))
 
 # --- Episode selection --------------------------------------------------------
-DEEP_DIVE_MIN = int(os.environ.get("DEEP_DIVE_MIN", "1"))
+# Deep dives are the most interest-relevant papers plus one "wildcard": the
+# highest-quality paper outside those interests. A minimum of 2 guarantees at
+# least one on-interest deep dive alongside the wildcard.
+DEEP_DIVE_MIN = int(os.environ.get("DEEP_DIVE_MIN", "2"))
 DEEP_DIVE_MAX = int(os.environ.get("DEEP_DIVE_MAX", "3"))
+# Free-text description of the research interests that drive selection (see
+# score.py). If missing/blank, selection falls back to random.
+INTERESTS_PATH = Path(os.environ.get("INTERESTS_PATH", str(REPO_ROOT / "interests.md")))
+# Relevance (0-10) at or above which a paper counts as "on-interest"; the
+# wildcard is drawn from papers below it.
+RELEVANCE_THRESHOLD = int(os.environ.get("RELEVANCE_THRESHOLD", "6"))
+# Give the deep-dive papers' full text (extracted from the arXiv PDF) to the
+# script model, not just the abstract. Off by default - see
+# scripts/estimate_cost.py for what it adds.
+DEEP_DIVE_FULL_TEXT = os.environ.get("DEEP_DIVE_FULL_TEXT", "0").lower() in ("1", "true", "yes")
+# Per-paper cap on extracted full text (~4 chars/token -> ~20k tokens), so
+# three papers stay well inside the model's context window.
+FULL_TEXT_MAX_CHARS = int(os.environ.get("FULL_TEXT_MAX_CHARS", "80000"))
 # Cap how many papers get a roundup mention, to keep the episode near the
 # target runtime even on days with a large arXiv batch.
 ROUNDUP_MAX = int(os.environ.get("ROUNDUP_MAX", "12"))
@@ -55,7 +71,31 @@ HOST_B_NAME = os.environ.get("HOST_B_NAME", "Sam")
 # key required, but only works on a machine that's already authenticated.
 # "api" uses the Anthropic SDK with ANTHROPIC_API_KEY (for CI automation).
 SCRIPT_BACKEND = os.environ.get("SCRIPT_BACKEND", "cli")
-ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-4-5")
+ANTHROPIC_MODEL = os.environ.get("ANTHROPIC_MODEL", "claude-haiku-5-5")
+# Effort (thinking depth/token spend) for the paper-scoring call - a simple
+# classification task, so "low" is plenty. Ignored on models without effort
+# support (e.g. Haiku 4.5). The script call uses the model's default.
+SCORING_EFFORT = os.environ.get("SCORING_EFFORT", "low")
+
+# USD per million (input, output) tokens, for cost logging/estimates only.
+# Update if pricing changes or you switch ANTHROPIC_MODEL.
+MODEL_PRICES_PER_MTOK = {
+    "claude-haiku-4-5": (1.00, 5.00),
+    "claude-haiku-5-5": (0.10, 0.50),
+    "claude-sonnet-5-5": (2.00, 10.00),
+    "claude-opus-5-5": (4.00, 20.00),
+}
+
+
+def model_supports_effort(model: str = ANTHROPIC_MODEL) -> bool:
+    return model != "claude-haiku-4-5"
+
+
+def model_cost_usd(input_tokens: int, output_tokens: int, model: str = ANTHROPIC_MODEL) -> "float | None":
+    prices = MODEL_PRICES_PER_MTOK.get(model)
+    if prices is None:
+        return None
+    return (input_tokens * prices[0] + output_tokens * prices[1]) / 1_000_000
 
 # --- Text-to-speech (Piper) ---------------------------------------------------
 PIPER_DIR = REPO_ROOT / "piper"
@@ -106,8 +146,9 @@ PODCAST_DESCRIPTION = os.environ.get(
     "PODCAST_DESCRIPTION",
     "A daily podcast where two AI hosts talk through the newest papers "
     "posted to the arXiv math.NA (Numerical Analysis) listing - a deep dive "
-    "on a few randomly chosen papers, plus a rapid-fire rundown of "
-    "everything else posted that day. Every script and voice is "
+    "on papers picked for a particular research focus, plus one standout "
+    "paper from outside it, and a rapid-fire rundown of more of what was "
+    "posted that day. Every script and voice is "
     "AI-generated: text by Claude, voices by Piper text-to-speech (a "
     "Northern English male voice trained on the SLR83 dataset, and Cori, "
     "trained on public-domain LibriVox.org recordings). "

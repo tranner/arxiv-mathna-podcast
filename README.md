@@ -32,8 +32,15 @@ fetch → select → script → synth → publish
 
 1. **fetch** - checks arXiv for what's new in `math.NA` over the last day
    or so.
-2. **select** - randomly picks one to three papers for the deep dive; the
-   rest go in the roundup.
+2. **select** - scores every paper (one Claude call) for relevance to the
+   research interests in [`interests.md`](interests.md) and for standalone
+   quality. Two or three papers get a deep dive: the most relevant ones,
+   plus one "wildcard" - the highest-quality paper *outside* those
+   interests, which the hosts flag as such on air. The next most relevant
+   papers go in the roundup. If `interests.md` is empty or scoring fails,
+   it falls back to a random pick. Optionally (`DEEP_DIVE_FULL_TEXT=1`),
+   the deep-dive papers' full text is pulled from their arXiv PDFs and
+   given to the script writer instead of just the abstract.
 3. **script** - writes a natural back-and-forth conversation about them,
    using Claude.
 4. **synth** - turns that script into audio, giving each host a distinct
@@ -138,11 +145,23 @@ Each pipeline stage can also be run and inspected on its own for debugging:
 
 ```bash
 uv run python -m arxiv_podcast.fetch     # just print today's fetched papers
-uv run python -m arxiv_podcast.select    # fetch + show the deep-dive/roundup split
+uv run python -m arxiv_podcast.score     # fetch + show relevance/quality scores (tune interests.md)
+uv run python -m arxiv_podcast.select    # fetch + score + show the deep-dive/roundup split
 uv run python -m arxiv_podcast.script    # fetch + select + print the dialogue script
 uv run python -m arxiv_podcast.synth --smoke   # audio pipeline only, no LLM call (fast)
 uv run python -m arxiv_podcast.publish   # rebuild the feed/index from files already on disk
 ```
+
+To see what scoring and full-text deep dives cost, against today's real
+listing (token counting only, free; add `--live` to also make the real,
+billed calls and compare):
+
+```bash
+ANTHROPIC_API_KEY=... uv run python scripts/estimate_cost.py
+```
+
+Every model call also logs its token usage and cost, plus a per-episode
+total.
 
 ## Publishing: GitHub Pages + Spotify
 
@@ -198,8 +217,10 @@ your personal credentials.
 Script generation in CI uses the **Anthropic API** rather than `claude -p`
 (which needs an interactive login a runner doesn't have) -
 `script.py::_call_model_api()` calls the Anthropic SDK with
-`config.ANTHROPIC_MODEL` (`claude-haiku-4-5` by default, ~$0.02/episode,
-~$7/year). One-time setup:
+`config.ANTHROPIC_MODEL` (`claude-haiku-5-5` by default; paper scoring plus
+the script come to roughly a cent per episode - run
+`scripts/estimate_cost.py` for today's figure). Local `claude -p` runs pass
+the same model ID, so both backends use the same model. One-time setup:
 
 1. Create an API key at [console.anthropic.com](https://console.anthropic.com/).
 2. Repo **Settings → Secrets and variables → Actions → New repository

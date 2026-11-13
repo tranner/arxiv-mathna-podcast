@@ -10,6 +10,7 @@ dependencies = [
     "pydub>=0.25",
     "requests>=2.31",
     "anthropic>=0.40",
+    "pypdf>=4.0",
 ]
 
 [tool.uv]

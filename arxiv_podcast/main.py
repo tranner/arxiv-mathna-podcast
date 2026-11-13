@@ -15,8 +15,10 @@ from datetime import date as date_cls
 
 from arxiv_podcast import config, publish
 from arxiv_podcast.fetch import fetch_recent_papers
+from arxiv_podcast.fulltext import fetch_full_texts
 from arxiv_podcast.models import Episode
-from arxiv_podcast.script import ScriptGenerationError, generate_dialogue
+from arxiv_podcast.score import load_interests, score_papers
+from arxiv_podcast.script import ScriptGenerationError, generate_dialogue, total_cost_usd
 from arxiv_podcast.select import select_papers
 from arxiv_podcast.synth import SynthesisError, synthesize_episode
 
@@ -49,15 +51,25 @@ def run(target_date: str, force: bool = False) -> int:
         )
         return 0
 
-    log.info("[2/5] Selecting deep-dive vs. roundup papers...")
-    deep_dive, roundup = select_papers(papers)
+    log.info("[2/5] Scoring papers against research interests and selecting...")
+    interests = load_interests()
+    scores = score_papers(papers, interests) if interests else None
+    deep_dive, roundup, wildcard = select_papers(papers, scores)
+
+    full_texts = None
+    if config.DEEP_DIVE_FULL_TEXT:
+        log.info("Fetching full text for %d deep-dive paper(s)...", len(deep_dive))
+        full_texts = fetch_full_texts(deep_dive)
 
     log.info("[3/5] Generating dialogue script...")
     try:
-        lines = generate_dialogue(deep_dive, roundup, target_date)
+        lines = generate_dialogue(
+            deep_dive, roundup, target_date, wildcard=wildcard, full_texts=full_texts
+        )
     except ScriptGenerationError as e:
         log.error("Script generation failed: %s", e)
         return 1
+    log.info("Model cost for this episode: $%.4f", total_cost_usd())
 
     episode = Episode(date=target_date, deep_dive=deep_dive, roundup=roundup, lines=lines)
 

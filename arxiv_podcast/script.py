@@ -25,31 +25,54 @@ log = logging.getLogger(__name__)
 
 VALID_SPEAKERS = {"HOST_A", "HOST_B"}
 
-# Maps a full Anthropic model ID (as used by config.ANTHROPIC_MODEL / the API
-# backend) to the short alias the Claude Code CLI's --model flag accepts.
-_CLI_MODEL_ALIASES = {
-    "claude-haiku-4-5": "haiku",
-    "claude-sonnet-5": "sonnet",
-    "claude-opus-4-8": "opus",
-}
 
 
 class ScriptGenerationError(RuntimeError):
     pass
 
 
+# --- Usage / cost tracking --------------------------------------------------------
+
+# One entry per model call this process has made: (label, input_tokens,
+# output_tokens, cost_usd or None). main.py reads this for a per-run total.
+USAGE_LOG: list[tuple[str, int, int, "float | None"]] = []
+
+
+def _record_usage(label: str, input_tokens: int, output_tokens: int, cost: "float | None") -> None:
+    USAGE_LOG.append((label, input_tokens, output_tokens, cost))
+    log.info(
+        "Model usage [%s]: %d input + %d output tokens, cost %s",
+        label,
+        input_tokens,
+        output_tokens,
+        f"${cost:.4f}" if cost is not None else "unknown",
+    )
+
+
+def total_cost_usd() -> float:
+    return sum(c for *_, c in USAGE_LOG if c is not None)
+
+
 # --- Model backends -----------------------------------------------------------
 
 
-def _call_model_cli(prompt: str, resume_session: "str | None" = None) -> tuple[str, str]:
+def _call_model_cli(
+    prompt: str,
+    resume_session: "str | None" = None,
+    label: str = "model",
+    effort: "str | None" = None,
+) -> tuple[str, str]:
     """Call the Claude Code CLI in print mode. Returns (result_text, session_id)."""
     cmd = ["claude", "-p", prompt, "--output-format", "json", "--allowedTools", ""]
     if resume_session:
         cmd += ["-r", resume_session]
     else:
-        # Model is only pinned on the fresh call; -r continues in the same session/model.
-        alias = _CLI_MODEL_ALIASES.get(config.ANTHROPIC_MODEL, "haiku")
-        cmd += ["--model", alias]
+        # Model is only pinned on the fresh call; -r continues in the same
+        # session/model. The full model ID (not an alias like "haiku", which
+        # drifts to newer models) keeps both backends on the same model.
+        cmd += ["--model", config.ANTHROPIC_MODEL]
+        if effort and config.model_supports_effort():
+            cmd += ["--effort", effort]
 
     log.info("Invoking Claude Code CLI (%s)", "resume" if resume_session else "new session")
     try:
@@ -77,6 +100,15 @@ def _call_model_cli(prompt: str, resume_session: "str | None" = None) -> tuple[s
     if envelope.get("is_error"):
         raise ScriptGenerationError(f"claude -p reported an error: {envelope}")
 
+    usage = envelope.get("usage") or {}
+    input_tokens = (
+        usage.get("input_tokens", 0)
+        + usage.get("cache_creation_input_tokens", 0)
+        + usage.get("cache_read_input_tokens", 0)
+    )
+    # On a subscription this is notional (what the call would cost via the API).
+    _record_usage(label, input_tokens, usage.get("output_tokens", 0), envelope.get("total_cost_usd"))
+
     result_text = envelope.get("result", "")
     session_id = envelope.get("session_id", "")
     if not result_text:
@@ -86,7 +118,10 @@ def _call_model_cli(prompt: str, resume_session: "str | None" = None) -> tuple[s
 
 
 def _call_model_api(
-    prompt: str, history: "list[dict] | None" = None
+    prompt: str,
+    history: "list[dict] | None" = None,
+    label: str = "model",
+    effort: "str | None" = None,
 ) -> tuple[str, list[dict]]:
     """Call the Anthropic API directly. `history` is the prior message list
     to continue from (for retries) - mirrors the CLI backend's session
@@ -103,11 +138,15 @@ def _call_model_api(
     messages = list(history) if history else []
     messages.append({"role": "user", "content": prompt})
 
-    # Headroom over TARGET_WORD_COUNT for JSON structure overhead and the
-    # occasional expanded-retry response, which runs longer than the original.
-    # Capped at Haiku 4.5's 64K max output tokens (higher on other models, but
-    # this app defaults to Haiku).
+    # Headroom over TARGET_WORD_COUNT for JSON structure overhead, the
+    # occasional expanded-retry response (which runs longer than the
+    # original), and - on models that think by default, like Haiku 5.5 -
+    # thinking tokens, which count against max_tokens too. Kept under 64K so
+    # a non-streaming request stays clear of SDK timeouts.
     max_tokens = min(64000, max(8000, int(config.TARGET_WORD_COUNT * 8)))
+    extra = {}
+    if effort and config.model_supports_effort():
+        extra["output_config"] = {"effort": effort}
 
     log.info(
         "Invoking Anthropic API (%s, %s)",
@@ -119,10 +158,20 @@ def _call_model_api(
             model=config.ANTHROPIC_MODEL,
             max_tokens=max_tokens,
             messages=messages,
+            **extra,
         )
     except anthropic.APIError as e:
         raise ScriptGenerationError(f"Anthropic API call failed: {e}") from e
 
+    _record_usage(
+        label,
+        response.usage.input_tokens,
+        response.usage.output_tokens,
+        config.model_cost_usd(response.usage.input_tokens, response.usage.output_tokens),
+    )
+
+    if response.stop_reason == "refusal":
+        raise ScriptGenerationError(f"Model declined the request: {response.stop_details}")
     if response.stop_reason == "max_tokens":
         log.warning(
             "Response hit max_tokens (%d) and may be truncated - consider "
@@ -138,14 +187,16 @@ def _call_model_api(
     return result_text, messages
 
 
-def _call_model(prompt: str, state: object = None) -> tuple[str, object]:
+def _call_model(
+    prompt: str, state: object = None, label: str = "model", effort: "str | None" = None
+) -> tuple[str, object]:
     """Dispatch to the configured backend. `state` is an opaque continuation
     token from a previous call (session_id string for "cli", message history
     list for "api"), or None to start a fresh conversation."""
     if config.SCRIPT_BACKEND == "cli":
-        return _call_model_cli(prompt, resume_session=state)
+        return _call_model_cli(prompt, resume_session=state, label=label, effort=effort)
     elif config.SCRIPT_BACKEND == "api":
-        return _call_model_api(prompt, history=state)
+        return _call_model_api(prompt, history=state, label=label, effort=effort)
     raise ScriptGenerationError(
         f"Unsupported SCRIPT_BACKEND={config.SCRIPT_BACKEND!r} - expected 'cli' or 'api'."
     )
@@ -154,18 +205,60 @@ def _call_model(prompt: str, state: object = None) -> tuple[str, object]:
 # --- Prompt construction --------------------------------------------------------
 
 
-def _paper_block(p: Paper, include_full_abstract: bool = True) -> str:
+WILDCARD_NOTE = (
+    "NOTE FOR THE HOSTS: this one is today's WILDCARD - a standout paper from "
+    "outside the show's usual focus areas, picked for its quality. Introduce "
+    "it as such (e.g. \"now for something a bit outside our usual beat...\").\n"
+)
+
+
+def _paper_block(
+    p: Paper,
+    include_full_abstract: bool = True,
+    full_text: "str | None" = None,
+    is_wildcard: bool = False,
+) -> str:
     abstract = p.abstract if include_full_abstract else p.abstract[:280]
-    return (
-        f"arXiv ID: {p.arxiv_id}\n"
+    block = (
+        (WILDCARD_NOTE if is_wildcard else "")
+        + f"arXiv ID: {p.arxiv_id}\n"
         f"Title: {p.title}\n"
         f"Authors: {p.authors_str(max_authors=6)}\n"
         f"Abstract: {abstract}\n"
     )
+    if full_text:
+        block += (
+            "FULL TEXT (extracted from the PDF, for your reference - use it for "
+            "accurate detail, but still explain at podcast level and never read "
+            f"out equations):\n{full_text}\n"
+        )
+    return block
 
 
-def build_prompt(deep_dive: list[Paper], roundup: list[Paper], date: str) -> str:
-    deep_blocks = "\n---\n".join(_paper_block(p) for p in deep_dive)
+def build_prompt(
+    deep_dive: list[Paper],
+    roundup: list[Paper],
+    date: str,
+    wildcard: "Paper | None" = None,
+    full_texts: "dict[str, str] | None" = None,
+) -> str:
+    full_texts = full_texts or {}
+    wildcard_id = wildcard.arxiv_id if wildcard else None
+    deep_blocks = "\n---\n".join(
+        _paper_block(
+            p,
+            full_text=full_texts.get(p.arxiv_id),
+            is_wildcard=p.arxiv_id == wildcard_id,
+        )
+        for p in deep_dive
+    )
+    wildcard_instruction = (
+        "\n   One of these papers is marked as today's WILDCARD - a standout paper\n"
+        "   from outside the show's usual focus, chosen for its quality. When you\n"
+        "   reach it, have the hosts flag it to listeners as exactly that.\n"
+        if wildcard
+        else ""
+    )
     roundup_blocks = "\n---\n".join(_paper_block(p, include_full_abstract=False) for p in roundup)
 
     # Rough per-segment word budget so the model doesn't undershoot the total.
@@ -216,7 +309,7 @@ STRUCTURE AND WORD BUDGET (these should sum to about {config.TARGET_WORD_COUNT})
    matters, the core idea/method, what's new or surprising about the result,
    and what it enables going forward. Have the hosts riff off each other, ask
    each other questions, disagree a little, and react - not just alternate
-   monologues. This is the heart of the episode - do not rush it.
+   monologues. This is the heart of the episode - do not rush it.{wildcard_instruction}
 
 {deep_blocks}
 
@@ -300,9 +393,14 @@ MIN_WORD_COUNT_FRACTION = 0.75
 
 
 def generate_dialogue(
-    deep_dive: list[Paper], roundup: list[Paper], date: str, max_attempts: int = 4
+    deep_dive: list[Paper],
+    roundup: list[Paper],
+    date: str,
+    max_attempts: int = 4,
+    wildcard: "Paper | None" = None,
+    full_texts: "dict[str, str] | None" = None,
 ) -> list[DialogueLine]:
-    prompt = build_prompt(deep_dive, roundup, date)
+    prompt = build_prompt(deep_dive, roundup, date, wildcard=wildcard, full_texts=full_texts)
     state = None  # session_id (cli) or message history (api); None = fresh conversation
     last_error: "Exception | str | None" = None
     last_error_prompt = ""
@@ -310,9 +408,11 @@ def generate_dialogue(
 
     for attempt in range(1, max_attempts + 1):
         if attempt == 1:
-            raw_text, state = _call_model(prompt)
+            raw_text, state = _call_model(prompt, label="script")
         else:
-            raw_text, state = _call_model(last_error_prompt, state=state)
+            raw_text, state = _call_model(
+                last_error_prompt, state=state, label=f"script retry {attempt - 1}"
+            )
 
         try:
             lines = parse_dialogue(raw_text)
@@ -377,14 +477,22 @@ if __name__ == "__main__":
     from datetime import date as date_cls
 
     from arxiv_podcast.fetch import fetch_recent_papers
+    from arxiv_podcast.fulltext import fetch_full_texts
+    from arxiv_podcast.score import load_interests, score_papers
     from arxiv_podcast.select import select_papers
 
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     papers = fetch_recent_papers()
-    deep, roundup = select_papers(papers)
-    lines = generate_dialogue(deep, roundup, date_cls.today().isoformat())
+    interests = load_interests()
+    scores = score_papers(papers, interests) if interests else None
+    deep, roundup, wildcard = select_papers(papers, scores)
+    full_texts = fetch_full_texts(deep) if config.DEEP_DIVE_FULL_TEXT else None
+    lines = generate_dialogue(
+        deep, roundup, date_cls.today().isoformat(), wildcard=wildcard, full_texts=full_texts
+    )
 
     print()
     for line in lines:
         who = config.HOST_A_NAME if line.speaker == "HOST_A" else config.HOST_B_NAME
         print(f"{who}: {line.text}\n")
+    print(f"Total model cost this run: ${total_cost_usd():.4f}")
