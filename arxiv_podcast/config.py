@@ -99,6 +99,17 @@ def model_cost_usd(input_tokens: int, output_tokens: int, model: str = ANTHROPIC
         return None
     return (input_tokens * prices[0] + output_tokens * prices[1]) / 1_000_000
 
+# --- Daily scores email (Resend) ----------------------------------------------
+# After scoring, email_report.py sends every paper's relevance/quality scores
+# via Resend (https://resend.com). Disabled unless both RESEND_API_KEY and
+# EMAIL_TO (comma-separated) are set. Resend's shared onboarding@resend.dev
+# sender can only deliver to your Resend account's own address - verify a
+# domain in Resend and set EMAIL_FROM to send anywhere else. `or` (not a
+# get() default) so an empty value from CI falls back too.
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY", "")
+EMAIL_TO = os.environ.get("EMAIL_TO", "")
+EMAIL_FROM = os.environ.get("EMAIL_FROM") or "arXiv Podcast <onboarding@resend.dev>"
+
 # --- Text-to-speech (Piper) ---------------------------------------------------
 PIPER_DIR = REPO_ROOT / "piper"
 PIPER_BIN = Path(os.environ.get("PIPER_BIN", str(PIPER_DIR / "piper" / "piper")))

@@ -14,6 +14,7 @@ import sys
 from datetime import date as date_cls
 
 from arxiv_podcast import config, publish
+from arxiv_podcast.email_report import send_scores_email
 from arxiv_podcast.fetch import fetch_recent_papers
 from arxiv_podcast.fulltext import fetch_full_texts
 from arxiv_podcast.models import Episode
@@ -55,6 +56,8 @@ def run(target_date: str, force: bool = False) -> int:
     interests = load_interests()
     scores = score_papers(papers, interests) if interests else None
     deep_dive, roundup, wildcard = select_papers(papers, scores)
+    # Best-effort (never raises); sent now so it arrives even if a later stage fails.
+    send_scores_email(papers, scores, deep_dive, roundup, wildcard, target_date)
 
     full_texts = None
     if config.DEEP_DIVE_FULL_TEXT:

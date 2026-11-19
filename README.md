@@ -150,6 +150,7 @@ uv run python -m arxiv_podcast.select    # fetch + score + show the deep-dive/ro
 uv run python -m arxiv_podcast.script    # fetch + select + print the dialogue script
 uv run python -m arxiv_podcast.synth --smoke   # audio pipeline only, no LLM call (fast)
 uv run python -m arxiv_podcast.publish   # rebuild the feed/index from files already on disk
+uv run python -m arxiv_podcast.email_report --dry-run > preview.html   # fetch + score + render the scores email
 ```
 
 To see what scoring and full-text deep dives cost, against today's real
@@ -252,6 +253,35 @@ That's it - `daily.yml` already has `SCRIPT_BACKEND=api` and reads the secret.
   Actions → "Send notifications for failed workflows only" (or similar,
   under your notification preferences) - otherwise a silent failure is only
   visible if you check the Actions tab yourself.
+
+### Daily scores email
+
+Once scoring and selection finish, the run emails you every fetched paper:
+title, authors, link, abstract, and its relevance and quality scores, tagged
+Deep dive / Wildcard / Roundup / Not covered. It's sent through
+[Resend](https://resend.com) before the script and audio stages, so you still
+get it if those fail later. It's best-effort, so a failed send only logs a
+warning. If `RESEND_API_KEY` or `EMAIL_TO` isn't set, no email is sent.
+
+One-time setup:
+
+1. In Resend, create an API key with **Sending access** only.
+2. Add the repo Actions settings (**Settings → Secrets and variables →
+   Actions**), or from a terminal with `gh` (each command prompts for the
+   value, so it never ends up in shell history):
+   ```bash
+   gh secret set RESEND_API_KEY
+   gh secret set EMAIL_TO          # comma-separate multiple recipients
+   gh variable set EMAIL_FROM --body "arXiv Podcast <digest@your-domain>"   # optional
+   ```
+   `EMAIL_TO` is a secret rather than a variable to keep the address out of
+   this public repo.
+3. **Sender address:** without `EMAIL_FROM`, mail comes from Resend's shared
+   `onboarding@resend.dev`, which can **only deliver to your Resend account's
+   own email address**. To send anywhere else, verify a domain in Resend
+   and set `EMAIL_FROM` to an address on it.
+4. Test: run the workflow manually (*Run workflow*), or locally with
+   `RESEND_API_KEY=... EMAIL_TO=... uv run python -m arxiv_podcast.email_report`.
 
 ## Configuration
 
