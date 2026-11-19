@@ -210,8 +210,8 @@ redoing, or you're setting up your own fork):
 
 ## Automating the daily run
 
-`.github/workflows/daily.yml` runs the whole pipeline on a cron (~07:00 UTC
-daily) and publishes the result to the `pages` branch the same way the
+`.github/workflows/daily.yml` runs the whole pipeline on a cron (~05:17 UTC
+on weekdays, with a 07:43 UTC backup run that's a no-op if the first succeeded) and publishes the result to the `pages` branch the same way the
 manual steps above do - pushing with GitHub Actions' own built-in token, not
 your personal credentials.
 

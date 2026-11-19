@@ -7,13 +7,28 @@ name: Daily arXiv podcast episode
 
 on:
   schedule:
-    # ~07:00 UTC, Mon-Fri, after arXiv's overnight announcement batch lands.
-    # arXiv doesn't announce on weekends (its RSS feed just keeps serving
-    # Friday's cached batch) - main.py also guards against generating a
-    # duplicate episode from a stale feed, but there's no reason to run at
-    # all on a day arXiv never publishes anything new.
-    - cron: "0 7 * * 1-5"
+    # rss.arxiv.org rebuilds at midnight US Eastern: 05:00 UTC in winter
+    # (EST), 04:00 UTC in summer (EDT). Cron is UTC-only, so the primary run
+    # is just after 05:00 UTC to be safe all year. The minutes are
+    # deliberately not :00 - GitHub's scheduler is overloaded at the top of
+    # the hour and on-the-hour jobs are often delayed by an hour or more.
+    #
+    # The 07:43 run is a backup in case the primary is delayed/dropped or
+    # starts before arXiv's rebuild. It's a no-op if the primary already
+    # succeeded (main.py skips when today's episode exists, or when the feed
+    # still holds the batch the last episode covered).
+    #
+    # Mon-Fri only: arXiv doesn't announce on weekends (its RSS feed just
+    # keeps serving Friday's cached batch).
+    - cron: "17 5 * * 1-5"
+    - cron: "43 7 * * 1-5"
   workflow_dispatch: {}
+
+# Never let the backup run overlap a slow primary - both would build and
+# force-push the pages branch.
+concurrency:
+  group: daily-episode
+  cancel-in-progress: false
 
 permissions:
   contents: write
