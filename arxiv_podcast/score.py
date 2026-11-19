@@ -100,16 +100,32 @@ def _clamp(value) -> int:
     return max(0, min(10, int(round(float(value)))))
 
 
+_VERSION_RE = re.compile(r"v\d+$")
+
+
+def _base_id(arxiv_id: str) -> str:
+    """'arXiv:2611.23321v1' -> '2611.23321' (for matching only)."""
+    arxiv_id = arxiv_id.strip()
+    if arxiv_id.lower().startswith("arxiv:"):
+        arxiv_id = arxiv_id[6:]
+    return _VERSION_RE.sub("", arxiv_id.strip())
+
+
 def _parse_scores(raw_text: str, papers: list[Paper]) -> dict[str, PaperScore]:
     data = json.loads(_extract_json_object(raw_text))
     if not isinstance(data, dict) or not isinstance(data.get("scores"), list):
         raise ScriptGenerationError("JSON missing top-level 'scores' array")
 
     known_ids = {p.arxiv_id for p in papers}
+    # Match loosely: the model sometimes drops the version ("2611.23321"
+    # for "2611.23321v1") or adds an "arXiv:" prefix.
+    by_base = {_base_id(i): i for i in known_ids}
     scores: dict[str, PaperScore] = {}
     for item in data["scores"]:
-        arxiv_id = str(item.get("arxiv_id", "")).strip()
-        if arxiv_id not in known_ids:
+        if not isinstance(item, dict):
+            continue
+        arxiv_id = by_base.get(_base_id(str(item.get("arxiv_id", ""))))
+        if arxiv_id is None:
             continue
         scores[arxiv_id] = PaperScore(
             relevance=_clamp(item.get("relevance", 0)),
@@ -118,7 +134,11 @@ def _parse_scores(raw_text: str, papers: list[Paper]) -> dict[str, PaperScore]:
         )
 
     if not scores:
-        raise ScriptGenerationError("no scores matched any fetched arXiv ID")
+        sample = [str(item.get("arxiv_id")) for item in data["scores"][:3] if isinstance(item, dict)]
+        raise ScriptGenerationError(
+            f"no scores matched any fetched arXiv ID ({len(data['scores'])} entries; "
+            f"first IDs returned: {sample}; expected e.g. {sorted(known_ids)[:2]})"
+        )
 
     missing = known_ids - scores.keys()
     if missing:
@@ -153,6 +173,8 @@ def score_papers(
             scores = _parse_scores(raw_text, papers)
         except (json.JSONDecodeError, ValueError, TypeError, ScriptGenerationError) as e:
             log.warning("Scoring attempt %d/%d failed: %s", attempt, max_attempts, e)
+            if state is not None:
+                log.warning("Raw scoring output (first 500 chars): %r", raw_text[:500])
             if state is None:
                 break  # the model call itself failed; nothing to continue from
             continue
