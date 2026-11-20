@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-13",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-13",
+  "duration_seconds": 758.434,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.14831v1",
+      "title": "Automating the Derivation of Advanced Algorithms in Numerical Linear Algebra using Associative Algebras with Involution",
+      "authors": [
+        "Ran Gutin"
+      ],
+      "link": "https://arxiv.org/abs/2611.14831"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.14764v1",
+      "title": "Orthogonal Splines Associated to Root Systems and Applications to Function Approximation From Generalized Derivative Samples",
+      "authors": [
+        "Dionel Jaime"
+      ],
+      "link": "https://arxiv.org/abs/2611.14764"
+    },
+    {
+      "arxiv_id": "2611.14866v1",
+      "title": "A Novel Iterative Algorithm Incorporating Machine Learning for the Poisson-Nernst-Planck Equations in Three-Dimensional Ion Channel Simulation",
+      "authors": [
+        "Yuyan Ao",
+        "Benzhuo Lu",
+        "Shi Shu",
+        "Ying Yang"
+      ],
+      "link": "https://arxiv.org/abs/2611.14866"
+    },
+    {
+      "arxiv_id": "2611.14883v1",
+      "title": "Random feature policy iteration for inverse mean field games with complex geometry and high dimensions",
+      "authors": [
+        "Xiangjian Zhang",
+        "Shanyin Tong",
+        "Xiaofeng Xu"
+      ],
+      "link": "https://arxiv.org/abs/2611.14883"
+    },
+    {
+      "arxiv_id": "2611.14994v1",
+      "title": "Weight-Adjusted Entropy-Stable BR2 and CDG Viscous Discretizations with Wall Boundary Conditions for Compressible Flows on Curvilinear Grids",
+      "authors": [
+        "Pranshul Thakur",
+        "Siva Nadarajah"
+      ],
+      "link": "https://arxiv.org/abs/2611.14994"
+    },
+    {
+      "arxiv_id": "2611.15033v1",
+      "title": "Multiple-relaxation-time vectorial lattice Boltzmann schemes for incompressible flow: second-order consistency and parameter selection",
+      "authors": [
+        "Yuyang Xu",
+        "Yuxuan Zhang",
+        "Jin Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2611.15033"
+    },
+    {
+      "arxiv_id": "2611.15132v1",
+      "title": "A Monotone Meshfree-Particle Method for Mean Field Games on Scattered Point Clouds",
+      "authors": [
+        "Jiongyi Wang",
+        "Linyu Peng"
+      ],
+      "link": "https://arxiv.org/abs/2611.15132"
+    },
+    {
+      "arxiv_id": "2611.15175v1",
+      "title": "Robust High-Order BUG Integrators without Basis Augmentation",
+      "authors": [
+        "Shiheng Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.15175"
+    },
+    {
+      "arxiv_id": "2611.15251v1",
+      "title": "Higher order schemes for the numerical solution of integro-differential equation-based age-of-infection models with time-dependent contact rates",
+      "authors": [
+        "Anna Wendler",
+        "Jan Hasenauer",
+        "Martin J. K\\\"uhn"
+      ],
+      "link": "https://arxiv.org/abs/2611.15251"
+    },
+    {
+      "arxiv_id": "2611.15275v1",
+      "title": "Multicontinuum Poroelasticity Model. Analysis and Computation",
+      "authors": [
+        "Jing Zhang",
+        "Mohammed Al Kobaisi",
+        "Dmitry Ammosov",
+        "Jian Huang",
+        "Yunqing Huang"
+      ],
+      "link": "https://arxiv.org/abs/2611.15275"
+    },
+    {
+      "arxiv_id": "2611.15323v1",
+      "title": "Surface evolution under conformal map and linearized energy-stable parametric finite element methods",
+      "authors": [
+        "Beiping Duan"
+      ],
+      "link": "https://arxiv.org/abs/2611.15323"
+    },
+    {
+      "arxiv_id": "2611.15337v1",
+      "title": "Numerical solution of the Cauchy problem for second-order evolutionary equations with damped sinusoidal memory",
+      "authors": [
+        "Petr N. Vabishchevich"
+      ],
+      "link": "https://arxiv.org/abs/2611.15337"
+    },
+    {
+      "arxiv_id": "2611.15419v1",
+      "title": "Wiener-path-based exact and splitting simulation of linear and semi-linear SDEs with additive noise",
+      "authors": [
+        "Irene Tubikanec"
+      ],
+      "link": "https://arxiv.org/abs/2611.15419"
+    }
+  ]
+}

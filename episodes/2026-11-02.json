@@ -1,0 +1,144 @@
+{
+  "date": "2026-11-02",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-02",
+  "duration_seconds": 837.959,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.41627v1",
+      "title": "A Gaussian Process Regression-Enhanced Two-Sweep Parameterized Power Method for Computing Extreme Eigenpairs",
+      "authors": [
+        "Tiantian Sun",
+        "Xiaofei Peng",
+        "Juan Zhang",
+        "Seakweng Vong"
+      ],
+      "link": "https://arxiv.org/abs/2610.41627"
+    },
+    {
+      "arxiv_id": "2610.41708v1",
+      "title": "Extending Sample-based Quantum Diagonalization to Systems of Linear Equations",
+      "authors": [
+        "Taha Selim"
+      ],
+      "link": "https://arxiv.org/abs/2610.41708"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.40660v1",
+      "title": "Adversarial Wronskians: A proof of the Kung--Traub conjecture",
+      "authors": [
+        "Matthew J. Colbrook"
+      ],
+      "link": "https://arxiv.org/abs/2610.40660"
+    },
+    {
+      "arxiv_id": "2610.40841v1",
+      "title": "The nodally bound-preserving finite element method for the transport equation",
+      "authors": [
+        "Nicol\\'as Espinoza-Contreras",
+        "Gabriel Barrenechea",
+        "Douglas Pacheco"
+      ],
+      "link": "https://arxiv.org/abs/2610.40841"
+    },
+    {
+      "arxiv_id": "2610.41043v1",
+      "title": "Meshless Latent Dynamics Models for Model Order Reduction of time-dependent Partial Differential Equations",
+      "authors": [
+        "Lorenzo Tomada",
+        "Federico Pichi",
+        "Gianluigi Rozza"
+      ],
+      "link": "https://arxiv.org/abs/2610.41043"
+    },
+    {
+      "arxiv_id": "2610.41095v1",
+      "title": "Robust edge multiscale space based hybrid Schwarz preconditioner for high-frequency Helmholtz problems",
+      "authors": [
+        "Shubin Fu",
+        "Shihua Gong",
+        "Guanglian Li",
+        "Yulei Liao"
+      ],
+      "link": "https://arxiv.org/abs/2610.41095"
+    },
+    {
+      "arxiv_id": "2610.41250v1",
+      "title": "A Good-Vorticity Low-Regularity Integrator for the Inviscid Oldroyd--B System with Stress Diffusion",
+      "authors": [
+        "Xinyu Cheng",
+        "Zhaonan Luo",
+        "Zhaojie Yang",
+        "Cheng Yuan"
+      ],
+      "link": "https://arxiv.org/abs/2610.41250"
+    },
+    {
+      "arxiv_id": "2610.41484v1",
+      "title": "A well-balanced path-conservative discontinuous Galerkin method with generalized hydrostatic reconstruction for non-conservative balance laws",
+      "authors": [
+        "Ruilin Fan",
+        "Yinhua Xia",
+        "Yan Xu"
+      ],
+      "link": "https://arxiv.org/abs/2610.41484"
+    },
+    {
+      "arxiv_id": "2610.41550v1",
+      "title": "Numerical methods for nonlinear stochastic differential equations driven by subdiffusion",
+      "authors": [
+        "Qian Guo",
+        "Wei Liu",
+        "Ruchun Zuo"
+      ],
+      "link": "https://arxiv.org/abs/2610.41550"
+    },
+    {
+      "arxiv_id": "2610.41554v1",
+      "title": "An Efficient Randomized Hierarchical Tucker Decomposition",
+      "authors": [
+        "Bram Leys",
+        "Karl Meerbergen",
+        "Nick Vannieuwenhoven",
+        "Mathijs Vivet"
+      ],
+      "link": "https://arxiv.org/abs/2610.41554"
+    },
+    {
+      "arxiv_id": "2610.41592v1",
+      "title": "Exact construction of quasi-uniform designs over polytopal domains",
+      "authors": [
+        "Songlin Yang",
+        "Takashi Goda"
+      ],
+      "link": "https://arxiv.org/abs/2610.41592"
+    },
+    {
+      "arxiv_id": "2610.41606v1",
+      "title": "An energy-constrained implicit step-and-truncate algorithm and its robust error estimates",
+      "authors": [
+        "Hao Hu",
+        "Haijun Yu"
+      ],
+      "link": "https://arxiv.org/abs/2610.41606"
+    },
+    {
+      "arxiv_id": "2610.41690v1",
+      "title": "A Preconditioned Quantum Linear Solver for Periodic Two-Phase Heat Conduction with Mesh-Independent Condition Number",
+      "authors": [
+        "Krishnan Suresh"
+      ],
+      "link": "https://arxiv.org/abs/2610.41690"
+    },
+    {
+      "arxiv_id": "2610.41715v1",
+      "title": "Numerical analysis of linear finite element methods for the Gross--Pitaevskii eigenvalue problem",
+      "authors": [
+        "Tianyang Chu",
+        "Mingyan Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.41715"
+    }
+  ]
+}

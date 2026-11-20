@@ -1,0 +1,143 @@
+{
+  "date": "2026-09-04",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-09-04",
+  "duration_seconds": 746.412,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.03808v1",
+      "title": "A stabilized scheme satisfying the discrete maximum principle for a time fractional convection-diffusion-reaction equation",
+      "authors": [
+        "Christos Pervolianakis"
+      ],
+      "link": "https://arxiv.org/abs/2609.03808"
+    },
+    {
+      "arxiv_id": "2609.03155v1",
+      "title": "A discontinuous Petrov-Galerkin finite-element framework for the simulation of microwave-heated flows",
+      "authors": [
+        "Oreste Marquis",
+        "Matthias Maier",
+        "Bruno Blais"
+      ],
+      "link": "https://arxiv.org/abs/2609.03155"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.02956v1",
+      "title": "Buckling Prediction for Nonlinear Elastic Beams with Soft Inclusions",
+      "authors": [
+        "Thien Tran-Duc",
+        "J. E. Bunder",
+        "A. J. Roberts"
+      ],
+      "link": "https://arxiv.org/abs/2609.02956"
+    },
+    {
+      "arxiv_id": "2609.03068v1",
+      "title": "Dimensional hyperreduction of nonlinear finite element models via empirical cubature with manifold-adaptive weights",
+      "authors": [
+        "Joaqu\\'in A. Hern\\'andez",
+        "S. Ares de Parga",
+        "Riccardo Rossi"
+      ],
+      "link": "https://arxiv.org/abs/2609.03068"
+    },
+    {
+      "arxiv_id": "2609.03190v1",
+      "title": "Coupled Tensor-Tensor Completion Method with Applications in Drug Repurposing",
+      "authors": [
+        "Maryam Bagherian",
+        "Albert Hung",
+        "Ivo Dinov",
+        "Joshua Welch"
+      ],
+      "link": "https://arxiv.org/abs/2609.03190"
+    },
+    {
+      "arxiv_id": "2609.03214v1",
+      "title": "A novel parallel approach for solving some free boundary value problems",
+      "authors": [
+        "Peeyush Singh",
+        "Amboru Yalmanda"
+      ],
+      "link": "https://arxiv.org/abs/2609.03214"
+    },
+    {
+      "arxiv_id": "2609.03343v1",
+      "title": "Learning Informative Prior with Infinite-Dimensional Continuous Normalizing Flow for Bayesian Inverse Problem",
+      "authors": [
+        "Yang Zhao",
+        "Junxiong Jia",
+        "Tao Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2609.03343"
+    },
+    {
+      "arxiv_id": "2609.03401v1",
+      "title": "Spectral Convergence of Random Feature Method in Multiple Dimensions",
+      "authors": [
+        "Pingbing Ming",
+        "Hao Yu"
+      ],
+      "link": "https://arxiv.org/abs/2609.03401"
+    },
+    {
+      "arxiv_id": "2609.03405v1",
+      "title": "Semi-discrete quadratic Wasserstein energy and state-dependent Langevin exploration",
+      "authors": [
+        "Ran Gu",
+        "Gaoyue Guo",
+        "Kelvin Shuangjian Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.03405"
+    },
+    {
+      "arxiv_id": "2609.03461v1",
+      "title": "Adaptively-refinable polar-spline discrete differential forms: hierarchical construction, exactness, and applications",
+      "authors": [
+        "Diogo C. Cabanas",
+        "Deepesh Toshniwal",
+        "Rafael Vazquez"
+      ],
+      "link": "https://arxiv.org/abs/2609.03461"
+    },
+    {
+      "arxiv_id": "2609.03626v1",
+      "title": "Residual neural networks overcome the curse of dimensionality for semilinear heat equations",
+      "authors": [
+        "Ilkhom Mukhammadiev",
+        "Diyora Salimova"
+      ],
+      "link": "https://arxiv.org/abs/2609.03626"
+    },
+    {
+      "arxiv_id": "2609.03631v1",
+      "title": "A fully globalized solver for discretized inverse elliptic coefficient problems with exact data",
+      "authors": [
+        "Bastian Harrach"
+      ],
+      "link": "https://arxiv.org/abs/2609.03631"
+    },
+    {
+      "arxiv_id": "2609.03780v1",
+      "title": "Mini mixed finite element method for nearly incompressible linear elasticity problems",
+      "authors": [
+        "Zhijin Guan",
+        "Yue Feng",
+        "Hehu Xie",
+        "Chenguang Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2609.03780"
+    },
+    {
+      "arxiv_id": "2609.04003v1",
+      "title": "Closure complexity of longest-edge bisection for triangular meshes",
+      "authors": [
+        "Yuwen Li",
+        "Zhiyuan Yang"
+      ],
+      "link": "https://arxiv.org/abs/2609.04003"
+    }
+  ]
+}

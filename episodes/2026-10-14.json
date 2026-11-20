@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-14",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-14",
+  "duration_seconds": 784.224,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.15775v1",
+      "title": "GPU-Accelerated Nested Schur-Complement Solvers for Atmospheric Flow Simulations Using Horizontally-Explicit, Vertically-Implicit Schemes and Discontinuous Galerkin Methods",
+      "authors": [
+        "Marco Artiano",
+        "Andr\\'es Rueda-Ram\\'irez",
+        "Oswald Knoth",
+        "Hendrik Ranocha",
+        "Gregor Gassner"
+      ],
+      "link": "https://arxiv.org/abs/2610.15775"
+    },
+    {
+      "arxiv_id": "2610.14669v1",
+      "title": "Stable and effective restarting of the SS--RR and SS--RRR methods for computing partial eigenpairs of Hermitian matrices",
+      "authors": [
+        "Zhongxiao Jia",
+        "Tianhang Liu"
+      ],
+      "link": "https://arxiv.org/abs/2610.14669"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.14193v1",
+      "title": "Global Convergence and Reliable Stopping in a Safeguarded Modified Anderson--Bj\\\"orck Method",
+      "authors": [
+        "Latchezar Tomov",
+        "Nedelcho Ganchovski"
+      ],
+      "link": "https://arxiv.org/abs/2610.14193"
+    },
+    {
+      "arxiv_id": "2610.14271v1",
+      "title": "Solution of a system of Hamilton-Jacobi equations on a network",
+      "authors": [
+        "Emily R. Hammett",
+        "Maria Teresa Chiri",
+        "Kenneth D. Czuprynski",
+        "Ludmil T. Zikatanov"
+      ],
+      "link": "https://arxiv.org/abs/2610.14271"
+    },
+    {
+      "arxiv_id": "2610.14390v1",
+      "title": "Optimal strong convergence of a splitting mixed finite element method for a stochastic Keller--Segel system",
+      "authors": [
+        "Liet Vo"
+      ],
+      "link": "https://arxiv.org/abs/2610.14390"
+    },
+    {
+      "arxiv_id": "2610.14447v1",
+      "title": "Symmetric two-level preconditioning for the method of reflections",
+      "authors": [
+        "Jongho Park"
+      ],
+      "link": "https://arxiv.org/abs/2610.14447"
+    },
+    {
+      "arxiv_id": "2610.14457v1",
+      "title": "Convergence of Least Squares Methods for PDEs on R^d with Shallow ReLU^k Networks",
+      "authors": [
+        "Tong Mao",
+        "Lei Shi",
+        "Hanfei Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2610.14457"
+    },
+    {
+      "arxiv_id": "2610.14466v1",
+      "title": "Memory-Augmented Phase-Field Modeling: Onsager Formulation, Internal-Variable Lifting, and Structure-Preserving Computation",
+      "authors": [
+        "Peng Ding",
+        "Qingxia Liu",
+        "Zhiping Mao",
+        "Zhen Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.14466"
+    },
+    {
+      "arxiv_id": "2610.14600v1",
+      "title": "A new convergence proof for an iterative scheme for elliptic Cauchy problems based on alternating orthogonal projections",
+      "authors": [
+        "Abhijit Guchhait",
+        "Adrian Muntean",
+        "Martin Lind"
+      ],
+      "link": "https://arxiv.org/abs/2610.14600"
+    },
+    {
+      "arxiv_id": "2610.14620v1",
+      "title": "Dimension-independent eigenvalue approximation for sparse matrices",
+      "authors": [
+        "Natalia Hajlasz",
+        "Christopher Musco",
+        "Jonathan Weare",
+        "Robert J. Webber"
+      ],
+      "link": "https://arxiv.org/abs/2610.14620"
+    },
+    {
+      "arxiv_id": "2610.14658v1",
+      "title": "Learning Optimal Robust-Pathwise Control of Elliptic Equations with Random Coefficients",
+      "authors": [
+        "Qi Sun",
+        "Yanhan Cui",
+        "Ling Guo",
+        "Lili Ju"
+      ],
+      "link": "https://arxiv.org/abs/2610.14658"
+    },
+    {
+      "arxiv_id": "2610.14717v1",
+      "title": "Stochastic Geometrically Exact Beams: Continuous-Time Geometric Principles and Variational Discretizations",
+      "authors": [
+        "Minghang Du",
+        "Fran\\c{c}ois Gay-Balmaz",
+        "Tianzhi Li",
+        "Donghua Shi"
+      ],
+      "link": "https://arxiv.org/abs/2610.14717"
+    },
+    {
+      "arxiv_id": "2610.14867v1",
+      "title": "Stability and Error Estimates with Optimal $\\varepsilon$-Dependence for Strang Splitting of the Allen--Cahn Equation",
+      "authors": [
+        "Rongfu Luo",
+        "Chaoyu Quan",
+        "Zhijun Tan",
+        "Yanyao Wu"
+      ],
+      "link": "https://arxiv.org/abs/2610.14867"
+    },
+    {
+      "arxiv_id": "2610.14884v1",
+      "title": "Are implicit schemes needed in adaptive time stepping for PDEs?",
+      "authors": [
+        "Mikhail A. Botchev"
+      ],
+      "link": "https://arxiv.org/abs/2610.14884"
+    }
+  ]
+}

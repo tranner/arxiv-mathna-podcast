@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-20",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-20",
+  "duration_seconds": 751.735,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.26014v1",
+      "title": "High-Order Area-Preserving Runge--Kutta Methods for Surface Diffusion Flow of Curves",
+      "authors": [
+        "Lei Cui",
+        "Gengen Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.26014"
+    },
+    {
+      "arxiv_id": "2611.25923v1",
+      "title": "Partitioned iterative FD-SPH for fluid-rigid-body interaction: Stability and validation for lightweight floating bodies",
+      "authors": [
+        "Kumpei Tsuji",
+        "Ciara Galvin",
+        "Hiroyuki Omura",
+        "Naoto Mitsume",
+        "Mitsuteru Asai"
+      ],
+      "link": "https://arxiv.org/abs/2611.25923"
+    },
+    {
+      "arxiv_id": "2611.26099v1",
+      "title": "Regularity transfer for the Ritz projection",
+      "authors": [
+        "Lars Diening",
+        "Julian Rolfes",
+        "Abner J. Salgado"
+      ],
+      "link": "https://arxiv.org/abs/2611.26099"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.25441v1",
+      "title": "A decoupled structure-preserving scheme for pressure-driven multispecies tumor growth",
+      "authors": [
+        "Weijie Huang",
+        "Xinran Ruan"
+      ],
+      "link": "https://arxiv.org/abs/2611.25441"
+    },
+    {
+      "arxiv_id": "2611.26546v1",
+      "title": "A time-domain adversarial example demonstrating the failure of $H^1$ elements in $a$-$\\phi$ electromagnetic simulation",
+      "authors": [
+        "Timothy Carlson",
+        "Sanjay Govindjee"
+      ],
+      "link": "https://arxiv.org/abs/2611.26546"
+    },
+    {
+      "arxiv_id": "2611.25386v1",
+      "title": "A GPU Interior-Point Solver with Macro-Element Condensation for Equilibrium-Based Plasticity",
+      "authors": [
+        "Youssef Essousy",
+        "Mohammed-Khalil Ferradi"
+      ],
+      "link": "https://arxiv.org/abs/2611.25386"
+    },
+    {
+      "arxiv_id": "2611.25515v1",
+      "title": "When and why can integral constraints improve the accuracy of physics-informed neural networks?",
+      "authors": [
+        "Myeong-Su Lee"
+      ],
+      "link": "https://arxiv.org/abs/2611.25515"
+    },
+    {
+      "arxiv_id": "2611.26322v1",
+      "title": "Signed QoI Gaps for Goal-Oriented Error Estimation: Reliability and Sharpness from the Same First-Order System Residuals",
+      "authors": [
+        "Shun Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.26322"
+    },
+    {
+      "arxiv_id": "2611.25147v1",
+      "title": "Accelerating Diffusion Maps on a Quantum Computer: Spectral Filtering and Galerkin PDE Solvers",
+      "authors": [
+        "Ruizhe Qian",
+        "Xiantao Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.25147"
+    },
+    {
+      "arxiv_id": "2611.25152v1",
+      "title": "Robust BUG dynamical low-rank integrators based on the Euler-Maruyama method for stochastic differential equations. Part I: a closed-moment approach",
+      "authors": [
+        "S\\'ebastien Riffaud"
+      ],
+      "link": "https://arxiv.org/abs/2611.25152"
+    },
+    {
+      "arxiv_id": "2611.25919v1",
+      "title": "Quasi-orthogonality is a geometric property",
+      "authors": [
+        "Michael Feischl",
+        "David Niederkofler"
+      ],
+      "link": "https://arxiv.org/abs/2611.25919"
+    },
+    {
+      "arxiv_id": "2611.25313v1",
+      "title": "Variational integrators for time-dependent Lagrangian systems on Lie groups",
+      "authors": [
+        "Leonardo Colombo",
+        "Mar\\'ia Emma Eyrea Iraz\\'u",
+        "David Mart\\'in de Diego",
+        "Mar\\'ia Daniela S\\'anchez",
+        "Marcela Zuccalli"
+      ],
+      "link": "https://arxiv.org/abs/2611.25313"
+    },
+    {
+      "arxiv_id": "2611.25443v1",
+      "title": "An explicit domain-preserving projected Milstein scheme with strong order one for stochastic systems",
+      "authors": [
+        "Xingwei Hu",
+        "Yaozhong Hu",
+        "Aiguo Xiao"
+      ],
+      "link": "https://arxiv.org/abs/2611.25443"
+    },
+    {
+      "arxiv_id": "2611.25922v1",
+      "title": "Time-independent equivalent matrix representation for time-domain boundary element analysis of large-scale 3D acoustic problems",
+      "authors": [
+        "Weiyu Zhou",
+        "Yongqiang Chen"
+      ],
+      "link": "https://arxiv.org/abs/2611.25922"
+    },
+    {
+      "arxiv_id": "2611.25791v1",
+      "title": "Kernel Compensation and Quasi-Newton Iteration for Nonlinear Non-Hermitian Eigenproblems in Photonic Crystals",
+      "authors": [
+        "Chenhao Jin",
+        "Hehu Xie"
+      ],
+      "link": "https://arxiv.org/abs/2611.25791"
+    }
+  ]
+}

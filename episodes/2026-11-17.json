@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-17",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-17",
+  "duration_seconds": 861.552,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.20722v1",
+      "title": "Scaled boundary finite elements for FFT-based computational micromechanics",
+      "authors": [
+        "Flavia Gehrig",
+        "Carolin Birk",
+        "Matti Schneider"
+      ],
+      "link": "https://arxiv.org/abs/2611.20722"
+    },
+    {
+      "arxiv_id": "2611.20556v1",
+      "title": "A Staggered Discontinuous Galerkin Neural Network Method with a Computable Error Decomposition",
+      "authors": [
+        "Gung-Min Gie",
+        "Chang-Yeol Jung",
+        "Bongsuk Kwon",
+        "Kiwoong Kwon"
+      ],
+      "link": "https://arxiv.org/abs/2611.20556"
+    },
+    {
+      "arxiv_id": "2611.21469v1",
+      "title": "Variationally correct physics-informed operator learning for nonlinear partial differential equations",
+      "authors": [
+        "Yuan Qiu",
+        "Wolfgang Dahmen",
+        "Peng Chen"
+      ],
+      "link": "https://arxiv.org/abs/2611.21469"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.20563v1",
+      "title": "Structure-Preserving Neural Time-Stepping for Gradient-Flow PDEs via Onsager's Variational Principle",
+      "authors": [
+        "Zhonghua Qiao",
+        "Xianmin Xu",
+        "Rukang You",
+        "Tao Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2611.20563"
+    },
+    {
+      "arxiv_id": "2611.21169v1",
+      "title": "Long-time asymptotics of advection-diffusion of finite element differential forms",
+      "authors": [
+        "Kaibo Hu",
+        "Jindong Wang",
+        "Umberto Zerbinati"
+      ],
+      "link": "https://arxiv.org/abs/2611.21169"
+    },
+    {
+      "arxiv_id": "2611.21320v1",
+      "title": "Pharmaco-mechanical computational simulation of atherosclerotic arteries: effects of calcium channel blockers on local stress distributions",
+      "authors": [
+        "Sharan Nurani Ramesh",
+        "Lea Sa{\\ss}mannshausen",
+        "Axel Klawonn",
+        "Daniel Balzani"
+      ],
+      "link": "https://arxiv.org/abs/2611.21320"
+    },
+    {
+      "arxiv_id": "2611.19288v1",
+      "title": "An all-steps-at-once algorithm for time-domain wave propagation in heterogeneous and unbounded media",
+      "authors": [
+        "V. Dom\\'{\\i}nguez",
+        "M. Ganesh"
+      ],
+      "link": "https://arxiv.org/abs/2611.19288"
+    },
+    {
+      "arxiv_id": "2611.20833v1",
+      "title": "Maximum principle preserving approximation of scalar conservation equations with a fractional Laplacian",
+      "authors": [
+        "Andrea Bonito",
+        "Jean-Luc Guermond",
+        "Murtazo Nazarov"
+      ],
+      "link": "https://arxiv.org/abs/2611.20833"
+    },
+    {
+      "arxiv_id": "2611.21037v1",
+      "title": "Quantitative homogenization of Stokes flow in a perforated domain under low regularity of data and geometry",
+      "authors": [
+        "Alexei Lozinski"
+      ],
+      "link": "https://arxiv.org/abs/2611.21037"
+    },
+    {
+      "arxiv_id": "2611.19235v1",
+      "title": "Spectral Gaps and Low-Energy Modes in Anisotropic High-Contrast PDEs",
+      "authors": [
+        "Yajun Wang",
+        "Eric T. Chung",
+        "Lijian Jiang"
+      ],
+      "link": "https://arxiv.org/abs/2611.19235"
+    },
+    {
+      "arxiv_id": "2611.20131v1",
+      "title": "Quadrature-Induced Local Minima in Structure-Preserving Lotka-Volterra Control",
+      "authors": [
+        "Alexandre Autran"
+      ],
+      "link": "https://arxiv.org/abs/2611.20131"
+    },
+    {
+      "arxiv_id": "2611.20743v1",
+      "title": "An adaptive Gaussian splitting scheme for linear Fokker--Planck equations",
+      "authors": [
+        "Markus Bachmayr",
+        "Tianyu Jin",
+        "Damiano Lombardi",
+        "Olga Mula",
+        "Ahmad Zorkot"
+      ],
+      "link": "https://arxiv.org/abs/2611.20743"
+    },
+    {
+      "arxiv_id": "2611.19488v1",
+      "title": "Ship-as-a-buoy for Phase-resolved Reconstruction of Surface Waves",
+      "authors": [
+        "Yifan Du",
+        "Guangyao Wang",
+        "Yulin Pan"
+      ],
+      "link": "https://arxiv.org/abs/2611.19488"
+    },
+    {
+      "arxiv_id": "2611.20054v1",
+      "title": "Physics-Spawned Neural Integration of Rotating Shallow-Water Dynamics",
+      "authors": [
+        "Kaushal Gianchandani",
+        "Luka Todorovic",
+        "Sai Ravela"
+      ],
+      "link": "https://arxiv.org/abs/2611.20054"
+    },
+    {
+      "arxiv_id": "2611.20862v1",
+      "title": "Unconditionally Positive Nonstandard Finite Difference Schemes for $p$-Laplacian Reaction--Diffusion Equations",
+      "authors": [
+        "Achraf Zinihi",
+        "Matthias Ehrhardt",
+        "Moulay Rchid Sidi Ammi"
+      ],
+      "link": "https://arxiv.org/abs/2611.20862"
+    }
+  ]
+}

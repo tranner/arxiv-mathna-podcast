@@ -1,0 +1,149 @@
+{
+  "date": "2026-11-18",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-18",
+  "duration_seconds": 675.755,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.22862v1",
+      "title": "Convergence of a Parametric Symmetric Galerkin Boundary Element Method for the Mullins-Sekerka Flow",
+      "authors": [
+        "Tokuhiro Eto"
+      ],
+      "link": "https://arxiv.org/abs/2611.22862"
+    },
+    {
+      "arxiv_id": "2611.22217v1",
+      "title": "An Explicit Parallelizable Robin-Robin Splitting Scheme for Navier-Stokes-Naghdi Shell Interaction",
+      "authors": [
+        "Yifan Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.22217"
+    },
+    {
+      "arxiv_id": "2611.22676v1",
+      "title": "For any wavenumber, the Helmholtz FEM matrix is invertible for almost all meshes",
+      "authors": [
+        "J. Galkowski",
+        "M. Meliani",
+        "E. A. Spence"
+      ],
+      "link": "https://arxiv.org/abs/2611.22676"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.22585v1",
+      "title": "Locking-free numerical methods for poroelasticity optimal control problems with minimal regularities",
+      "authors": [
+        "Jeonghun J. Lee"
+      ],
+      "link": "https://arxiv.org/abs/2611.22585"
+    },
+    {
+      "arxiv_id": "2611.23036v1",
+      "title": "Finite element nonlinear nudging for the Navier-Stokes equations",
+      "authors": [
+        "Elizabeth Carlson",
+        "Rui Fang",
+        "Ali Pakzad"
+      ],
+      "link": "https://arxiv.org/abs/2611.23036"
+    },
+    {
+      "arxiv_id": "2611.21960v1",
+      "title": "Convergence of discrete exterior calculus for the Hodge-Dirac and Hodge-Laplace problems on surfaces",
+      "authors": [
+        "Thomas A. Wasserman"
+      ],
+      "link": "https://arxiv.org/abs/2611.21960"
+    },
+    {
+      "arxiv_id": "2611.21991v1",
+      "title": "High-Order Regularization for Singular and Nearly Singular Laplace and Stokes Layer Potentials in Two Dimensions",
+      "authors": [
+        "Han Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2611.21991"
+    },
+    {
+      "arxiv_id": "2611.22099v1",
+      "title": "Differentiable High-Order Mesh $r$-Adaptivity",
+      "authors": [
+        "Ketan Mittal",
+        "Julian Andrej",
+        "John Camier",
+        "Veselin Dobrev",
+        "Tzanio Kolev",
+        "Leonardo Molinari",
+        "Vladimir Tomov"
+      ],
+      "link": "https://arxiv.org/abs/2611.22099"
+    },
+    {
+      "arxiv_id": "2611.22072v1",
+      "title": "Singular layer neural networks for the Navier-Stokes equations at small viscosity",
+      "authors": [
+        "Teng-Yuan Chang",
+        "Gung-Min Gie",
+        "Youngjoon Hong",
+        "Chang-Yeol Jung"
+      ],
+      "link": "https://arxiv.org/abs/2611.22072"
+    },
+    {
+      "arxiv_id": "2611.22284v1",
+      "title": "Nonlocal regularization of sharp-crack energetics: a variational bridge from Griffith geometry to emergent constitutive degradation",
+      "authors": [
+        "Qing Cheng",
+        "Yuqi Sun",
+        "Xuejun Xu"
+      ],
+      "link": "https://arxiv.org/abs/2611.22284"
+    },
+    {
+      "arxiv_id": "2611.22176v1",
+      "title": "Decision Stability and Model Reduction for Hamilton--Jacobi Navigation in Multiscale Flows",
+      "authors": [
+        "Ruimeng Hu",
+        "Byungdoo Kong",
+        "Xu Yang"
+      ],
+      "link": "https://arxiv.org/abs/2611.22176"
+    },
+    {
+      "arxiv_id": "2611.21836v1",
+      "title": "Forests of Omnitrees: Analysis and Applications to Anisotropic Space--Time Finite Elements",
+      "authors": [
+        "Nils Margenberg"
+      ],
+      "link": "https://arxiv.org/abs/2611.21836"
+    },
+    {
+      "arxiv_id": "2611.23027v1",
+      "title": "Right shape, wrong time: phase errors of ODE solvers in the flame problem",
+      "authors": [
+        "Imre Boros"
+      ],
+      "link": "https://arxiv.org/abs/2611.23027"
+    },
+    {
+      "arxiv_id": "2611.22443v1",
+      "title": "Multilevel Filtering on Manifolds with Light Schr\\\"odinger Bridges",
+      "authors": [
+        "Jason Beh",
+        "Pierre Del Moral",
+        "Ajay Jasra"
+      ],
+      "link": "https://arxiv.org/abs/2611.22443"
+    },
+    {
+      "arxiv_id": "2611.22616v1",
+      "title": "A Divergence-Free Finite Element Discretization of a Convection-Cooling Optimal Control Problem",
+      "authors": [
+        "Tongxin Wang",
+        "Zhaojie Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2611.22616"
+    }
+  ]
+}

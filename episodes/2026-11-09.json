@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-09",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-09",
+  "duration_seconds": 878.838,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.09158v1",
+      "title": "A Structured-Surrogate Double-Model Approach to Regularization Parameter Selection",
+      "authors": [
+        "Malena Espa\\~nol",
+        "Markus Juvonen",
+        "Samuli Siltanen",
+        "Ilaria Trombini",
+        "Chuyang Wu"
+      ],
+      "link": "https://arxiv.org/abs/2611.09158"
+    },
+    {
+      "arxiv_id": "2611.09201v1",
+      "title": "Boundary integral methods and shape reconstruction for periodic fluid--solid interfaces",
+      "authors": [
+        "Yongxin Liu",
+        "Junliang Lv",
+        "Ning Wang",
+        "Yi Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.09201"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.08524v1",
+      "title": "Domain-uniform integration lower bounds and local information",
+      "authors": [
+        "Yutong Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.08524"
+    },
+    {
+      "arxiv_id": "2611.08801v1",
+      "title": "Proof of the Cordero-Torregrosa Conjecture and an Improved Order Bound for Paired Jacobian Evaluations",
+      "authors": [
+        "Rodrigo Alberto Castro Mar\\'in"
+      ],
+      "link": "https://arxiv.org/abs/2611.08801"
+    },
+    {
+      "arxiv_id": "2611.08817v1",
+      "title": "Multilevel kernel approximation of log-Euclidean manifold-valued functions",
+      "authors": [
+        "Nir sharon",
+        "Holger Wendland"
+      ],
+      "link": "https://arxiv.org/abs/2611.08817"
+    },
+    {
+      "arxiv_id": "2611.08910v1",
+      "title": "Task-Contribution Dynamics of Adam in Physics-Informed Neural Networks: Slow-Manifold Analysis and Gradient Modulation",
+      "authors": [
+        "Enzhan Zheng",
+        "Xiaoliang Song"
+      ],
+      "link": "https://arxiv.org/abs/2611.08910"
+    },
+    {
+      "arxiv_id": "2611.09011v1",
+      "title": "On optimal convergence rates for parametrized variational problems with applications to nonlocal models",
+      "authors": [
+        "Zhaolong Han",
+        "James Scott",
+        "Xiaochuan Tian"
+      ],
+      "link": "https://arxiv.org/abs/2611.09011"
+    },
+    {
+      "arxiv_id": "2611.09053v1",
+      "title": "Equidistribution of Solution Gradients in Physics-Informed Neural Networks via Coordinate Transformations",
+      "authors": [
+        "Tianchi Yu",
+        "Ivan Oseledets"
+      ],
+      "link": "https://arxiv.org/abs/2611.09053"
+    },
+    {
+      "arxiv_id": "2611.09135v1",
+      "title": "Strong convergence rates for numerical approximations of the stochastic Burgers equation with additive rough noise",
+      "authors": [
+        "Ziyi Lei",
+        "Houqi Su"
+      ],
+      "link": "https://arxiv.org/abs/2611.09135"
+    },
+    {
+      "arxiv_id": "2611.09137v1",
+      "title": "Elastic Wave Imaging via Kirchhoff Migration: Resolution Analysis and Inclusion Identification",
+      "authors": [
+        "Zetao Fei",
+        "Josselin Garnier"
+      ],
+      "link": "https://arxiv.org/abs/2611.09137"
+    },
+    {
+      "arxiv_id": "2611.09171v1",
+      "title": "A structure-preserving discontinuous Galerkin method for variable-density incompressible flow with a partitioned time integrator",
+      "authors": [
+        "Zonghao Bai",
+        "Yinhua Xia",
+        "Yan Xu"
+      ],
+      "link": "https://arxiv.org/abs/2611.09171"
+    },
+    {
+      "arxiv_id": "2611.09174v1",
+      "title": "Construction of DAE solver Rodas4PW and numerical test examples with Rosenbrock and W-methods in OrdinaryDiffEqRosenbrock.jl",
+      "authors": [
+        "Gerd Steinebach"
+      ],
+      "link": "https://arxiv.org/abs/2611.09174"
+    },
+    {
+      "arxiv_id": "2611.09245v1",
+      "title": "On the convergence of Lattice Boltzmann method for advection-diffusion equation with intermediate scaling",
+      "authors": [
+        "Francky Luddens (LMRS)"
+      ],
+      "link": "https://arxiv.org/abs/2611.09245"
+    },
+    {
+      "arxiv_id": "2611.09281v1",
+      "title": "A semi-implicit exactly well-balanced relaxation scheme for the 2d shallow water system",
+      "authors": [
+        "Jos\\'e Ignacio Ram\\'irez-Fuentes",
+        "Cipriano Escalante",
+        "Tom\\'as Morales de Luna",
+        "Mar\\'ia Luz Mu\\~noz-Ruiz"
+      ],
+      "link": "https://arxiv.org/abs/2611.09281"
+    }
+  ]
+}

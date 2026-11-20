@@ -1,0 +1,145 @@
+{
+  "date": "2026-08-25",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-08-25",
+  "duration_seconds": 845.653,
+  "deep_dive": [
+    {
+      "arxiv_id": "2608.22145v1",
+      "title": "Loss Landscape Features That Make Adam Stall: Definitions, Estimators, and the Preconditioned Hessian View",
+      "authors": [
+        "Rodion Podorozhny"
+      ],
+      "link": "https://arxiv.org/abs/2608.22145"
+    },
+    {
+      "arxiv_id": "2608.21725v1",
+      "title": "Wasserstein Moment Nudging for Vlasov-Poisson Data Assimilation",
+      "authors": [
+        "Liyao Lyu",
+        "Xinyue Yu",
+        "David Schneidinger",
+        "Hayden Schaeffer"
+      ],
+      "link": "https://arxiv.org/abs/2608.21725"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2608.21545v1",
+      "title": "A Memory-Efficient Adjoint State Optimization Method Based on Time-Reversible Dynamical Low-Rank Approximation",
+      "authors": [
+        "Lukas Einkemmer",
+        "Julian Mangott"
+      ],
+      "link": "https://arxiv.org/abs/2608.21545"
+    },
+    {
+      "arxiv_id": "2608.21575v1",
+      "title": "A Data-Driven Computational Framework for Incompressible Flow in Hydraulic Networks",
+      "authors": [
+        "Pedro B. Bazon",
+        "Cristian G. Gebhardt",
+        "Roberto F. Ausas"
+      ],
+      "link": "https://arxiv.org/abs/2608.21575"
+    },
+    {
+      "arxiv_id": "2608.21705v1",
+      "title": "Tensor greedy double block extended Kaczmarz method for solving inconsistent tensor linear systems under t-product",
+      "authors": [
+        "J\\'er\\'emie Mabiala",
+        "Lionel Tondji"
+      ],
+      "link": "https://arxiv.org/abs/2608.21705"
+    },
+    {
+      "arxiv_id": "2608.21831v1",
+      "title": "Weighted Laplacian Flow: A Deterministic Particle Flow with Provable Convergence",
+      "authors": [
+        "Weiye Gan",
+        "Tangjun Wang",
+        "Zuoqiang Shi"
+      ],
+      "link": "https://arxiv.org/abs/2608.21831"
+    },
+    {
+      "arxiv_id": "2608.21930v1",
+      "title": "A diffusion time-changed stochastic SIS epidemic model: well-posedness, long-time behavior, and numerical approximation",
+      "authors": [
+        "Xiaotong Li",
+        "Huaqian Zhou",
+        "Ruchun Zuo"
+      ],
+      "link": "https://arxiv.org/abs/2608.21930"
+    },
+    {
+      "arxiv_id": "2608.21960v1",
+      "title": "The Smallest Singular Value of Nonuniform Fourier Matrices",
+      "authors": [
+        "Liang Chen",
+        "Rongrong Lin",
+        "Haizhang Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2608.21960"
+    },
+    {
+      "arxiv_id": "2608.22041v1",
+      "title": "Data-driven reduced-order models for the radiative transfer equation",
+      "authors": [
+        "Yinxi Pan",
+        "Kui Ren",
+        "Shanyin Tong"
+      ],
+      "link": "https://arxiv.org/abs/2608.22041"
+    },
+    {
+      "arxiv_id": "2608.22060v1",
+      "title": "On Convergence of an Accelerated Modified Newton Method for Nonlinear Equations",
+      "authors": [
+        "Sanwar Ahmad",
+        "Joy Watson",
+        "Mohammad Tabanjeh"
+      ],
+      "link": "https://arxiv.org/abs/2608.22060"
+    },
+    {
+      "arxiv_id": "2608.22162v1",
+      "title": "A posteriori error estimates for the two-step explicit exponential Adams method for parabolic equations",
+      "authors": [
+        "Xianfa Hu",
+        "Wansheng Wang"
+      ],
+      "link": "https://arxiv.org/abs/2608.22162"
+    },
+    {
+      "arxiv_id": "2608.22190v1",
+      "title": "An hp-version time stepping spectral Monte Carlo method for semi-linear parabolic equations",
+      "authors": [
+        "Jiaying Feng",
+        "Zhiyuan Hui",
+        "Changtao Sheng",
+        "Chenglong Xu"
+      ],
+      "link": "https://arxiv.org/abs/2608.22190"
+    },
+    {
+      "arxiv_id": "2608.22241v1",
+      "title": "Accurately computing quasiperiodic parabolic equations within finite-size domains via modeling quasiperiodic boundary conditions",
+      "authors": [
+        "Xiaofang Han",
+        "Kai Jiang",
+        "Meng Li"
+      ],
+      "link": "https://arxiv.org/abs/2608.22241"
+    },
+    {
+      "arxiv_id": "2608.22259v1",
+      "title": "On Convergence Behavior of Randomized Kaczmarz-type Methods for Solving Doubly Noisy Linear Systems",
+      "authors": [
+        "Yudan Gan",
+        "Gang Wu"
+      ],
+      "link": "https://arxiv.org/abs/2608.22259"
+    }
+  ]
+}
