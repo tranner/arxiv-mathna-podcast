@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-24",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-24",
+  "duration_seconds": 667.135,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.30169v1",
+      "title": "A High-Order Geometry-Conforming Selective Discontinuous Galerkin Method and Its Error Analysis for Elliptic Interface Problems on Curved Domains",
+      "authors": [
+        "Fang Liu",
+        "Yuanhui Liu",
+        "Tao Lin",
+        "Xu Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.30169"
+    },
+    {
+      "arxiv_id": "2611.30709v1",
+      "title": "Certified Finite Element Error Bounds for Diffusion Equations with Measure-Valued Principal-Part Delays",
+      "authors": [
+        "Hiroki Ishizaka"
+      ],
+      "link": "https://arxiv.org/abs/2611.30709"
+    },
+    {
+      "arxiv_id": "2611.28614v1",
+      "title": "Deterministic regularisation of the nonsymmetric eigenproblem",
+      "authors": [
+        "Matthew J. Colbrook"
+      ],
+      "link": "https://arxiv.org/abs/2611.28614"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.30832v1",
+      "title": "A geometric-IEQ approach for curvature-driven flows",
+      "authors": [
+        "Harald Garcke",
+        "Yifei Li",
+        "Robert N\\\"urnberg",
+        "Quan Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2611.30832"
+    },
+    {
+      "arxiv_id": "2611.30943v1",
+      "title": "A discontinuous Galerkin method for the evolutionary Navier-Stokes-Darcy model",
+      "authors": [
+        "Sweta Chakraborty",
+        "Deepjyoti Goswami",
+        "Saumya Bajpai"
+      ],
+      "link": "https://arxiv.org/abs/2611.30943"
+    },
+    {
+      "arxiv_id": "2611.31073v1",
+      "title": "A locally conservative LDG method for the evolutionary Navier-Stokes-Darcy coupled problem",
+      "authors": [
+        "Sweta Chakraborty",
+        "Deepjyoti Goswami",
+        "Saumya Bajpai"
+      ],
+      "link": "https://arxiv.org/abs/2611.31073"
+    },
+    {
+      "arxiv_id": "2611.29940v1",
+      "title": "Stabilized Isogeometric Topology Optimization on Trimmed Geometries",
+      "authors": [
+        "Haoyu Su",
+        "Giuliano Guarino",
+        "Xiaodong Wei"
+      ],
+      "link": "https://arxiv.org/abs/2611.29940"
+    },
+    {
+      "arxiv_id": "2611.30355v1",
+      "title": "A preconditioned Reconstructed Discontinuous Approximation for Darcy flow",
+      "authors": [
+        "Ming Cui",
+        "Yanxiang Gao",
+        "Ruo Li",
+        "Qicheng Liu",
+        "Fanyi Yang",
+        "Shuhai Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2611.30355"
+    },
+    {
+      "arxiv_id": "2611.30153v1",
+      "title": "IADR: Interface-Augmented Neural Operator for Phase-Field Mean-Curvature Flow",
+      "authors": [
+        "Qinyi Zhang",
+        "Duanyu Feng",
+        "Yangshuai Wang",
+        "Hao Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.30153"
+    },
+    {
+      "arxiv_id": "2611.28859v1",
+      "title": "Random Projection Neural Networks for Phase-Field Models: Model Reformulation, Scaling, and Network Architecture",
+      "authors": [
+        "Chunyan Li",
+        "Qi Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.28859"
+    },
+    {
+      "arxiv_id": "2611.28557v1",
+      "title": "A hybrid high-order discretization of a volume integral formulation for eddy currents on unstructured polyhedral meshes",
+      "authors": [
+        "Raman Kumar",
+        "Aurelio Spadotto",
+        "Silvano Pitassi"
+      ],
+      "link": "https://arxiv.org/abs/2611.28557"
+    },
+    {
+      "arxiv_id": "2611.28998v1",
+      "title": "The coordinate dependence of numerical rank: charts adapted to level sets",
+      "authors": [
+        "Hung Tran",
+        "Duc P. Truong"
+      ],
+      "link": "https://arxiv.org/abs/2611.28998"
+    },
+    {
+      "arxiv_id": "2611.29379v1",
+      "title": "On mesh transfers and time error estimation in adaptive finite element methods for parabolic problems",
+      "authors": [
+        "Stefan Karch"
+      ],
+      "link": "https://arxiv.org/abs/2611.29379"
+    },
+    {
+      "arxiv_id": "2611.30398v1",
+      "title": "New applications for optimal adaptivity",
+      "authors": [
+        "Michael Feischl",
+        "J\\\"org Nick",
+        "David Niederkofler"
+      ],
+      "link": "https://arxiv.org/abs/2611.30398"
+    },
+    {
+      "arxiv_id": "2611.28909v1",
+      "title": "A Class of Monotone Quasi-Newtonian Flows Coupled to Nonlinear Equations: Analysis and Finite Element Approximation",
+      "authors": [
+        "Gilberto Campa\\~na",
+        "V\\'ictor Vallejo",
+        "Jesus Vellojin"
+      ],
+      "link": "https://arxiv.org/abs/2611.28909"
+    }
+  ]
+}

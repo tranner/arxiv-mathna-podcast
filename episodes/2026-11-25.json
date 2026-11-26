@@ -1,0 +1,152 @@
+{
+  "date": "2026-11-25",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-25",
+  "duration_seconds": 800.375,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.32796v1",
+      "title": "Higher Order Unfitted Discontinuous Galerkin Methods in Space and Time",
+      "authors": [
+        "Fabian Heimann",
+        "Christoph Lehrenfeld"
+      ],
+      "link": "https://arxiv.org/abs/2611.32796"
+    },
+    {
+      "arxiv_id": "2611.32010v1",
+      "title": "Elastic rebound in viscous fluid: an efficient rigid--elastic splitting with an asymptotic gap model",
+      "authors": [
+        "Thomas Richter"
+      ],
+      "link": "https://arxiv.org/abs/2611.32010"
+    },
+    {
+      "arxiv_id": "2611.31734v1",
+      "title": "Verified two-sided bounds for the inf-sup constant of the divergence on planar polygons",
+      "authors": [
+        "Xuefeng Liu"
+      ],
+      "link": "https://arxiv.org/abs/2611.31734"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.32874v1",
+      "title": "An intrinsic kinematic wave model with conservative fluxes for overland flow on curved terrain",
+      "authors": [
+        "Elena Bachini",
+        "Matteo Camporese"
+      ],
+      "link": "https://arxiv.org/abs/2611.32874"
+    },
+    {
+      "arxiv_id": "2611.32949v1",
+      "title": "A robust Lagrangian-Eulerian Finite Volume scheme for intrinsic shallow water equations with wetting-and-drying transitions on locally discontinuous beds",
+      "authors": [
+        "Eduardo Abreu",
+        "Elena Bachini",
+        "John P\\'erez",
+        "Mario Putti"
+      ],
+      "link": "https://arxiv.org/abs/2611.32949"
+    },
+    {
+      "arxiv_id": "2611.32522v1",
+      "title": "High-order polynomial corrections for embedded curved boundaries in discontinuous Galerkin methods for hyperbolic systems: from staircase instabilities to a gap method",
+      "authors": [
+        "Mirco Ciallella"
+      ],
+      "link": "https://arxiv.org/abs/2611.32522"
+    },
+    {
+      "arxiv_id": "2611.32479v1",
+      "title": "An adaptive finite element method for the interior problem of Helmholtz equations with generalized transmission boundary conditions",
+      "authors": [
+        "Zhe Zhu",
+        "Lei Lin",
+        "Wei Yang",
+        "Tao Yin"
+      ],
+      "link": "https://arxiv.org/abs/2611.32479"
+    },
+    {
+      "arxiv_id": "2611.31594v1",
+      "title": "Uncertainty Quantification and Global Sensitivity Analysis of Patient-Specific Coronary Hemodynamics Under Unsteady Flow Conditions",
+      "authors": [
+        "Muhammad Usman",
+        "Nafis M. Arefin",
+        "Akil Narayan",
+        "Lucas H. Timmins"
+      ],
+      "link": "https://arxiv.org/abs/2611.31594"
+    },
+    {
+      "arxiv_id": "2611.31407v1",
+      "title": "Analysis and Optimal Approximation of Operator-Valued Riccati Equations with Unbounded Control Operators",
+      "authors": [
+        "James Cheung"
+      ],
+      "link": "https://arxiv.org/abs/2611.31407"
+    },
+    {
+      "arxiv_id": "2611.31567v1",
+      "title": "A decoupled BDF2-type integrator for the spin-diffusion Landau--Lifshitz--Gilbert system in ferromagnetic multilayers",
+      "authors": [
+        "Michele Ald\\'e",
+        "Dirk Praetorius",
+        "Agus L. Soenjaya"
+      ],
+      "link": "https://arxiv.org/abs/2611.31567"
+    },
+    {
+      "arxiv_id": "2611.31722v1",
+      "title": "A mixed-primal FEM for Poisson-Fermi interfacial problems",
+      "authors": [
+        "Siyad Rahman Mandottil",
+        "Neela Nataraj",
+        "Ricardo Ruiz-Baier"
+      ],
+      "link": "https://arxiv.org/abs/2611.31722"
+    },
+    {
+      "arxiv_id": "2611.31792v1",
+      "title": "Gradient-free MCMC exploiting low-dimensional Gaussian and nonGaussian posterior structure",
+      "authors": [
+        "Hongqiao Wang",
+        "Jiahua Jiang",
+        "Jing Liu",
+        "Jinglai Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.31792"
+    },
+    {
+      "arxiv_id": "2611.32043v1",
+      "title": "A Unit-Gradient Neural Variational Method for Anisotropic Eikonal Equations",
+      "authors": [
+        "Yesom Park",
+        "Jooyoung Hahn"
+      ],
+      "link": "https://arxiv.org/abs/2611.32043"
+    },
+    {
+      "arxiv_id": "2611.32487v1",
+      "title": "Toward Extreme-Scale Full-Wave Maxwell Simulation: Low-Dispersion Discretization and a Massively Parallel Three-Grid Solver",
+      "authors": [
+        "Huangxin Chen",
+        "Shubin Fu",
+        "Zixiao Zhao"
+      ],
+      "link": "https://arxiv.org/abs/2611.32487"
+    },
+    {
+      "arxiv_id": "2611.32490v1",
+      "title": "Bound-preserving Flux Limiters for Hyperbolic Conservation Laws on Two-Dimensional Adaptive Moving Meshes",
+      "authors": [
+        "Yaguang Gu",
+        "Guanghui Hu",
+        "Mengqing Liu"
+      ],
+      "link": "https://arxiv.org/abs/2611.32490"
+    }
+  ]
+}

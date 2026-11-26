@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-22",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-22",
+  "duration_seconds": 961.58,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.28692v1",
+      "title": "A Structure-Preserving Scheme for Computing the Gradient of the Eikonal Equation",
+      "authors": [
+        "Ka Lun Leung",
+        "Shingyu Leung"
+      ],
+      "link": "https://arxiv.org/abs/2610.28692"
+    },
+    {
+      "arxiv_id": "2610.29871v1",
+      "title": "Rigorous integration of semilinear parabolic PDEs: forward evolution bounds and projected boundary value problems",
+      "authors": [
+        "Jean-Philippe Lessard",
+        "Akitoshi Takayasu"
+      ],
+      "link": "https://arxiv.org/abs/2610.29871"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.28808v1",
+      "title": "Deflation-Based Spectral Preconditioning for the Conjugate Gradient Method on Perturbed Systems",
+      "authors": [
+        "Youssef Diouane",
+        "Selime G\\\"urol",
+        "Oussama Mouhtal",
+        "Dominique Orban"
+      ],
+      "link": "https://arxiv.org/abs/2610.28808"
+    },
+    {
+      "arxiv_id": "2610.28903v1",
+      "title": "Mixed finite element methods for a heat-assisted model of sedimentation",
+      "authors": [
+        "Julio Careaga",
+        "Cristian Inzunza"
+      ],
+      "link": "https://arxiv.org/abs/2610.28903"
+    },
+    {
+      "arxiv_id": "2610.29214v1",
+      "title": "A hybridization-derived interior penalty Nitsche method for heterogeneous and anisotropic diffusion",
+      "authors": [
+        "Vincent Fontaine"
+      ],
+      "link": "https://arxiv.org/abs/2610.29214"
+    },
+    {
+      "arxiv_id": "2610.29370v1",
+      "title": "Order-Specified Quaternion CP Decomposition: Models, Algorithms, and Applications",
+      "authors": [
+        "Jifei Miao",
+        "Niansheng Tang",
+        "Michael K. Ng",
+        "Juan Han",
+        "Kit Ian Kou"
+      ],
+      "link": "https://arxiv.org/abs/2610.29370"
+    },
+    {
+      "arxiv_id": "2610.29451v1",
+      "title": "A high-order multi-scale method and its error analysis for nonlocal-in-time fractionally damped wave problems in composite materials",
+      "authors": [
+        "Gehao Wang",
+        "Hao Dong",
+        "Yufeng Nie",
+        "Junzhi Cui"
+      ],
+      "link": "https://arxiv.org/abs/2610.29451"
+    },
+    {
+      "arxiv_id": "2610.29466v1",
+      "title": "Approximate Matrix Multiplication through Joint Leverage Score Sampling",
+      "authors": [
+        "Neophytos Charalambides",
+        "Mert Pilanci",
+        "Alfred O. Hero III"
+      ],
+      "link": "https://arxiv.org/abs/2610.29466"
+    },
+    {
+      "arxiv_id": "2610.29468v1",
+      "title": "General function bases moment models for suspended sediment with vertical profile of concentration",
+      "authors": [
+        "Celia Caballero-C\\'ardenas",
+        "Jos\\'e Garres-D\\'iaz",
+        "Irene G\\'omez-Bueno",
+        "Tom\\'as Morales de Luna"
+      ],
+      "link": "https://arxiv.org/abs/2610.29468"
+    },
+    {
+      "arxiv_id": "2610.29481v1",
+      "title": "Symmetry Inheritance and Exact Mirror Symmetry Reduction for Electric Field Vector Wave Problems with PEC Boundaries",
+      "authors": [
+        "Wei Jiang"
+      ],
+      "link": "https://arxiv.org/abs/2610.29481"
+    },
+    {
+      "arxiv_id": "2610.29516v1",
+      "title": "Sparse-grid discretizations of BGG sequences",
+      "authors": [
+        "Yihanqi Hu",
+        "Yuwen Li"
+      ],
+      "link": "https://arxiv.org/abs/2610.29516"
+    },
+    {
+      "arxiv_id": "2610.29536v1",
+      "title": "A recovery based linear finite element method for the Monge--Amp\\`{e}re equation",
+      "authors": [
+        "Tianyang Chu",
+        "Hailong Guo",
+        "Zhimin Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2610.29536"
+    },
+    {
+      "arxiv_id": "2610.29546v1",
+      "title": "Sequential Entropic Optimal Transport for Bayesian Inverse Problems via Multilevel Monte Carlo",
+      "authors": [
+        "Jason Beh",
+        "Pierre Del Moral",
+        "Ajay Jasra"
+      ],
+      "link": "https://arxiv.org/abs/2610.29546"
+    },
+    {
+      "arxiv_id": "2610.29554v1",
+      "title": "Dynamical low-rank approximations for the optimal control of matrix ODEs",
+      "authors": [
+        "Benjamin Carrel",
+        "Tommaso Vanzan"
+      ],
+      "link": "https://arxiv.org/abs/2610.29554"
+    }
+  ]
+}

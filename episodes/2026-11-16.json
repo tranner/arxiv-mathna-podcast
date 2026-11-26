@@ -1,0 +1,169 @@
+{
+  "date": "2026-11-16",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-16",
+  "duration_seconds": 812.258,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.17445v1",
+      "title": "A Cut Finite Element Method with Boundary Value Correction for Robin, Neumann and Interface Conditions",
+      "authors": [
+        "Erik Burman",
+        "Peter Hansbo",
+        "Mats G. Larson"
+      ],
+      "link": "https://arxiv.org/abs/2611.17445"
+    },
+    {
+      "arxiv_id": "2611.17700v1",
+      "title": "A Unified Framework for First- and Second-Order Energy-Stable Parametric Finite Element Methods for Planar Willmore Flow",
+      "authors": [
+        "Xiaoli Li",
+        "Yujing Yan"
+      ],
+      "link": "https://arxiv.org/abs/2611.17700"
+    },
+    {
+      "arxiv_id": "2611.18545v1",
+      "title": "From smoothed analysis to backward error: The power of adaptive perturbations",
+      "authors": [
+        "Micha{\\l} Derezi\\'nski",
+        "Michael W. Mahoney",
+        "Raphael A. Meyer",
+        "Christopher Musco"
+      ],
+      "link": "https://arxiv.org/abs/2611.18545"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.18090v1",
+      "title": "Bound-preserving finite volume scheme for a coupled parabolic system with nonlinear and nonlocal drift",
+      "authors": [
+        "Nicklas J\\\"averg{\\aa}rd",
+        "Adrian Muntean"
+      ],
+      "link": "https://arxiv.org/abs/2611.18090"
+    },
+    {
+      "arxiv_id": "2611.18166v1",
+      "title": "An entropy-stable splitting strategy for a hyperbolic dispersive shallow-water model on unstructured meshes",
+      "authors": [
+        "Fr\\'ed\\'eric Couderc",
+        "Arnaud Duran",
+        "Maria Kazakova",
+        "Bastien Lombard",
+        "Pascal Noble",
+        "R\\'emy Baraille",
+        "Jean-Paul Vila"
+      ],
+      "link": "https://arxiv.org/abs/2611.18166"
+    },
+    {
+      "arxiv_id": "2611.17491v1",
+      "title": "A graph discretization of the Steklov and Neumann problems on domains in complete Riemannian manifolds",
+      "authors": [
+        "Samuel Audet-Beaumont"
+      ],
+      "link": "https://arxiv.org/abs/2611.17491"
+    },
+    {
+      "arxiv_id": "2611.17822v1",
+      "title": "Scalar Entropic Damage Transport: Well-posed softening with a single damage variable",
+      "authors": [
+        "Jonas Nutz",
+        "Vikram Laheri",
+        "Matti Schneider"
+      ],
+      "link": "https://arxiv.org/abs/2611.17822"
+    },
+    {
+      "arxiv_id": "2611.17759v1",
+      "title": "Convergence analysis of physics-informed neural networks for subdiffusion",
+      "authors": [
+        "Bangti Jin",
+        "Qiqi Rao",
+        "Zhi Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2611.17759"
+    },
+    {
+      "arxiv_id": "2611.17540v1",
+      "title": "Gusto: a toolkit for compatible finite element dynamical cores",
+      "authors": [
+        "Jemma Shipton",
+        "Thomas M. Bendall",
+        "Colin J. Cotter",
+        "David M. Acreman",
+        "Timothy C. Andrews",
+        "Jack Betteridge",
+        "Alex Brown",
+        "Thomas H. Gibson",
+        "Nell Hartney",
+        "David A. Ham",
+        "Joshua Hope-Collins",
+        "Jeremy A. Pike",
+        "Connor J. Ward",
+        "Dan Witt"
+      ],
+      "link": "https://arxiv.org/abs/2611.17540"
+    },
+    {
+      "arxiv_id": "2611.18148v1",
+      "title": "Certificate-Based Verification of Pulsed Field Ablation Models",
+      "authors": [
+        "Konstantinos Dovelos"
+      ],
+      "link": "https://arxiv.org/abs/2611.18148"
+    },
+    {
+      "arxiv_id": "2611.18309v1",
+      "title": "Kronecker Approximations of Covariance Matrices for Solving Inverse Problems",
+      "authors": [
+        "Srijon Sarkar",
+        "Julianne Chung"
+      ],
+      "link": "https://arxiv.org/abs/2611.18309"
+    },
+    {
+      "arxiv_id": "2611.18467v1",
+      "title": "Score-based neural ordinary differential equations for reaction-diffusions",
+      "authors": [
+        "Jianguo Hou",
+        "Wuchen Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.18467"
+    },
+    {
+      "arxiv_id": "2611.17947v1",
+      "title": "A narrow band method for non-causal discretizations of anisotropic eikonal equations, with adaptive width, sub-and super-solution construction, and quasi-linear complexity",
+      "authors": [
+        "Jean-Marie Mirebeau (CNRS",
+        "CB)",
+        "Yanis Mouheb (CB",
+        "CEA/DAM)"
+      ],
+      "link": "https://arxiv.org/abs/2611.17947"
+    },
+    {
+      "arxiv_id": "2611.18068v1",
+      "title": "A Realizability-Based Kinetic-Fluid Domain Decomposition Method for Single-Temperature Gas Mixtures",
+      "authors": [
+        "Domenico Caparello",
+        "Lorenzo Pareschi",
+        "Thomas Rey"
+      ],
+      "link": "https://arxiv.org/abs/2611.18068"
+    },
+    {
+      "arxiv_id": "2611.18424v1",
+      "title": "Balancing-based model reduction for output-constrained optimal control of switched linear systems",
+      "authors": [
+        "Michael Kartmann",
+        "Mattia Manucci",
+        "Benjamin Unger",
+        "Stefan Volkwein"
+      ],
+      "link": "https://arxiv.org/abs/2611.18424"
+    }
+  ]
+}

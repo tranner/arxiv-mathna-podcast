@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-10",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-10",
+  "duration_seconds": 784.259,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.10963v1",
+      "title": "DMP-Oriented Anisotropic Mesh Adaptation for SUPG Finite Element Methods for Time-Dependent Convection-Diffusion Problems",
+      "authors": [
+        "Xianping Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.10963"
+    },
+    {
+      "arxiv_id": "2611.11442v1",
+      "title": "A Geometry-Robust Ne\\v{c}as-Type Inequality for Stokes Preconditioning",
+      "authors": [
+        "Qi Xin",
+        "Xie Yan",
+        "Shihua Gong"
+      ],
+      "link": "https://arxiv.org/abs/2611.11442"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.10071v1",
+      "title": "Operator-Adapted Multiscale Kernels for High-Contrast Elliptic Inverse Problems",
+      "authors": [
+        "Siqing Liu",
+        "Eric Chung"
+      ],
+      "link": "https://arxiv.org/abs/2611.10071"
+    },
+    {
+      "arxiv_id": "2611.10210v1",
+      "title": "Laplace approximation of the parameter posterior with embedded error for efficient uncertainty quantification of expensive model calibrations",
+      "authors": [
+        "Reese E. Jones",
+        "Kyle N. Karlson",
+        "Matt W. Kury",
+        "Moe Khalil",
+        "Ray S. Tuminaro"
+      ],
+      "link": "https://arxiv.org/abs/2611.10210"
+    },
+    {
+      "arxiv_id": "2611.10278v1",
+      "title": "Convergence of Adaptive Least Squares Finite Element Methods",
+      "authors": [
+        "Wolfgang Dahmen"
+      ],
+      "link": "https://arxiv.org/abs/2611.10278"
+    },
+    {
+      "arxiv_id": "2611.10371v1",
+      "title": "How good are spline spaces for the Kolmogorov $n$-width of a Sobolev ball?",
+      "authors": [
+        "Peng Yang",
+        "Zhimin Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.10371"
+    },
+    {
+      "arxiv_id": "2611.10436v1",
+      "title": "High-order long-time stable methods for the forced incompressible Navier--Stokes equations",
+      "authors": [
+        "Fukeng Huang",
+        "Jie Shen",
+        "Xiaoming Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.10436"
+    },
+    {
+      "arxiv_id": "2611.10491v1",
+      "title": "A Trajectory-Aware Domain-Decomposed Multispace Reduced Basis Preconditioner for Parametric Helmholtz Problems",
+      "authors": [
+        "An Ping",
+        "Zhichao Peng",
+        "Pengliang Yang"
+      ],
+      "link": "https://arxiv.org/abs/2611.10491"
+    },
+    {
+      "arxiv_id": "2611.10520v1",
+      "title": "Error Estimates and Convergence Analysis for Learning Mechanism--AI Coupled Dynamical Systems",
+      "authors": [
+        "Pengfei Song",
+        "Yanni Xiao",
+        "Yuan Lou",
+        "Shuangshuang Yin"
+      ],
+      "link": "https://arxiv.org/abs/2611.10520"
+    },
+    {
+      "arxiv_id": "2611.10828v1",
+      "title": "A high-order structure-preserving ALE--SAV finite element method for moving contact line flows",
+      "authors": [
+        "Shu Ma"
+      ],
+      "link": "https://arxiv.org/abs/2611.10828"
+    },
+    {
+      "arxiv_id": "2611.10865v1",
+      "title": "Neural Operator Surrogates for Landweber Iteration in Solving Inverse Problems",
+      "authors": [
+        "Kuo Gai",
+        "Marco A Iglesias",
+        "Shuai Lu",
+        "Frank Werner"
+      ],
+      "link": "https://arxiv.org/abs/2611.10865"
+    },
+    {
+      "arxiv_id": "2611.11129v1",
+      "title": "On-the-Fly Reduced Bases Through the Lens of Augmented Krylov Methods",
+      "authors": [
+        "Philippe-Andr\\'e Luneau"
+      ],
+      "link": "https://arxiv.org/abs/2611.11129"
+    },
+    {
+      "arxiv_id": "2611.11158v1",
+      "title": "An Arbitrary-Order Distributional Finite Element Method for the Curl--Dev Grad Stokes System",
+      "authors": [
+        "Ziwen Gu",
+        "Xuehai Huang"
+      ],
+      "link": "https://arxiv.org/abs/2611.11158"
+    },
+    {
+      "arxiv_id": "2611.11312v1",
+      "title": "A Discrete de Rham method for linear and nonlinear fourth-order plate models",
+      "authors": [
+        "Daniele A. Di Pietro",
+        "J\\'er\\^ome Droniou",
+        "Arax Leroy",
+        "Vito Patierno"
+      ],
+      "link": "https://arxiv.org/abs/2611.11312"
+    }
+  ]
+}

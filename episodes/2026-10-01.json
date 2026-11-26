@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-01",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-01",
+  "duration_seconds": 879.83,
+  "deep_dive": [
+    {
+      "arxiv_id": "2609.38497v1",
+      "title": "The Mode of Null-A: Compositional Computation of a Generalized Inverse",
+      "authors": [
+        "Barak A. Pearlmutter",
+        "Jeffrey Mark Siskind"
+      ],
+      "link": "https://arxiv.org/abs/2609.38497"
+    },
+    {
+      "arxiv_id": "2609.39616v1",
+      "title": "Deep Truncated FBSDE Method: A Robust Solver for High-Dimensional Nonlinear PDEs and Fully Coupled FBSDEs",
+      "authors": [
+        "Xinyu Cheng",
+        "Yunzhang Li",
+        "Weiran Xiong"
+      ],
+      "link": "https://arxiv.org/abs/2609.39616"
+    },
+    {
+      "arxiv_id": "2609.39053v1",
+      "title": "Structure-preserving Fourier Neural Operators for Long-time Cahn-Hilliard Dynamics under Coarse Temporal Supervision",
+      "authors": [
+        "Yingli Li",
+        "Y. C. Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2609.39053"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2609.38215v1",
+      "title": "Moment-based approximation of cell and face integrals in THINC/QQ reconstruction on unstructured grids",
+      "authors": [
+        "Young-Lin Yoo"
+      ],
+      "link": "https://arxiv.org/abs/2609.38215"
+    },
+    {
+      "arxiv_id": "2609.38370v1",
+      "title": "An Approximate Method for Modeling Plasmons on Graphene with Time- and Space-dependent Properties",
+      "authors": [
+        "Kaleigh Rudge",
+        "Fadil Santosa"
+      ],
+      "link": "https://arxiv.org/abs/2609.38370"
+    },
+    {
+      "arxiv_id": "2609.38378v1",
+      "title": "An energy-based discontinuous Galerkin method for wave equations on complex geometric domains",
+      "authors": [
+        "Yangxin Fu",
+        "Yan Jiang",
+        "Siyang Wang",
+        "Lu Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.38378"
+    },
+    {
+      "arxiv_id": "2609.38749v1",
+      "title": "Worst-Case Completion of Tensors with Approximately Few ANOVA Terms",
+      "authors": [
+        "Simon Foucart",
+        "Jingchun Shao"
+      ],
+      "link": "https://arxiv.org/abs/2609.38749"
+    },
+    {
+      "arxiv_id": "2609.38841v1",
+      "title": "A fully convergent fixed-point fast sweeping method with the WENO-JS local solver for steady state of hyperbolic conservation laws",
+      "authors": [
+        "Liang Li",
+        "Jun Zhu",
+        "Yong-Tao Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2609.38841"
+    },
+    {
+      "arxiv_id": "2609.38871v1",
+      "title": "A Kernel-Aware Two-Grid Preconditioner for Cell-Centered Nearly Incompressible Elasticity",
+      "authors": [
+        "Shubin Fu",
+        "Xiang Zhong"
+      ],
+      "link": "https://arxiv.org/abs/2609.38871"
+    },
+    {
+      "arxiv_id": "2609.38965v1",
+      "title": "A positive-conservative Fourier optimization method for ground states of Bose--Einstein condensates with higher-order interactions",
+      "authors": [
+        "Bo Lin",
+        "Xinran Ruan"
+      ],
+      "link": "https://arxiv.org/abs/2609.38965"
+    },
+    {
+      "arxiv_id": "2609.39170v1",
+      "title": "Quantum Frozen--Oseen homotopy analysis method with LCHS for solving nonlinear partial differential equations",
+      "authors": [
+        "Jinhao Yuan",
+        "Leyu Chen",
+        "Tiegang Liu",
+        "Kun Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.39170"
+    },
+    {
+      "arxiv_id": "2609.39171v1",
+      "title": "Marcinkiewicz-Zygmund inequalities for hemispherical $t$-designs",
+      "authors": [
+        "Chao Li",
+        "Xiaojun Chen"
+      ],
+      "link": "https://arxiv.org/abs/2609.39171"
+    },
+    {
+      "arxiv_id": "2609.39200v1",
+      "title": "Fast and Stable Harmonic Approximation from Ill-distributed Data using Moving Least Squares",
+      "authors": [
+        "Ralf Hielscher",
+        "Tim P\\\"oschl",
+        "Erik W\\\"unsche"
+      ],
+      "link": "https://arxiv.org/abs/2609.39200"
+    },
+    {
+      "arxiv_id": "2609.39308v1",
+      "title": "On bounds for rank growth of iterands in conjugate gradients for Lyapunov equation",
+      "authors": [
+        "Jana Lungov\\'a",
+        "Martin Ple\\v{s}inger"
+      ],
+      "link": "https://arxiv.org/abs/2609.39308"
+    },
+    {
+      "arxiv_id": "2609.39353v1",
+      "title": "Well-Conditioned Birkhoff-Collocation Methods for Elliptic-type Problems in Multiple Dimensions",
+      "authors": [
+        "Shunchang Li",
+        "Zixuan Gao",
+        "Yujian Jiao",
+        "Li-Lian Wang"
+      ],
+      "link": "https://arxiv.org/abs/2609.39353"
+    }
+  ]
+}

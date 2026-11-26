@@ -1,0 +1,151 @@
+{
+  "date": "2026-11-23",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-23",
+  "duration_seconds": 742.269,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.26795v1",
+      "title": "A boundary integral equation solver for capsule suspensions",
+      "authors": [
+        "Joar Bagge",
+        "Ziyu Du",
+        "George Biros"
+      ],
+      "link": "https://arxiv.org/abs/2611.26795"
+    },
+    {
+      "arxiv_id": "2611.27292v1",
+      "title": "Two-phase visco-elastic FENE-P model: Thermodynamically consistent modeling, sharp interface limit analysis and unconditionally energy stable numerical scheme",
+      "authors": [
+        "Yuzhe Qin",
+        "Dongdong He"
+      ],
+      "link": "https://arxiv.org/abs/2611.27292"
+    },
+    {
+      "arxiv_id": "2611.26761v1",
+      "title": "Pathwise Factorization and Uncertainty Quantification for Impedance Obstacles with Random Boundaries",
+      "authors": [
+        "George Pelekanos",
+        "Koung Hee Leem"
+      ],
+      "link": "https://arxiv.org/abs/2611.26761"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.27004v1",
+      "title": "A linearly decoupled structure-preserving BCFD method for the two-species Keller--Segel chemotaxis system",
+      "authors": [
+        "Ao Zhang",
+        "Bingyin Zhang",
+        "Hongfei Fu"
+      ],
+      "link": "https://arxiv.org/abs/2611.27004"
+    },
+    {
+      "arxiv_id": "2611.27351v1",
+      "title": "A 3D PINN-Based Framework for Patient-Specific Pulmonary Hemodynamics Using Windkessel Models",
+      "authors": [
+        "Celia Taboada",
+        "Luis Nu\\~nez",
+        "Ang\\'elica Casero",
+        "Pedro Navas"
+      ],
+      "link": "https://arxiv.org/abs/2611.27351"
+    },
+    {
+      "arxiv_id": "2611.27930v1",
+      "title": "A Coats-Based Formulation for Multiphase Reactive Transport Accounting for Aqueous Phase Disappearance",
+      "authors": [
+        "Thomas Jacumin",
+        "Roland Masson",
+        "Laurent Jeannin",
+        "Arthur Dartois"
+      ],
+      "link": "https://arxiv.org/abs/2611.27930"
+    },
+    {
+      "arxiv_id": "2611.26778v1",
+      "title": "Source Conditions and Sharp Transition Asymptotics for the Factorization Method with Far-Field Data",
+      "authors": [
+        "George Pelekanos",
+        "Koung Hee Leem"
+      ],
+      "link": "https://arxiv.org/abs/2611.26778"
+    },
+    {
+      "arxiv_id": "2611.27969v1",
+      "title": "Convergence of a finite element Chorin projection method for the stochastic Navier--Stokes equations",
+      "authors": [
+        "Franziska Weber"
+      ],
+      "link": "https://arxiv.org/abs/2611.27969"
+    },
+    {
+      "arxiv_id": "2611.27582v1",
+      "title": "Do DeepONet Trunk-Basis Preconditioners Need Training?",
+      "authors": [
+        "Jaemin Oh",
+        "Jerome Darbon",
+        "George Em Karniadakis"
+      ],
+      "link": "https://arxiv.org/abs/2611.27582"
+    },
+    {
+      "arxiv_id": "2611.27347v1",
+      "title": "A Validation-Driven Bilevel Optimization Method for Mesh-Free PDE Solvers and Its Error Analysis",
+      "authors": [
+        "Yongcun Song",
+        "Shangzhi Zeng",
+        "Jin Zhang",
+        "Lvgang Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.27347"
+    },
+    {
+      "arxiv_id": "2611.26678v1",
+      "title": "A posteriori estimates for inverse evolutionary problems",
+      "authors": [
+        "Sergey Repin"
+      ],
+      "link": "https://arxiv.org/abs/2611.26678"
+    },
+    {
+      "arxiv_id": "2611.27794v1",
+      "title": "Energy-preserving Bayesian model reduction: closed-form structured posteriors and probabilistic stability certificates for quadratic operator inference",
+      "authors": [
+        "Jo\\~ao Victor Galv\\~ao da Mata",
+        "Mengwu Guo"
+      ],
+      "link": "https://arxiv.org/abs/2611.27794"
+    },
+    {
+      "arxiv_id": "2611.27325v1",
+      "title": "A fast automatically adaptive integral equation solver for nonlinear two-point boundary value systems",
+      "authors": [
+        "Tianze Zhang",
+        "Yixuan Ma",
+        "Jun Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.27325"
+    },
+    {
+      "arxiv_id": "2611.27393v1",
+      "title": "Structure-Preserving Model Reduction of Metriplectic Systems via Oblique Projections and Block Structure",
+      "authors": [
+        "Andrea Benvenuti",
+        "Cecilia Pagliantini"
+      ],
+      "link": "https://arxiv.org/abs/2611.27393"
+    },
+    {
+      "arxiv_id": "2611.27481v1",
+      "title": "Scattering by two parallel semi--infinite arrays of sound--soft scatterers",
+      "authors": [
+        "Matthew Nethercote"
+      ],
+      "link": "https://arxiv.org/abs/2611.27481"
+    }
+  ]
+}

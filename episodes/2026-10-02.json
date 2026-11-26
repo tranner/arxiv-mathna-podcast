@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-02",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-10-02",
+  "duration_seconds": 884.605,
+  "deep_dive": [
+    {
+      "arxiv_id": "2610.01501v1",
+      "title": "Finite element exterior calculus for spectra and pseudospectra of advection-diffusion of differential forms",
+      "authors": [
+        "Daniele Boffi",
+        "Kaibo Hu",
+        "Yizhou Liang",
+        "Umberto Zerbinati"
+      ],
+      "link": "https://arxiv.org/abs/2610.01501"
+    },
+    {
+      "arxiv_id": "2610.01475v1",
+      "title": "Dirichlet--Neumann waveform relaxation for heterogeneous heat equations: fully discrete $l^2$ analysis",
+      "authors": [
+        "Philipp Birken",
+        "Niklas Kotarsky"
+      ],
+      "link": "https://arxiv.org/abs/2610.01475"
+    },
+    {
+      "arxiv_id": "2610.01700v1",
+      "title": "Deterministic and stochastic particle methods for the Fokker-Planck equation in S--formulation with application to point set registration",
+      "authors": [
+        "Klaas Willems",
+        "Angelo Iollo",
+        "Giovanni Russo",
+        "Tommaso Taddei"
+      ],
+      "link": "https://arxiv.org/abs/2610.01700"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2610.00811v1",
+      "title": "A relaxation system for the low-Mach limit of kinetic equations: Stability and higher order asymptotic preserving scheme",
+      "authors": [
+        "Giacomo Dimarco",
+        "Axel Klar",
+        "Theresa K\\\"ofler",
+        "Lorenzo Pareschi",
+        "Sudarshan Tiwari",
+        "Yizhou Zhou"
+      ],
+      "link": "https://arxiv.org/abs/2610.00811"
+    },
+    {
+      "arxiv_id": "2610.00830v1",
+      "title": "Matrix-Free Moment-Matching Method for Reduced-Order Modeling of Quadratic-Bilinear Descriptor Systems with Multiple Inputs",
+      "authors": [
+        "Zeyuan Gao",
+        "Cheol W. Lee",
+        "Oleg Zikanov"
+      ],
+      "link": "https://arxiv.org/abs/2610.00830"
+    },
+    {
+      "arxiv_id": "2610.00882v1",
+      "title": "Uncertainty Quantification for Landweber Iteration with Randomized Normal-Operator Approximation",
+      "authors": [
+        "Anuj Abhishek",
+        "Sean Holman"
+      ],
+      "link": "https://arxiv.org/abs/2610.00882"
+    },
+    {
+      "arxiv_id": "2610.00932v1",
+      "title": "A Deferred Correction, Continuous Galerkin Method for Curvilinear Staggered-Grid Lagrangian Hydrodynamics",
+      "authors": [
+        "Steven Walton",
+        "Svetlana Tokareva",
+        "Nathaniel Morgan"
+      ],
+      "link": "https://arxiv.org/abs/2610.00932"
+    },
+    {
+      "arxiv_id": "2610.01063v1",
+      "title": "Positivity-preserving scalar auxiliary variable schemes for gradient flows via a quadratic reformulation",
+      "authors": [
+        "Qiong-Ao Huang",
+        "Zhi-Hao Liu",
+        "Ying-Wei Wang",
+        "Li-Na Yan"
+      ],
+      "link": "https://arxiv.org/abs/2610.01063"
+    },
+    {
+      "arxiv_id": "2610.01113v1",
+      "title": "A higher order lattice-based method for high-dimensional numerical integration using periodization",
+      "authors": [
+        "Felix Bartel",
+        "Alexander D. Gilbert",
+        "Michael Griebel",
+        "Frances Y. Kuo",
+        "Ian H. Sloan"
+      ],
+      "link": "https://arxiv.org/abs/2610.01113"
+    },
+    {
+      "arxiv_id": "2610.01120v1",
+      "title": "Sign-Switched Antithetic Coupling for Signed Gradient-Particle Methods",
+      "authors": [
+        "Stephen Abkin",
+        "Prabir Daripa"
+      ],
+      "link": "https://arxiv.org/abs/2610.01120"
+    },
+    {
+      "arxiv_id": "2610.01504v1",
+      "title": "An Unfitted Hybrid High-Order Method for the Elastodynamics Problem with Imperfect Interface",
+      "authors": [
+        "Peiqi Huang",
+        "Erik Burman"
+      ],
+      "link": "https://arxiv.org/abs/2610.01504"
+    },
+    {
+      "arxiv_id": "2610.01740v1",
+      "title": "Toeplitz Infinite GMRES for Parameterized Linear Systems",
+      "authors": [
+        "Weiguo Gao",
+        "Feiyang Jiang"
+      ],
+      "link": "https://arxiv.org/abs/2610.01740"
+    },
+    {
+      "arxiv_id": "2610.01809v1",
+      "title": "Adaptive Multiresolution Diffusion Operators: A Variational Theory on Evolving Multiresolution Spaces",
+      "authors": [
+        "Christian Tantardini",
+        "Stig Rune Jensen",
+        "Roberto Di Remigio Eik{\\aa}s",
+        "Joakim Henrik Beck"
+      ],
+      "link": "https://arxiv.org/abs/2610.01809"
+    },
+    {
+      "arxiv_id": "2610.02007v1",
+      "title": "Approximation and computation of the geodesic Sinkhorn distance",
+      "authors": [
+        "Hugo Lavenant",
+        "Jonas Luckhardt",
+        "Bernhard Schmitzer"
+      ],
+      "link": "https://arxiv.org/abs/2610.02007"
+    },
+    {
+      "arxiv_id": "2610.02059v1",
+      "title": "Entropy dissipative high order schemes for a hyperbolic model of two-layer thin film flow",
+      "authors": [
+        "Rahul Barthwal",
+        "Philipp \\\"Offner",
+        "Chetan Singh",
+        "Jan Zawallich"
+      ],
+      "link": "https://arxiv.org/abs/2610.02059"
+    }
+  ]
+}

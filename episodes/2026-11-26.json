@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-26",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-26",
+  "duration_seconds": 757.343,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.33754v1",
+      "title": "A Nonlocal Allen--Cahn Model for Volume-Constrained Wetting and Its Multi-Structure-Preserving Discretization",
+      "authors": [
+        "Yadong Liu",
+        "Nan Lu",
+        "Zhonghua Qiao",
+        "Yuze Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.33754"
+    },
+    {
+      "arxiv_id": "2611.34410v1",
+      "title": "Structure-preserving finite element method for the 2D MHD-$\\alpha$ turbulence system",
+      "authors": [
+        "Patrick E. Farrell",
+        "Mingdong He",
+        "Kaibo Hu"
+      ],
+      "link": "https://arxiv.org/abs/2611.34410"
+    },
+    {
+      "arxiv_id": "2611.34452v1",
+      "title": "Global Convergence of Second-Order Methods for Physics-Informed Neural Networks in the Overparameterized Limit",
+      "authors": [
+        "Konstantin Riedl",
+        "Justin Sirignano",
+        "Konstantinos Spiliopoulos"
+      ],
+      "link": "https://arxiv.org/abs/2611.34452"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.34023v1",
+      "title": "Model and higher-order structure-preserving scheme for the chemotaxis equations modeling the growth of bacterial colonies",
+      "authors": [
+        "Shuyan Ren",
+        "Kun Wang",
+        "Nianyu Yi"
+      ],
+      "link": "https://arxiv.org/abs/2611.34023"
+    },
+    {
+      "arxiv_id": "2611.34396v1",
+      "title": "Non-Intrusive Least-Squares Reduced Basis Methods: Black-Box Snapshots and Exact Residual Certificates",
+      "authors": [
+        "Shun Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.34396"
+    },
+    {
+      "arxiv_id": "2611.34197v1",
+      "title": "The confined discrete DLSS equation: gradient flow structure and long-time asymptotics",
+      "authors": [
+        "Daniel Matthes",
+        "Andr\\'e Schlichting"
+      ],
+      "link": "https://arxiv.org/abs/2611.34197"
+    },
+    {
+      "arxiv_id": "2611.34685v1",
+      "title": "Numerical analysis of a conservative Crank-Nicolson scheme for quasilinear Gross-Pitaevskii equations",
+      "authors": [
+        "Sebasti\\'an Tapia-Mandiola"
+      ],
+      "link": "https://arxiv.org/abs/2611.34685"
+    },
+    {
+      "arxiv_id": "2611.33347v1",
+      "title": "Error estimates for a structure-preserving finite-element scheme of quasi-incompressible Navier-Stokes-Maxwell-Stefan systems",
+      "authors": [
+        "Aaron Brunk",
+        "Ansgar J\\\"ungel",
+        "Maria Luk\\'a\\v{c}ov\\'a-Medvid'ov\\'a"
+      ],
+      "link": "https://arxiv.org/abs/2611.33347"
+    },
+    {
+      "arxiv_id": "2611.34085v1",
+      "title": "Exact Integration of ReLU-type Neural Networks for Solving PDEs",
+      "authors": [
+        "Shima Baharlouei",
+        "Ignacio Brevis",
+        "Reuben Menezes",
+        "David Pardo",
+        "Kristoffer G. van der Zee"
+      ],
+      "link": "https://arxiv.org/abs/2611.34085"
+    },
+    {
+      "arxiv_id": "2611.34233v1",
+      "title": "Polynomial-degree-robust saturation on triangular meshes",
+      "authors": [
+        "Kexin Ding",
+        "Yuwen Li"
+      ],
+      "link": "https://arxiv.org/abs/2611.34233"
+    },
+    {
+      "arxiv_id": "2611.34530v1",
+      "title": "Convergence of Residual-driven Adaptive Kernel-based Multilevel Approximation",
+      "authors": [
+        "R\\\"udiger Kempf"
+      ],
+      "link": "https://arxiv.org/abs/2611.34530"
+    },
+    {
+      "arxiv_id": "2611.33688v1",
+      "title": "Two 3-Dimensional Coefficient Inverse Problems for Wave-like Equations With a Single Location of the Point Source",
+      "authors": [
+        "Michael V. Klibanov",
+        "Jingzhi Li",
+        "Tian Niu"
+      ],
+      "link": "https://arxiv.org/abs/2611.33688"
+    },
+    {
+      "arxiv_id": "2611.34189v1",
+      "title": "Simultaneous Inversion of Drift and Potential in the Fractional Magnetic Schr\\\"odinger Equation",
+      "authors": [
+        "Yun-Long Liu",
+        "Jin Wen",
+        "Jun-Liang Fu",
+        "Xue-Juan Ren"
+      ],
+      "link": "https://arxiv.org/abs/2611.34189"
+    },
+    {
+      "arxiv_id": "2611.34314v1",
+      "title": "Variational Principles and Machine Learning: a Numerical Analysis and PDE perspective",
+      "authors": [
+        "Charalambos G. Makridakis"
+      ],
+      "link": "https://arxiv.org/abs/2611.34314"
+    },
+    {
+      "arxiv_id": "2611.33849v1",
+      "title": "Data-driven framework for invariant manifold identification in multiscale systems",
+      "authors": [
+        "Dimitris M. Manias",
+        "Ismaila Muhammed",
+        "Dimitris A. Goussis",
+        "Haralampos Hatzikirou"
+      ],
+      "link": "https://arxiv.org/abs/2611.33849"
+    }
+  ]
+}

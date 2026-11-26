@@ -1,0 +1,156 @@
+{
+  "date": "2026-11-19",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-19",
+  "duration_seconds": 764.92,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.23915v1",
+      "title": "Semi-Implicit and Convex Splitting Schemes for the Surface Cahn--Hilliard Equation on Curved Closed Surfaces",
+      "authors": [
+        "Harri Hakula",
+        "Antti Rasila",
+        "Xinpeng Xu"
+      ],
+      "link": "https://arxiv.org/abs/2611.23915"
+    },
+    {
+      "arxiv_id": "2611.24484v1",
+      "title": "Shape-Derivative Moment Approximation for a Reduced Time-Harmonic Biot Poroelastic System with Random Interfaces",
+      "authors": [
+        "Yongle Hao",
+        "Fuchang Huo",
+        "Jingzhi Li",
+        "Kai Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.24484"
+    },
+    {
+      "arxiv_id": "2611.24772v1",
+      "title": "Electric combined-field-only P1 Galerkin BEM for PEC scattering with scalar Helmholtz operators",
+      "authors": [
+        "Carlos P\\'erez-Arancibia",
+        "Catalin Turc"
+      ],
+      "link": "https://arxiv.org/abs/2611.24772"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.24866v1",
+      "title": "Consistent interfacial flow numerics - Part II: The momentum convection term",
+      "authors": [
+        "Johan Roenby"
+      ],
+      "link": "https://arxiv.org/abs/2611.24866"
+    },
+    {
+      "arxiv_id": "2611.24355v1",
+      "title": "Stable admissible neural classes and convergent physics-informed neural networks",
+      "authors": [
+        "Leevan Ling",
+        "Shu Ma",
+        "Yizhong Sun"
+      ],
+      "link": "https://arxiv.org/abs/2611.24355"
+    },
+    {
+      "arxiv_id": "2611.23497v1",
+      "title": "Optimal Control of RKHS Diffeomorphic Flows for Classification and Generative Modeling",
+      "authors": [
+        "Christopher Chukwuemeka",
+        "Andreas Mang"
+      ],
+      "link": "https://arxiv.org/abs/2611.23497"
+    },
+    {
+      "arxiv_id": "2611.23748v1",
+      "title": "Split-and-Learn: Decoupled Learning for Reactive Transport in Heterogeneous Marine Sediments",
+      "authors": [
+        "Maria Vasilyeva",
+        "Siu Wun Cheung",
+        "Jihoon Kim",
+        "Richard B. Coffin",
+        "Ingo Pecher"
+      ],
+      "link": "https://arxiv.org/abs/2611.23748"
+    },
+    {
+      "arxiv_id": "2611.24639v1",
+      "title": "Structure-Preserving PHS RBF-FD Methods for Schrodinger Equations",
+      "authors": [
+        "Guangming Yao",
+        "Zachary Diefendorf"
+      ],
+      "link": "https://arxiv.org/abs/2611.24639"
+    },
+    {
+      "arxiv_id": "2611.23592v1",
+      "title": "Modeling fluid--solid interaction in three-dimensional granular systems: Two-way coupling of SPH and LS-DEM",
+      "authors": [
+        "Sebasti\\'an Pazmi\\~no",
+        "Nitin P. Daphalapurkar",
+        "Jacinto Ulloa"
+      ],
+      "link": "https://arxiv.org/abs/2611.23592"
+    },
+    {
+      "arxiv_id": "2611.24392v1",
+      "title": "Mesh Sensitivity of Different Boundary Treatments in High-Order Compact Gas-Kinetic Scheme for Hypersonic Heat-Flux Prediction",
+      "authors": [
+        "Xingyi Jiang",
+        "Jiawang Zhang",
+        "Junlei Mu",
+        "Xing Ji"
+      ],
+      "link": "https://arxiv.org/abs/2611.24392"
+    },
+    {
+      "arxiv_id": "2611.23321v1",
+      "title": "Error Analysis of Deep Learning",
+      "authors": [
+        "Yuling Jiao",
+        "Peiying Wu",
+        "Jerry Zhijian Yang",
+        "Pingwen Zhang"
+      ],
+      "link": "https://arxiv.org/abs/2611.23321"
+    },
+    {
+      "arxiv_id": "2611.23901v1",
+      "title": "On global error estimates of a local discontinuous Galerkin method of the Boussinesq system of equations",
+      "authors": [
+        "Debendra K. Swain",
+        "Saumya Bajpai",
+        "Deepjyoti Goswami"
+      ],
+      "link": "https://arxiv.org/abs/2611.23901"
+    },
+    {
+      "arxiv_id": "2611.24333v1",
+      "title": "A Batched Discrepancy Principle for Stochastic Landweber-Kaczmarz Iteration and its Application to EIT",
+      "authors": [
+        "Rommel Rabongue Real",
+        "Simon Schwab",
+        "Frank Werner"
+      ],
+      "link": "https://arxiv.org/abs/2611.24333"
+    },
+    {
+      "arxiv_id": "2611.23327v1",
+      "title": "Numerical approximation of Benjamin-Ono type models for two-dimensional internal waves",
+      "authors": [
+        "Angel Dur\\'an"
+      ],
+      "link": "https://arxiv.org/abs/2611.23327"
+    },
+    {
+      "arxiv_id": "2611.24041v1",
+      "title": "An Isogeometric Collocation Solver Based on the Quantized Tensor Train Representation",
+      "authors": [
+        "Jun Song",
+        "Hua Xiang"
+      ],
+      "link": "https://arxiv.org/abs/2611.24041"
+    }
+  ]
+}

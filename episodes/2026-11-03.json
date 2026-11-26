@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-03",
+  "title": "arXiv Numerical Analysis Daily (Beta) \u2014 2026-11-03",
+  "duration_seconds": 876.04,
+  "deep_dive": [
+    {
+      "arxiv_id": "2611.02994v1",
+      "title": "Computational performance versus numerical accuracy in the acoustic terms of weakly-compressible SPH",
+      "authors": [
+        "Giuseppe Bilotta",
+        "Alireza Zarei",
+        "Roberta Cristofaro",
+        "Alexis H\\'erault",
+        "\\'Elie Saikali",
+        "Morteza Derakhti"
+      ],
+      "link": "https://arxiv.org/abs/2611.02994"
+    },
+    {
+      "arxiv_id": "2611.00014v1",
+      "title": "DiffStent: Surrogate Adjoint Differentiation for Stent Deployment in Anisotropic Arteries",
+      "authors": [
+        "Shoaib A. Goraya",
+        "Ajay Manicka",
+        "Aviral Jain",
+        "Karim Kadry",
+        "Samuel Ruiperez-Campillo",
+        "Elazer R. Edelman",
+        "Farhad R. Nezami"
+      ],
+      "link": "https://arxiv.org/abs/2611.00014"
+    },
+    {
+      "arxiv_id": "2611.01193v1",
+      "title": "Online Autotuning of Algebraic Multigrid via Contextual Bandits and Reinforcement Learning",
+      "authors": [
+        "Xudong He",
+        "Ruiyu Wang",
+        "Yilang Ding",
+        "Rui Peng Li",
+        "Yuanzhe Xi"
+      ],
+      "link": "https://arxiv.org/abs/2611.01193"
+    }
+  ],
+  "roundup": [
+    {
+      "arxiv_id": "2611.00168v1",
+      "title": "Loss of Monotonicity in the Vector Play Model and Consequences for Newton-Type Solvers",
+      "authors": [
+        "Dominik Cibicki",
+        "Klaus Roppert",
+        "Manfred Kaltenbacher"
+      ],
+      "link": "https://arxiv.org/abs/2611.00168"
+    },
+    {
+      "arxiv_id": "2611.00494v1",
+      "title": "A Hierarchical direct solver for Lippmann-Schwinger equations based on boundary traces",
+      "authors": [
+        "Yunhui Cai",
+        "Simon Dirckx",
+        "Joar Bagge",
+        "Per-Gunnar Martinsson"
+      ],
+      "link": "https://arxiv.org/abs/2611.00494"
+    },
+    {
+      "arxiv_id": "2611.00552v1",
+      "title": "A comparison of parallel iterative methods for ILU triangular solves",
+      "authors": [
+        "S. Dargaville",
+        "C. C. Pain"
+      ],
+      "link": "https://arxiv.org/abs/2611.00552"
+    },
+    {
+      "arxiv_id": "2611.00571v1",
+      "title": "Unconditional optimal convergence of a relaxation Crank-Nicolson difference scheme for 2D space-fractional NLS",
+      "authors": [
+        "Lisen Ding",
+        "Dongling Wang"
+      ],
+      "link": "https://arxiv.org/abs/2611.00571"
+    },
+    {
+      "arxiv_id": "2611.00656v1",
+      "title": "Parameter Bounds and Inverse Approximation for Linearized ReLU$^k$ Networks on the Sphere",
+      "authors": [
+        "Yuqing Liu",
+        "Tong Mao",
+        "Jonathan W. Siegel",
+        "Jinchao Xu"
+      ],
+      "link": "https://arxiv.org/abs/2611.00656"
+    },
+    {
+      "arxiv_id": "2611.00767v1",
+      "title": "A posteriori error estimates for a finite volume approximation of a local sensing Keller-Segel model",
+      "authors": [
+        "Niklas Kolbe",
+        "Kiwoong Kwon"
+      ],
+      "link": "https://arxiv.org/abs/2611.00767"
+    },
+    {
+      "arxiv_id": "2611.00781v1",
+      "title": "Flux vector splittings and semi-implicit finite volume schemes for an isentropic two-phase flow model",
+      "authors": [
+        "Michael Dumbser",
+        "Gabriella Puppo",
+        "Alessandra Spilimbergo",
+        "Tommaso Tenna"
+      ],
+      "link": "https://arxiv.org/abs/2611.00781"
+    },
+    {
+      "arxiv_id": "2611.00793v1",
+      "title": "A Second-Order Stochastic Dynamic Mode Decomposition by Richardson Extrapolation",
+      "authors": [
+        "Yuanchao Xu"
+      ],
+      "link": "https://arxiv.org/abs/2611.00793"
+    },
+    {
+      "arxiv_id": "2611.00834v1",
+      "title": "Efficient second-order physics-preserving schemes for incompressible flows with variable density and viscosity",
+      "authors": [
+        "Baolin Kuang",
+        "Lanxin Sun",
+        "Rihui Lan",
+        "Hongfei Fu"
+      ],
+      "link": "https://arxiv.org/abs/2611.00834"
+    },
+    {
+      "arxiv_id": "2611.00837v1",
+      "title": "A structure-preserving finite volume scheme for the time-fractional Allen-Cahn equation with nondegenerate state-dependent mobility",
+      "authors": [
+        "Yonghyeon Jeon",
+        "Kiwoong Kwon"
+      ],
+      "link": "https://arxiv.org/abs/2611.00837"
+    },
+    {
+      "arxiv_id": "2611.00914v1",
+      "title": "A Clustered Equivalent-Source Method with Local Response Compression and Group-Symmetry Reduction for Antenna-Array Analysis",
+      "authors": [
+        "Guoqing Zhao",
+        "Liang Li",
+        "Xing Li",
+        "Hao Kang"
+      ],
+      "link": "https://arxiv.org/abs/2611.00914"
+    },
+    {
+      "arxiv_id": "2611.01034v1",
+      "title": "Alternative Tikhonov-Type Regularization for the Calder\\'on Inverse Conductivity Problem",
+      "authors": [
+        "Pavel B. Dubovski",
+        "Charles Morehead"
+      ],
+      "link": "https://arxiv.org/abs/2611.01034"
+    }
+  ]
+}
